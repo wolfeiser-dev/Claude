@@ -1,0 +1,328 @@
+{
+  "reflections": [
+    {
+      "id": "r01",
+      "tag": "philosophy",
+      "text": "Čuang-c' nevěděl, jestli je člověk, kterému se zdálo o motýlovi, nebo motýl, kterému se zdá o člověku. Co se dnes proměnilo, i když to vypadalo pevně?",
+      "source": "Zhuangzi, kapitola 2"
+    },
+    {
+      "id": "r02",
+      "tag": "philosophy",
+      "text": "Descartes tvrdil, že neexistuje jisté znamení, které odliší bdění od snu. Najdi dnes jedno vlastní vodítko a vyzkoušej, jestli by obstálo i ve snu.",
+      "source": "Descartes, Meditace o první filozofii (1641)"
+    },
+    {
+      "id": "r03",
+      "tag": "philosophy",
+      "text": "Test soudržnosti: zapadá to, co právě zažíváš, do zbytku tvého dne? Zkus se dnes jednou ohlédnout zpátky až k ránu.",
+      "source": "Descartes; Stanfordská encyklopedie filozofie, Dreams and Dreaming"
+    },
+    {
+      "id": "r04",
+      "tag": "philosophy",
+      "text": "Podle filozofa Grundmanna spíš bdíš, když umíš kriticky uvažovat. Kdy dnes tvoje kritické myšlení na chvíli usnulo?",
+      "source": "Stanfordská encyklopedie filozofie, Dreams and Dreaming (Windt)"
+    },
+    {
+      "id": "r05",
+      "tag": "theory",
+      "text": "Anil Seth nazývá vnímání „řízenou halucinací“. Večer v šeru si všimni, co si mozek domýšlí, a pak rozsviť.",
+      "source": "Anil Seth, Being You (2021)"
+    },
+    {
+      "id": "r06",
+      "tag": "theory",
+      "text": "Mozek předpovídá a smysly opravují. Kde ses dnes spletl, protože jsi viděl to, co jsi čekal?",
+      "source": "Anil Seth, Being You (2021)"
+    },
+    {
+      "id": "r07",
+      "tag": "theory",
+      "text": "Ve snu chybí oprava zvenčí, takže mozek věří svým odhadům. Zaslechl jsi dnes své jméno, i když nezaznělo?",
+      "source": "Anil Seth; Simor, Bogdány a Peigneux 2022, PNAS"
+    },
+    {
+      "id": "r08",
+      "tag": "tradition",
+      "text": "Diamantová sútra radí hledět na podmíněné jevy jako na hvězdu, rosu, bublinu nebo sen. Pozoruj dnes, jak se jedna nálada promění v jinou.",
+      "source": "Diamantová sútra; Encyclopedia of Buddhism"
+    },
+    {
+      "id": "r09",
+      "tag": "tradition",
+      "text": "Párkrát si dnes řekni: „Tohle je jako sen.“ Jako sen, ne neskutečné. Když přijde úzkost, polož chodidla na zem.",
+      "source": "Tenzin Wangyal Rinpočhe; Andrew Holecek"
+    },
+    {
+      "id": "r10",
+      "tag": "tradition",
+      "text": "Všimni si dnes jedné chvíle, kdy něco moc chceš nebo odstrkuješ. Kde to cítíš v těle? S výdechem to nech povolit.",
+      "source": "Tenzin Wangyal Rinpočhe; Andrew Holecek"
+    },
+    {
+      "id": "r11",
+      "tag": "tradition",
+      "text": "Věci vznikají z podmínek. Vezmi jeden předmět ze stolu a vyjmenuj, co všechno muselo nastat, aby tu byl.",
+      "source": "Madhjamaka; Encyclopedia of Buddhism"
+    },
+    {
+      "id": "r12",
+      "tag": "tradition",
+      "text": "Ranní radost: ať si z noci pamatuješ cokoli, třeba jen jedno slovo, přijmi to bez výčitek.",
+      "source": "Tenzin Wangyal Rinpočhe; Andrew Holecek"
+    },
+    {
+      "id": "r13",
+      "tag": "tradition",
+      "text": "Minutu jen sleduj dech. Kolikrát mysl odběhla? Každý návrat je jedno opakování.",
+      "source": "B. Alan Wallace, Dreaming Yourself Awake; Andrew Holecek"
+    },
+    {
+      "id": "r14",
+      "tag": "strong",
+      "text": "Lucidní sny se v laboratoři ověřují pohyby očí v REM a REM přibývá k ránu. Kdy se ti dnes v noci asi bude zdát nejvíc?",
+      "source": "Laboratorní studie lucidního snění (Hearne, LaBerge)"
+    },
+    {
+      "id": "r15",
+      "tag": "strong",
+      "text": "Lucidní snílci v laboratoři odpovídali pohyby očí na početní příklady. Bylo to vzácné, ale skutečné. Co bys ze snu poslal ven ty?",
+      "source": "Konkoly a kol. 2021, Current Biology"
+    },
+    {
+      "id": "r16",
+      "tag": "promising",
+      "text": "Dej si na dnešek jeden plán „když…, tak…“, třeba: „Když otevřu lednici, zeptám se, jestli sním.“",
+      "source": "Gollwitzer a Sheeran 2006"
+    },
+    {
+      "id": "r17",
+      "tag": "promising",
+      "text": "Zastav se a pojmenuj poslední myšlenku. Byl to plán, vzpomínka, starost, nebo představa?",
+      "source": "Filevich a kol. 2015, Journal of Neuroscience"
+    },
+    {
+      "id": "r18",
+      "tag": "promising",
+      "text": "Lucidita neznamená kontrolu. Kde dnes víš, co se děje, a přesto to nemůžeš řídit? Někdy stačí vědět.",
+      "source": "Bonamino a Peters 2026"
+    },
+    {
+      "id": "r19",
+      "tag": "promising",
+      "text": "Kdo se zajímá o sny, pamatuje si jich víc. Řekni dnes někomu, co se ti zdálo, nebo si to aspoň zapiš.",
+      "source": "Schredl a kol. 2003"
+    },
+    {
+      "id": "r20",
+      "tag": "promising",
+      "text": "Pojmenuj emoci jedním slovem a dlouze vydechni. Stejná dovednost pomáhá i ve strašidelném snu.",
+      "source": "Tzioridou a kol. 2022, Scientific Reports"
+    },
+    {
+      "id": "r21",
+      "tag": "community",
+      "text": "Tholeyho otázka: „Sním, nebo bdím?“ Polož si ji dnes jednou doopravdy a ohlédni se, jak ses dostal tam, kde jsi.",
+      "source": "Tholey 1983; LD4all Pocket Guide"
+    },
+    {
+      "id": "r22",
+      "tag": "philosophy",
+      "text": "Falešná probuzení se opravdu stávají. Jak víš, že ses dnes ráno probudil doopravdy? Hledej odpověď, která by obstála i ve snu.",
+      "source": "Stanfordská encyklopedie filozofie, Dreams and Dreaming"
+    },
+    {
+      "id": "r23",
+      "tag": "theory",
+      "text": "Někteří filozofové a vědci chápou sen jako simulaci světa bez vstupu zvenčí. Co by tvůj mozek dnes v noci simuloval?",
+      "source": "Revonsuo; Metzinger (podle Stanfordské encyklopedie filozofie)"
+    },
+    {
+      "id": "r24",
+      "tag": "philosophy",
+      "text": "Čuang-c' píše, že kdo sní, neví, že sní, a ve snu si dokonce vykládá jiné sny. Kdy jsi dnes vykládal svět a nevěděl, že je to jen výklad?",
+      "source": "Zhuangzi, kapitola 2"
+    },
+    {
+      "id": "r25",
+      "tag": "philosophy",
+      "text": "Čuang-c' se ve snu viděl jako motýl a po probuzení nevěděl, jestli je člověk, kterému se zdálo o motýlovi, nebo motýl, kterému se zdá o člověku. Podle čeho ten rozdíl poznáš ty?",
+      "source": "Zhuangzi (Čuang-c'), 4. st. př. n. l., kniha Zhuangzi, kap. 2 Qiwulun"
+    },
+    {
+      "id": "r26",
+      "tag": "philosophy",
+      "text": "Descartes si všiml, že nenachází žádnou známku, která by spolehlivě oddělila bdění od snu. Zkus si tu otázku dnes položit vážně: co ti v tuhle chvíli dává jistotu?",
+      "source": "René Descartes, 1641, Meditace o první filosofii, I. meditace"
+    },
+    {
+      "id": "r27",
+      "tag": "philosophy",
+      "text": "Na konci Meditací Descartes nabízí vodítko: bdělé zážitky se pamětí napojují na zbytek života, sny ne. Přesně tohle zkoumá otázka „Jak jsem se sem dostal?“",
+      "source": "René Descartes, 1641, Meditace o první filosofii, VI. meditace"
+    },
+    {
+      "id": "r28",
+      "tag": "philosophy",
+      "text": "Aristotelés ve spisu O snech popisuje, že se ve spánku někdy v mysli ozve cosi, co oznámí: to, co se ukazuje, je jen sen. Ten tichý hlas je starší než jakákoli technika.",
+      "source": "Aristotelés, 4. st. př. n. l., O snech (De insomniis), 462a"
+    },
+    {
+      "id": "r29",
+      "tag": "philosophy",
+      "text": "Augustin vypráví o lékaři Gennadiovi, kterého se postava ve snu zeptala, jestli to, co vidí, vidí ve spánku, nebo v bdění. Gennadius odpověděl, že ve spánku. Patří to k nejstarším zapsaným případům, kdy otázka, jestli člověk sní, zazněla přímo ve snu.",
+      "source": "Augustin z Hippa, 415, Dopis 159 (Evodiovi)"
+    },
+    {
+      "id": "r30",
+      "tag": "theory",
+      "text": "Podle teorie prediktivního zpracování mozek nečeká pasivně, co mu smysly přinesou. Průběžně odhaduje, co přijde, a smysly hlavně opravují chyby odhadu. Ve spánku je oprav zvenčí málo a odhad běží skoro sám.",
+      "source": "Andy Clark, 2013, Whatever next? (Behavioral and Brain Sciences); Hobson & Friston, 2012, Progress in Neurobiology"
+    },
+    {
+      "id": "r31",
+      "tag": "theory",
+      "text": "Anil Seth popisuje vnímání jako „řízenou halucinaci“: svět, který vidíš, je nejlepší odhad tvého mozku a smysly ho průběžně drží při zemi. Zkus se dnes na chvíli dívat právě takhle.",
+      "source": "Anil Seth, 2021, Being You: A New Science of Consciousness"
+    },
+    {
+      "id": "r32",
+      "tag": "theory",
+      "text": "Jakob Hohwy upozorňuje, že mozek je ukrytý za smysly a o světě se dozvídá jen nepřímo, z odhadů toho, co jeho vjemy způsobuje. Co ti v tuhle chvíli dává jistotu, že ten odhad sedí?",
+      "source": "Jakob Hohwy, 2013, The Predictive Mind"
+    },
+    {
+      "id": "r33",
+      "tag": "strong",
+      "text": "Frederic Bartlett nechal lidi opakovaně převyprávět cizí příběh. S každým převyprávěním se příběh víc podobal jejich vlastnímu světu. Paměť neukládá záznam, pokaždé ho skládá znovu.",
+      "source": "Frederic C. Bartlett, 1932, Remembering"
+    },
+    {
+      "id": "r34",
+      "tag": "strong",
+      "text": "V klasickém pokusu stačilo v otázce na autonehodu změnit jedno sloveso. Lidé pak odhadovali vyšší rychlost a častěji si vybavili rozbité sklo, které na záznamu nebylo. Jaké slovo napíšeš do deníku jako první?",
+      "source": "Loftus & Palmer, 1974, Journal of Verbal Learning and Verbal Behavior"
+    },
+    {
+      "id": "r35",
+      "tag": "strong",
+      "text": "Po opakovaném vyprávění si část lidí živě vybaví i událost z dětství, která se nikdy nestala. Živá vzpomínka ještě nedokazuje, že se věc stala, ve snu ani v bdění.",
+      "source": "Loftus & Pickrell, 1995, Psychiatric Annals; Scoboria a kol., 2017, Memory (megaanalýza)"
+    },
+    {
+      "id": "r36",
+      "tag": "theory",
+      "text": "Podle hypotézy konstruktivní simulace skládá paměť vzpomínky z dílků hlavně proto, aby z týchž dílků uměla poskládat i možnou budoucnost. Sen možná pracuje ve stejné dílně.",
+      "source": "Schacter & Addis, 2007, Philosophical Transactions of the Royal Society B"
+    },
+    {
+      "id": "r37",
+      "tag": "theory",
+      "text": "Thomas Metzinger tvrdí, že svět i „já“ jsou modely, které vytváří mozek. Jako modely je nevidíme, protože jsou průhledné. Lucidní sen uvádí jako chvíli, kdy model průhlednost ztratí: víš, že ho tvoří mysl.",
+      "source": "Thomas Metzinger, 2003, Being No One; 2009, The Ego Tunnel"
+    },
+    {
+      "id": "r38",
+      "tag": "philosophy",
+      "text": "Evan Thompson chápe lucidní sen jako přirozenou laboratoř vědomí: můžeš být uvnitř světa a zároveň vědět, že ho tvoří mysl. Kolik z toho by šlo přenést do obyčejného dne?",
+      "source": "Evan Thompson, 2015, Waking, Dreaming, Being"
+    },
+    {
+      "id": "r39",
+      "tag": "theory",
+      "text": "Jennifer Windt popisuje sen jako pohlcující halucinaci prostoru a času: ve snu jsi vždy někde a někdy, i když chybí tělo nebo příběh. Kde a kdy jsi teď? A jak to víš?",
+      "source": "Jennifer M. Windt, 2015, Dreaming: A Conceptual Framework for Philosophy of Mind and Empirical Research"
+    },
+    {
+      "id": "r40",
+      "tag": "theory",
+      "text": "Allan Hobson navrhl, že REM spánek je protovědomí: mozek si v něm udržuje virtuální model světa i sebe a v bdění ho pak plní tím, co přinášejí smysly. Je to teorie, ne ověřený fakt. Snu ale dává roli tréninkového simulátoru.",
+      "source": "J. Allan Hobson, 2009, Nature Reviews Neuroscience"
+    },
+    {
+      "id": "r41",
+      "tag": "theory",
+      "text": "Podle teorie simulace hrozeb vznikly sny jako bezpečný trénink útěku a obrany. Teorie má zastánce i silné kritiky. Kdyby byl sen cvičiště, co by v tom tvém stálo za nácvik?",
+      "source": "Antti Revonsuo, 2000, Behavioral and Brain Sciences"
+    },
+    {
+      "id": "r42",
+      "tag": "strong",
+      "text": "Zhruba každý druhý člověk aspoň jednou zažil lucidní sen a asi čtvrtina lidí ho má aspoň jednou měsíčně. Nejsi na neznámém území, jen na málo zmapovaném.",
+      "source": "Saunders a kol., 2016, Consciousness and Cognition (metaanalýza)"
+    },
+    {
+      "id": "r43",
+      "tag": "strong",
+      "text": "V roce 2021 odpovídali lucidní snílci ve čtyřech laboratořích přímo ze snu na otázky a jednoduché příklady, a to pohyby očí nebo obličejových svalů. Správně to vyšlo jen asi v pětině pokusů, ale ukázalo se, že rozhovor se snícím je možný.",
+      "source": "Konkoly a kol., 2021, Current Biology"
+    },
+    {
+      "id": "r44",
+      "tag": "promising",
+      "text": "Velká analýza EEG z pěti laboratoří nenašla u lucidity slavný frontální signál kolem 40 Hz. Našla spíš pokles beta aktivity v temporoparietální oblasti, která se podílí na vnímání sebe ve světě. Mapa lucidního mozku se teprve kreslí.",
+      "source": "Demirel a kol., 2025, Journal of Neuroscience"
+    },
+    {
+      "id": "r45",
+      "tag": "promising",
+      "text": "Dlouholetí meditující měli lucidní sny víc než dvakrát častěji než nemeditující, ale devítitýdenní kurz všímavosti jejich počet nezměnil. Možná nejde o techniku, ale o roky trpělivé pozornosti.",
+      "source": "Baird a kol., 2019, Psychology of Consciousness"
+    },
+    {
+      "id": "r46",
+      "tag": "strong",
+      "text": "V roce 1975 vyslal Alan Worsley ze snu domluvený signál očima a Keith Hearne ho zachytil na záznamu spánku. Nezávisle to brzy poté ukázal i Stephen LaBerge. Lucidní sen tím přestal být jen vyprávěním a stal se měřitelným jevem.",
+      "source": "Keith Hearne, 1978, dizertace, University of Liverpool (pokus v Hullu 1975); LaBerge a kol., 1981, Perceptual and Motor Skills"
+    },
+    {
+      "id": "r47",
+      "tag": "strong",
+      "text": "Vědci budili lidi a ptali se jich, co právě prožívali. Sny se objevily i mimo REM a dalo se je předpovědět z aktivity v zadní části mozkové kůry. Snění není vypínač, spíš plynulá škála.",
+      "source": "Siclari a kol., 2017, Nature Neuroscience"
+    },
+    {
+      "id": "r48",
+      "tag": "community",
+      "text": "Zkušení lucidní snílci často varují: kdo dělá testy reality bez přemýšlení, udělá je tak i ve snu a usoudí, že je vzhůru. Jaký je rozdíl mezi testem a opravdovou otázkou?",
+      "source": "komunita r/LucidDreaming; LaBerge & Rheingold, 1990, Exploring the World of Lucid Dreaming"
+    },
+    {
+      "id": "r49",
+      "tag": "community",
+      "text": "Markýz d'Hervey de Saint-Denys si desítky let zapisoval sny a popsal, jak se v nich naučil poznat, že sní, a částečně sen řídit. Jeho jediným přístrojem byl deník.",
+      "source": "Hervey de Saint-Denys, 1867, Les Rêves et les moyens de les diriger"
+    },
+    {
+      "id": "r50",
+      "tag": "tradition",
+      "text": "V tibetské jógě snu není lucidita cílem, ale prostředkem: má pomoci poznat, že i bdělé zážitky mají povahu podobnou snu, a méně na nich lpět. Co kdyby tě dnešní starosti držely o kousek slaběji?",
+      "source": "Tenzin Wangyal Rinpočhe, 1998, The Tibetan Yogas of Dream and Sleep; Andrew Holecek, 2016, Dream Yoga"
+    },
+    {
+      "id": "r51",
+      "tag": "tradition",
+      "text": "Bönská i buddhistická jóga snu začíná ve dne: opakovaně si připomínáš, že to, co právě prožíváš, je jako sen. Noc pak navazuje na návyk, který vznikl za světla.",
+      "source": "Tenzin Wangyal Rinpočhe, 1998, The Tibetan Yogas of Dream and Sleep; Andrew Holecek, 2020, Dreams of Light"
+    },
+    {
+      "id": "r52",
+      "tag": "tradition",
+      "text": "V systému šesti jóg Nárópy je jóga snu jedním článkem řetězu, který pokračuje jasným světlem a přípravou na umírání. Sen tu slouží jako cvičiště pro nejtěžší přechod.",
+      "source": "Congkhapa, 15. st., Kniha tří inspirací (angl. přel. Glenn H. Mullin, 1996, Tsongkhapa's Six Yogas of Naropa); W. Y. Evans-Wentz (ed.), 1935, Tibetan Yoga and Secret Doctrines"
+    },
+    {
+      "id": "r53",
+      "tag": "tradition",
+      "text": "Tibetské tradice rozlišují jógu snu a jógu spánku. Ta usiluje o bdělou přítomnost i v bezesném spánku, kde už nejsou žádné obrazy. Věda pro ten stav zatím nemá ověřenou mapu.",
+      "source": "Tenzin Wangyal Rinpočhe, 1998, The Tibetan Yogas of Dream and Sleep; Chögyal Namkhai Norbu, 1992, Dream Yoga and the Practice of Natural Light"
+    },
+    {
+      "id": "r54",
+      "tag": "tradition",
+      "text": "Učitelé jógy snu radí před strachem ve snu neutíkat, ale obrátit se k němu čelem. Strach podle nich živí hlavně dojem, že je všechno pevné a skutečné.",
+      "source": "Tenzin Wangyal Rinpočhe, 1998, The Tibetan Yogas of Dream and Sleep; Andrew Holecek, 2016, Dream Yoga"
+    }
+  ]
+}

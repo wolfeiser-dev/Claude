@@ -1,0 +1,1172 @@
+{
+  "lessons": [
+    {
+      "id": "sleepCycles",
+      "order": 1,
+      "title": "Spánkové cykly a REM",
+      "lead": "Kde se v noci rodí sny a proč si dát budík po pěti hodinách.",
+      "minutes": 3,
+      "tag": "strong",
+      "cards": [
+        {
+          "title": "Noc ve vlnách",
+          "body": "Spánek běží v cyklech zhruba po 90 minutách. V každém se střídá lehký spánek, hluboký spánek a REM, fáze rychlých pohybů očí. Na začátku noci převládá hluboký spánek, k ránu REM.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Kde bydlí sny",
+          "body": "Sny se zdají i mimo REM, ale nejdelší a nejživější jsou právě v něm. Lucidní sny se v laboratoři prokázaly hlavně v REM: snící dávali domluvené signály pohyby očí, které byly vidět na záznamu. Svaly těla jsou v REM ochrnuté, oči ne.",
+          "art": "eyeSignal"
+        },
+        {
+          "title": "Proč budík po pěti hodinách",
+          "body": "Fáze REM se k ránu prodlužují. Když se zhruba po pěti hodinách krátce probudíš, vstoupíš do nejdelších úseků REM s čerstvou myslí a se záměrem. Na tom stojí probuzení a návrat do spánku (WBTB). Spánek má ale přednost, proto appka tuhle techniku nabízí nejvýš dvakrát týdně.",
+          "art": "hypnogram"
+        },
+        {
+          "question": "Kdy je v noci nejvíc REM?",
+          "options": [
+            "Hned po usnutí",
+            "V druhé polovině noci",
+            "Rovnoměrně celou noc"
+          ],
+          "answer": 1,
+          "explain": "Fáze REM se během noci prodlužují a nejdelší jsou k ránu. Proto se pokusy o luciditu plánují do druhé poloviny noci."
+        },
+        {
+          "question": "Jak se lucidní sen ověřuje v laboratoři?",
+          "options": [
+            "Snící mluví ze spaní",
+            "Snící dá domluvený signál pohyby očí, které v REM nejsou ochrnuté",
+            "Snící se na chvíli probudí a nahlásí to"
+          ],
+          "answer": 1,
+          "explain": "Domluvené pohyby očí (vlevo, vpravo, vlevo, vpravo) jsou na záznamu vidět, zatímco mozek je podle EEG v REM spánku."
+        }
+      ]
+    },
+    {
+      "id": "recall",
+      "order": 2,
+      "title": "Proč se sny zapomínají a jak je udržet",
+      "lead": "Sen je křehká vzpomínka. Pár návyků ji zachrání.",
+      "minutes": 3,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Sen mizí rychle",
+          "body": "Když se probudíš, sen je v paměti jen nakrátko. Pokud ho hned nezachytíš, rozplyne se. Nejrychleji ho přepíše pohyb, myšlenky na nový den a displej telefonu. Křivka v ilustraci ukazuje princip, ne přesné měření.",
+          "art": "forgetting"
+        },
+        {
+          "title": "Nehýbej se a přetáčej",
+          "body": "Zůstaň ležet ve stejné poloze se zavřenýma očima. Přetáčej sen pozpátku od posledního obrazu. Pak řekni tři slova a jednu emoci. Hlasem to jde rychleji a záznamy bývají delší než psané.",
+          "art": "recallTraining"
+        },
+        {
+          "title": "Na postoji záleží",
+          "body": "Lidé, které sny zajímají, si jich pamatují víc. Pomáhá i noční probouzení a klidný večer. Všechny tyhle vlivy ale vysvětlují jen malou část rozdílů mezi lidmi (Schredl a kol. 2003). I prázdná noc je zápis.",
+          "art": "fadingTrace"
+        },
+        {
+          "question": "Co sen z paměti smaže nejrychleji?",
+          "options": [
+            "Zůstat ležet se zavřenýma očima",
+            "Hned vstát a podívat se do telefonu",
+            "Říct nahlas tři slova"
+          ],
+          "answer": 1,
+          "explain": "Pohyb a nové podněty přepíšou křehkou vzpomínku. Nejdřív zápis, pak den."
+        },
+        {
+          "question": "Proč zapisovat i prázdné noci?",
+          "options": [
+            "Aby se nepřerušila série",
+            "Aby data nebyla zkreslená a viděl jsi skutečný vývoj",
+            "Nemá to smysl"
+          ],
+          "answer": 1,
+          "explain": "Bez prázdných nocí to vypadá, že se ti sny zdají častěji, než je pravda. Série tu nejsou, počítá se každý zápis."
+        }
+      ]
+    },
+    {
+      "id": "prospective",
+      "order": 3,
+      "title": "Prospektivní paměť a záměr",
+      "lead": "Proč záměr poznat sen (MILD) není afirmace, ale trénink paměti na budoucnost.",
+      "minutes": 3,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Paměť na budoucnost",
+          "body": "Prospektivní paměť znamená vzpomenout si ve správnou chvíli, že máš něco udělat. Třeba koupit chleba, až půjdeš kolem pekárny. Lucidní sen potřebuje totéž: vzpomenout si uprostřed snu, že máš zkontrolovat, jestli sníš.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Když…, tak…",
+          "body": "Nejsilnější záměr má tvar „když…, tak…“, třeba: „Když uvidím vodu v pokoji, uvědomím si, že sním.“ Spouštěč je konkrétní a akce jasná. Psychologické studie ukazují, že takové plány fungují líp než obecná předsevzetí (Gollwitzer a Sheeran 2006).",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Záměr poznat sen trénuje právě tohle",
+          "body": "Při technice Záměr poznat sen (MILD) si vybavíš sen, najdeš v něm znak snu a představíš si, že ho příště poznáš. Je to záměr, který myslíš vážně, ne věta, kterou jen odříkáš. Proto stačí pár opakování s plnou pozorností.",
+          "art": "mildLoop"
+        },
+        {
+          "question": "Který záměr je nejsilnější?",
+          "options": [
+            "Budu mít lucidní sen.",
+            "Když uvidím svou starou školu, uvědomím si, že sním.",
+            "Lucidní sny jsou pro mě snadné."
+          ],
+          "answer": 1,
+          "explain": "Konkrétní spouštěč z tvých snů a jasná akce. Obecné přání ani afirmace paměť netrénují."
+        },
+        {
+          "question": "Co dělat, když ti při záměru poznat sen odběhne mysl?",
+          "options": [
+            "Přestat a jít spát naštvaný",
+            "Všimnout si toho a začít znovu",
+            "Počítat opakování, aby jich bylo dost"
+          ],
+          "answer": 1,
+          "explain": "Návrat je součást tréninku. Počet opakování nehraje roli, záleží na tom, jestli záměr myslíš vážně."
+        }
+      ]
+    },
+    {
+      "id": "realityTest",
+      "order": 4,
+      "title": "Jak funguje test reality",
+      "lead": "Kritický postoj, ne rituál s dlaní.",
+      "minutes": 3,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Ve snu chybí odstup",
+          "body": "Ve snu přijmeš i létající autobus a ani se nepodivíš. Mozek ve snu méně kriticky hodnotí, co se děje. Test reality má tenhle odstup na chvíli vrátit.",
+          "art": "brainMap"
+        },
+        {
+          "title": "Otázka, ne rituál",
+          "body": "Samotný pohled na dlaň nic netrénuje. Funguje to, až když se opravdu zeptáš: Sním? Co se dělo před pěti minutami? Jak jsem se sem dostal? Co je tu divné? Teprve pak test proveď.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Které testy fungují",
+          "body": "Spolehlivé bývají testy, které ve snu často selžou: nádech se zavřenými ústy, text, který se při druhém čtení změní, nebo prsty na ruce. Jak jsou spolehlivé, je ale jen odhad praktiků. Ve studii ILDIS přidání testů k záměru poznat sen (MILD) výsledek spíš zhoršilo, proto je nedělej mechanicky.",
+          "art": "realityTree"
+        },
+        {
+          "question": "Test ti vyjde normálně. Co dál?",
+          "options": [
+            "Jasně, nesním, jdu dál",
+            "Ještě se ohlédnu: jak jsem se sem dostal a je tu něco divného?",
+            "Udělám deset dalších testů"
+          ],
+          "answer": 1,
+          "explain": "I ve snu může jeden test vyjít normálně. Do snu se přenese hlavně kritické ohlédnutí."
+        },
+        {
+          "question": "Při testu tě přepadne úzkost nebo pocit, že nic není skutečné. Co uděláš?",
+          "options": [
+            "Pokračuju v testech, ať si zvyknu",
+            "Přestanu a uzemním se: chodidla na zem, pět věcí, které vidím",
+            "Řeknu si, že je to jen sen"
+          ],
+          "answer": 1,
+          "explain": "Test má být zvídavý, ne úzkostný. Při pocitu neskutečna má přednost uzemnění."
+        }
+      ]
+    },
+    {
+      "id": "notControl",
+      "order": 5,
+      "title": "Lucidita není kontrola",
+      "lead": "Vědět, že sníš, a řídit sen jsou dvě různé věci.",
+      "minutes": 3,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Tři různé věci",
+          "body": "Lucidita znamená, že víš, že sníš. Stabilita znamená, že sen udržíš. Kontrola znamená, že měníš děj. Jedno nezaručuje druhé. Můžeš vědět, že sníš, a sen přesto běží po svém (Bonamino a Peters 2026).",
+          "art": "lucidityAxes"
+        },
+        {
+          "title": "Očekávání je páka",
+          "body": "Kontrola ve snu hodně závisí na tom, co čekáš. Když pochybuješ, dveře se neotevřou. Proto začni malou změnou, která se povede, a důvěra poroste. Změnit scénu jde, ale věrně vytvořit konkrétní místo bývá těžké (Mallett 2020).",
+          "art": "ladder"
+        },
+        {
+          "title": "Neúspěch bez dramatu",
+          "body": "Nepříjemné zážitky v lucidních snech vznikají hlavně při nepovedených pokusech o kontrolu. Když něco nejde, zkus to jinak: místo vypínače otevři dveře. Nebo jen pozoruj, i to je lucidita.",
+          "art": "lucidMission"
+        },
+        {
+          "question": "Ve snu víš, že sníš, ale nedaří se ti vzlétnout. Co z toho plyne?",
+          "options": [
+            "Nebyl to lucidní sen",
+            "Lucidita a kontrola jsou různé věci. Zkus menší změnu.",
+            "Musíš víc tlačit"
+          ],
+          "answer": 1,
+          "explain": "Lucidita je vědomí, že sníš. Kontrola přichází postupně a hodně záleží na očekávání."
+        },
+        {
+          "question": "Jaký je dobrý první cíl ve snu?",
+          "options": [
+            "Letět na Měsíc",
+            "Změnit barvu jednoho předmětu",
+            "Ovládat všechny postavy"
+          ],
+          "answer": 1,
+          "explain": "Malá změna, která se povede, posílí důvěru. Velký cíl spíš skončí zklamáním a probuzením."
+        }
+      ]
+    },
+    {
+      "id": "sleepParalysis",
+      "order": 6,
+      "title": "Spánková paralýza bez strachu",
+      "lead": "Co se děje, když se mysl probudí dřív než tělo.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Co se děje",
+          "body": "V REM jsou svaly těla ochrnuté, abys sny nepředváděl. Někdy se mysl probudí dřív, než se tělo uvolní. Jsi vzhůru a nemůžeš se pohnout. Může se přidat tlak na hrudi, zvuk kroků nebo postava v pokoji. Jsou to obrazy ze snu, které běží dál.",
+          "art": "wildBridge"
+        },
+        {
+          "title": "Běžné a neškodné",
+          "body": "Zažije ji zhruba pětina lidí. Sama o sobě nebezpečná není a vždycky mine. Častější je při nedostatku spánku, stresu a nepravidelném režimu. Častěji ji lidé popisují také při vědomém usnutí do snu (WILD) a při návratu do snu hned po probuzení (DEILD).",
+          "art": "paralysisWave"
+        },
+        {
+          "title": "Co dělat",
+          "body": "Připomeň si: tohle je spánková paralýza a mine. Dýchej pomalu. Rady se liší: buď zůstaň v klidu a vědomě uvolňuj tělo, nebo zkus pohnout malou částí těla, třeba malíčkem. Vyber si, co sedí tobě. SOS kartu najdeš v nočním režimu.",
+          "art": "breath"
+        },
+        {
+          "title": "Kdy k lékaři",
+          "body": "Když se paralýza vrací často, trápí tě nebo se bojíš usnout, poraď se s lékařem. Zvlášť když přes den nečekaně usínáš nebo ti při smíchu či leknutí ochabují svaly. Můžou to být příznaky narkolepsie.",
+          "art": "paralysisWave"
+        },
+        {
+          "question": "Při paralýze vidíš v pokoji stín. Co je nejlepší první krok?",
+          "options": [
+            "Bojovat ze všech sil",
+            "Připomenout si, že je to paralýza a mine, a pomalu dýchat",
+            "Brát to jako vstup do jiné dimenze"
+          ],
+          "answer": 1,
+          "explain": "Obrazy pocházejí ze snu a nic ti neudělají. Klid a pomalý dech pomáhají, panika zážitek zesiluje."
+        }
+      ]
+    },
+    {
+      "id": "yogaDay",
+      "order": 7,
+      "title": "Jóga snu: denní praxe",
+      "lead": "Tibetská tradice a její čtyři přípravy během dne.",
+      "minutes": 4,
+      "tag": "tradition",
+      "cards": [
+        {
+          "title": "Tradice, ne věda",
+          "body": "Tibetská jóga snu pochází z tradice bön (Tenzin Wangyal Rinpočhe) a z buddhistických linií (Namkhai Norbu, Andrew Holecek). Vědecky ověřená není. Dává ale práci se sny smysl a řád a její denní přípravy se potkávají s tím, co víme o paměti a pozornosti.",
+          "art": "dreamYogaIntention"
+        },
+        {
+          "title": "Čtyři přípravy",
+          "body": "Wangyal popisuje čtyři přípravy: vnímat den jako sen, uvolnit lpění a odpor, večer si dát záměr a ráno se k noci vrátit s radostným úsilím. Poslední dvě se překrývají se záměrem poznat sen (MILD) a s deníkem.",
+          "art": "fourPreps"
+        },
+        {
+          "title": "Den jako sen",
+          "body": "Párkrát denně se zastav a řekni si: tohle je jako sen. Na slově „jako“ záleží. Nejde o to, že nic není skutečné, ale o lehčí vztah k tomu, co se děje. Když v tobě cvičení vyvolává úzkost nebo pocit neskutečna, přestaň a uzemni se.",
+          "art": "dreamYogaDay"
+        },
+        {
+          "title": "Klidná pozornost jako základ",
+          "body": "Bez klidné pozornosti se těžko udrží i sen. Alan Wallace považuje šamathu, klidné ukotvení pozornosti na dechu, za základ jógy snu. Stačí pět minut denně. Trénink spočívá v návratech k dechu, ne v prázdné mysli.",
+          "art": "breath"
+        },
+        {
+          "question": "Co přesně znamená praxe „den jako sen“?",
+          "options": [
+            "Nic není skutečné",
+            "Zážitky jsou jako sen: proměnlivé a plynoucí",
+            "Ve dne se máš chovat jako ve snu"
+          ],
+          "answer": 1,
+          "explain": "Jde o přirovnání, ne o popření reality. Proto záleží na slově „jako“ a při úzkosti na uzemnění."
+        }
+      ]
+    },
+    {
+      "id": "yogaNight",
+      "order": 8,
+      "title": "Jóga snu: noční praxe",
+      "lead": "Usínání s pozorností a v čem se učitelé liší.",
+      "minutes": 4,
+      "tag": "tradition",
+      "cards": [
+        {
+          "title": "Usínání s pozorností",
+          "body": "Noční praxe začíná zklidněním: Wangyal učí devět očistných dechů, Holecek počítání dechů před spaním. Pak přijde lehká pozornost v hrdle a záměr poznat sen. Cílem není zůstat vzhůru, ale usnout s tenkou nití vědomí.",
+          "art": "body"
+        },
+        {
+          "title": "Zdroje se liší",
+          "body": "Poloha: Wangyal radí mužům pravý bok a ženám levý, Norbu zpočátku levý bok pro jasnost, texty školy kagjü lví polohu na pravém boku. Obraz: Wangyal rudý lotos s písmenem A v hrdle, Norbu bílé A v srdci a rudé v hrdle, jiné texty světlo mezi obočím. Vyber si, co ti sedí. Jestli a jak to funguje, nikdo netestoval.",
+          "art": "postureVariants"
+        },
+        {
+          "title": "Noční probuzení",
+          "body": "Tradice zná i noční probuzení s praxí. Wangyal radí vstát zhruba po čtyřech až pěti hodinách, Holecek asi dvě hodiny před obvyklým vstáváním a zůstat čtvrt hodiny vzhůru. Vědecká technika Probuzení a návrat do spánku (WBTB) je podobná: budík asi po pěti hodinách a krátké bdění. V appce pro obojí platí stejná pravidla ochrany spánku.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Jen to, co je v textech",
+          "body": "Na internetu koluje řada barevných a číselných schémat, která jsme v textech učitelů nenašli. Appka se drží jen toho, co je v nich doložené, a tělo ukazuje jen jako obecné schéma pozornosti. Jóga spánku, tedy vědomí v hlubokém spánku bez snů, je pokročilá praxe, kterou tradice předává osobně. Změřit se zatím nedá.",
+          "art": "body"
+        },
+        {
+          "question": "Wangyal a Norbu radí jinou polohu. Co s tím?",
+          "options": [
+            "Jeden z nich se mýlí",
+            "Školy se liší. Zvol polohu, ve které se ti dobře usíná.",
+            "Poloha je hlavní mechanismus jógy snu"
+          ],
+          "answer": 1,
+          "explain": "Rozdíly mezi školami jsou běžné. Poloha a obraz slouží jako opora pozornosti, ne jako ověřený mechanismus."
+        }
+      ]
+    },
+    {
+      "id": "meditation",
+      "order": 9,
+      "title": "Meditace a lucidita",
+      "lead": "Co víme, co nevíme a proč meditace i lucidita stojí na stejném svalu.",
+      "minutes": 3,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Co víme",
+          "body": "Lidé, kteří dlouhodobě meditují, hlásí víc lucidních snů: 1,11 proti 0,45 za měsíc (Baird a kol. 2019). Kdo medituje denně, hlásí jich víc než ten, kdo medituje jednou týdně (Gerhardt a Baird 2024). Jde ale jen o souvislosti, ne o důkaz příčiny.",
+          "art": "meditation"
+        },
+        {
+          "title": "Co nevíme",
+          "body": "Osmitýdenní kurz všímavosti MBSR lucidní sny nezvýšil. Možná meditace trénuje metauvědomění, tedy všímání si vlastních myšlenek. Možná ale meditující a lucidní snílci sdílejí jinou vlastnost, třeba zvídavost. Meditace luciditu nezpůsobí, ale trénuje schopnosti, na kterých lucidita stojí.",
+          "art": "breath"
+        },
+        {
+          "title": "Malá studie s virtuální realitou",
+          "body": "V jedné studii trénovali lidé po krátké meditaci otázku „Sním?“ ve snové virtuální realitě a měli víc lucidních snů než kontrolní skupina (Signorelli a kol. 2026, 38 lidí). Je to malá studie a aplikace patří organizaci jednoho z autorů. Zajímavé, ne rozhodující.",
+          "art": "ada"
+        },
+        {
+          "question": "Proč může meditace souviset s luciditou?",
+          "options": [
+            "Meditace přímo vyvolává REM",
+            "Trénuje všímání si vlastní mysli, a to je jádro lucidity",
+            "Meditující spí déle"
+          ],
+          "answer": 1,
+          "explain": "Metauvědomění ve studii zprostředkovalo vztah mezi meditací a luciditou. Je to hypotéza, kterou zatím podporují jen korelace."
+        },
+        {
+          "question": "Co ukázal osmitýdenní kurz MBSR?",
+          "options": [
+            "Lucidní sny zdvojnásobil",
+            "Lucidní sny nezvýšil",
+            "Nikdo ho netestoval"
+          ],
+          "answer": 1,
+          "explain": "Proto appka meditaci nabízí jako dlouhodobou podporu, ne jako zkratku."
+        }
+      ]
+    },
+    {
+      "id": "reality",
+      "order": 10,
+      "title": "Zkoumání reality",
+      "lead": "Filozofie, tradice a věda o tom, co je skutečné.",
+      "minutes": 5,
+      "tag": "philosophy",
+      "cards": [
+        {
+          "title": "Zhuangzi a motýl",
+          "tag": "philosophy",
+          "body": "Zhuang Zhouovi se zdálo, že je motýl. Pak se probudil a nevěděl, jestli se motýlovi nezdá, že je Zhuang Zhou. Mnozí odborníci příběh nečtou jako důkaz, že svět je sen, ale jako obraz proměny věcí: jedna zkušenost střídá druhou a hranice mezi nimi není pevná.",
+          "art": "butterfly"
+        },
+        {
+          "title": "Descartes a argument snu",
+          "tag": "philosophy",
+          "body": "Descartes v Meditacích (1641) píše, že neexistují jistá znamení, kterými bys bdění spolehlivě odlišil od snu. Jeho odpovědí je test soudržnosti: zapadá zážitek do zbytku života? Současný filozof Grundmann navrhuje jiné vodítko: když umíš kriticky uvažovat, spíš bdíš. Lucidní sen je zajímavý tím, že kritická úvaha v něm běží taky.",
+          "art": "loopRoom"
+        },
+        {
+          "title": "Buddhistická snová analogie",
+          "tag": "tradition",
+          "body": "Diamantová sútra přirovnává podmíněné jevy ke hvězdě, lampě, iluzi, rose, bublině, snu, blesku a mraku. Madhjamaka dodává, že věci vznikají z podmínek a nemají pevnou samostatnou podstatu. Je to způsob pohledu, ne tvrzení, že nic neexistuje. Z toho vychází praxe „den jako sen“.",
+          "art": "dreamYogaDay"
+        },
+        {
+          "title": "Anil Seth: řízená halucinace",
+          "tag": "theory",
+          "body": "Podle teorie prediktivního zpracování mozek neustále odhaduje, co je venku, a smysly ty odhady opravují. Anil Seth tomu říká „řízená halucinace“: vnímání je nejlepší odhad mozku a svět ho drží pod kontrolou. Ve snu vnější kontrola chybí. Je to teoretický rámec, ne naměřený fakt.",
+          "art": "predictionLoop"
+        },
+        {
+          "question": "Co tvrdí Anil Seth?",
+          "tag": "theory",
+          "options": [
+            "Realita neexistuje",
+            "Vnímání je nejlepší odhad mozku, který opravují smysly",
+            "Mozek zaznamenává svět přesně jako kamera"
+          ],
+          "answer": 1,
+          "explain": "Seth netvrdí, že realita je iluze. Vnímání je konstrukce kontrolovaná světem. Halucinace v obvyklém smyslu je selhání té kontroly."
+        },
+        {
+          "question": "Který výklad Zhuangziho příběhu je nejblíž mnoha odborníkům?",
+          "tag": "philosophy",
+          "options": [
+            "Důkaz, že svět je sen",
+            "Obraz proměny věcí, kde hranice mezi zážitky není pevná",
+            "Stejný skeptický argument jako u Descarta"
+          ],
+          "answer": 1,
+          "explain": "Výklady se liší, ale mnoho odborníků čte příběh jako obraz proměn, ne jako kartézskou skepsi."
+        }
+      ]
+    },
+    {
+      "id": "dreamSigns",
+      "order": 11,
+      "title": "Znaky snů a jejich čtyři druhy",
+      "lead": "Jak v Deníku najít vlastní znamení, která ti říkají: tohle je sen.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Chyba v kulisách",
+          "body": "Znak snu je cokoli, co se ve snu děje jinak než v bdění: gumový zubní kartáček, dávno zbořená škola, let nad střechami. Stephen LaBerge si všiml, že lidé si často uvědomí, že sní, právě ve chvíli, kdy se nad takovou zvláštností zarazí. Je to jako chyba v divadelních kulisách: kdo ji jednou uvidí, už ji nepřehlédne.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Čtyři přihrádky",
+          "body": "LaBerge třídí znaky snů do čtyř skupin: vnitřní prožitek (zvláštní myšlenka, emoce nebo vjem), děj (někdo nebo něco dělá nemožnou věc), podoba (věc, člověk nebo místo vypadá jinak) a souvislosti (běžní lidé a věci na nečekaném místě nebo v nečekané roli). Ke každému znaku v Deníku připiš, kam patří. Je to jako třídit poštu: brzy uvidíš, která přihrádka přetéká.",
+          "art": "dreamSignGrid",
+          "artBrief": "Mřížka 2×2 ze čtyř panelů s rohovými značkami: vnitřní prožitek (hlava s malou jiskrou), děj (postava s obloukem pohybu), podoba (čtverec, který se vlní do kruhu), souvislosti (hrnek mimo rám obrazu). Jeden panel je zvýrazněný oranžovou linkou jako tvoje hlavní kategorie, ostatní tlumeně."
+        },
+        {
+          "title": "Najdi svou hlavní kategorii",
+          "body": "Až budeš mít v Deníku aspoň tucet snů, podtrhni v nich zvláštnosti a spočítej, která kategorie vede. LaBerge radí vzít si tu nejčastější za cíl a ve dne si všímat, jak se věci z té kategorie chovají normálně. Opakující se motivy ti navíc ukážou Stopy snů, takže nehledáš poslepu, ale podle mapy.",
+          "art": "ladder"
+        },
+        {
+          "title": "Znak snu jako spouštěč",
+          "body": "Znak snu nejvíc pomůže v technice Záměr poznat sen (MILD): představíš si, že ho znovu vidíš, a v té představě si řekneš, že sníš. Vzniká tak pravidlo „když uvidím X, poznám, že sním“, kterému psychologie říká implementační záměr. Funguje jako záložka v knize: mozek ví, kde má otevřít.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Ochotný tiskový mluvčí",
+          "body": "Ve snu si zvláštnosti obvykle hned nějak vysvětlíš, třeba „asi se přestěhovali“. LaBerge tomu říká racionalizace a právě kvůli ní znak snu sám o sobě luciditu nepřinese. Snící mozek je jako ochotný tiskový mluvčí, který má na každou díru v příběhu hotové vysvětlení.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Co o tom víme",
+          "body": "Katalog znaků snů je praktický nástroj z LaBergeovy knihy a samostatně ho žádná studie netestovala. Víme ale, že v nocích s lucidním snem si lidé vybavují víc snů a že záměr poznat sen (MILD) s představou znaku snu patří k nejlépe podloženým technikám. Znaky snů jsou dobrá mapa, ne záruka úspěchu.",
+          "art": "hypnogram"
+        },
+        {
+          "question": "Ve snu má tvůj byt pokoj navíc, který ve skutečnosti neexistuje. Kam ten znak patří?",
+          "options": [
+            "Vnitřní prožitek",
+            "Děj",
+            "Podoba",
+            "Souvislosti"
+          ],
+          "answer": 2,
+          "explain": "LaBerge řadí do podoby i místo, které vypadá jinak než v bdění. Souvislosti jsou spíš běžné věci na nečekaném místě, třeba tvoje šéfová u tebe v kuchyni."
+        }
+      ],
+      "sources": [
+        "LaBerge & Rheingold 1990",
+        "Aspy 2017",
+        "Aspy 2020",
+        "Gollwitzer & Sheeran 2006"
+      ]
+    },
+    {
+      "id": "dreamForgetting",
+      "order": 12,
+      "title": "Proč sny zapomínáme",
+      "lead": "Co dělá mozek s nočním zážitkem a proč ho smaže pár vteřin nepozornosti.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Kino bez nahrávání",
+          "body": "V REM spánku je mozek čilý, ale noradrenalinu, který v bdění pomáhá ukládat zážitky, je v něm velmi málo. Podle vlivné hypotézy je to jeden z důvodů, proč se sen bez probuzení do paměti neuloží. Je to jako film v kině, kde nikdo nezapnul nahrávání.",
+          "art": "forgetting"
+        },
+        {
+          "title": "Chvilka bdění",
+          "body": "Lidé, kteří si pamatují hodně snů, se podle studií z Lyonu v noci budí častěji a déle a jejich mozek víc reaguje na zvuky ve spánku (Eichenlaub 2014). Vypadá to, že krátké probuzení dává snu čas přesunout se do paměti, která vydrží do rána. Sen je jako vzkaz na zamlženém okně: zůstane jen tomu, kdo ho stihne přečíst.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Vločka na dlani",
+          "body": "Sen přežije probuzení, jen když se mu hned věnuješ, říká model aktivace a vybavení (Koulack a Goodenough 1976). Stačí sáhnout po mobilu nebo začít myslet na práci a stopa se rozplyne. Je to jako sněhová vločka na dlani: buď se na ni podíváš hned, nebo z ní zbude kapka.",
+          "art": "fadingTrace",
+          "artBrief": "Tenká linka snu, která po probuzení řídne do teček a mizí; v místě, kde ji zachytí malá ikona tužky nebo mikrofonu, pokračuje dál plnou oranžovou čarou. Nahoře drobná osa času 0–5 minut v JetBrains Mono."
+        },
+        {
+          "title": "Mozek, který maže",
+          "body": "U myší vědci v roce 2019 objevili nervové buňky (MCH), které jsou aktivní hlavně v REM a tlumí ukládání vzpomínek v hipokampu (Izawa 2019). Autoři opatrně navrhují, že by podobný mechanismus mohl vysvětlit rychlé mizení snů i u lidí. Zatím je to hypotéza z pokusů na zvířatech, ne hotová pravda o tvém mozku.",
+          "art": "forgetting"
+        },
+        {
+          "title": "Obyčejná paměť v nezvyklý čas",
+          "body": "Když měli lidé těsně před probuzením z REM v čelní části mozku víc pomalé aktivity théta, sen si častěji vybavili (Marzano 2011). Stejný vzorec se objevuje v bdění, když si ukládáme běžné zážitky. Paměť na sny tedy není zvláštní dar, ale obyčejná paměť, která pracuje v nezvyklém čase.",
+          "art": "brainMap",
+          "artBrief": "Liniový profil mozku z boku na tmavém pozadí, oblasti jako hvězdy na hvězdné mapě: čelní pól, přední čelní kůra, temporoparietální spojení vpravo, precuneus. Temporoparietální bod svítí oranžově, ostatní tlumeně, tenké orbity mezi body naznačují propojení."
+        },
+        {
+          "title": "Nesníš, nebo zapomínáš?",
+          "body": "Lidé, kteří tvrdí, že nesní, při buzení z REM v laboratoři sny také hlásí, jen méně často (Goodenough 1959). U pacientů s poruchou chování v REM spánku je dokonce vidět, jak sny předvádějí pohyby těla, i když si je ráno nepamatují (Herlin 2015). Sny tedy nejspíš máme všichni, liší se hlavně to, kolik si jich doneseme do rána.",
+          "art": "body"
+        },
+        {
+          "question": "Proč ráno nejdřív zapisuješ jen pár klíčových slov?",
+          "options": [
+            "Protože dlouhý zápis nikoho nebaví",
+            "Protože stopa snu mizí během chvilky a klíčová slova ji zachytí nejrychleji",
+            "Protože klíčová slova jsou pro appku přehlednější"
+          ],
+          "answer": 1,
+          "explain": "Jakmile se pozornost obrátí jinam, sen rychle vyprchá. Klíčová slova jsou háčky, za které celý sen vytáhneš později."
+        }
+      ],
+      "sources": [
+        "Hobson 2009",
+        "Eichenlaub 2014",
+        "Koulack & Goodenough 1976",
+        "Izawa 2019",
+        "Marzano 2011",
+        "Goodenough 1959",
+        "Herlin 2015"
+      ]
+    },
+    {
+      "id": "sleepHygieneLucid",
+      "order": 13,
+      "title": "Káva, alkohol a REM",
+      "lead": "Co večer vypiješ, to se ukáže ve druhé polovině noci. A právě v ní se rodí lucidní sny.",
+      "minutes": 4,
+      "tag": "strong",
+      "cards": [
+        {
+          "title": "Nejlepší okno je k ránu",
+          "body": "Nejdelší a nejživější REM přichází ve druhé polovině noci, proto v ní vzniká i většina lucidních snů. Cokoli, co naruší ranní hodiny spánku, ti tak bere nejlepší okno. Spánek je pozemek a lucidní sen dům: bez pevných základů ho nepostavíš.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Kofein má dlouhý dosah",
+          "body": "Metaanalýza 24 studií ukázala, že kofein zkracuje spánek v průměru o 45 minut, prodlužuje usínání a ubírá hluboký spánek (Gardiner 2023). Poslední šálek kávy autoři doporučují vypít nejpozději zhruba 9 hodin před spaním. Kofein je host, který z večírku odejde, ale klíče od bytu si nechá.",
+          "art": "body"
+        },
+        {
+          "title": "Káva při nočním probuzení? Raději ne",
+          "body": "Při technice Probuzení a návrat do spánku (WBTB) kávu vynech, i když ji někdo na fórech doporučuje. Úspěch nejlépe předpovídá to, že po technice usneš do 10 minut (Aspy 2020), a kofein usínání prodlužuje. Potřebuješ otevřené dveře do spánku, ne zámek.",
+          "art": "wildBridge"
+        },
+        {
+          "title": "Alkohol: rychlé usnutí, rozbité ráno",
+          "body": "Alkohol pomáhá usnout a v první polovině noci spánek zpevní. Ve druhé ho ale rozkouskuje a ve vyšších dávkách potlačuje REM (Ebrahim 2013). Večer s pár pivy ti tak bere přesně ty hodiny, kdy se rodí lucidní sny. Je to půjčka s vysokým úrokem: rychlé usnutí teď, rozbité ráno potom.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "REM rebound: mozek dohání",
+          "body": "Když REM chybí, třeba po krátké noci nebo po alkoholu, mozek ho v dalších nocích dohání a sny bývají živější (Dement 1960). Neber to jako trik: záměrně zkrácený spánek přináší hlavně únavu a horší náladu. Léky, které ovlivňují REM, kvůli snům nikdy neměň bez lékaře.",
+          "art": "remRebound",
+          "artBrief": "Dva malé hypnogramy vedle sebe: první noc s nízkými, useknutými REM bloky v tlumené barvě, druhá noc s vyššími a delšími REM bloky v oranžové. Mezi nimi tenká oblouková šipka návratu."
+        },
+        {
+          "title": "A co doplňky?",
+          "body": "Doplňky na lucidní sny ti nedoporučíme. Jediná látka s velkou studií, galantamin, je v Česku lék na předpis a z deseti testovaných doplňků s galantaminem mělo devět chybné označení (Cohen 2024). Nejspolehlivější doplněk je pravidelný a dostatečný spánek.",
+          "art": "breath"
+        },
+        {
+          "question": "Zítra chceš zkusit probuzení a návrat do spánku (WBTB). Co dává největší smysl?",
+          "options": [
+            "Večer dvě piva, ať rychle usnu",
+            "Poslední kávu do odpoledne a večer bez alkoholu",
+            "Kávu při nočním probuzení, ať jsem bdělejší"
+          ],
+          "answer": 1,
+          "explain": "Alkohol rozbíjí právě druhou polovinu noci a kofein při nočním probuzení zhorší rychlé usnutí, na kterém úspěch stojí. A tuhle techniku zkoušej nejvýš dvakrát týdně, nikdy dvě noci po sobě a jen po dobré noci."
+        }
+      ],
+      "sources": [
+        "Gardiner 2023",
+        "Ebrahim 2013",
+        "Aspy 2020",
+        "Dement 1960",
+        "LaBerge 2018",
+        "Cohen 2024"
+      ]
+    },
+    {
+      "id": "falseAwakening",
+      "order": 14,
+      "title": "Falešná probuzení",
+      "lead": "Probudíš se, vstaneš, čistíš si zuby. A pořád sníš.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Probuzení, které není",
+          "body": "Falešné probuzení je sen o tom, že ses probudil: ležíš v posteli, vstáváš, chystáš snídani. Bývá tak věrohodný, že ho bez testu reality skoro nejde poznat. Je to kulisa tvého pokoje postavená tak pečlivě, že nevidíš švy.",
+          "art": "loopRoom",
+          "artBrief": "Ložnice nakreslená tenkou linkou (postel, okno, dveře), která se opakuje ve třech zmenšujících se rámech jako zrcadlo v zrcadle. V nejmenším rámu malá oranžová dlaň jako test reality."
+        },
+        {
+          "title": "Dva typy",
+          "body": "Badatelka Celia Green v roce 1968 popsala dva typy falešných probuzení. První je všední: probudíš se a začneš normální den. Druhý je vzácnější a napjatý: pokoj vypadá jako obvykle, ale visí v něm zvláštní tíseň nebo očekávání.",
+          "art": "wildBridge"
+        },
+        {
+          "title": "Vedlejší vchod do lucidity",
+          "body": "V průzkumu 90 zkušených lucidních snílků mělo 41 % falešné probuzení aspoň jednou měsíčně (Buzzi 2011). V laboratoři se falešná probuzení objevila ve 23 % snů a část lucidních snů začala právě jimi (Peters 2026, předběžné). Je to vedlejší vchod do lucidity, který se často otevírá sám.",
+          "art": "ladder"
+        },
+        {
+          "title": "Test po každém probuzení",
+          "body": "Dej si pravidlo: po každém probuzení udělej jeden rychlý test reality, třeba nádech se zavřenými ústy, hlavně při technice Probuzení a návrat do spánku (WBTB). Když test selže, víš, že sníš, a můžeš klidně zůstat ve snu. Je to jako zkontrolovat zámek, i když víš, že je zamčeno.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Když se smyčka opakuje",
+          "body": "Někdy přijde několik falešných probuzení za sebou a máš pocit, že se nemůžeš probudit. Uvíznout ve snu ale nejde, každá taková série skončí skutečným probuzením. Pomáhá klid a pomalý dech. Tipy typu „ve snu si lehni a usni“ jsou jen zkušenosti praktiků, ne ověřená metoda.",
+          "art": "breath"
+        },
+        {
+          "title": "Zvuk, který nezazněl",
+          "body": "Ve falešném probuzení mozek klidně vyrobí i zvuk budíku nebo jiný podnět, který nikdy nezazněl. V jedné laboratorní studii lidé v 15 % falešných probuzení hlásili podněty, které se vůbec nepouštěly (Picard-Deland 2026, předběžné). Když ráno zapisuješ zvuky ze spánku, ber svou paměť s rezervou.",
+          "art": "forgetting"
+        },
+        {
+          "question": "Probudíš se v posteli a jsi si skoro jistý, že je ráno. Co uděláš jako první?",
+          "options": [
+            "Nic, skutečné probuzení se pozná vždycky",
+            "Rychlý test reality, třeba nádech se zavřenými ústy",
+            "Hned začnu zapisovat sen do Deníku"
+          ],
+          "answer": 1,
+          "explain": "Falešné probuzení bývá k nerozeznání od skutečného, rozhodne až test. Když ukáže bdění, zapiš sen. Když ne, právě jsi lucidní."
+        }
+      ],
+      "sources": [
+        "Green 1968",
+        "Buzzi 2011",
+        "Peters 2026",
+        "Picard-Deland 2026",
+        "Aspy 2020",
+        "LaBerge & Rheingold 1990"
+      ]
+    },
+    {
+      "id": "nightmaresIrt",
+      "order": 15,
+      "title": "Noční můry a přepis snu (IRT)",
+      "lead": "Nejlépe ověřená pomoc proti nočním můrám není lucidita, ale nový scénář.",
+      "minutes": 5,
+      "tag": "strong",
+      "cards": [
+        {
+          "title": "Přepiš konec filmu",
+          "body": "Imaginační nácvik (IRT, imagery rehearsal therapy) znamená, že si v bdění přepíšeš opakující se noční můru a novou verzi si pak denně přehráváš v představách. Americká akademie spánkové medicíny ho označuje za doporučenou léčbu nočních můr (Morgenthaler 2018). Je to jako přepsat konec filmu, který ti noc co noc pouští stejný promítač.",
+          "art": "rewriteScript",
+          "artBrief": "Dva listy vedle sebe: vlevo tenká linka příběhu končící ostrým zubem (noční můra), vpravo stejná linka, která se v místě zubu ohne do měkkého oblouku a pokračuje dál. Mezi listy oranžová tužka."
+        },
+        {
+          "title": "Tři kroky",
+          "body": "Vyber si nejdřív mírnější opakující se sen, ne ten nejtěžší, a zapiš si ho. Změň v něm, co chceš, třeba konec, místo nebo sebe, a novou verzi si zapiš taky. Pak si ji 10–20 minut denně přehrávej se zavřenýma očima a starou verzi už neopakuj.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Co od toho čekat",
+          "body": "Metaanalýza 13 studií u nočních můr po traumatu ukázala velký pokles jejich četnosti, lepší spánek a efekt, který vydržel i měsíce (Casement a Swanson 2012). Nefunguje ale u každého: ve velké studii u válečných veteránů nebyl IRT lepší než srovnávací léčba (Cook 2010). Je to spolehlivý nástroj, ne kouzelné tlačítko.",
+          "art": "ladder"
+        },
+        {
+          "title": "A kde je lucidita?",
+          "body": "Ve studiích terapie lucidním sněním se úleva objevovala i u lidí, kteří lucidní vůbec nebyli, a výskyt lucidity se zlepšením nesouvisel (Spoormaker 2006, Yount 2025). Účinná je nejspíš práce s obrazem a pocit zvládnutí, ne samotné poznání snu. Lucidita je tu bonus, ne vstupenka.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Když tě noční můra zastihne lucidního",
+          "body": "Když si uprostřed noční můry uvědomíš, že sníš, nemusíš utíkat ani bojovat. Zkus se zastavit, otočit se k tomu, co tě děsí, a zeptat se, kdo to je a co potřebuje. Tenhle postoj doporučuje LaBerge i jóga snu. Vědecky je ale ověřený hlavně přepis snu v bdění, ne čelení strachu ve snu.",
+          "art": "body"
+        },
+        {
+          "title": "Kdy s odborníkem",
+          "body": "Pokud noční můry souvisí s traumatem nebo tě budí několikrát týdně, obrať se na odborníka. IRT se pak nejlépe dělá s terapeutem. Pokusy o lucidní sny v takovém období vynech a chraň spánek. Appka ti s přepisem snu pomůže, péči ale nenahradí.",
+          "art": "breath"
+        },
+        {
+          "question": "Co je při IRT nejdůležitější?",
+          "options": [
+            "Co nejčastěji si přehrávat původní noční můru",
+            "Denně si přehrávat novou, přepsanou verzi",
+            "Naučit se v každé noční můře lucidně létat"
+          ],
+          "answer": 1,
+          "explain": "Jádrem IRT je nácvik nového scénáře, starý se neopakuje. Lucidita může pomoct, ale úleva přichází i bez ní."
+        }
+      ],
+      "sources": [
+        "Krakow 2001",
+        "Krakow & Zadra 2006",
+        "Morgenthaler 2018",
+        "Casement & Swanson 2012",
+        "Cook 2010",
+        "Spoormaker & van den Bout 2006",
+        "Yount 2025",
+        "LaBerge & Rheingold 1990"
+      ]
+    },
+    {
+      "id": "dreamIncubation",
+      "order": 16,
+      "title": "Inkubace snu: zadej si téma",
+      "lead": "Jak si večer objednat, o čem se ti bude zdát, a co o tom zjistil výzkum.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Semínko na noc",
+          "body": "Inkubace znamená, že si před spaním vybereš téma nebo otázku a necháš ji jako poslední myšlenku dne. Lidé to dělali už v antických chrámech a dnes to zkoumají spánkové laboratoře. Nejde o to poznat sen, ale zasadit do něj semínko a ráno se podívat, co vyklíčilo.",
+          "art": "seedMoon",
+          "artBrief": "Tenký srpek měsíce a pod ním semínko v zemi; vedle druhá fáze (ráno), kde ze semínka vyrůstá stonek s jedním lístkem ve tvaru otazníku. Oranžový je jen lístek."
+        },
+        {
+          "title": "Výbor spánku",
+          "body": "Psycholožka Deirdre Barrettová nechala studenty týden každý večer inkubovat sen o vlastním problému (Barrett 1993). Zhruba polovina měla sen, který s problémem souvisel, a většina z nich v něm viděla aspoň náznak řešení, nejčastěji u osobních otázek. Nezávislí hodnotitelé viděli řešení o něco méně často, takže čísla ber jako slibný začátek.",
+          "art": "ladder"
+        },
+        {
+          "title": "Téma při usínání",
+          "body": "Tým z MIT pouštěl lidem při usínání slovo „strom“ a krátce je budil, aby řekli, co se jim honí hlavou. Po zdřímnutí byli lidé tvořivější než po bdění a nejvíc ti, kterým se strom opravdu dostal do snu (Haar Horowitz 2023). Studie ale měla jen 49 lidí a šlo o odpolední zdřímnutí, ne o celou noc.",
+          "art": "wildBridge"
+        },
+        {
+          "title": "Hádanky v REM",
+          "body": "V roce 2026 pouštěli vědci 20 zkušeným lucidním snílkům v REM zvuky spojené s nevyřešenými hádankami. Hádanky, o kterých se jim pak zdálo, druhý den vyřešili častěji a zvuky ovlivnily obsah snů i bez lucidity (Konkoly 2026). Studie je malá, ale naznačuje, že spánek umí na problému pracovat i bez tvého řízení.",
+          "art": "cueWave",
+          "artBrief": "Hypnogram tenkou linkou; nad pozdním REM blokem drobný reproduktor a tři stoupající vlnky zvuku (tři tóny), oranžové a slábnoucí, kolem nich jemná orbita."
+        },
+        {
+          "title": "Jak inkubovat doma",
+          "body": "Vyber si jednu otázku nebo obraz a zapiš si je do Deníku. Před spaním si téma pár minut představuj, klidně s předmětem, který ho připomíná, na nočním stolku. Poslední myšlenka před usnutím má patřit tématu. Ráno nejdřív zapiš, co se ti zdálo, a souvislosti hledej až potom.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Sen jako hlas v debatě",
+          "body": "Data o inkubaci obsahu snů jsou slibná, ale malá a hodně stojí na tom, co lidé sami hlásí. Neber sen jako věštbu ani jako hotovou odpověď, ber ho jako další nápad do debaty. Výbor spánku radí, rozhoduješ ty.",
+          "art": "realityTree"
+        },
+        {
+          "question": "Čím se inkubace liší od lucidního snu?",
+          "options": [
+            "Inkubace ovlivňuje téma snu, lucidita je poznání, že sníš",
+            "Inkubace funguje jen v laboratoři",
+            "Je to totéž, jen jiný název"
+          ],
+          "answer": 0,
+          "explain": "Inkubovaný sen nemusí být lucidní a lucidní sen nemusí mít zadané téma. Dají se ale spojit: téma si připrav jako cíl na chvíli, kdy si ve snu uvědomíš, že sníš."
+        }
+      ],
+      "sources": [
+        "Barrett 1993",
+        "Barrett 2001",
+        "Haar Horowitz 2020",
+        "Haar Horowitz 2023",
+        "Konkoly 2026"
+      ]
+    },
+    {
+      "id": "lucidBrain",
+      "order": 17,
+      "title": "Mozek v lucidním snu",
+      "lead": "Co se v hlavě mění, když si ve snu uvědomíš, že sníš. A co zatím nevíme.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Divák, který si všiml kina",
+          "body": "Lucidní sen probíhá většinou ve spánku REM, jen se v něm částečně zapojí sítě, které v bdění sledují vlastní myšlení. Vědci tomu říkají metakognice, tedy uvědomění si toho, co právě prožíváš. Je to jako divák, který si uprostřed filmu všimne, že sedí v kině.",
+          "art": "brainMap",
+          "artBrief": "Liniový profil mozku z boku na tmavém pozadí, oblasti jako hvězdy na hvězdné mapě: čelní pól, přední čelní kůra, temporoparietální spojení vpravo, precuneus. Temporoparietální bod svítí oranžově, ostatní tlumeně, tenké orbity mezi body naznačují propojení."
+        },
+        {
+          "title": "Příběh 40 Hz",
+          "body": "V roce 2009 našla studie u šesti lidí zvýšenou aktivitu kolem 40 Hz v čelních oblastech mozku a z toho vyrostl marketing „gama vln pro luciditu“. Velká analýza 44 záznamů z pěti laboratoří ale po odfiltrování pohybů očí žádný takový signál nenašla (Demirel 2025). Lucidita není stanice, na kterou se dá naladit jako rádio.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Co se zatím ukazuje",
+          "body": "Nejnovější data ukazují spíš jemné změny: slabší aktivitu beta v pravé temporoparietální oblasti a silnější propojení v pásmu alfa (Demirel 2025). Ve chvíli, kdy snící dal znamení očima, navíc vzrostla rychlá aktivita v zadních oblastech včetně precunea. Autoři to vykládají jako přehodnocování toho, co je skutečné. Jde ale o první velký nález, který ještě čeká na potvrzení.",
+          "art": "brainMap",
+          "artBrief": "Liniový profil mozku z boku na tmavém pozadí, oblasti jako hvězdy na hvězdné mapě: čelní pól, přední čelní kůra, temporoparietální spojení vpravo, precuneus. Temporoparietální bod svítí oranžově, ostatní tlumeně, tenké orbity mezi body naznačují propojení."
+        },
+        {
+          "title": "Mozky častých lucidních snílků",
+          "body": "Častí lucidní snílci mají v klidu silnější propojení přední čelní kůry s úhlovým závitem, rozdíly ve stavbě mozku se ale nenašly (Baird 2018). Jiná studie našla víc šedé hmoty v čelním pólu (Filevich 2015), takže obraz zatím není jednotný. Navíc nevíme, co je příčina a co následek: trénink může měnit mozek a mozek může usnadňovat trénink.",
+          "art": "ladder"
+        },
+        {
+          "title": "Proč tak opatrně",
+          "body": "Studie mozku při luciditě mají jednotky až desítky účastníků a jediná studie lucidního snu pomocí fMRI měla jednoho analyzovatelného člověka (Dresler 2012). Každý nový nález proto ber jako hypotézu, ne jako hotovou mapu. Věda tu stojí na začátku expedice, ne v cíli.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Co si z toho vzít",
+          "body": "Luciditu nenaladíš frekvencí ani „gama audiem“. Buduješ ji tím, že si všímáš vlastního prožívání. Proto appka sází na záměr, deník a testy reality, ne na mozkové vlny. Je to sval, ne vypínač.",
+          "art": "mildLoop"
+        },
+        {
+          "question": "Co o luciditě nejlépe sedí na dnešní data?",
+          "options": [
+            "Je to stav se silnými gama vlnami 40 Hz v čele",
+            "Je to uvědomění uvnitř REM s jemnými, zatím nejistými změnami v mozku",
+            "Častí lucidní snílci mají prokazatelně větší mozek"
+          ],
+          "answer": 1,
+          "explain": "Frontální signál 40 Hz zmizel po očištění od pohybů očí a rozdíly ve stavbě mozku se nepotvrdily. Jistější je popsat luciditu jako uvědomění uvnitř REM. Co ji v mozku prozrazuje, se teprve hledá."
+        }
+      ],
+      "sources": [
+        "Voss 2009",
+        "Demirel 2025",
+        "Baird 2018",
+        "Filevich 2015",
+        "Dresler 2012",
+        "Baird 2019"
+      ]
+    },
+    {
+      "id": "researchHistory",
+      "order": 18,
+      "title": "Jak věda uvěřila lucidním snům",
+      "lead": "Od Aristotela po první signál očima ze spánkové laboratoře v Hullu.",
+      "minutes": 4,
+      "tag": "strong",
+      "cards": [
+        {
+          "title": "Staré svědectví",
+          "body": "Už Aristotelés psal, že ve spánku občas něco ve vědomí ohlásí, že to, co se ukazuje, je jen sen. Markýz d’Hervey de Saint-Denys vydal roku 1867 záznamy z 32 let pozorování vlastních snů a Frederik van Eeden roku 1913 zavedl výraz „lucidní sen“. Dlouho to ale byla jen osobní svědectví, kterým věda nevěřila.",
+          "art": "timeline",
+          "artBrief": "Vodorovná časová osa jako výsek orbity s body: Aristotelés, 1867, 1913, 1968, 1975, 1981, 2021. Bod 1975 je oranžový s drobnou ikonou oka, ostatní tlumené, popisky v JetBrains Mono velkými písmeny."
+        },
+        {
+          "title": "Jak se zeptat spícího?",
+          "body": "Skeptici namítali, že jde jen o chvilky bdění uprostřed noci, které si ráno přikrášlíme. Celia Green roku 1968 předpověděla, že lucidní sny patří do REM spánku, chyběl ale způsob, jak to dokázat. Jak se zeptat člověka, který spí a nemůže se pohnout?",
+          "art": "body"
+        },
+        {
+          "title": "Hull, 12. dubna 1975",
+          "body": "Keith Hearne si uvědomil, že oční svaly jsou ve snu skoro jediné, které nejsou ochrnuté, a domluvil se s lucidním snílkem Alanem Worsleyem na sérii pohybů očí. Ráno 12. dubna 1975 poslal Worsley v laboratoři univerzity v Hullu první signál z REM. Hearne výsledky sepsal v disertaci na univerzitě v Liverpoolu roku 1978, do hlavních časopisů se ale jeho práce dostávala těžko.",
+          "art": "eyeSignal",
+          "artBrief": "Záznam pohybů očí jako tenká linka se čtyřmi ostrými výkyvy vlevo, vpravo, vlevo, vpravo, pod ní pás hypnogramu s vyznačeným REM. Výkyvy oranžové, popisek L R L R v JetBrains Mono."
+        },
+        {
+          "title": "Stanford a hlavní proud",
+          "body": "Stephen LaBerge na Stanfordu došel ke stejnému výsledku nezávisle, zpočátku jako vlastní pokusná osoba, a své práce publikoval v letech 1980 a 1981. V článku z roku 1981 ukázal, že všech 24 signálem ověřených lucidních snů proběhlo v REM. Prvenství patří Hullu, cesta do hlavního proudu vědy vedla přes Stanford.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Telegraf ze snu",
+          "body": "Domluvený signál očima se stal standardem a pracují s ním dodnes všechny vážné studie lucidity, od měření mozku po zvukové podněty. V roce 2021 čtyři laboratoře ukázaly, že snící dokáže ve snu i odpovídat na otázky (Konkoly 2021). Z jednosměrného majáku se stala vysílačka, i když zatím s velkým šumem.",
+          "art": "ladder"
+        },
+        {
+          "question": "Kdo jako první zachytil signál z lucidního snu ve spánkové laboratoři?",
+          "options": [
+            "Stephen LaBerge na Stanfordu",
+            "Keith Hearne a Alan Worsley v Hullu",
+            "Celia Green v Oxfordu"
+          ],
+          "answer": 1,
+          "explain": "První signál zachytili Hearne a Worsley 12. dubna 1975 a ten den se dnes slaví jako Den lucidního snu. LaBerge došel ke stejnému výsledku nezávisle o pár let později."
+        },
+        {
+          "question": "Proč se lucidita signalizuje právě očima?",
+          "options": [
+            "Oči se ve snu vůbec nehýbou, takže je každý pohyb nápadný",
+            "Oční svaly v REM nejsou ochrnuté jako zbytek těla",
+            "Oči jsou nejblíž mozku"
+          ],
+          "answer": 1,
+          "explain": "V REM je většina svalů těla dočasně ochrnutá, aby se sny nepřehrávaly pohybem. Pohyby očí zůstávají volné, a tak se z nich stal telegraf ze snu."
+        }
+      ],
+      "sources": [
+        "Aristotelés: O snech",
+        "Saint-Denys 1867",
+        "van Eeden 1913",
+        "Green 1968",
+        "Hearne 1978",
+        "LaBerge 1980",
+        "LaBerge, Nagel, Dement & Zarcone 1981",
+        "Konkoly 2021"
+      ]
+    },
+    {
+      "id": "tlrDialogue",
+      "order": 19,
+      "title": "Zvukové podněty a rozhovor se snícím",
+      "lead": "Co dokáže naučený zvuk ve spánku a jak vědci poprvé mluvili s lidmi uvnitř snu.",
+      "minutes": 5,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "Co je TLR",
+          "body": "Cílená reaktivace lucidity (TLR) má dvě části: večer spojíš určitý zvuk s lucidním naladěním a ve druhé polovině noci ti ho zařízení potichu pustí. Zvuk sám luciditu nevyrobí, jen připomene to, co sis večer natrénoval. Funguje jako vůně, která vybaví vzpomínku, ale jen když ses s ní už někdy setkal.",
+          "art": "cueWave",
+          "artBrief": "Hypnogram tenkou linkou; nad pozdním REM blokem drobný reproduktor a tři stoupající vlnky zvuku (tři tóny), oranžové a slábnoucí, kolem nich jemná orbita."
+        },
+        {
+          "title": "Co ukázaly laboratoře",
+          "body": "Při ranním zdřímnutí v laboratoři mělo ověřený lucidní sen 50 % lidí s naučenými podněty oproti 17 % bez nich (Carr 2023). V nejpřísnější předem registrované studii se ale skutečné podněty od falešných významně nelišily (38 % proti 28 % zdřímnutí) a podněty navíc zkracovaly REM (Picard-Deland 2026, předběžné). Hlavní práci tedy nejspíš dělá trénink a podnět ho jen zesiluje.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "TLR doma v telefonu",
+          "body": "Studie z Northwesternu přenesla TLR do obyčejného telefonu. V týdenní části bez kontrolní skupiny stoupl počet lucidních snů z 0,74 na 2,11 týdně (Konkoly 2024). V kontrolované části se noci s naučeným zvukem lišily od kontrolních jen druhou noc a v celém vzorku efekt významný nebyl. Efekt doma je tedy slibný, ale nepotvrzený: opakování s jinou aplikací nic nenašlo (Genc 2025) a podněty občas budí.",
+          "art": "ladder"
+        },
+        {
+          "title": "Rozhovor ze snu",
+          "body": "V roce 2021 kladly čtyři laboratoře v USA, Francii, Německu a Nizozemsku lucidním snílkům v REM otázky a jednoduché příklady, třeba kolik je osm minus šest. Snící odpovídali pohyby očí nebo stahy obličejových svalů. Ze 158 pokusů skončilo 18 % správnou odpovědí, nejčastěji ale odpověď nepřišla vůbec (Konkoly 2021). Spojení existuje, jen je to zatím vysílačka s velkým šumem.",
+          "art": "eyeSignal",
+          "artBrief": "Záznam pohybů očí jako tenká linka se čtyřmi ostrými výkyvy vlevo, vpravo, vlevo, vpravo, pod ní pás hypnogramu s vyznačeným REM. Výkyvy oranžové, popisek L R L R v JetBrains Mono."
+        },
+        {
+          "title": "Co přišlo potom",
+          "body": "Stejná skupina v roce 2026 ukázala, že zvuky pouštěné v REM dokážou vnést do snů nevyřešené hádanky, a to i bez lucidity (Konkoly 2026). Firmy občas hlásí „komunikaci mezi dvěma snícími“, recenzovaná studie k tomu ale neexistuje. Drž se toho, co prošlo recenzním řízením, zbytek ber jako zajímavé tvrzení.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Doma opatrně",
+          "body": "Doma platí tři pravidla: zvuk nejdřív večer natrénuj, pouštěj ho jen potichu ve druhé polovině noci, a když tě budí, ztiš ho nebo vypni. Záměrné vyvolávání lucidních snů může u citlivějších lidí zesílit pocity odcizení a neskutečna (Aviram a Soffer-Dudek 2018). Když si jich všimneš, dej si pauzu. Spánek a klidná hlava mají přednost.",
+          "art": "breath"
+        },
+        {
+          "question": "Proč TLR potřebuje večerní trénink?",
+          "options": [
+            "Aby sis zvykl na hlasitost",
+            "Zvuk připomene luciditu jen tehdy, když je s ní předem spojený",
+            "Bez tréninku by telefon nepoznal, kdy jsi v REM"
+          ],
+          "answer": 1,
+          "explain": "Bez předchozího spojení je zvuk pro spící mozek jen hluk, který může budit. Trénink z něj dělá naučený signál „všimni si, že sníš“."
+        }
+      ],
+      "sources": [
+        "Carr 2023",
+        "Konkoly 2021",
+        "Konkoly 2024",
+        "Genc 2025",
+        "Picard-Deland 2026",
+        "Konkoly 2026",
+        "Aviram & Soffer-Dudek 2018"
+      ]
+    },
+    {
+      "id": "dreamStability",
+      "order": 20,
+      "title": "Udržet sen: stabilizace",
+      "lead": "Lucidní sen často skončí dřív, než pořádně začne. Co ho pomáhá prodloužit a co jsou jen zkušenosti praktiků.",
+      "minutes": 4,
+      "tag": "community",
+      "cards": [
+        {
+          "title": "Krátká svíčka",
+          "body": "Lucidní sny bývají krátké: v brazilském průzkumu trvaly téměř polovině lidí méně než minutu (Mota-Rolim 2013). Často je ukončí právě vzrušení z poznání, že sníš. Je to jako plamen svíčky, který zhasne, když na něj radostí vydechneš.",
+          "art": "breath"
+        },
+        {
+          "title": "První vteřiny: klid",
+          "body": "Když zjistíš, že sníš, nejdřív se zastav a zpomal, s létáním počkej. Laboratorní instrukce radí v prvních okamžicích klidně pozorovat a vyhnout se prudkým akcím, jako je let nebo volný pád (Picard-Deland 2026). Napřed se rozkoukej, pak teprve řiď.",
+          "art": "ladder"
+        },
+        {
+          "title": "Zapoj hmat",
+          "body": "Když obraz bledne, sáhni na něco ve snu, prohlédni si ruce nebo si promni dlaně a soustřeď se na ten pocit. LaBerge to vysvětluje tak, že živý vjem ze snu nedovolí mozku přepnout pozornost na skutečné tělo v posteli. Studie NALDIS tření dlaní s větou „tohle je lucidní sen“ přímo doporučovala, srovnávací data ale chybí.",
+          "art": "body"
+        },
+        {
+          "title": "Točení",
+          "body": "Když sen mizí, roztoč se ve snu jako káča a opakuj si, že další věc, kterou uvidíš, bude nejspíš zase sen. LaBerge tak podle vlastních záznamů většinou zůstal lucidní, jen často přistál v nové scéně, nejčastěji ve své ložnici. Po zatočení vždy udělej test reality, jinak snadno uvěříš falešnému probuzení.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Co na to data",
+          "body": "Jediné známé srovnání točení, tření dlaní a „nechat se unášet“ udělal LaBergeův institut se svými členy: po točení i tření dlaní sen častěji pokračoval, po „nechat se unášet“ spíš skončil (LaBerge 1995). Šlo ale o malou studii bez recenze, takže stabilizace stojí hlavně na zkušenostech praktiků. Vyzkoušet ji nic nestojí a je bezpečná. Zapisuj si do Deníku, co ti pomohlo. Tvoje poznámky ti řeknou nejvíc.",
+          "art": "realityTree"
+        },
+        {
+          "title": "Řídit jemně",
+          "body": "Kontrola nad snem přichází méně často než samotná lucidita. Ve velkém brazilském průzkumu ji autoři popsali jako vzácnou (Mota-Rolim 2013). Místo přímých příkazů často líp funguje očekávání, třeba „za těmi dveřmi bude moře“, nebo otázka postavě ze snu. Sen je spíš taneční partner než loutka: vede se líp, když ho necháš odpovídat.",
+          "art": "wildBridge"
+        },
+        {
+          "question": "Sen začíná blednout a ztrácí barvy. Co zkusíš?",
+          "options": [
+            "Otevřít oči, ať si sen zapamatuju",
+            "Promnout si dlaně nebo se roztočit a soustředit se na pocit",
+            "Vyletět co nejvýš"
+          ],
+          "answer": 1,
+          "explain": "Blednutí obrazu bývá první znamení konce a zapojení hmatu nebo pohybu ho podle zkušeností praktiků oddálí. Data jsou slabá, ale vyzkoušet to nic nestojí."
+        }
+      ],
+      "sources": [
+        "LaBerge & Rheingold 1990",
+        "LaBerge 1995, NightLight 7(3–4)",
+        "Aspy 2017",
+        "Mota-Rolim 2013",
+        "Picard-Deland 2026"
+      ]
+    },
+    {
+      "id": "chronotypeNaps",
+      "order": 21,
+      "title": "Chronotyp a zdřímnutí",
+      "lead": "Proč se REM řídí vnitřními hodinami a kdy má smysl zkoušet luciditu přes den.",
+      "minutes": 4,
+      "tag": "promising",
+      "cards": [
+        {
+          "title": "REM má vlastní hodiny",
+          "body": "Kolik REM dostaneš, neurčuje jen délka spánku, ale i vnitřní hodiny: nejvíc ho přichází kolem nejnižší tělesné teploty, obvykle k ránu. Ukázaly to pokusy s rozhozeným rozvrhem spánku, ve kterých se REM dál držel svého cirkadiánního rytmu (Dijk a Czeisler 1995). Spánek tě nese jako loďka a vnitřní hodiny jsou proud pod ní.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Sova, nebo skřivan",
+          "body": "Pokud jsi večerní typ a usínáš kolem jedné, tvoje okno REM se na hodinách posouvá později než u ranních ptáčat. Čas pro techniku Probuzení a návrat do spánku (WBTB) proto počítej od svého skutečného usnutí, ne od pevné hodiny. Pomůžou ti v tom Spánková data. Budík pak míří do tvého rána, ne do rána tvého souseda.",
+          "art": "chronoDial",
+          "artBrief": "Ciferník 24 hodin jako orbita s malým měsícem a sluncem; oranžový oblouk ukazuje ranní REM okno, druhý tlumený oblouk posunutý o hodinu až dvě později ukazuje okno večerního typu."
+        },
+        {
+          "title": "Chronotyp a sny",
+          "body": "Večerní typy si v průřezové studii pamatovaly víc snů (Choo 2023) a v jiných průzkumech hlásily víc nočních můr, hlavně ženy (Nielsen 2010). Další studie to ale u můr nepotvrdila. Jestli chronotyp ovlivňuje i lucidní sny, zatím spolehlivě nevíme. Svůj typ neber jako osud, spíš jako jízdní řád.",
+          "art": "ladder"
+        },
+        {
+          "title": "Delší ráno",
+          "body": "V brazilském průzkumu lidé lucidní sny nejčastěji spojovali s ránem, kdy nemuseli brzy vstávat (Mota-Rolim 2013). Delší spaní přidává právě pozdní REM, nejbohatší úsek noci. Volné ráno je pro luciditu tichý spojenec.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Ranní zdřímnutí",
+          "body": "Když si po časném ranním vstávání znovu zdřímneš, často rychle vklouzneš do REM, protože ho po zkrácené noci máš na dluh a vnitřní hodiny jsou na jeho straně. Laboratoře proto zkoušejí vyvolat lucidní sny hlavně při ranním zdřímnutí a dosahují tam vysokých čísel, i když z velké části díky okolnostem. LaBergeův institut uváděl, že pomáhá být před takovým zdřímnutím 30–120 minut vzhůru, šlo ale o neformální zprávu bez recenze.",
+          "art": "mildLoop"
+        },
+        {
+          "title": "Odpolední šlofík",
+          "body": "Odpolední zdřímnutí obsahuje REM méně spolehlivě a u odpočatého člověka bývá spíš lehké nebo hluboké. LaBerge si ale ve vlastních záznamech všiml, že vědomé usnutí do snu (WILD) mu vycházelo hlavně odpoledne: začínalo tak 13 z 32 lucidních snů ze zdřímnutí, ale jen 1 z 33 lucidních snů z první fáze REM v noci. Pokud večer špatně usínáš, dlouhé šlofíky raději vynech. Noc má přednost.",
+          "art": "wildBridge"
+        },
+        {
+          "question": "Jsi sova a usínáš v jednu ráno. Kdy si nastavit budík na probuzení a návrat do spánku (WBTB)?",
+          "options": [
+            "Ve čtyři, jako ranní ptáčata",
+            "Zhruba 5 hodin po usnutí, tedy kolem šesté",
+            "Půl hodiny po usnutí, ať to mám za sebou"
+          ],
+          "answer": 1,
+          "explain": "Výzkum počítá s probuzením zhruba po 5 hodinách spánku, ne podle hodin na zdi. A tuhle techniku zkoušej nejvýš dvakrát týdně, nikdy dvě noci po sobě a jen po dobré noci."
+        }
+      ],
+      "sources": [
+        "Dijk & Czeisler 1995",
+        "Nielsen 2010",
+        "Choo 2023",
+        "Mota-Rolim 2013",
+        "Carr 2023",
+        "Erlacher & Stumbrys 2020",
+        "LaBerge 1994",
+        "LaBerge & Rheingold 1990",
+        "Aspy 2020"
+      ]
+    },
+    {
+      "id": "wearablesAccuracy",
+      "order": 22,
+      "title": "Jak přesně prsten a hodinky vidí REM",
+      "lead": "Oura ani Garmin REM neměří, odhadují ho. Nakolik se tomu odhadu dá věřit?",
+      "minutes": 4,
+      "tag": "strong",
+      "cards": [
+        {
+          "title": "Světla v oknech",
+          "body": "Skutečné spánkové fáze se měří polysomnografií, tedy elektrodami, které sledují mozkové vlny, pohyby očí a napětí svalů. Prsten i hodinky vidí jen pohyb, tep a jeho kolísání nebo teplotu a fáze z toho dopočítávají. Je to jako odhadovat, co se děje v domě, podle světel v oknech.",
+          "art": "twoHypnograms",
+          "artBrief": "Dva hypnogramy nad sebou: nahoře laboratorní polysomnografie světlou linkou, dole odhad prstenu nebo hodinek tlumeně. REM bloky oranžové, v dolním některé posunuté nebo chybějící, s drobnými značkami odchylky."
+        },
+        {
+          "title": "Oura v číslech",
+          "body": "Ve studii financované firmou Oura se prsten třetí generace shodoval s laboratoří docela dobře, kappa 0,65 (1 je dokonalá shoda, 0 náhoda), a zachytil 76 % REM (Robbins 2024). V jiné studii, která srovnávala jedenáct zařízení, ale stejný prsten dosáhl kappa jen 0,35 (Lee 2023). Pro Ouru 4 je nezávislých recenzovaných dat zatím málo.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Garmin v číslech",
+          "body": "Starší Garmin Vivosmart 4 dopadl v belgické studii nejhůř ze šesti zařízení na zápěstí: kappa 0,21 a zachytil jen 33 % REM (Schyvens 2025). Novější modely mají lepší algoritmus. Nezávislé srovnání s polysomnografií jsme ale k říjnu 2026 nenašli, jen údaje samotného Garminu. REM si všechna zařízení nejčastěji pletou s lehkým spánkem.",
+          "art": "twoHypnograms",
+          "artBrief": "Dva hypnogramy nad sebou: nahoře laboratorní polysomnografie světlou linkou, dole odhad prstenu nebo hodinek tlumeně. REM bloky oranžové, v dolním některé posunuté nebo chybějící, s drobnými značkami odchylky."
+        },
+        {
+          "title": "Minuty REM neber doslova",
+          "body": "I když zařízení trefí jednotlivé úseky REM docela často, celkové množství REM za noc odhaduje špatně, a to i v nejpříznivější studii (Robbins 2024). Údaj „REM 1 h 42 min“ proto neber jako měření. Spolehlivější je vzorec z víc nocí: kdy se tvoje okna REM obvykle objevují.",
+          "art": "hypnogram"
+        },
+        {
+          "title": "Dvě zařízení: víc jistoty, ne dvojnásobek",
+          "body": "Když Oura i Garmin ukážou REM ve stejnou dobu, je odhad o něco jistější. Obě ale vycházejí z podobných signálů, pohybu a tepu, takže často chybují stejně a jejich shoda není nezávislé potvrzení. Nejcennější třetí svědek jsi ty: ranní záznam „probudil jsem se ze snu v 5:40“ v Deníku.",
+          "art": "ladder"
+        },
+        {
+          "title": "Předpověď, ne přímý přenos",
+          "body": "Pro lucidní snění hlavně potřebuješ vědět, jak často je odhadnutý „REM“ opravdu REM. To ale uvádí jen málo studií: u nejlepších zařízení 73–79 % (Robbins 2024). Data navíc přicházejí až po synchronizaci, takže okna REM jsou předpověď podle minulých nocí, ne živý přenos. Ber je jako předpověď počasí: dobrá na plánování, ne na sázky na minutu.",
+          "art": "chronoDial",
+          "artBrief": "Ciferník 24 hodin jako orbita s malým měsícem a sluncem; oranžový oblouk ukazuje ranní REM okno, druhý tlumený oblouk posunutý o hodinu až dvě později ukazuje okno večerního typu."
+        },
+        {
+          "question": "Oura i Garmin ukázaly REM mezi 5:20 a 5:50. Co to znamená?",
+          "options": [
+            "V tu dobu určitě probíhal REM",
+            "Je to pravděpodobné okno, které stojí za porovnání s tvými záznamy snů",
+            "Zařízení se shodla, takže jejich odhad je přesný na minutu"
+          ],
+          "answer": 1,
+          "explain": "Shoda dvou zařízení odhad posiluje, ale obě měří podobné signály, takže nejde o důkaz. Nejlepší kontrolou jsou tvoje ranní záznamy s časem snu."
+        }
+      ],
+      "sources": [
+        "Robbins 2024",
+        "Lee 2023",
+        "Schyvens 2025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "releases": [
+    {
+      "version": "0.7",
+      "date": "23. 10. 2026",
+      "title": "Osobní laboratoř",
+      "items": [
+        "Osobní laboratoř ve Výcviku: vyber otázku typu „pomáhá mi večerní záměr?“ a appka ti rozlosuje noci mezi dvě varianty. Výsledek ukáže slovy, až bude dost nocí.",
+        "12 hotových experimentů: vybavování snů, hlas proti psaní, kofein, Záměr poznat sen (MILD), Střídání smyslů (SSILD), testy reality, inkubace, jóga snu, meditace a dva s nočním probuzením (WBTB).",
+        "U experimentů s nočním probuzením laboratoř hlídá pravidla: noc patří experimentu jen po dobré noci, nejvýš dvakrát týdně a nikdy dvě noci po sobě. Budík pak řídí jen laboratoř.",
+        "Dnešní varianta experimentu je vidět i na obrazovce Dnes.",
+        "Grafy spánku: klepni nebo táhni po hypnogramu a uvidíš fázi a čas, třeba „REM 06:15–06:45 · 30 min“. Funguje i v překryvu Oury a Garminu, na obrazovce Moje noc a v plánu noci.",
+        "Každá technika má vlastní ilustraci a starší lekce dostaly obrázky ke všem kartám.",
+        "Nové ikony: lucidita, noční můra, falešné probuzení a večerní záměr.",
+        "Obrazovka Spánek se s přibývajícími nocemi už nezpomaluje: výpočet oken REM je zhruba patnáctkrát rychlejší."
+      ]
+    },
+    {
+      "version": "0.6",
+      "date": "23. 10. 2026",
+      "title": "Šest týdnů výcviku",
+      "items": [
+        "Program teď trvá 6 týdnů. Po dvou týdnech základů přijdou na řadu Záměr poznat sen (MILD), Střídání smyslů (SSILD), pět nočních výprav, Vědomí po celý den (ADA), inkubace snu a udržení snu.",
+        "12 nových lekcí: znaky snů, proč sny zapomínáme, spánek a lucidita, falešná probuzení, noční můry, inkubace, mozek při luciditě, dějiny výzkumu, komunikace se snícím, udržení snu, chronotyp a přesnost Oury a Garminu.",
+        "Nové lekce mají vlastní ilustrace: mozek jako hvězdná mapa, signál očima ze snu, ciferník chronotypu, srovnání laboratoře s prstenem a další.",
+        "Na konci každé nové lekce najdeš zdroje.",
+        "30 nových reflexí dne a 40 nových podnětů k testům reality, ať se neokoukají.",
+        "Ranní zápis po pozdním vstávání patří k minulé noci a změna času už nic neposune.",
+        "Diktát po chybě vypne mikrofon a tlačítko Uložit počká na poslední větu.",
+        "Záloha obsahuje i postup v lekcích a bezpečnostní zámek nočního probuzení.",
+        "Přechody mezi obrazovkami už nepřekrývají texty."
+      ]
+    },
+    {
+      "version": "0.5",
+      "date": "23. 10. 2026",
+      "title": "Mapa REM a tvoje noc",
+      "items": [
+        "Spánek: nová mapa REM ukazuje odhad výskytu REM v jasných časových oknech (vysoký, střední, nízký). Klepni nebo táhni po pásu a uvidíš čas, úroveň a důvod.",
+        "Mapa spojuje Ouru, Garmin a tvoje zápisy „probudil jsem se ze snu“. Novější noci mají větší váhu, ladili jsme ji na 519 nocích.",
+        "Moje noc: tvoje průměrná noc po fázích, délka tvého spánkového cyklu a předěly mezi cykly (od 30 nocí).",
+        "Překryv REM z Oury a Garminu a surová data najdeš v detailu „Data ze zařízení“.",
+        "Víc snů v jedné noci, u každého čas nebo „nevím“. Appka ukáže, ze které REM fáze sen nejspíš pochází.",
+        "28 emocí ve skupinách a vlastní emoce, které můžeš přejmenovat i smazat.",
+        "Diktát zase píše živě. Bez sítě se text v telefonu doplňuje po větách a zvuk se neukládá.",
+        "„Učesat text“: Claude opraví interpunkci a špatně pochycená slova. Změny nejdřív uvidíš (volitelné, s vlastním klíčem).",
+        "Výcvik jako hvězdná mapa, lekce přes celou obrazovku, nové ikony a výraznější vesmír.",
+        "Texty mluví víc česky: Plán na dnešek, Deník snů, Jak ses vyspal, Záloha."
+      ]
+    },
+    {
+      "version": "0.4.1",
+      "date": "23. 10. 2026",
+      "title": "Diktování česky i offline",
+      "items": [
+        "Přepis řeči přímo v telefonu (model Parakeet v3): diktát i nahrávky se přepíšou česky bez internetu a hlas nikam neodchází. Model se stáhne jednou, asi 670 MB, ideálně přes Wi-Fi.",
+        "Dokud model není stažený, diktát běží přes online službu Google (s upozorněním).",
+        "Nahrávky snů se po zastavení samy přepíšou do textu. Starší nahrávky přepíšeš v detailu snu.",
+        "Po aktualizaci se plán testů reality srovná: staré naplánované testy zmizí a rozestupy sedí.",
+        "Rozepsaný sen se už neztratí: appka se před zavřením zeptá a během diktátu ukládá i poslední větu."
+      ]
+    },
+    {
+      "version": "0.4",
+      "date": "23. 10. 2026",
+      "title": "Deník, realita a vnitřní vesmír",
+      "items": [
+        "Zápis snu diktováním česky, nahrávkou, psaním i kresbou. Sen dostane výrazný název (appka ho navrhne z textu) a klíčová slova.",
+        "Všechny škály jsou 0–10: živost, lucidita, kontrola nad snem, ladění snu i pocit ze spánku. Starší zápisy se převedly samy.",
+        "Stopy snů: opakující se slova a fráze napříč sny jako souhvězdí. Jedním klepnutím z nich uděláš znak snu.",
+        "Nová záložka Realita: 16 testů, volné otázky na stav vědomí i tvoje vlastní formulace, 1–12 připomínek denně a průvodce testem.",
+        "Výcvik: 22 technik s příklady a ilustracemi, 10 lekcí s kvízem, jóga snu, meditace a reflexe dne o povaze reality.",
+        "Každá informace má štítek důkazů: „věda silné“, „věda slibné“, „komunitní praxe“ nebo „tradice“.",
+        "Oura a Garmin: připojíš je v Nastavení → Zařízení. Hlavní zdroj plní ranní přehled „Jak ses vyspal“ a na Spánku porovnáš oba hypnogramy pod sebou.",
+        "Přepočet tvého REM profilu z dat zařízení (od 14 nocí).",
+        "Záloha do souboru .zip i s nahrávkami a kresbami, obnova doplněním nebo přepsáním.",
+        "Nový vzhled podle návrhu Program 2026: živé hvězdy, oběžné dráhy snů a písma přímo v appce."
+      ]
+    },
+    {
+      "version": "0.3",
+      "date": "22. 10. 2026",
+      "title": "První verze na telefonu",
+      "items": [
+        "Ranní hlášení hlasem nebo textem, deník snů a znaky snů.",
+        "Testy reality v notifikacích, noční průvodce Probuzením a návratem do spánku (WBTB) a budík.",
+        "14denní program, techniky se štítky důkazů, mapa REM."
+      ]
+    }
+  ]
+}

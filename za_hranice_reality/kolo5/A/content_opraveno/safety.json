@@ -1,0 +1,216 @@
+{
+  "screening": {
+    "title": "Předletová kontrola",
+    "intro": "Pár otázek o zdraví a spánku. Není to diagnóza, jen podle odpovědí nastavíme program tak, aby tvůj spánek nestrádal. Odpovědi zůstávají v telefonu.",
+    "questions": [
+      {
+        "id": "s_psychosis",
+        "text": "Máš zkušenost s psychózou nebo schizofrenií?",
+        "hint": "I v minulosti nebo jednorázově.",
+        "impact": "noInduction",
+        "onYes": "Techniky na navození lucidního snu mohou stírat hranici mezi snem a bděním. Zůstaneme u deníku a klidné praxe."
+      },
+      {
+        "id": "s_bipolar",
+        "text": "Máš bipolární poruchu?",
+        "hint": "Léčenou i neléčenou.",
+        "impact": "noInduction",
+        "onYes": "Narušený spánek může rozkolísat náladu. Zůstaneme u deníku a klidné praxe."
+      },
+      {
+        "id": "s_dissociation",
+        "text": "Míváš často pocit neskutečna nebo odpojení od sebe?",
+        "hint": "Jako by svět kolem tebe nebo tvoje vlastní „já“ nebyly úplně skutečné.",
+        "impact": "noInduction",
+        "onYes": "Praxe jako „den jako sen“ by mohla tenhle pocit posílit. Zůstaneme u deníku a uzemnění."
+      },
+      {
+        "id": "s_ptsd",
+        "text": "Máš posttraumatickou stresovou poruchu (PTSD) s nočními můrami?",
+        "hint": "Diagnostikovanou, nebo tě po těžkém zážitku trápí vracející se můry.",
+        "impact": "noInduction",
+        "onYes": "U nočních můr po traumatu pomáhá hlavně práce s odborníkem. Appka nabídne deník a klidnou praxi."
+      },
+      {
+        "id": "s_insomnia",
+        "text": "Trápí tě nespavost, kterou zatím nikdo neléčí?",
+        "hint": "Dlouhé usínání, časté buzení nebo brzké probouzení většinu nocí.",
+        "impact": "limitWbtb",
+        "onYes": "Noční probuzení (WBTB) by spánek ještě víc narušilo, proto ho necháme vypnuté."
+      },
+      {
+        "id": "s_apnea",
+        "text": "Máš spánkovou apnoe, nebo na ni máš podezření?",
+        "hint": "Například hlasité chrápání s pauzami v dechu.",
+        "impact": "limitWbtb",
+        "onYes": "Spánek je už tak přerušovaný. Noční probuzení necháme vypnuté."
+      },
+      {
+        "id": "s_epilepsy",
+        "text": "Máš epilepsii?",
+        "hint": "Nedostatek spánku může u epilepsie zvyšovat riziko záchvatu.",
+        "impact": "limitWbtb",
+        "onYes": "Přerušovat spánek budíkem není dobrý nápad. Noční probuzení necháme vypnuté."
+      },
+      {
+        "id": "s_narcolepsy",
+        "text": "Máš narkolepsii nebo časté epizody spánkové paralýzy?",
+        "hint": "Spánková paralýza: probudíš se a chvíli se nemůžeš pohnout.",
+        "impact": "limitWbtb",
+        "onYes": "REM spánek je u tebe citlivější. Noční probuzení necháme vypnuté a karta spánkové paralýzy bude vždy po ruce."
+      },
+      {
+        "id": "s_nightmares",
+        "text": "Míváš noční můry víc než jednou týdně?",
+        "hint": "Sny, ze kterých se budíš ve strachu.",
+        "impact": "limitWbtb",
+        "onYes": "Nejdřív klidný spánek. Noční probuzení necháme vypnuté a nabídneme ti přepis noční můry."
+      },
+      {
+        "id": "s_pregnancy",
+        "text": "Jsi těhotná?",
+        "hint": "Spánek je teď důležitější než trénink.",
+        "impact": "limitWbtb",
+        "onYes": "Spánek má teď přednost. Noční probuzení necháme vypnuté."
+      },
+      {
+        "id": "s_shifts",
+        "text": "Pracuješ na směny?",
+        "hint": "Hlavně noční nebo střídavé směny.",
+        "impact": "limitWbtb",
+        "onYes": "Při směnách je spánek křehký. Noční probuzení necháme vypnuté."
+      },
+      {
+        "id": "s_morning",
+        "text": "Řídíš brzy ráno, nebo máš od rána náročnou práci?",
+        "hint": "Práce, při které potřebuješ plnou pozornost.",
+        "impact": "limitWbtb",
+        "onYes": "Po nočním probuzení můžeš být ráno méně svěží. Necháme ho vypnuté, na volné dny si ho můžeš zapnout."
+      },
+      {
+        "id": "s_medication",
+        "text": "Bereš léky, které mohou ovlivnit sny nebo spánek?",
+        "hint": "Například antidepresiva.",
+        "impact": "info",
+        "onYes": "Některé léky mění sny i REM spánek, takže tvoje výsledky mohou vypadat jinak. Léky kvůli appce neměň."
+      }
+    ],
+    "results": {
+      "recommend": {
+        "title": "Můžeš začít",
+        "body": "Program poběží celý. Spánek má i tak vždycky přednost a appka ho hlídá s tebou."
+      },
+      "info": {
+        "title": "Můžeš začít",
+        "body": "Program poběží celý. Jen počítej s tím, že léky mohou sny i REM spánek měnit. Léky kvůli appce neměň."
+      },
+      "limitWbtb": {
+        "title": "Začneme šetrně",
+        "body": "Noční probuzení (WBTB) je vypnuté. Deník, záměr a denní praxe běží dál. Noční probuzení zapneš v nastavení, ideálně po poradě s lékařem."
+      },
+      "noInduction": {
+        "title": "Deník a klidná praxe",
+        "body": "Techniky na navození lucidního snu ti teď nedoporučujeme. Deník snů, ranní praxe a uzemnění ti zůstávají. Než přidáš víc, poraď se s lékařem nebo psychologem."
+      }
+    }
+  },
+  "cards": [
+    {
+      "id": "sleepParalysis",
+      "title": "Spánková paralýza",
+      "lead": "Jsi v bezpečí. Tělo ještě spí, mysl je vzhůru. Přejde to samo.",
+      "steps": [
+        "Nebojuj s tím. Boj to zhoršuje.",
+        "Dýchej pomalu do břicha.",
+        "Zkus pohnout malíčkem na ruce nebo na noze.",
+        "Co vidíš nebo slyšíš, patří ke snu. Nemůže ti ublížit.",
+        "Až to povolí, sedni si a rozsviť tlumené světlo."
+      ],
+      "nightSteps": [
+        "Jsi v bezpečí.",
+        "Tělo ještě spí.",
+        "Nebojuj s tím.",
+        "Dýchej pomalu do břicha.",
+        "Pohni malíčkem.",
+        "Přejde to samo."
+      ],
+      "info": "Spánková paralýza je častá a obvykle neškodná. Na hranici spánku a bdění se mysl probudí dřív než tělo. Při nočních probuzeních se může objevit častěji.",
+      "seekHelp": "Opakuje se často, bojíš se kvůli ní usnout nebo tě přes den přemáhá spánek? Řekni o tom lékaři.",
+      "techniqueId": null
+    },
+    {
+      "id": "nightmare",
+      "title": "Noční můra",
+      "lead": "Byl to sen. Teď jsi vzhůru a v bezpečí.",
+      "steps": [
+        "Rozsviť tlumené světlo a polož chodidla na zem.",
+        "Pár pomalých výdechů, delších než nádech.",
+        "Jestli chceš, zapiš tři slova. Víc teď není potřeba.",
+        "Dnes v noci bez budíku.",
+        "Ve dne můžeš můru přepsat do nové verze."
+      ],
+      "nightSteps": [
+        "Jsi vzhůru a v bezpečí.",
+        "Tlumené světlo, chodidla na zem.",
+        "Dlouhý výdech.",
+        "Tři slova stačí.",
+        "Přepis až ve dne."
+      ],
+      "info": "Občasné noční můry ke spánku patří. Pomáhá na ně spíš přepis ve dne než snaha o lucidní sen.",
+      "seekHelp": "Můry se vracejí, souvisí s traumatem, nebo kvůli nim nechceš jít spát? Obrať se na lékaře nebo psychologa.",
+      "techniqueId": "irt"
+    },
+    {
+      "id": "anxiety",
+      "title": "Úzkost nebo pocit neskutečna",
+      "lead": "Zastav se. Sny teď necháme stranou a vrátíme se do těla.",
+      "steps": [
+        "Polož chodidla na zem.",
+        "Pojmenuj pět věcí, které vidíš.",
+        "Čtyři věci, kterých se dotýkáš, a tři zvuky.",
+        "Pomalý výdech, delší než nádech.",
+        "Na pár dní vypni testy reality a „den jako sen“."
+      ],
+      "nightSteps": [
+        "Chodidla na zem.",
+        "Pět věcí, které vidíš.",
+        "Dlouhý výdech.",
+        "Kde jsi? Jaký je den?"
+      ],
+      "info": "U někoho mohou praxe zaměřené na sen a skutečnost vyvolat úzkost nebo pocit neskutečna. Pak je namístě zpomalit.",
+      "seekHelp": "Pocit neskutečna trvá déle nebo se vrací? Poraď se s lékařem nebo psychologem.",
+      "techniqueId": "grounding"
+    },
+    {
+      "id": "professional",
+      "title": "Kdy k odborníkovi",
+      "lead": "Appka nic nediagnostikuje a nenahrazuje lékařskou péči. Na lékaře nebo psychologa se obrať v těchto situacích:",
+      "steps": [
+        "Spíš hůř déle než dva týdny.",
+        "Bojíš se usnout.",
+        "Hranice mezi snem a bděním se ti přes den stírá.",
+        "Noční můry souvisí s traumatem nebo se vracejí.",
+        "Spánková paralýza se opakuje a vyčerpává tě.",
+        "Po tréninku se cítíš hůř, ne líp."
+      ],
+      "nightSteps": [],
+      "info": "Říct si o pomoc je rozumný krok, ne selhání.",
+      "seekHelp": "Při akutních potížích volej linku 155 nebo 112.",
+      "techniqueId": null
+    }
+  ],
+  "locks": {
+    "noSleep": {
+      "title": "Noční budík má pauzu",
+      "body": "Po technice se ti tentokrát nepodařilo usnout. Noční probuzení teď 4 dny vynecháme. Deník a záměr běží dál."
+    },
+    "nightmares": {
+      "title": "Týden bez nočního budíku",
+      "body": "Za poslední týden přišly aspoň dvě noční můry. Noční probuzení 7 dní vynecháme. Zkus přepis noční můry a zvaž rozhovor s odborníkem."
+    },
+    "screening": {
+      "title": "Noční budík je vypnutý",
+      "body": "Podle předletové kontroly je teď noční probuzení vypnuté. Zapnout ho můžeš v nastavení, ideálně po poradě s lékařem."
+    }
+  }
+}

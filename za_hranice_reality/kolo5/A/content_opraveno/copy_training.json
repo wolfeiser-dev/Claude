@@ -1,0 +1,424 @@
+{
+  "texts": {
+    "techniques": {
+      "title": "Výcvik",
+      "lead": "U každé techniky vidíš, z čeho vychází: měření, zkušenost komunity, nebo tradice.",
+      "back": "Výcvik"
+    },
+    "training": {
+      "reflection": "Reflexe dne",
+      "program": {
+        "label": "Program · 6 týdnů",
+        "title": "Šest týdnů výcviku",
+        "body": "Nejdřív dva týdny vybavování snů a ochrany spánku. Pak Záměr poznat sen (MILD), Střídání smyslů (SSILD), noční výpravy, inkubace a jóga snu. Den po dni, bez sérií.",
+        "cta": "Otevřít program"
+      },
+      "lessons": "Lekce",
+      "lessonsLead": "Krátké lekce po kartách, s otázkou na konci. Jak to funguje a proč.",
+      "lessonDone": "Prošlé",
+      "techniquesLabel": "Techniky",
+      "filterAll": "Vše",
+      "empty": "S tímhle štítkem tu nic není.",
+      "legendShow": "Co znamenají štítky",
+      "legendHide": "Skrýt vysvětlivky",
+      "legend": {
+        "strong": "Opakované kontrolované studie nebo systematické přehledy.",
+        "promising": "Aspoň jedna kontrolovaná nebo laboratorní studie, ale malá, nereplikovaná nebo předběžná.",
+        "community": "Hodně lidí to praktikuje, kontrolovaná data chybějí. Uvádíme jen s aspoň dvěma zdroji.",
+        "tradition": "Kontemplativní tradice popsaná aspoň ve dvou zdrojích. Vědecký důkaz chybí.",
+        "theory": "Vědecký teoretický rámec. Pomáhá přemýšlet, není to naměřený fakt.",
+        "philosophy": "Filozofický argument nebo příběh. Podnět k přemýšlení, ne měření."
+      },
+      "tag": {
+        "theory": "Vědecká teorie",
+        "philosophy": "Filozofie"
+      },
+      "group": {
+        "start": "Začni tady",
+        "advanced": "Pokročilé",
+        "yoga": "Jóga snu a meditace",
+        "care": "Péče a bezpečí"
+      },
+      "groupLead": {
+        "start": "Jádro s nejlepší oporou: vybavování, záměr a krátké probuzení.",
+        "advanced": "Až když funguje deník. Víc komunitní praxe, víc opatrnosti.",
+        "yoga": "Tradice a trénink pozornosti jako podpora. Bez slibů, s respektem.",
+        "care": "Když se sny nebo pocity zhorší."
+      },
+      "detail": {
+        "why": "Proč to funguje",
+        "example": "Příklad",
+        "safety": "Bezpečnost"
+      },
+      "lesson": {
+        "next": "Dál",
+        "back": "Zpět",
+        "finish": "Dokončit",
+        "correct": "Správně.",
+        "wrong": "Tentokrát ne.",
+        "quiz": "Otázka",
+        "notFound": "Tuhle lekci jsme nenašli.",
+        "sources": "Zdroje"
+      },
+      "art": {
+        "hypnogram": {
+          "awake": "BDĚNÍ",
+          "rem": "REM",
+          "light": "LEHKÝ",
+          "deep": "HLUBOKÝ",
+          "wbtb": "WBTB ≈ 5 H",
+          "hours": "H"
+        },
+        "mildLoop": {
+          "dream": "SEN",
+          "sign": "ZNAK",
+          "intent": "ZÁMĚR",
+          "recognize": "ROZPOZNÁNÍ",
+          "center": "MILD"
+        },
+        "ssild": {
+          "sight": "ZRAK",
+          "hearing": "SLUCH",
+          "body": "TĚLO",
+          "rhythm": "4× RYCHLE → POMALU"
+        },
+        "wildBridge": {
+          "mind": "VĚDOMÍ",
+          "body": "TĚLO",
+          "threshold": "PRÁH SPÁNKU",
+          "images": "OBRAZY",
+          "entry": "SEN"
+        },
+        "forgetting": {
+          "axisY": "ZBÝVÁ ZE SNU",
+          "axisX": "MINUTY PO PROBUZENÍ",
+          "write": "ZAPIŠ HNED",
+          "caption": "PRINCIP, NE MĚŘENÍ"
+        },
+        "realityTree": {
+          "trigger": "SPOUŠTĚČ",
+          "ask": "SNÍM? DOOPRAVDY",
+          "check": "TEST + OHLÉDNUTÍ",
+          "odd": "NESEDÍ",
+          "fine": "SEDÍ",
+          "dream": "SNÍM · STABILIZUJ",
+          "awake": "BDÍM · JDU DÁL",
+          "anxiety": "ÚZKOST? → UZEMNĚNÍ"
+        },
+        "body": {
+          "brow": "ČELO",
+          "throat": "HRDLO",
+          "heart": "SRDCE",
+          "channel": "TŘI KANÁLY",
+          "caption": "SCHÉMA, NE ANATOMIE"
+        },
+        "breath": {
+          "inhale": "NÁDECH",
+          "exhale": "VÝDECH",
+          "note": "DELŠÍ VÝDECH",
+          "count": "POČÍTEJ DO 9"
+        },
+        "ladder": {
+          "s1": "ROZPOZNAT",
+          "s2": "STABILIZOVAT",
+          "s3": "PROMĚNIT",
+          "s4": "NEMOŽNÉ",
+          "s5": "ROZMNOŽIT",
+          "s6": "STRACH",
+          "s7": "ROZPUSTIT",
+          "caption": "ŽÁDNÉ PEVNÉ POŘADÍ"
+        },
+        "dreamSignGrid": {
+          "inner": "VNITŘNÍ PROŽITEK",
+          "action": "DĚJ",
+          "form": "PODOBA",
+          "context": "SOUVISLOSTI",
+          "main": "TVOJE HLAVNÍ"
+        },
+        "fadingTrace": {
+          "axis": "MINUTY",
+          "wake": "PROBUZENÍ",
+          "dream": "SEN",
+          "lost": "ROZPLYNE SE",
+          "kept": "ZAPSANÝ SEN"
+        },
+        "brainMap": {
+          "precuneus": "PRECUNEUS",
+          "pfc": "PŘEDNÍ ČELNÍ KŮRA",
+          "tpj": "TEMPOROPARIETÁLNÍ",
+          "tpjSide": "SPOJENÍ VPRAVO",
+          "frontalPole": "ČELNÍ PÓL"
+        },
+        "remRebound": {
+          "rem": "REM",
+          "missing": "CHYBÍ",
+          "rebound": "DOHÁNÍ",
+          "night1": "KRÁTKÁ NOC",
+          "night2": "DALŠÍ NOC",
+          "caption": "PRINCIP, NE MĚŘENÍ"
+        },
+        "loopRoom": {
+          "wake": "PROBUZENÍ",
+          "again": "A ZNOVU",
+          "check": "TEST REALITY"
+        },
+        "rewriteScript": {
+          "before": "NOČNÍ MŮRA",
+          "after": "NOVÝ KONEC",
+          "rehearse": "PŘEHRÁVAT DENNĚ"
+        },
+        "seedMoon": {
+          "evening": "VEČER",
+          "morning": "RÁNO",
+          "seed": "TÉMA",
+          "sprout": "CO VYKLÍČILO"
+        },
+        "cueWave": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "cue": "ZVUKOVÝ PODNĚT",
+          "rem": "REM",
+          "start": "USNUTÍ",
+          "end": "RÁNO"
+        },
+        "timeline": {
+          "antiquity": "ANTIKA",
+          "aristotle": "ARISTOTELÉS",
+          "y1867": "1867",
+          "saintDenys": "SAINT-DENYS",
+          "y1913": "1913",
+          "vanEeden": "VAN EEDEN",
+          "y1968": "1968",
+          "green": "GREEN",
+          "y1975": "1975",
+          "hearne": "HEARNE",
+          "y1981": "1981",
+          "laberge": "LABERGE",
+          "y2021": "2021",
+          "konkoly": "KONKOLY"
+        },
+        "eyeSignal": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "eyes": "POHYB OČÍ",
+          "left": "L",
+          "right": "R",
+          "stages": "FÁZE SPÁNKU",
+          "rem": "REM"
+        },
+        "chronoDial": {
+          "windows": "REM OKNO",
+          "early": "RANNÍ TYP",
+          "late": "VEČERNÍ TYP"
+        },
+        "twoHypnograms": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "psg": "POLYSOMNOGRAFIE",
+          "device": "ODHAD ZAŘÍZENÍ",
+          "rem": "REM",
+          "late": "POZDĚ",
+          "asLight": "JAKO LEHKÝ"
+        },
+        "recallTraining": {
+          "caption": "SCHÉMA",
+          "evening": "VEČER",
+          "morning": "RÁNO",
+          "week": "TÝDEN",
+          "intent": "ZÁJEM O SNY",
+          "calm": "2 MIN KLID",
+          "rewind": "PŘETÁČEJ ZPĚT",
+          "last": "POSLEDNÍ OBRAZ",
+          "still": "NEHÝBEJ SE",
+          "words": "3 SLOVA",
+          "emotion": "1 EMOCE",
+          "repeat": "OPAKUJE SE"
+        },
+        "deild": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "wake": "BDĚNÍ",
+          "rem": "REM",
+          "light": "LEHKÝ",
+          "deep": "HLUBOKÝ",
+          "awakening": "PROBUZENÍ",
+          "back": "ZPĚT DO SCÉNY",
+          "fiveMin": "5 MIN",
+          "eyes": "OČI ZAVŘENÉ",
+          "still": "BEZ POHYBU"
+        },
+        "fild": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "wake": "BDĚNÍ",
+          "edge": "HYPNAGOGIE",
+          "sleep": "SPÁNEK",
+          "window": "ÚZKÉ OKNO",
+          "duration": "ASI 30 S",
+          "alarm": "BUDÍK",
+          "test": "TEST REALITY",
+          "index": "UKAZOVÁK",
+          "middle": "PROSTŘEDNÍK",
+          "rest": "OPŘENÁ RUKA"
+        },
+        "ada": {
+          "caption": "NE KAŽDOU HODINU",
+          "door": "DVEŘE",
+          "clock": "HODINY",
+          "water": "VODA",
+          "tea": "ČAJ",
+          "note": "1 SLOVO",
+          "ask": "SNÍM, NEBO BDÍM?",
+          "perceive": "CO VNÍMÁM?",
+          "lookBack": "ODKUD JDU?"
+        },
+        "yogaNidra": {
+          "caption": "RELAXACE, NE INDUKCE",
+          "rightHand": "PRAVÁ RUKA",
+          "rightHandParts": "PRSTY, DLAŇ, PAŽE",
+          "rightLeg": "PRAVÁ NOHA",
+          "leftHand": "LEVÁ RUKA",
+          "leftLeg": "LEVÁ NOHA",
+          "back": "ZÁDA",
+          "belly": "BŘICHO",
+          "face": "OBLIČEJ",
+          "whole": "CELÉ TĚLO",
+          "exhale": "DLOUHÝ VÝDECH"
+        },
+        "grounding": {
+          "caption": "SCHÉMA",
+          "feet": "CHODIDLA NA ZEMI",
+          "see": "VIDÍM",
+          "touch": "DOTÝKÁM SE",
+          "hear": "SLYŠÍM",
+          "exhale": "DLOUHÝ VÝDECH",
+          "where": "KDE A KDY"
+        },
+        "dreamYogaDay": {
+          "morning": "RÁNO ZÁMĚR",
+          "pause": "ZASTAV SE",
+          "like": "JAKO",
+          "dream": "SEN",
+          "lighter": "LEHČÍ VZTAH",
+          "flow": "MĚNÍ SE",
+          "anxious": "ÚZKOST?",
+          "ground": "UZEMNĚNÍ"
+        },
+        "dreamYogaRelease": {
+          "evening": "VEČERNÍ OHLÉDNUTÍ",
+          "crave": "TOUHA",
+          "averse": "ODPOR",
+          "where": "KDE V TĚLE?",
+          "throat": "HRDLO",
+          "chest": "HRUĎ",
+          "belly": "BŘICHO",
+          "release": "S VÝDECHEM POVOL",
+          "noJudge": "BEZ HODNOCENÍ",
+          "asIf": "JAKO SEN"
+        },
+        "dreamYogaIntention": {
+          "evening": "VEČER",
+          "intent": "ZÁMĚR",
+          "phrase": "POZNÁM, ŽE SNÍM",
+          "night": "NOC",
+          "morning": "RÁNO",
+          "recall": "VYBAV SI",
+          "joy": "S RADOSTÍ",
+          "little": "I ÚTRŽEK",
+          "day": "DEN",
+          "noReproach": "BEZ VÝČITEK",
+          "again": "ZNOVU"
+        },
+        "lucidMission": {
+          "recognize": "ROZPOZNEJ",
+          "stabilize": "STABILIZUJ",
+          "transform": "PROMĚŇ",
+          "beyond": "SKRZ ZEĎ",
+          "multiply": "ROZMNOŽ",
+          "fear": "ČELIT STRACHU",
+          "dissolve": "ROZPUSŤ",
+          "aim": "UVOLNIT PŘEDSTAVY",
+          "order": "BEZ PEVNÉHO POŘADÍ"
+        },
+        "meditation": {
+          "posture": "ZÁDA VOLNĚ ROVNÁ",
+          "nose": "NOS",
+          "belly": "BŘICHO",
+          "phase1": "ŠAMATHA",
+          "count": "VÝDECHY 1–9",
+          "anchor": "DECH",
+          "wander": "ZATOULÁ SE",
+          "notice": "VŠIMNI SI",
+          "return": "NÁVRAT",
+          "rep": "1 OPAKOVÁNÍ",
+          "phase2": "OTEVŘENÉ POZOROVÁNÍ",
+          "thought": "MYŠLENKA",
+          "sound": "ZVUK",
+          "feeling": "POCIT"
+        },
+        "fourPreps": {
+          "tradition": "TRADICE",
+          "source": "WANGYAL",
+          "p1": "DEN JAKO SEN",
+          "p2a": "UVOLNIT LPĚNÍ",
+          "p2b": "A ODPOR",
+          "p3": "VEČERNÍ ZÁMĚR",
+          "p4a": "RANNÍ NÁVRAT",
+          "p4b": "S RADOSTÍ",
+          "overlap": "MILD A DENÍK"
+        },
+        "lucidityAxes": {
+          "title": "TŘI RŮZNÉ OSY",
+          "lucidity": "LUCIDITA",
+          "lucidityHint": "VÍŠ, ŽE SNÍŠ",
+          "stability": "STABILITA",
+          "stabilityHint": "SEN SE DRŽÍ",
+          "control": "KONTROLA",
+          "controlHint": "MĚNÍŠ DĚJ",
+          "oneDream": "JEDEN SEN",
+          "low": "MÁLO",
+          "high": "HODNĚ",
+          "caption": "SCHÉMA"
+        },
+        "paralysisWave": {
+          "eyes": "OČI SE HÝBOU",
+          "asleep": "TĚLO JEŠTĚ SPÍ",
+          "awake": "MYSL BDÍ",
+          "breath": "POMALU DÝCHEJ",
+          "finger": "POHNI MALÍČKEM",
+          "time": "SEKUNDY AŽ MINUTY",
+          "passes": "MINE",
+          "caption": "SCHÉMA"
+        },
+        "postureVariants": {
+          "wangyal": "WANGYAL",
+          "wangyalMen": "MUŽI PRAVÝ BOK",
+          "wangyalWomen": "ŽENY LEVÝ BOK",
+          "wangyalImage": "LOTOS V HRDLE",
+          "norbu": "NORBU",
+          "norbuSide": "ZPOČÁTKU LEVÝ BOK",
+          "norbuImage": "SRDCE A HRDLO",
+          "kagyu": "KAGJÜ",
+          "kagyuSide": "PRAVÝ BOK",
+          "kagyuImage": "LVÍ POLOHA",
+          "letterA": "A",
+          "other": "JINÉ TEXTY",
+          "brow": "SVĚTLO MEZI OBOČÍM",
+          "untested": "NETESTOVÁNO"
+        },
+        "butterfly": {
+          "zhuang": "ZHUANG ZHOU",
+          "butterfly": "MOTÝL",
+          "who": "KDO KOHO SNÍ",
+          "change": "PROMĚNA VĚCÍ"
+        },
+        "predictionLoop": {
+          "awake": "BDĚNÍ",
+          "dream": "SEN",
+          "pred": "PREDIKCE",
+          "error": "CHYBA PREDIKCE",
+          "senses": "SMYSLY",
+          "world": "SVĚT",
+          "ownLoop": "BEZ OPRAVY",
+          "noInput": "BEZ VSTUPU",
+          "theory": "TEORIE, NE FAKT"
+        }
+      }
+    }
+  }
+}
