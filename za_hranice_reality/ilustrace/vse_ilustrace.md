@@ -2627,7 +2627,7 @@ Každé id, oba skiny, šířky 320, 358, 390 a 430, výška 176, statický sní
 3. Žádné dva popisky se nepřekrývají.
 4. Žádná čára ani tečka nevede přes popisek.
 5. Barvy jen ze skinu; výplně širší než 8 px mají alpha ≤ 0,2.
-6. Texty: všechny klíče existují, verzálky, 1–3 slova, bez „—“.
+6. Texty: všechny klíče existují, verzálky, 1–3 slova, bez dlouhé pomlčky.
 - Polovina B kontroluje body 1–4 i pro celou animaci (t = 0–40 s po 0,9 s). Tím se při ladění našla jedna skutečná chyba (skenovací linka v `twoHypnograms` přejížděla popisek), je opravená.
 - Popisky se vykreslovaly skutečným fontem JetBrains Mono (FontLoader), ne Ahem obdélníky. PNG jsme prohlíželi na všech šířkách ve dne i v noci.
 
