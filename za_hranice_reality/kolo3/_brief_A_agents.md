@@ -16,7 +16,7 @@ Texty lekcí: `za_hranice_reality/lessons_new.json`; podklad výzkumu: `reports/
 
 ## Prostředí a ověření (stejné jako minule)
 - Flutter 3.27.4 / Dart 3.6.2: `/tmp/claude-0/-home-user-Claude/fb27821a-f9d3-5107-a9ec-c3500a6837d8/scratchpad/sdk/flutter/bin/flutter`.
-- Základ makety: `/tmp/claude-0/-home-user-Claude/fb27821a-f9d3-5107-a9ec-c3500a6837d8/scratchpad/kolo3_base/` (AppSkin den/noc, `paintText`, `_Art`, všech 21 stávajících tříd z minula je v `lib/lesson_art.g.dart` jen pro 12 nových + `_Forgetting`; lint vč. curly braces). **Zkopíruj si ho do vlastní složky** (název níže), nepracuj přímo v něm.
+- Základ makety: `/tmp/claude-0/-home-user-Claude/fb27821a-f9d3-5107-a9ec-c3500a6837d8/scratchpad/kolo3_base/` (AppSkin den/noc, `paintText`, `_Art`, v `lib/lesson_art.g.dart` je 12 ilustrací z minula, v `lib/art.dart` vzor `_Forgetting` a switch; lint vč. curly braces). **Zkopíruj si ho do vlastní složky** (název níže), nepracuj přímo v něm.
 - Přísné testy a SVG export z minula převezmi: `/tmp/claude-0/-home-user-Claude/fb27821a-f9d3-5107-a9ec-c3500a6837d8/scratchpad/art_harness_a/test/art_test.dart` + `svg_canvas.dart` a `/tmp/claude-0/-home-user-Claude/fb27821a-f9d3-5107-a9ec-c3500a6837d8/scratchpad/art_harness_b/` (kontroly: nic mimo plochu, popisky uvnitř, nepřekrývají se, žádná čára přes popisek, jen barvy skinu, výplně alpha ≤ 0,2, klíče textů 1–3 slova verzálkami, bez „—“; animace t = 0–40 s; šířky 320, 358, 390, 430; den i noc). Font JetBrains Mono z `/usr/share/fonts/truetype/jetbrains-mono/`.
 - `flutter analyze` 0 problémů, `flutter test` zelený, PNG si prohlédni (Read) a iteruj, dokud to není propracované.
 - SVG náhledu exportuj záznamovým plátnem ze stejného `paint()` na šířce 358 (statický snímek), den i noc.
