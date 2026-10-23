@@ -16,6 +16,8 @@ NEW = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, 'content_opraveno
 FROZEN_KEYS = {'id', 'ids', 'techniqueId', 'techniqueIds', 'evidence', 'tag', 'tags', 'source', 'sources',
                'art', 'icon', 'glyph', 'signId', 'lesson', 'design', 'primary', 'outcomes', 'kind', 'type',
                'category', 'level', 'arm', 'key', 'route', 'action', 'version', 'date', 'lessonId', 'cardId'}
+# V copy*.json pod texts.* jsou tyto klíče jen popisky UI (např. nadpis „Co víme“), ne data.
+UI_TEXT_KEYS = {'evidence', 'source', 'tag', 'level', 'action', 'type', 'kind', 'date'}
 IDENT = re.compile(r'^[a-z][A-Za-z0-9_.\-]*$')          # řetězec, který vypadá jako identifikátor
 PLACEHOLDER = re.compile(r'\{[^{}]*\}')
 NUMBER = re.compile(r'\d+(?:[.,]\d+)?')
@@ -49,7 +51,8 @@ def walk(o, n, path, fname):
         key = re.sub(r'\[\d+\]$', '', path).split('.')[-1]
         if o != n:
             stats[fname] = stats.get(fname, 0) + 1
-            if key in FROZEN_KEYS or (IDENT.match(o) and ' ' not in o):
+            ui_text = fname.startswith('copy') and path.startswith('texts.') and key in UI_TEXT_KEYS
+            if (key in FROZEN_KEYS and not ui_text) or (IDENT.match(o) and ' ' not in o):
                 errors.append(f'{fname}:{path}: chráněná hodnota se změnila ({o!r} → {n!r})')
             if sorted(PLACEHOLDER.findall(o)) != sorted(PLACEHOLDER.findall(n)):
                 errors.append(f'{fname}:{path}: jiné zástupné symboly {PLACEHOLDER.findall(o)} → {PLACEHOLDER.findall(n)}')

@@ -86,7 +86,7 @@
         "steps": [
           "Otevři poslední zápis.",
           "Najdi jeden detail, který by v bdění nesedl.",
-          "Zařaď ho: děj, souvislosti, tvar nebo vědomí.",
+          "Zařaď ho: děj, souvislosti, podoba nebo vnitřní prožitek.",
           "Zatím žádný sen? Vezmi jakýkoli, který si pamatuješ."
         ]
       },
@@ -268,7 +268,7 @@
         "evidence": "promising",
         "steps": [
           "Projdi označené znaky snů.",
-          "Rozděl je: děj, souvislosti, tvar, vědomí.",
+          "Rozděl je: děj, souvislosti, podoba, vnitřní prožitek.",
           "Vyber ten, který se vrací nejčastěji."
         ]
       },

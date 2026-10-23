@@ -1,0 +1,76 @@
+{
+  "texts": {
+    "reconstruction": {
+      "ask": {
+        "neutral": "Kolem {cas} se ti nejspíš něco zdálo. Co to bylo?",
+        "masculine": "Kolem {cas} jsi nejspíš snil. Co se dělo?",
+        "feminine": "Kolem {cas} jsi nejspíš snila. Co se dělo?"
+      },
+      "askLow": {
+        "neutral": "Kolem {cas} se ti možná něco zdálo. Vybavíš si to?",
+        "masculine": "Kolem {cas} jsi možná snil. Vybavíš si něco?",
+        "feminine": "Kolem {cas} jsi možná snila. Vybavíš si něco?"
+      },
+      "continue": {
+        "one": "Kolem {cas} máš zapsaný sen. Navázal na něj ještě jiný?",
+        "many": "Kolem {cas} máš zapsané sny. Navázal na ně ještě jiný?"
+      },
+      "followUp": {
+        "where": {
+          "neutral": "Kde to bylo?",
+          "masculine": "Kde jsi byl?",
+          "feminine": "Kde jsi byla?"
+        },
+        "who": "Kdo tam byl?",
+        "doing": {
+          "neutral": "Co se tam dělo?",
+          "masculine": "Co jsi dělal?",
+          "feminine": "Co jsi dělala?"
+        },
+        "feeling": "Jak ti bylo?",
+        "light": "Jaké tam bylo světlo?"
+      },
+      "label": {
+        "window": "OKNO {cislo} · {od}–{do}",
+        "windowPoint": "OKNO {cislo} · {cas}",
+        "estimate": "ODHAD"
+      },
+      "night": {
+        "ask": "Co se ti zdálo kolem {cas}?",
+        "continue": "Kolem {cas} už máš sen. Další?",
+        "voice": "Klidně to řekni nahlas.",
+        "skip": "Přeskočit",
+        "sleep": "Spát dál"
+      },
+      "offer": {
+        "afterEmpty": "Zkusíme projít noc od konce? Někdy se něco vynoří.",
+        "afterFirst": "Byl tam ještě jiný sen? Projdeme noc od konce.",
+        "start": "Projít noc",
+        "later": "Teď ne",
+        "never": "Už nenabízet",
+        "notification": "Noc je nahraná. Chceš ji projít?"
+      },
+      "flow": {
+        "firstUse": "Projdeme noc od konce. Ptám se jen obecně, ať ti nic nenapovídám.",
+        "intro": "Začneme od konce, u okna kolem {cas}.",
+        "estimate": "Časy jsou odhad, zaokrouhlené na 10 minut.",
+        "between": "Co bylo těsně před tím?",
+        "sure": "Jistě",
+        "maybe": "Možná",
+        "nothing": "Nic",
+        "skip": "Přeskočit",
+        "stop": "Skončit",
+        "timeUp": "Už jsou to dvě minuty. Chceš pokračovat?",
+        "keepGoing": "Pokračovat",
+        "noWindows": "Okna REM pro tuhle noc nemám. Zkus si vybavit, co bylo těsně před probuzením.",
+        "privacy": "Odpovědi ukládám jen do telefonu."
+      },
+      "done": {
+        "none": "Hotovo. I prázdná noc se počítá.",
+        "one": "Hotovo. K noci máš 1 sen.",
+        "few": "Hotovo. K noci máš {pocet} sny.",
+        "many": "Hotovo. K noci máš {pocet} snů."
+      }
+    }
+  }
+}

@@ -86,7 +86,7 @@
         "garminOnly": "jen Garmin {n}/{z}",
         "woke": "probuzení ze snu: {n}",
         "dreams": "zapsané sny: {n}",
-        "source": "Odhad z posledních {pocet} nocí Oury a Garminu a z časů tvých snů; nejsilnější je tam, kde se obě zařízení shodla nejčastěji.",
+        "source": "Odhad z posledních {pocet} nocí Oury a Garminu a z časů tvých snů. Nejsilnější je tam, kde se obě zařízení shodla nejčastěji.",
         "deviceData": "Data ze zařízení",
         "showLow": "Zobrazit i nízká ({pocet})",
         "hideLow": "Skrýt nízká",
