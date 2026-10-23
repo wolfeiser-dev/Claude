@@ -151,7 +151,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 **Co:** Místo celého WBTB 1–2 krátké samovypínací podněty (tichý tón 3 s nebo vibrace telefonu) do pozdních REM oken po 6,5 h spánku. Cíl: na chvilku se vynořit, nehýbat se a zkusit Návrat do snu hned po probuzení (DEILD) nebo dvouminutový záměr vleže. Bez rozsvícení a bez vstávání.
 
-**Proč:** Samovypínací budíky jsou komunitní požadavek č. 2 („skvělé na snadné WILD“, Reddit 2024) `community`. Fyziologicky ověřené přechody z bdění do REM souvisely s LD (Gott 2020) `promising`. DEILD je bez dat `community`. Konkurence: LDAlarm a Lucidity (Curtis) mají samovypínací budíky s pevným časem, na iOS. Na Androidu podle osobních REM oken a s rozpočtem probuzení nikdo.
+**Proč:** Samovypínací budíky jsou komunitní požadavek č. 2 („skvělé na snadné WILD“, Reddit 2024) `community`. Fyziologicky ověřené přechody z bdění do REM souvisely s LD (Gott 2020) `promising`. DEILD je bez dat `community`. Konkurence: LDAlarm a Lucidity (Curtis) mají samovypínací budíky s pevným časem, Everdream budík „v REM“, vše na iOS. Sleep as Android pouští podněty do REM odhadnutého z pohybu (výrobce sám uvádí zásah ~50 %). Ťuknutí podle REM oken z Oury a Garminu, s rozpočtem probuzení a navazujícím DEILD nemá nikdo.
 
 **Jak v UI:** Přepínač v detailu noci „Jemné ťuknutí“, na orbitě malé body v oknech. Po ťuknutí se nic nerozsvítí. Ráno: „Vzbudilo tě ťuknutí? Ano / Ne / Nevím“ a „Vrátil ses do snu?“.
 
@@ -181,7 +181,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 **Pracnost:** M (nahrané segmenty, české TTS jen pro název Stopy, skládání stopy).
 
-**Riziko:** Syntetická čeština zní uměle, proto nahrané věty a TTS jen pro jedno slovo. Dlouhé audio prodlužuje usínání: MILD nejvýš 10 min aktivního vedení, SSILD nejvýš 7 min, pak ticho.
+**Riziko:** Syntetická čeština zní uměle, proto nahrané věty a TTS jen pro jedno slovo. Dlouhé audio prodlužuje usínání: MILD 10 min vedení (LaBerge doporučuje aspoň 10 min), pak ticho a pokračuješ sám; SSILD nejvýš 7 min.
 
 ### 10. Záměr na noc s ranním ověřením
 
@@ -328,7 +328,7 @@ p0        = populační křivka: REM periody zhruba po 90 min, prodlužují se k
 
 *D. Start noci*
 - Tlačítko „Jdu spát“ uloží kotvu usnutí. Potvrzení: „Budík kolem 4:50. Posunu ho podle toho, kdy usneš.“
-- Když uživatel appku znovu otevře do 2 h: „Ještě nespíš? Posunula jsem budík na 5:10.“ (rod appky podle hlasu značky, jinak neosobně „Budík je posunutý na 5:10.“)
+- Když uživatel appku znovu otevře do 2 h: „Ještě nespíš? Budík je posunutý na 5:10.“
 
 *E. Probuzení (noční režim, jen červená)*
 1. Budík s náběhem 30 s, vibrace. Obrazovka: „Sním?“ (funkce 6, 3 s).
@@ -757,31 +757,35 @@ ráno, učení stropu (jen v nocích s klíčem):
 - Rozdíl d = p_A − p_B. **ROPE = ±0,05** (5 nocí ze 100, tedy 1 LD za 20 nocí). Menší rozdíl na jednom člověku nepoznáme a pro rozhodnutí nemá cenu (Kruschke 2018).
 - Výpočet: P(d > 0), P(d > 0,05) a P(|d| < 0,05) Monte Carlem (20 000 dvojic tahů Beta přes dva tahy Gamma, pevný seed, na telefonu milisekundy). Pro celočíselné parametry jde i přesný vzorec pro P(p_B > p_A) jako součet beta funkcí.
 
-*Rozhodovací pravidla v kontrolních bodech* (10, 20, 30, 40 nocí na variantu, mezi nimi se nic nevyhodnocuje):
+*Rozhodovací pravidla v kontrolních bodech* (10, 20, 30, 40 nocí na variantu, mezi nimi se nic nevyhodnocuje). Protože se díváme až čtyřikrát a oběma směry, prahy jsou přísnější, než by stačilo pro jediný pohled:
 
 | Stav | Pravidlo | Text v appce |
 |---|---|---|
 | Sbíráme | < 10 nocí na variantu | Sbíráme data. 7 z 10 nocí. Výsledek ukážu po 10. |
-| Zatím nevíme | žádné pravidlo níž | Zatím nevíme. Rozdíl může být oběma směry. |
-| Naznačení | P(d > 0) ≥ 0,80 | Naznačení: spíš Střídání smyslů. Pozor, zhruba jedno ze šesti takových naznačení je náhoda. |
-| Vychází lépe | P(d > 0) ≥ 0,90 a P(d > 0,05) ≥ 0,70 | Střídání smyslů ti vychází lépe. Rozdíl nejspíš 3 až 22 lucidních nocí ze 100. |
+| Zatím nevíme | žádné pravidlo níž | Zatím nevíme. Šance, že ti víc sedí Střídání smyslů: 84 %. Takové číslo na jednom člověku vyjde často i bez skutečného rozdílu. |
+| Vychází lépe | P(d > 0) ≥ 0,95 a P(d > 0,05) ≥ 0,80 | Střídání smyslů ti vychází lépe. Rozdíl nejspíš 5 až 35 lucidních nocí ze 100. |
 | Prakticky stejné | P(\|d\| < 0,05) ≥ 0,80 | Obě varianty ti fungují prakticky stejně. Vyber, co tě baví. |
 | Nerozhodnuto | 40 nocí na variantu bez verdiktu | Rozdíl je menší, než umíme poznat. Vyber tu, která tě baví a míň ruší spánek. |
 
-*Kolik nocí je potřeba* (vlastní simulace, 1 500–2 000 opakování, prior Beta(1, 9)):
+Mezistupeň „naznačení“ (P ≥ 0,80) záměrně nezavádíme: v simulaci se při nulovém rozdílu objevil v některém ze čtyř kontrolních bodů u 64 % lidí. Pravděpodobnost se proto ukazuje jen jako číslo s varováním, nikdy jako verdikt.
 
-| Skutečný stav | 12 nocí na variantu | 20 nocí | 30 nocí | 45 nocí |
-|---|---|---|---|---|
-| 20 % vs 8 % LD nocí: šance na „vychází lépe“ (P ≥ 0,90) | 25 % | 40 % | 51 % | 63 % |
-| 17 % vs 5 % | 22 % | 41 % | 58 % | 71 % |
-| 15 % vs 10 % | 11 % | 19 % | 23 % | 28 % |
-| 12 % vs 12 % (žádný rozdíl): falešný verdikt | 5 % | 9 % | 8 % | 9 % |
-| 12 % vs 12 %: falešné „naznačení“ (P ≥ 0,80) | 13–16 % | 18 % | 18 % | 18 % |
+*Kolik nocí je potřeba* (vlastní simulace, 3 000 opakování, prior Beta(1, 9), kontrolní body 10/20/30/40 nocí na variantu, verdikt kterýmkoli směrem):
 
-Pracovní příklad: 4 LD ze 15 nocí vs 1 z 15 dá P(d > 0) = 0,91, P(d > 0,05) = 0,78, 90% interval rozdílu −3 až +28 bodů. Verdikt „vychází lépe“, ale s širokým rozptylem. 2 z 10 vs 2 z 10 dá P(d > 0) = 0,50: zatím nevíme.
+| Skutečný stav | Běžné pravidlo (0,95 a 0,80) | Přísné (0,975 a 0,85) | Volné (0,90 a 0,70) |
+|---|---|---|---|
+| 30 % vs 10 % LD nocí: správný verdikt do 40 nocí | 78 % | 67 % | 88 % |
+| 20 % vs 8 % | 51 % | 38 % | 66 % |
+| 17 % vs 5 % | 53 % | 41 % | 69 % |
+| 15 % vs 10 % | 21 % | 13 % | 33 % |
+| 12 % vs 12 % (žádný rozdíl): falešný verdikt | 14 % | 8 % | 30 % |
+| 5 % vs 5 % (žádný rozdíl): falešný verdikt | 4 % | 2 % | 11 % |
+
+Výchozí je běžné pravidlo, přísné je volba v nastavení laboratoře pro ty, kdo chtějí méně omylů za cenu delšího čekání. Volné pravidlo se nenabízí.
+
+Pracovní příklady: 4 LD ze 15 nocí vs 1 z 15 dá P(d > 0) = 0,91 a 90% interval rozdílu −3 až +28 bodů: zatím nevíme. 7 z 20 vs 1 z 20 dá P(d > 0) = 0,99, P(d > 0,05) = 0,96, interval +5 až +35: vychází lépe. 2 z 10 vs 2 z 10 dá P(d > 0) = 0,50: zatím nevíme.
 
 *Poctivý závěr pro UI:* na lucidní noc jako jediný výstup N-of-1 pozná jen velké rozdíly, a i ty často až po 30–45 nocích na variantu. Proto:
-- **Pomocné výstupy s větší silou** (vždy vedle hlavního, nikdy místo něj): vybavené sny za noc (model Gamma-Poisson, prior Gamma(2, 1)), „záblesk lucidity“ (lucidita ≥ 2 z 10, častější událost), všimnutí si Stopy ve snu, návrat do spánku do 10 min. Při rozdílu 40 vs 20 % nocí se zábleskem dá 20 nocí na variantu šanci ~70 % na P ≥ 0,80.
+- **Pomocné výstupy s větší silou** (vždy vedle hlavního, nikdy místo něj): vybavené sny za noc (model Gamma-Poisson, prior Gamma(2, 1)), „záblesk lucidity“ (lucidita ≥ 2 z 10, častější událost, prior Beta(1, 2)), všimnutí si Stopy ve snu, návrat do spánku do 10 min. Častější událost znamená víc informace z každé noci, pravidla verdiktu ale zůstávají stejně přísná.
 - **Mikrorandomizace** tam, kde je hodně rozhodnutí: formy připomínek (E6) mají desítky rozhodnutí týdně a blízký výstup (test do 2 h), takže výsledek přijde do 2–3 týdnů. Přidělování Thompsonovým výběrem s podlahou 20 % pro každou formu, aby se nepřestala zkoušet.
 - **Rozhodnutí při shodě:** když data nerozhodnou, rozhoduje radost a dopad na spánek. To je platný výsledek, ne selhání.
 
@@ -816,7 +820,7 @@ pridel(noc, experiment):
 
 **Obrazovky a stavy.**
 - *Prázdný:* „Laboratoř je prázdná. Vyber otázku, kterou chceš na sobě ověřit.“ Pod tím 3 šablony.
-- *Průvodce:* Otázka → Varianty → Co budeme měřit → Jak dlouho (odhad týdnů podle způsobilých nocí) → Souhlas. Text délky: „Na rozdíl jedné lucidní noci z deseti potřebuješ zhruba 30–45 nocí na každou variantu. Menší rozdíl na sobě nepoznáš.“
+- *Průvodce:* Otázka → Varianty → Co budeme měřit → Jak dlouho (odhad týdnů podle způsobilých nocí) → Souhlas. Text délky: „I velký rozdíl, třeba 2 lucidní noci z 10 proti 1 z 12, poznáš do 40 nocí na variantu zhruba v polovině případů. Menší rozdíl na sobě nepoznáš. I to je výsledek.“
 - *Běží:* orbita s body nocí (vyplněné = provedené, prázdné = vynechané), „12 / 20 nocí na variantu“, „Další výsledek po 20. noci“.
 - *Výsledek:* dvě křivky hustoty (oranžová a tlumená), pod nimi jedna věta podle tabulky pravidel a řádek četností: „Ze 100 nocí: Střídání smyslů asi 23, Záměr poznat sen asi 10.“ Odkaz „Jak to počítám“ (prior, ROPE, simulace).
 - *Chyba:* „Tenhle experiment potřebuje noci s probuzením. Ty máš teď v klidovém týdnu. Pokračujeme po něm.“ a „Změnil jsi techniku uprostřed noci. Tuhle noc nepočítám.“
@@ -838,7 +842,8 @@ NightAssignment {
 Outcome { nightId, ld: bool, ldCount, glimpse: bool, recallCount, signNoticed: bool?, returnLatencyBucket? }
 CheckpointResult {
   experimentId, at, nPerArm, pAgtB, pAgtBplusRope, pEquivalent, d90: [lo, hi],
-  verdict: collecting | unknown | hint | better | equivalent | undecided, flags: [expectancy, trend, blindingBroken, lowAdherence]
+  rule: standard | strict,
+  verdict: collecting | unknown | better | equivalent | undecided, flags: [expectancy, trend, blindingBroken, lowAdherence]
 }
 ```
 
@@ -847,7 +852,7 @@ CheckpointResult {
 **Metriky úspěchu.** Podíl spuštěných experimentů, které dojdou do 2. kontrolního bodu (cíl ≥ 40 %). Pochopení: 5 testerů vlastními slovy vysvětlí obrazovku výsledku (cíl 4 z 5 správně). Zaslepení: správné tipy blízko náhody. Spokojenost: „Dozvěděl ses o sobě něco?“ 0–10.
 
 **Jak validovat.**
-1. **Simulace v CI:** při nulovém rozdílu nesmí verdikt „vychází lépe“ přesáhnout 10 % napříč kontrolními body. Při 20 vs 8 % a 30 nocích musí síla vyjít kolem 50 %.
+1. **Simulace v CI:** při nulovém rozdílu (12 vs 12 %) nesmí falešný verdikt kterýmkoli směrem napříč čtyřmi kontrolními body přesáhnout 15 % u běžného a 10 % u přísného pravidla. Při 20 vs 8 % musí správný verdikt do 40 nocí vyjít kolem 50 % (běžné pravidlo). Test hlídá, aby změna prahů nebo prioru potichu nezměnila chybovost.
 2. **Jednotkové testy** posteriorů proti známým hodnotám Beta rozdělení.
 3. **Test srozumitelnosti** se 5–8 lidmi: tři varianty výsledkové obrazovky (procenta, četnosti, křivky).
 
@@ -970,7 +975,7 @@ průvodce pozpátku:
 - Aviram L., Soffer-Dudek N. 2018, Front Psychol, PMC5875414
 - Baird B. a kol. 2019, Sci Rep, PMC6490164
 - Barrett D. 1993, Dreaming 3(2):115–122 (The committee of sleep)
-- Blagrove M. a kol. 2011, PLoS One 6:e25121 a Conscious Cogn (efekt zpoždění snů)
+- Blagrove M. a kol. 2011, PLoS One (PMID 22046336) a Conscious Cogn (PMID 20739193), efekt zpoždění snů
 - Carr M. a kol. 2023, Psychology of Consciousness 10(4):413–430
 - Dolamic L., Savoy J. 2009, Information Processing & Management (český stemming)
 - Ebrahim I. O. a kol. 2013, Alcohol Clin Exp Res (alkohol a spánek)

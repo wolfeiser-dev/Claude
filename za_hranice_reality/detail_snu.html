@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#04060C">
+<title>Detail snu · koncept</title>
+<meta name="description" content="Detail snu: kontext REM okna, zápis, škály 0 až 10, Stopy snů, reflexe, osobní spouštěč, technika noci a přílohy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#04060C;--panel:#0C1222;--panel-2:#111A30;--raise:#17213B;
+  --line:rgba(233,237,245,.09);--line-2:rgba(233,237,245,.16);--line-3:rgba(233,237,245,.30);
+  --text:#E9EDF5;--muted:#8D97AD;--faint:#7D879E;
+  --accent:#FF5F1F;--accent-ink:#140600;--accent-soft:rgba(255,95,31,.13);--accent-line:rgba(255,95,31,.55);
+  --ok:#3FD49A;--warn:#FFB443;--bad:#FF5A4E;
+  --ev-strong:#5FE0B6;--ev-prom:#8DB9FF;--ev-comm:#C6AAFF;--ev-trad:#E6C17D;
+  --night:#FF3B2F;--night-2:#B3261E;--night-3:#5A120D;
+  --f-title:'Inter Tight','Inter Display','Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --f-text:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,'SFMono-Regular','Roboto Mono',Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);-webkit-text-size-adjust:100%;color-scheme:dark}
+body{background:var(--bg);color:var(--text);font:400 15px/1.5 var(--f-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-feature-settings:"cv11","ss01";min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+input.sr{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+input.sr:focus-visible + label,input.sr:focus-visible + .lbl{outline:2px solid var(--accent);outline-offset:2px}
+.tnum{font-variant-numeric:tabular-nums}
+
+/* ---------- device frame ---------- */
+.stage{position:relative}
+.device{position:relative;width:100%;max-width:390px;margin:0 auto;background:var(--bg);overflow:clip;min-height:844px;isolation:isolate}
+.caption{display:none}
+@media (min-width:600px){
+  body{background:radial-gradient(900px 600px at 50% -8%,#0E1832 0%,rgba(4,6,12,0) 70%),var(--bg);padding:48px 0 72px}
+  .device{border-radius:46px;box-shadow:0 0 0 1px var(--line-2),0 0 0 10px #070A13,0 0 0 11px var(--line),0 50px 140px rgba(0,0,0,.75)}
+  .caption{display:flex;justify-content:space-between;max-width:390px;margin:0 auto 18px;font:500 12px/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .caption b{color:var(--text);font-weight:500}
+}
+
+/* ---------- status + app bar ---------- */
+.sb{height:36px;display:flex;align-items:center;justify-content:space-between;padding:0 22px 0 26px;font:600 13px/1 var(--f-text);letter-spacing:.01em;position:relative;z-index:3}
+.sb .ic{display:flex;gap:6px;align-items:center}
+.appbar{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 8px 0 16px;position:relative;z-index:3}
+.brand{display:flex;align-items:center;gap:10px}
+.logo{font:700 17px/1 var(--f-title);letter-spacing:-.02em}
+.logo sup{font-size:12px;color:var(--accent);margin-left:1px;vertical-align:7px}
+.brand .mono{color:var(--muted)}
+.ibtn{width:44px;height:44px;display:grid;place-items:center;border-radius:50%;color:var(--muted)}
+.ibtn:hover{background:rgba(233,237,245,.06);color:var(--text)}
+
+/* ---------- type ---------- */
+.mono{font-family:var(--f-mono);font-size:12px;line-height:1.35;letter-spacing:.08em;text-transform:uppercase;font-weight:500}
+.eyebrow{font:500 12px/1.3 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.eyebrow .a{color:var(--accent)}
+.display{font:600 34px/1.04 var(--f-title);letter-spacing:-.028em}
+.h1{font:600 28px/1.08 var(--f-title);letter-spacing:-.024em}
+.h2{font:600 21px/1.18 var(--f-title);letter-spacing:-.018em}
+.h3{font:600 17px/1.25 var(--f-title);letter-spacing:-.01em}
+.lead{font-size:16px;line-height:1.5;color:var(--text)}
+.muted{color:var(--muted)}
+.small{font-size:14px;line-height:1.45}
+.src{font:400 12px/1.4 var(--f-mono);letter-spacing:.02em;color:var(--faint)}
+
+/* ---------- section header ---------- */
+.sh{display:flex;align-items:center;gap:10px;margin:40px 16px 14px}
+.sh .n{font:500 12px/1 var(--f-mono);color:var(--accent);letter-spacing:.06em}
+.sh h2{font:500 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--text);white-space:nowrap}
+.sh .rule{flex:1;height:1px;background:linear-gradient(90deg,var(--line-3),rgba(233,237,245,0))}
+.sh .meta{font:500 12px/1 var(--f-mono);color:var(--muted);letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}
+
+/* ---------- panels with corner marks ---------- */
+.panel{position:relative;margin:0 16px;background:linear-gradient(180deg,#0F1730 0%,var(--panel) 46%);border:1px solid var(--line);border-radius:4px;padding:16px}
+.panel::after,.corners::after{content:"";position:absolute;inset:-1px;pointer-events:none;--c:var(--line-3);--k:12px;
+  background:
+   linear-gradient(var(--c) 0 0) 0 0/var(--k) 1px no-repeat,linear-gradient(var(--c) 0 0) 0 0/1px var(--k) no-repeat,
+   linear-gradient(var(--c) 0 0) 100% 0/var(--k) 1px no-repeat,linear-gradient(var(--c) 0 0) 100% 0/1px var(--k) no-repeat,
+   linear-gradient(var(--c) 0 0) 0 100%/var(--k) 1px no-repeat,linear-gradient(var(--c) 0 0) 0 100%/1px var(--k) no-repeat,
+   linear-gradient(var(--c) 0 0) 100% 100%/var(--k) 1px no-repeat,linear-gradient(var(--c) 0 0) 100% 100%/1px var(--k) no-repeat}
+.panel.hot::after,.corners.hot::after{--c:var(--accent)}
+.sub{background:rgba(4,6,12,.55);border:1px solid var(--line);border-radius:4px;padding:14px}
+.hr{height:1px;background:var(--line);margin:16px 0}
+.row{display:flex;align-items:center;gap:12px}
+.between{display:flex;align-items:center;justify-content:space-between;gap:12px}
+
+/* ---------- evidence chips ---------- */
+.ev{display:inline-flex;align-items:center;gap:7px;height:24px;padding:0 8px 0 7px;border-radius:3px;font:600 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;border:1px solid;background:rgba(255,255,255,.02)}
+.ev i{display:inline-flex;gap:2px}
+.ev i b{width:4px;height:9px;border-radius:1px;background:currentColor;opacity:.25}
+.ev.strong{color:var(--ev-strong);border-color:rgba(95,224,182,.4);background:rgba(95,224,182,.07)}
+.ev.prom{color:var(--ev-prom);border-color:rgba(141,185,255,.4);background:rgba(141,185,255,.07)}
+.ev.comm{color:var(--ev-comm);border-color:rgba(198,170,255,.4);background:rgba(198,170,255,.07)}
+.ev.trad{color:var(--ev-trad);border-color:rgba(230,193,125,.4);background:rgba(230,193,125,.07)}
+.ev.strong i b{opacity:1}
+.ev.prom i b:nth-child(-n+2){opacity:1}
+.ev.comm i b:nth-child(1){opacity:1}
+.ev.trad i b{width:7px;height:7px;border-radius:0;transform:rotate(45deg);opacity:1;background:none;border:1.2px solid currentColor}
+.ev.trad i b+b{display:none}
+
+/* ---------- tags & chips ---------- */
+.tag{display:inline-flex;align-items:center;gap:6px;height:24px;padding:0 9px;border-radius:999px;font:500 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line-2);white-space:nowrap}
+.tag.hot{color:var(--accent);border-color:var(--accent-line);background:var(--accent-soft)}
+.tag.solid{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.motif{display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 10px 0 8px;border-radius:999px;font:500 13px/1 var(--f-text);color:var(--text);background:rgba(233,237,245,.06);border:1px solid var(--line-2);white-space:nowrap}
+.motif .g{font:600 12px/1 var(--f-mono);color:var(--muted)}
+
+/* ---------- buttons ---------- */
+.btn{min-height:48px;padding:0 20px;border-radius:999px;font:600 15px/1 var(--f-text);display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--line-2);color:var(--text);background:rgba(233,237,245,.04);transition:transform .15s ease,background .2s ease,border-color .2s;white-space:nowrap;cursor:pointer;user-select:none}
+.btn:hover{background:rgba(233,237,245,.08);border-color:var(--line-3)}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);box-shadow:0 10px 34px -8px rgba(255,95,31,.55)}
+.btn.primary:hover{background:#FF7036}
+.btn.ghost{border-color:transparent;background:none;color:var(--muted);padding:0 12px}
+.btn.ghost:hover{color:var(--text)}
+.btn.sm{min-height:44px;padding:0 16px;font-size:14px}
+.btn.block{width:100%}
+.lnk{display:inline-flex;align-items:center;gap:6px;min-height:44px;color:var(--accent);font:600 14px/1 var(--f-text)}
+.lnk svg{transition:transform .2s}
+.lnk:hover svg{transform:translateX(3px)}
+
+/* ---------- switch ---------- */
+.switch{position:relative;width:52px;height:32px;flex:none;border-radius:999px;background:rgba(233,237,245,.12);border:1px solid var(--line-2);transition:background .2s}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:var(--muted);transition:transform .22s cubic-bezier(.3,.7,.3,1),background .2s}
+
+/* ---------- tab bar ---------- */
+.tabbar{position:sticky;bottom:0;z-index:30;display:grid;grid-template-columns:repeat(5,1fr);background:rgba(4,6,12,.92);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-top:1px solid var(--line);padding:6px 4px 24px;margin-top:40px}
+.tab{min-height:56px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:var(--muted);font:500 12px/1 var(--f-text);position:relative;border-radius:12px}
+.tab:hover{color:var(--text)}
+.tab.on{color:var(--text);font-weight:600}
+.tab.on svg{color:var(--accent)}
+.tab.on::before{content:"";position:absolute;top:-7px;width:24px;height:2px;background:var(--accent);box-shadow:0 0 14px 1px rgba(255,95,31,.8)}
+.gesture{position:absolute;bottom:8px;left:50%;width:112px;height:4px;border-radius:2px;background:rgba(233,237,245,.45);transform:translateX(-50%)}
+
+/* ---------- svg text ---------- */
+.sm12{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em}
+.sm13{font-family:var(--f-mono);font-size:13px;letter-spacing:.04em}
+.st{font-family:var(--f-title)}
+
+@keyframes tw{0%,100%{opacity:.25}50%{opacity:.9}}
+.tw{animation:tw 4.5s ease-in-out infinite}
+@keyframes pulse{0%{transform:scale(.6);opacity:.9}100%{transform:scale(2.4);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+
+.top{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 4px 0 2px;position:relative;z-index:3}
+.backl{display:inline-flex;align-items:center;gap:2px;min-height:44px;padding:0 12px 0 6px;border-radius:999px;font:500 15px/1 var(--f-text);color:var(--text)}
+.backl:hover{background:rgba(233,237,245,.06)}
+.hero{padding:4px 16px 0;position:relative}
+.sys{display:block;margin:0 0 2px}
+.hero .display{margin:6px 0 12px}
+.tags{display:flex;gap:8px;flex-wrap:wrap}
+.when .lead{font:600 19px/1.3 var(--f-title);letter-spacing:-.01em;margin:8px 0 6px}
+.when .lead b{color:var(--accent);font-weight:600}
+.nw{white-space:nowrap}
+.when svg{display:block;margin:16px 0 10px}
+.pbar{display:flex;height:10px;border-radius:5px;overflow:hidden;gap:2px;margin:16px 0 10px}
+.pbar i{display:block;height:100%}
+.pkey{display:grid;grid-template-columns:auto 1fr auto;gap:8px 10px;font-size:14px;align-items:center}
+.pkey .sw{width:10px;height:10px;border-radius:2px}
+.pkey .p{font:500 13px/1 var(--f-mono);color:var(--muted);text-align:right}
+.quote{font:400 17px/1.62 var(--f-text);color:var(--text);margin:12px 0 4px;letter-spacing:-.003em}
+.quote .m{color:var(--text);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:2px;text-underline-offset:4px;background:linear-gradient(transparent 60%,rgba(255,95,31,.16) 60%)}
+.quote .mk{font:600 12px/1 var(--f-mono);color:var(--accent);margin-left:3px;letter-spacing:.04em;vertical-align:6px}
+.qmeta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:12px;border-top:1px solid var(--line);gap:10px}
+.scales{display:flex;flex-direction:column;gap:18px}
+.sc-h{display:flex;justify-content:space-between;align-items:baseline}
+.sc-h .mono{color:var(--text)}
+.sc-v{font:600 24px/1 var(--f-title);letter-spacing:-.02em}
+.sc-v small{font-size:13px;color:var(--muted);font-weight:500;margin-left:2px}
+.segs{position:relative;display:grid;grid-template-columns:repeat(10,1fr);gap:3px;margin:9px 0 7px;height:12px}
+.segs i{background:rgba(233,237,245,.09);border-radius:2px}
+.segs i.on{background:var(--text)}
+.scale.hot .segs i.on{background:var(--accent)}
+.scale.hot .sc-v{color:var(--accent)}
+.segs .avg{position:absolute;top:-5px;bottom:-5px;width:0}
+.segs .avg b{position:absolute;left:-1px;top:0;bottom:0;width:2px;background:#04060C;box-shadow:0 0 0 1px rgba(233,237,245,.7)}
+.sc-f{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);gap:12px}
+.sc-f span:last-child{font:500 12px/1.5 var(--f-mono);white-space:nowrap}
+.emo{display:flex;gap:6px;margin-top:8px}
+.mrows{display:flex;flex-direction:column}
+.mrow{padding:14px 0;border-top:1px solid var(--line)}
+.mrow:first-child{border-top:0;padding-top:4px}
+.mr-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.mr-name{font:600 17px/1.25 var(--f-title)}
+.mrow.hot .mr-name{color:var(--accent)}
+.mr-cat{color:var(--muted);margin-top:4px}
+.mr-n{text-align:right}
+.mr-n b{display:block;font:600 20px/1 var(--f-title)}
+.mr-n span{font-size:13px;color:var(--muted)}
+.d14{display:grid;grid-template-columns:repeat(14,1fr);gap:4px;margin-top:10px}
+.d14 i{height:8px;border-radius:2px;background:rgba(233,237,245,.08)}
+.d14 i.on{background:rgba(233,237,245,.7)}
+.mrow.hot .d14 i.on{background:var(--accent)}
+.d14 i.now{box-shadow:0 0 0 1px var(--text)}
+.d14-axis{display:flex;justify-content:space-between;margin-top:6px;font:500 12px/1 var(--f-mono);color:var(--faint);letter-spacing:.04em}
+.refl .h2{margin:8px 0 8px}
+.opts{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+.opts label{min-height:44px;display:inline-flex;align-items:center;padding:0 16px;border-radius:999px;border:1px solid var(--line-2);font:500 14px/1 var(--f-text);color:var(--muted);cursor:pointer;transition:all .2s}
+.opts input:checked + label{background:var(--accent-soft);border-color:var(--accent);color:var(--text)}
+.tip{margin-top:16px;padding:12px 14px;border-left:2px solid var(--accent);background:rgba(255,95,31,.05)}
+.tip .mono{color:var(--accent)}
+.tip p{font-size:15px;margin:5px 0 6px}
+.trig .ift{display:grid;grid-template-columns:44px 1fr;row-gap:8px;align-items:baseline;margin:14px 0 16px}
+.trig .k{font:600 13px/1 var(--f-mono);letter-spacing:.1em;color:var(--accent)}
+.trig .v{font:600 20px/1.25 var(--f-title);letter-spacing:-.015em}
+.swrow{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:56px;padding:6px 0;border-top:1px solid var(--line);cursor:pointer}
+.swrow .t{font-weight:600;font-size:15px}
+.swrow .s{font-size:13px;color:var(--muted)}
+#trig:checked + .swrow .switch{background:var(--accent);border-color:var(--accent)}
+#trig:checked + .swrow .switch::after{transform:translateX(20px);background:var(--accent-ink)}
+.son,.soff{font-size:13px;margin-top:6px}
+.son{display:none;color:var(--ok)}
+.soff{color:var(--muted)}
+#trig:checked ~ .son{display:flex;gap:8px;align-items:center}
+#trig:checked ~ .soff{display:none}
+.tech{display:flex;flex-direction:column}
+.trow{padding:14px 0;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.trow:first-child{border-top:0;padding-top:2px}
+.trow .h3{font-size:16px}
+.trow .meta{font-size:14px;color:var(--muted)}
+.trow .foot{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.heard{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}
+.heard label{min-height:44px;display:grid;place-items:center;border-radius:999px;border:1px solid var(--line-2);font:500 14px/1 var(--f-text);color:var(--muted);cursor:pointer}
+.heard input:checked + label{background:rgba(233,237,245,.1);border-color:var(--text);color:var(--text)}
+.n1{display:flex;gap:10px;align-items:center;margin-top:10px;font-size:13px;color:var(--muted)}
+.n1 .pips{display:flex;gap:3px}
+.n1 .pips i{width:8px;height:8px;border-radius:2px;background:rgba(233,237,245,.12)}
+.n1 .pips i.on{background:var(--ev-prom)}
+.att{display:grid;grid-template-columns:1fr;gap:10px;margin:0 16px}
+.audio{display:flex;align-items:center;gap:14px}
+.playb{width:52px;height:52px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-ink);cursor:pointer;box-shadow:0 8px 24px -6px rgba(255,95,31,.6)}
+.playb .pz{display:none}
+#pl:checked + .audio .playb .py{display:none}
+#pl:checked + .audio .playb .pz{display:block}
+.audio .w{flex:1;min-width:0}
+.audio .w .between{margin-bottom:6px}
+@keyframes wv{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.55)}}
+#pl:checked + .audio .wave rect{animation:wv .9s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+#pl:checked + .audio .wave rect:nth-child(3n){animation-delay:.2s}
+#pl:checked + .audio .wave rect:nth-child(3n+1){animation-delay:.45s}
+.sk{display:grid;grid-template-columns:150px 1fr;gap:14px;align-items:center}
+.sk .fr{border:1px solid var(--line-2);border-radius:4px;background:repeating-linear-gradient(0deg,rgba(233,237,245,.03) 0 1px,transparent 1px 14px),repeating-linear-gradient(90deg,rgba(233,237,245,.03) 0 1px,transparent 1px 14px);padding:4px}
+.priv{display:flex;gap:14px;align-items:flex-start;margin:28px 16px 0;padding:16px;border:1px dashed var(--line-2);border-radius:4px}
+.priv svg{flex:none;color:var(--ok)}
+.priv b{display:block;font:600 15px/1.3 var(--f-title)}
+.priv p{font-size:14px;color:var(--muted);margin-top:4px}
+
+</style>
+</head>
+<body>
+<div class="caption" aria-hidden="true"><span><b>Za hranice reality</b> · Já²</span><span>Koncept · detail snu</span></div>
+<div class="device">
+<div class="sb" ><span class="tnum">07:24</span><span class="ic" aria-hidden="true">
+<svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="8" width="3" height="4" rx=".8" fill="currentColor"/><rect x="4.6" y="5.5" width="3" height="6.5" rx=".8" fill="currentColor"/><rect x="9.2" y="3" width="3" height="9" rx=".8" fill="currentColor"/><rect x="13.8" y="0" width="3" height="12" rx=".8" fill="currentColor" opacity=".35"/></svg>
+<svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 11.5l2.6-3.1a4 4 0 0 0-5.2 0z" fill="currentColor"/><path d="M2.8 5.4a7.8 7.8 0 0 1 10.4 0M.6 2.9a11 11 0 0 1 14.8 0" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+<svg width="26" height="12" viewBox="0 0 26 12"><rect x=".75" y=".75" width="21.5" height="10.5" rx="3" stroke="currentColor" stroke-width="1.2" fill="none" opacity=".55"/><rect x="2.5" y="2.5" width="14" height="7" rx="1.6" fill="currentColor"/><rect x="23.4" y="4" width="1.8" height="4" rx=".8" fill="currentColor" opacity=".55"/></svg>
+</span></div>
+<div class="top">
+  <a class="backl" href="noc_mapa_snu.html"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M14.5 6l-6 6 6 6"/></svg>Noc na pátek</a>
+  <div class="row" style="gap:0"><button class="ibtn" aria-label="Upravit zápis"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></button></div>
+</div>
+
+<section class="hero">
+  <svg class="sys" viewBox="0 0 358 196" width="358" height="196" role="img" aria-label="Sen jako hvězda: lucidita 7 z 10, živost 9. Kolem obíhají Stopy snů: voda, škola, létání, prsty.">
+<defs><radialGradient id="core"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#FFE3D6"/><stop offset=".65" stop-color="#FF8A5B" stop-opacity=".55"/><stop offset="1" stop-color="#FF5F1F" stop-opacity="0"/></radialGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#FF5F1F" stop-opacity=".28"/><stop offset="1" stop-color="#FF5F1F" stop-opacity="0"/></radialGradient></defs><circle cx="152.4" cy="8.3" r="0.6" fill="#E9EDF5" opacity="0.20199999999999999"/><circle cx="295.7" cy="173.1" r="0.4" fill="#E9EDF5" opacity="0.231"/><circle cx="325.5" cy="114.4" r="0.7" fill="#E9EDF5" opacity="0.34"/><circle cx="19.2" cy="25.5" r="0.6" fill="#E9EDF5" opacity="0.37799999999999995"/><circle cx="349.6" cy="11.3" r="0.5" fill="#E9EDF5" opacity="0.21100000000000002"/><circle cx="74.4" cy="42.7" r="0.8" fill="#E9EDF5" opacity="0.384"/><circle cx="170.4" cy="118.8" r="0.5" fill="#E9EDF5" opacity="0.419"/><circle cx="98.7" cy="139.1" r="0.7" fill="#E9EDF5" opacity="0.415"/><circle cx="143.1" cy="22.8" r="0.7" fill="#E9EDF5" opacity="0.153"/><circle cx="333.2" cy="24.8" r="0.6" fill="#E9EDF5" opacity="0.517"/><circle cx="113.7" cy="73.8" r="0.7" fill="#E9EDF5" opacity="0.531"/><circle cx="148.2" cy="76.3" r="0.5" fill="#E9EDF5" opacity="0.493"/><circle cx="134.1" cy="80.5" r="0.6" fill="#E9EDF5" opacity="0.434"/><circle cx="195.2" cy="158.4" r="0.6" fill="#E9EDF5" opacity="0.38299999999999995"/><circle cx="127.9" cy="92.2" r="0.7" fill="#E9EDF5" opacity="0.308"/><circle cx="163" cy="14.7" r="0.4" fill="#E9EDF5" opacity="0.332"/><circle cx="110.8" cy="85.5" r="0.5" fill="#E9EDF5" opacity="0.429"/><circle cx="20" cy="88.5" r="0.7" fill="#E9EDF5" opacity="0.395"/><circle cx="212.5" cy="62.3" r="0.6" fill="#E9EDF5" opacity="0.596"/><circle cx="104.1" cy="1.9" r="0.4" fill="#E9EDF5" opacity="0.166"/><circle cx="145.9" cy="2.3" r="0.6" fill="#E9EDF5" opacity="0.188"/><circle cx="236.6" cy="70.3" r="0.5" fill="#E9EDF5" opacity="0.193"/><circle cx="92.4" cy="159.1" r="0.4" fill="#E9EDF5" opacity="0.37799999999999995"/><circle cx="341.2" cy="100.5" r="0.7" fill="#E9EDF5" opacity="0.386"/><circle cx="83.1" cy="1.9" r="0.5" fill="#E9EDF5" opacity="0.36"/><circle cx="259.2" cy="150.2" r="0.4" fill="#E9EDF5" opacity="0.237"/><circle cx="279.6" cy="67.2" r="0.6" fill="#E9EDF5" opacity="0.158"/><circle cx="330.8" cy="44.6" r="0.8" fill="#E9EDF5" opacity="0.205"/><circle cx="277.9" cy="177.6" r="0.6" fill="#E9EDF5" opacity="0.27699999999999997"/><circle cx="228.4" cy="183.5" r="0.4" fill="#E9EDF5" opacity="0.406"/><circle cx="26.6" cy="77.5" r="1.2" fill="#E9EDF5" opacity="0.436" class="tw" style="animation-delay:1.5s"/><path d="M23.1 77.5H30.1M26.6 74V81" stroke="#E9EDF5" stroke-width=".5" opacity="0.2616"/><circle cx="150.4" cy="190.1" r="1.4" fill="#E9EDF5" opacity="0.41700000000000004" class="tw" style="animation-delay:1.2s"/><circle cx="174.4" cy="112.3" r="0.7" fill="#E9EDF5" opacity="0.433"/><circle cx="201.9" cy="44.2" r="0.4" fill="#E9EDF5" opacity="0.47600000000000003"/><circle cx="105.7" cy="14.5" r="0.8" fill="#E9EDF5" opacity="0.369"/><circle cx="169.3" cy="100.2" r="0.6" fill="#E9EDF5" opacity="0.348"/><circle cx="232.8" cy="41.5" r="1.1" fill="#E9EDF5" opacity="0.57" class="tw" style="animation-delay:0.7s"/><circle cx="77" cy="93.1" r="0.7" fill="#E9EDF5" opacity="0.278"/><circle cx="159" cy="158.4" r="0.7" fill="#E9EDF5" opacity="0.243"/><circle cx="17.4" cy="94" r="0.4" fill="#E9EDF5" opacity="0.18600000000000003"/><circle cx="74.2" cy="52.6" r="0.4" fill="#E9EDF5" opacity="0.5579999999999999"/><circle cx="20.5" cy="26.5" r="1.3" fill="#E9EDF5" opacity="0.29100000000000004" class="tw" style="animation-delay:2.9s"/><path d="M17 26.5H24M20.5 23V30" stroke="#E9EDF5" stroke-width=".5" opacity="0.1746"/><circle cx="116.6" cy="162" r="0.8" fill="#E9EDF5" opacity="0.44799999999999995"/><circle cx="355.5" cy="23.9" r="0.6" fill="#E9EDF5" opacity="0.5670000000000001"/><circle cx="231.1" cy="132.9" r="0.8" fill="#E9EDF5" opacity="0.48200000000000004"/><circle cx="180.6" cy="182.4" r="0.5" fill="#E9EDF5" opacity="0.235"/><circle cx="31.9" cy="9.1" r="0.4" fill="#E9EDF5" opacity="0.436"/><circle cx="248.9" cy="143.2" r="0.5" fill="#E9EDF5" opacity="0.483"/><circle cx="94.2" cy="175.2" r="0.8" fill="#E9EDF5" opacity="0.321"/><circle cx="183.1" cy="14.3" r="0.6" fill="#E9EDF5" opacity="0.349"/><circle cx="182.6" cy="30.4" r="0.6" fill="#E9EDF5" opacity="0.22"/><circle cx="240.9" cy="157" r="0.8" fill="#E9EDF5" opacity="0.446"/><circle cx="313.4" cy="73.7" r="0.9" fill="#E9EDF5" opacity="0.591"/><circle cx="329.8" cy="123" r="0.6" fill="#E9EDF5" opacity="0.263"/><circle cx="137.7" cy="43.4" r="0.4" fill="#E9EDF5" opacity="0.517"/><circle cx="214.1" cy="92.4" r="0.4" fill="#E9EDF5" opacity="0.573"/><circle cx="324.4" cy="121.2" r="0.5" fill="#E9EDF5" opacity="0.209"/><circle cx="220.2" cy="186.4" r="0.5" fill="#E9EDF5" opacity="0.23800000000000002"/><circle cx="180.9" cy="49.4" r="0.5" fill="#E9EDF5" opacity="0.389"/><circle cx="133.8" cy="161.8" r="0.5" fill="#E9EDF5" opacity="0.243"/><ellipse cx="226" cy="98" rx="50" ry="19" transform="rotate(-12 226 98)" fill="none" stroke="rgba(233,237,245,0.22)" /><ellipse cx="226" cy="98" rx="84" ry="32" transform="rotate(-12 226 98)" fill="none" stroke="rgba(233,237,245,0.14)" stroke-dasharray="2 4"/><ellipse cx="226" cy="98" rx="116" ry="46" transform="rotate(-12 226 98)" fill="none" stroke="rgba(233,237,245,0.14)" stroke-dasharray="2 4"/><circle cx="226" cy="98" r="58" fill="url(#halo)"/><circle cx="226" cy="98" r="22" fill="url(#core)"/><circle cx="226" cy="98" r="7" fill="#fff"/><path d="M186 98H266M226 58V138" stroke="#FF5F1F" stroke-opacity=".45" stroke-width=".8"/><path d="M228.1 68.1A30 30 0 0 1 241.9 72.6" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M245.3 75A30 30 0 0 1 253.8 86.8" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M255.1 90.7A30 30 0 0 1 255.1 105.3" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M253.8 109.2A30 30 0 0 1 245.3 121" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M241.9 123.4A30 30 0 0 1 228.1 127.9" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M223.9 127.9A30 30 0 0 1 210.1 123.4" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M206.7 121A30 30 0 0 1 198.2 109.2" stroke="#FF5F1F" stroke-width="2.6" fill="none" stroke-linecap="round"/><path d="M196.9 105.3A30 30 0 0 1 196.9 90.7" stroke="rgba(233,237,245,.22)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M198.2 86.8A30 30 0 0 1 206.7 75" stroke="rgba(233,237,245,.22)" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M210.1 72.6A30 30 0 0 1 223.9 68.1" stroke="rgba(233,237,245,.22)" stroke-width="1.6" fill="none" stroke-linecap="round"/><circle cx="178.7" cy="101.4" r="10.5" fill="#04060C"/><circle cx="178.7" cy="101.4" r="5.5" fill="#FF5F1F"/><text x="167.7" y="105.4" text-anchor="end" class="sm12" fill="#FF5F1F">VODA <tspan fill="#8D97AD">7×</tspan></text><circle cx="267.1" cy="47" r="9.4" fill="#04060C"/><circle cx="267.1" cy="47" r="4.4" fill="#E9EDF5"/><text x="267.1" y="35" text-anchor="middle" class="sm12" fill="#C9D0DE">ŠKOLA <tspan fill="#8D97AD">4×</tspan></text><circle cx="156.6" cy="128.1" r="8.8" fill="#04060C"/><circle cx="156.6" cy="128.1" r="3.8" fill="#E9EDF5"/><text x="156.6" y="150.1" text-anchor="middle" class="sm12" fill="#C9D0DE">LÉTÁNÍ <tspan fill="#8D97AD">3×</tspan></text><circle cx="297.8" cy="101" r="8.2" fill="#04060C"/><circle cx="297.8" cy="101" r="3.2" fill="#E9EDF5"/><text x="297.8" y="121" text-anchor="middle" class="sm12" fill="#C9D0DE">PRSTY <tspan fill="#8D97AD">2×</tspan></text><text x="0" y="22" class="sm12" fill="#8D97AD">SEN 3 ZE 4</text><text x="0" y="40" class="sm12" fill="#E9EDF5">05:41 · REM 4</text><text x="0" y="184" class="sm12" fill="#7D879E">LUCIDITA 7/10 · ŽIVOST 9/10</text></svg>
+  <h1 class="display">Řeka nad městem</h1>
+  <div class="tags"><span class="tag solid">Lucidní</span><span class="tag hot">REM 4 · odhad</span><span class="tag">WBTB + MILD</span></div>
+</section>
+
+<div class="sh"><span class="n">01</span><h2>Kdy se zdál</h2><span class="rule"></span><span class="meta">Odhad</span></div>
+<section class="panel when">
+  <div class="eyebrow">Zdroj snu</div>
+  <p class="lead">Pravděpodobně ze <b>4. REM okna,</b> <b class="nw">05:12–05:38</b>.</p>
+  <p class="small muted">Probudil ses v 05:41, tři minuty po konci okna. Oura i Garmin tu vidí REM shodně 26 z 34 minut.</p>
+  <svg viewBox="0 0 326 214" width="326" height="214" role="img" aria-label="Noc 23:10 až 07:05. Sen v 05:41 pravděpodobně ze 4. REM okna 05:12 až 05:38.">
+<defs><filter id="sb" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<pattern id="h3" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="rgba(233,237,245,.3)" stroke-width="1.1"/></pattern></defs><line x1="4" x2="322" y1="34" y2="34" stroke="rgba(233,237,245,.2)"/><rect x="64.3" y="20" width="10" height="28" fill="#FF5F1F" opacity="0.14" filter="url(#sb)"/><rect x="66.3" y="20" width="6.7" height="28" fill="#FF5F1F" opacity="0.22"/><text x="69.7" y="13" text-anchor="middle" class="sm12" fill="#7D879E">1</text><rect x="124.5" y="20" width="16.7" height="28" fill="#FF5F1F" opacity="0.14" filter="url(#sb)"/><rect x="127.2" y="20" width="10.7" height="28" fill="#FF5F1F" opacity="0.22"/><text x="132.6" y="13" text-anchor="middle" class="sm12" fill="#7D879E">2</text><rect x="199.5" y="20" width="18.7" height="28" fill="#FF5F1F" opacity="0.14" filter="url(#sb)"/><rect x="203.5" y="20" width="14.7" height="28" fill="#FF5F1F" opacity="0.22"/><text x="210.9" y="13" text-anchor="middle" class="sm12" fill="#7D879E">3</text><rect x="244.3" y="20" width="22.8" height="28" fill="#FF5F1F" opacity="0.35" filter="url(#sb)"/><rect x="246.3" y="20" width="17.4" height="28" fill="#FF5F1F" opacity="0.75"/><text x="255.1" y="13" text-anchor="middle" class="sm12" fill="#FF5F1F">4</text><rect x="293.9" y="20" width="24.8" height="28" fill="#FF5F1F" opacity="0.14" filter="url(#sb)"/><rect x="297.2" y="20" width="18.7" height="28" fill="#FF5F1F" opacity="0.22"/><text x="306.6" y="13" text-anchor="middle" class="sm12" fill="#7D879E">5</text><rect x="218.2" y="20" width="14.7" height="28" fill="url(#h3)"/><circle cx="139.9" cy="34" r="3" fill="#C9D0DE"/><circle cx="218.2" cy="34" r="3" fill="#C9D0DE"/><circle cx="265.8" cy="34" r="7" fill="#04060C" stroke="#fff" stroke-width="1.5"/><circle cx="265.8" cy="34" r="3" fill="#fff"/><circle cx="318" cy="34" r="3" fill="#C9D0DE"/><rect x="237" y="16" width="40.1" height="36" fill="none" stroke="rgba(233,237,245,.55)" stroke-dasharray="2 2"/><path d="M237 52L4 90M277.1 52L322 90" stroke="rgba(233,237,245,.22)"/><text x="37.5" y="68" text-anchor="middle" class="sm12" fill="#7D879E" stroke="#0D1427" stroke-width="5" paint-order="stroke">00:00</text><text x="117.8" y="68" text-anchor="middle" class="sm12" fill="#7D879E" stroke="#0D1427" stroke-width="5" paint-order="stroke">02:00</text><text x="198.1" y="68" text-anchor="middle" class="sm12" fill="#7D879E" stroke="#0D1427" stroke-width="5" paint-order="stroke">04:00</text><text x="278.5" y="68" text-anchor="middle" class="sm12" fill="#7D879E" stroke="#0D1427" stroke-width="5" paint-order="stroke">06:00</text><rect x="4" y="90" width="318" height="96" fill="rgba(4,6,12,.7)" stroke="rgba(233,237,245,.12)"/><rect x="78.2" y="91" width="137.8" height="94" fill="#FF5F1F" opacity=".14"/><line x1="78.2" x2="78.2" y1="91" y2="185" stroke="#FF5F1F" stroke-opacity=".6" stroke-dasharray="2 2"/><line x1="216" x2="216" y1="91" y2="185" stroke="#FF5F1F" stroke-opacity=".6" stroke-dasharray="2 2"/><text x="10" y="114" class="sm12" fill="#8D97AD">OURA</text><rect x="62.3" y="104" width="153.7" height="12" rx="2" fill="#FF5F1F"/><text x="10" y="138" class="sm12" fill="#8D97AD">GARMIN</text><rect x="78.2" y="128" width="164.3" height="12" rx="2" fill="#FF5F1F" opacity=".75"/><path d="M94.1 152l4.5 5-4.5 5-4.5-5z" fill="#FF5F1F"/><path d="M131.2 152l4.5 5-4.5 5-4.5-5z" fill="#FF5F1F"/><text x="140.2" y="161" class="sm12" fill="#FF5F1F">TLR ×2</text><line x1="231.9" x2="231.9" y1="96" y2="182" stroke="#fff" stroke-width="1.5"/><circle cx="231.9" cy="166" r="4" fill="#fff"/><text x="239.9" y="158" class="sm12" fill="#E9EDF5">PROBUZENÍ</text><text x="239.9" y="174" class="sm12" fill="#E9EDF5">05:41</text><text x="94.1" y="202" text-anchor="middle" class="sm12" fill="#7D879E">05:15</text><text x="173.6" y="202" text-anchor="middle" class="sm12" fill="#7D879E">05:30</text><text x="253.1" y="202" text-anchor="middle" class="sm12" fill="#7D879E">05:45</text></svg>
+  <div class="pbar" role="img" aria-label="Odhad původu snu: REM 4 82 procent, lehký spánek před ním 11 procent, nejisté 7 procent"><i style="width:82%;background:var(--accent)"></i><i style="width:11%;background:#8D97AD"></i><i style="width:7%;background:rgba(233,237,245,.18)"></i></div>
+  <div class="pkey">
+    <span class="sw" style="background:var(--accent)"></span><span>4. REM okno</span><span class="p">82 %</span>
+    <span class="sw" style="background:#8D97AD"></span><span>Lehký spánek před ním</span><span class="p">11 %</span>
+    <span class="sw" style="background:rgba(233,237,245,.18)"></span><span>Nejisté</span><span class="p">7 %</span>
+  </div>
+</section>
+
+<div class="sh"><span class="n">02</span><h2>Zápis</h2><span class="rule"></span><span class="meta">05:44</span></div>
+<section class="panel">
+  <div class="eyebrow">Výňatek · zapsáno 3 min po probuzení</div>
+  <p class="quote">Stojím na mostě. Řeka pode mnou neteče dolů, ale <span class="m">nahoru, přes střechy</span><sup class="mk">VODA</sup>. Přijde mi to normální. Pak si všimnu, že mám na ruce <span class="m">šest prstů</span><sup class="mk">PRSTY</sup>. Dojde mi to: sním. Odrazím se a <span class="m">letím nad vodou</span><sup class="mk">LÉTÁNÍ</sup>. Jde to ztěžka, jako bych plaval. Řeknu nahlas: jasnost teď. Barvy zesílí. Pak se řeka změní v <span class="m">chodbu staré školy</span><sup class="mk">ŠKOLA</sup> a probouzím se.</p>
+  <div class="qmeta"><span class="src">94 slov · 4 Stopy snů</span><a class="lnk" href="#">Celý zápis <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M9.5 6l6 6-6 6"/></svg></a></div>
+</section>
+
+<div class="sh"><span class="n">03</span><h2>Škály</h2><span class="rule"></span><span class="meta">0–10</span></div>
+<section class="panel scales">
+  <div class="scale hot" role="img" aria-label="Lucidita 7 z 10, tvůj průměr 1,4">
+  <div class="sc-h"><span class="mono">Lucidita</span><span class="sc-v tnum">7<small>/10</small></span></div>
+  <div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><span class="avg" style="left:14%"><b></b></span></div>
+  <div class="sc-f"><span>Věděl jsi, že sníš</span><span class="tnum">průměr 1,4</span></div>
+</div>
+  <div class="scale" role="img" aria-label="Živost 9 z 10, tvůj průměr 5,8">
+  <div class="sc-h"><span class="mono">Živost</span><span class="sc-v tnum">9<small>/10</small></span></div>
+  <div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><span class="avg" style="left:58%"><b></b></span></div>
+  <div class="sc-f"><span>Barvy, detaily, pocit skutečnosti</span><span class="tnum">průměr 5,8</span></div>
+</div>
+  <div><div class="scale" role="img" aria-label="Emoce 6 z 10, tvůj průměr 4,9">
+  <div class="sc-h"><span class="mono">Emoce</span><span class="sc-v tnum">6<small>/10</small></span></div>
+  <div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><span class="avg" style="left:49%"><b></b></span></div>
+  <div class="sc-f"><span>Síla emocí</span><span class="tnum">průměr 4,9</span></div>
+</div><div class="emo"><span class="motif">úžas</span><span class="motif">radost</span><span class="motif">lehká nervozita</span></div></div>
+  <div class="scale" role="img" aria-label="Kontrola 4 z 10, tvůj průměr 1,1">
+  <div class="sc-h"><span class="mono">Kontrola</span><span class="sc-v tnum">4<small>/10</small></span></div>
+  <div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><span class="avg" style="left:11%"><b></b></span></div>
+  <div class="sc-f"><span>Kolik jsi ovlivnil děj</span><span class="tnum">průměr 1,1</span></div>
+</div>
+</section>
+
+<div class="sh"><span class="n">04</span><h2>Stopy snů</h2><span class="rule"></span><span class="meta">4 nalezené</span></div>
+<section class="panel">
+  <div class="mrows">
+    <div class="mrow hot">
+  <div class="mr-top"><div><div class="mr-name">Tekoucí voda</div><div class="mono mr-cat">Kontext · nemožná událost</div></div><div class="mr-n"><b class="tnum">7×</b><span>za 14 nocí</span></div></div>
+  <div class="d14" aria-label="7 ze 14 nocí"><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class="on"></i><i class="on now"></i></div>
+</div>
+    <div class="mrow">
+  <div class="mr-top"><div><div class="mr-name">Stará škola</div><div class="mono mr-cat">Kontext · místo</div></div><div class="mr-n"><b class="tnum">4×</b><span>za 14 nocí</span></div></div>
+  <div class="d14" aria-label="4 ze 14 nocí"><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class="on now"></i></div>
+</div>
+    <div class="mrow">
+  <div class="mr-top"><div><div class="mr-name">Létání</div><div class="mono mr-cat">Akce</div></div><div class="mr-n"><b class="tnum">3×</b><span>za 14 nocí</span></div></div>
+  <div class="d14" aria-label="3 ze 14 nocí"><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on now"></i></div>
+</div>
+    <div class="mrow">
+  <div class="mr-top"><div><div class="mr-name">Šest prstů</div><div class="mono mr-cat">Forma · tělo</div></div><div class="mr-n"><b class="tnum">2×</b><span>za 14 nocí</span></div></div>
+  <div class="d14" aria-label="2 ze 14 nocí"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class="on now"></i></div>
+</div>
+  </div>
+  <div class="d14-axis"><span>před 14 nocemi</span><span>dnes</span></div>
+  <p class="src" style="margin-top:12px">Kategorie znaků snu: LaBerge &amp; Rheingold 1990</p>
+</section>
+
+<div class="sh"><span class="n">05</span><h2>Reflexe</h2><span class="rule"></span><span class="meta">1 min</span></div>
+<section class="panel refl">
+  <div class="eyebrow">Zpětný pohled</div>
+  <h3 class="h2">Proč to nebyl test reality?</h3>
+  <p class="small muted">Řeka tekla nahoru a tobě to přišlo normální. Sen jsi poznal až podle prstů. Co tě u řeky zdrželo?</p>
+  <div class="opts" role="radiogroup" aria-label="Co tě zdrželo">
+    <input type="radio" name="why" id="w1" class="sr" checked><label for="w1">Přišlo mi to normální</label>
+    <input type="radio" name="why" id="w2" class="sr"><label for="w2">Byl jsem v ději</label>
+    <input type="radio" name="why" id="w3" class="sr"><label for="w3">Nevšiml jsem si</label>
+    <input type="radio" name="why" id="w4" class="sr"><label for="w4">Jiné</label>
+  </div>
+  <div class="tip"><span class="mono">Zkus zítra</span><p>U každé tekoucí vody se zastav a udělej test. Ve snu pak stačí jeden pohled. Je to jako vyšlapaná cestička.</p><span class="src">LaBerge &amp; Rheingold 1990</span></div>
+</section>
+
+<div class="sh" id="spoustec"><span class="n">06</span><h2>Osobní spouštěč</h2><span class="rule"></span><span class="meta">Z motivu</span></div>
+<section class="panel hot trig">
+  <div class="eyebrow">Voda · 7 nocí ze 14</div>
+  <div class="ift"><span class="k">AŽ</span><span class="v">uvidím tekoucí vodu,</span><span class="k">TAK</span><span class="v">udělám test reality.</span></div>
+  <input type="checkbox" id="trig" class="sr">
+  <label for="trig" class="swrow"><span><span class="t">Přidat do připomínek</span><br><span class="s">3× denně: „Viděl jsi teď vodu? Test.“</span></span><span class="switch" aria-hidden="true"></span></label>
+  <div class="son"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M5.5 12.5l4.2 4.2 8.8-9.4"/></svg>Spouštěč je aktivní. Uvidíš ho i v Plánu na dnešek.</div>
+  <div class="soff">Připomínky se střídají, ať si na ně nezvykneš.</div>
+</section>
+
+<div class="sh"><span class="n">07</span><h2>Technika té noci</h2><span class="rule"></span><span class="meta">Noc 15</span></div>
+<section class="panel tech">
+  <div class="trow"><span class="h3">Probuzení a návrat do spánku (WBTB)</span><span class="meta">Budík 04:30, 22 min vzhůru. Nejvýš 2× týdně.</span><span class="foot"><span class="ev strong"><i aria-hidden="true"><b></b><b></b><b></b></i>Věda silné</span><span class="src">s MILD: Aspy et al. 2017</span></span></div>
+  <div class="trow"><span class="h3">Záměr poznat sen (MILD)</span><span class="meta">5 minut po budíku, záměr na vodu.</span><span class="foot"><span class="ev strong"><i aria-hidden="true"><b></b><b></b><b></b></i>Věda silné</span><span class="src">LaBerge 1980</span></span></div>
+  <div class="trow"><span class="h3">Cílená reaktivace lucidity (TLR)</span><span class="meta">Tichý tón 2× ve 4. REM okně: 05:15 a 05:22.</span><span class="foot"><span class="ev prom"><i aria-hidden="true"><b></b><b></b><b></b></i>Slibné</span><span class="src">Carr et al. 2020</span></span>
+    <span class="mono muted" style="margin-top:8px">Slyšel jsi podnět ve snu?</span>
+    <div class="heard" role="radiogroup" aria-label="Slyšel jsi podnět ve snu?"><input type="radio" name="hr" id="h1" class="sr"><label for="h1">Ano</label><input type="radio" name="hr" id="h2" class="sr"><label for="h2">Ne</label><input type="radio" name="hr" id="h3" class="sr" checked><label for="h3">Nevím</label></div>
+    <div class="n1"><span class="pips"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Experiment TLR: noc 3 z 10</span></div>
+  </div>
+</section>
+
+<div class="sh"><span class="n">08</span><h2>Přílohy</h2><span class="rule"></span><span class="meta">2</span></div>
+<div class="att">
+  <section class="panel" style="margin:0">
+    <input type="checkbox" id="pl" class="sr" aria-label="Přehrát hlasovou poznámku">
+    <div class="audio"><label for="pl" class="playb" aria-hidden="true"><span class="py"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M8.5 5.8v12.4a.6.6 0 0 0 .9.5l9.8-6.2a.6.6 0 0 0 0-1L9.4 5.3a.6.6 0 0 0-.9.5z" fill="currentColor" stroke="none"/></svg></span><span class="pz"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M8.5 5.5v13M15.5 5.5v13" stroke-width="2.6"/></svg></span></label>
+      <div class="w"><div class="between"><span style="font-weight:600">Hlasová poznámka</span><span class="mono muted">0:48</span></div><svg class="wave" viewBox="0 0 200 40" width="100%" height="40" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="18" width="2.2" height="4" rx="1.1" fill="#FF5F1F"/><rect x="4" y="13.2" width="2.2" height="13.6" rx="1.1" fill="#FF5F1F"/><rect x="8" y="12.9" width="2.2" height="14.2" rx="1.1" fill="#FF5F1F"/><rect x="12" y="9.1" width="2.2" height="21.9" rx="1.1" fill="#FF5F1F"/><rect x="16" y="13.4" width="2.2" height="13.3" rx="1.1" fill="#FF5F1F"/><rect x="20" y="12.8" width="2.2" height="14.5" rx="1.1" fill="#FF5F1F"/><rect x="24" y="16.7" width="2.2" height="6.7" rx="1.1" fill="#FF5F1F"/><rect x="28" y="15.3" width="2.2" height="9.5" rx="1.1" fill="#FF5F1F"/><rect x="32" y="9.7" width="2.2" height="20.7" rx="1.1" fill="#FF5F1F"/><rect x="36" y="12" width="2.2" height="16" rx="1.1" fill="#FF5F1F"/><rect x="40" y="8.3" width="2.2" height="23.4" rx="1.1" fill="#FF5F1F"/><rect x="44" y="11.1" width="2.2" height="17.9" rx="1.1" fill="#FF5F1F"/><rect x="48" y="15.4" width="2.2" height="9.2" rx="1.1" fill="#FF5F1F"/><rect x="52" y="17" width="2.2" height="6" rx="1.1" fill="#FF5F1F"/><rect x="56" y="12.9" width="2.2" height="14.3" rx="1.1" fill="#FF5F1F"/><rect x="60" y="11.8" width="2.2" height="16.5" rx="1.1" fill="#FF5F1F"/><rect x="64" y="7.2" width="2.2" height="25.7" rx="1.1" fill="#FF5F1F"/><rect x="68" y="12.8" width="2.2" height="14.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="72" y="13.9" width="2.2" height="12.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="76" y="17.3" width="2.2" height="5.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="80" y="14.6" width="2.2" height="10.9" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="84" y="13.9" width="2.2" height="12.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="88" y="7.8" width="2.2" height="24.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="92" y="12.8" width="2.2" height="14.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="96" y="14.6" width="2.2" height="10.9" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="100" y="17.7" width="2.2" height="4.7" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="104" y="14.7" width="2.2" height="10.6" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="108" y="8.7" width="2.2" height="22.7" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="112" y="11.8" width="2.2" height="16.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="116" y="13.3" width="2.2" height="13.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="120" y="11.1" width="2.2" height="17.8" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="124" y="16.6" width="2.2" height="6.8" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="128" y="15.9" width="2.2" height="8.3" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="132" y="9.8" width="2.2" height="20.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="136" y="11.8" width="2.2" height="16.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="140" y="10.9" width="2.2" height="18.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="144" y="13.5" width="2.2" height="13.1" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="148" y="14.3" width="2.2" height="11.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="152" y="16.6" width="2.2" height="6.9" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="156" y="11.5" width="2.2" height="17.1" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="160" y="10.6" width="2.2" height="18.9" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="164" y="7.8" width="2.2" height="24.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="168" y="10.3" width="2.2" height="19.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="172" y="15.4" width="2.2" height="9.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="176" y="17.9" width="2.2" height="4.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="180" y="13.8" width="2.2" height="12.4" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="184" y="12.3" width="2.2" height="15.5" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="188" y="7.9" width="2.2" height="24.2" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="192" y="10" width="2.2" height="20.1" rx="1.1" fill="rgba(233,237,245,.35)"/><rect x="196" y="15.3" width="2.2" height="9.4" rx="1.1" fill="rgba(233,237,245,.35)"/></svg><span class="src">Nahráno 05:42 v nočním režimu</span></div></div>
+  </section>
+  <section class="panel" style="margin:0">
+    <div class="sk"><div class="fr"><svg viewBox="0 0 150 110" width="100%" height="110" aria-label="Kresba: řeka teče nahoru přes střechy, nad ní letící postava" role="img">
+  <g fill="none" stroke="#C9D0DE" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 100V78l10-8 10 8v22M26 100V72l12-10 12 10v28M50 100V82l9-7 9 7v18M68 100V70l13-11 13 11v30M94 100V80l10-8 10 8v20M114 100V74l11-9 11 9v26"/>
+    <path d="M0 100h150"/>
+  </g>
+  <path d="M10 64C40 58 46 40 70 38s34-14 44-30" fill="none" stroke="#FF5F1F" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M12 70C42 64 50 46 74 44s36-14 46-32" fill="none" stroke="#FF5F1F" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3" opacity=".7"/>
+  <g stroke="#E9EDF5" stroke-width="1.3" fill="none" stroke-linecap="round"><circle cx="108" cy="19" r="3"/><path d="M105 22L92 30M101 24l9-1M99 26l6 4M92 30l-9-1M92 30l-8 4"/></g>
+</svg></div><div><span style="font-weight:600;display:block">Kresba</span><span class="small muted">Řeka nad střechami. Nakresleno 05:50.</span><br><a class="lnk" href="#"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M14.5 5.5l4 4L8.8 19.2 4 20l.8-4.8z"/><path d="M12.8 7.2l4 4"/></svg>Upravit</a></div></div>
+  </section>
+</div>
+
+<div class="priv"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V7.8a4 4 0 0 1 8 0v2.7"/><path d="M12 14.6v2"/></svg><div><b>Data jen v telefonu</b><p>Sen se nikam neodesílá. Zálohu děláš ty, šifrovaně a jen na tvůj pokyn.</p></div></div>
+
+<nav class="tabbar" aria-label="Hlavní navigace"><a class="tab" href="dnes_koncept.html"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="3.2"/><ellipse cx="12" cy="12" rx="9.6" ry="4.2" transform="rotate(-24 12 12)"/></svg><span>Dnes</span></a><a class="tab on" href="noc_mapa_snu.html" aria-current="page"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M6 3.75h10.5A1.75 1.75 0 0 1 18.25 5.5v15H7.5A2.25 2.25 0 0 1 5.25 18.25V4.5a.75.75 0 0 1 .75-.75z"/><path d="M5.25 18.25A2.25 2.25 0 0 1 7.5 16h10.75"/><path d="M9 7.75h5.5M9 10.75h3.5"/></svg><span>Deník</span></a><a class="tab" href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M8.5 12.5V6.2a1.2 1.2 0 0 1 2.4 0V11"/><path d="M10.9 10.5V4.9a1.2 1.2 0 0 1 2.4 0v5.6"/><path d="M13.3 10.5V5.9a1.2 1.2 0 0 1 2.4 0v5.4"/><path d="M15.7 11.3V8.4a1.2 1.2 0 0 1 2.4 0v5.1a6.6 6.6 0 0 1-6.6 6.6h-.4a6 6 0 0 1-4.8-2.4l-2.4-3.3a1.25 1.25 0 0 1 1.9-1.6l1.7 1.6"/></svg><span>Realita</span></a><a class="tab" href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><circle cx="12" cy="12" r="8.6"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r=".9" fill="currentColor"/><path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3"/></svg><span>Výcvik</span></a><a class="tab" href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" ><path d="M19.6 14.6A8.2 8.2 0 0 1 9.4 4.4a8.2 8.2 0 1 0 10.2 10.2z"/><path d="M16.5 3.5v2.4M15.3 4.7h2.4"/></svg><span>Spánek</span></a><span class="gesture" aria-hidden="true"></span></nav>
+</div>
+</body>
+</html>
