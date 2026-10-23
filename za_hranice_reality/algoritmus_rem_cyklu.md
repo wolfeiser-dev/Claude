@@ -3,7 +3,7 @@
 Stav k 23. 10. 2026. Podklad pro záložku Spánek: odhad výskytu REM, REM okna, Chytré probuzení do snu (WBTB) a Zvukový klíč (TLR).
 
 **Vazby na ostatní dokumenty:**
-- `presnost_nositelne_elektroniky.md` dává parametry zařízení (senzitivita, falešně pozitivní míra, ρ, γ, β), slovník a vizuální specifikaci. Tady je používám a rozšiřuji. Kde by se čísla lišila, platí tamten dokument.
+- `presnost_nositelne_elektroniky.md` dává parametry zařízení (senzitivita, falešně pozitivní míra, ρ, γ, β), slovník a vizuální specifikaci. Tady je používám a rozšiřuji. Kde by se čísla lišila, platí tamten dokument. Jediný rozdíl v zápisu je korelace chyb: tamten binární model má ρ′ = 0,3, tady třítřídní vazba ρ = 0,4, a jde o tutéž předpokládanou závislost (převod v 3.3).
 - `inovace.md` popisuje funkce (REM profil, TOP 1 WBTB, Zvukový klíč, Osobní laboratoř). Tady je odvozený model, na kterém stojí.
 
 **Značky u čísel:**
@@ -549,7 +549,7 @@ EM nebo mřížka → Λ_0 = ρ_R / ρ_N,  Λ_0⁻ = (1 − ρ_R) / (1 − ρ_N)
 **Brána** (pravidla obsahu a `inovace.md`):
 - od 15. dne programu,
 - nejvýš 2× za 7 dní a nikdy dvě noci po sobě,
-- ne po červené v „Jak ses vyspal“, ne při spánkovém dluhu (spánek předchozí noci < 6 h, pokud je znám),
+- jen po dobré noci: zelená v „Jak ses vyspal“ (ne po žluté ani červené), ne při spánkovém dluhu (spánek předchozí noci < 6 h, pokud je znám),
 - ne se štítkem nemoc nebo alkohol,
 - uživatel musí chtít.
 
@@ -1053,7 +1053,7 @@ int? planWbtb(bool gateOpen, List<List<(int, int)>> Function(Random, int) sample
    - při neléčené apnoe.
    Štítky noci a široké priory pomohou, ale appka nemá nic diagnostikovat. „REM hned po usnutí“ z náramku je spíš chyba zařízení.
 6. **Změny algoritmů zařízení** mohou posunout výstup bez ohlášení. Logovat verze a po změně zvětšit nejistotu.
-7. **Budík do REM bez živých dat:** model ukazuje, že zisk je malý (4.4). Pokud `inovace.md` TOP 1 slibuje „budík, když nejspíš sníš“, je potřeba formulaci zmírnit na „v nejpravděpodobnější části noci“.
+7. **Budík do REM bez živých dat:** model ukazuje, že zisk je malý (4.4). `inovace.md` TOP 1 proto mluví o budíku „v nejpravděpodobnější části noci“, ne „když nejspíš sníš“ (upraveno při QA 23. 10. 2026).
 8. **Otevřené:**
    - Vyplatí se mřížka cyklů (Schulz 1980)?
    - Pomáhá hluboký spánek ze zařízení k určení fáze cyklu?

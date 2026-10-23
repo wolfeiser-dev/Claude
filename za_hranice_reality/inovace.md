@@ -28,7 +28,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 | # | Funkce | Dopad na LD | Radost | Pracnost | Důkazy |
 |---|---|---|---|---|---|
-| 1 | **Chytré probuzení do snu** (WBTB podle REM oken a brány spánku) | vysoký | střední | M | strong (WBTB + MILD), promising (časování) |
+| 1 | **Chytré probuzení do snu** (WBTB podle REM oken a brány spánku) | vysoký (hlavně díky WBTB + MILD, časování přidává málo) | střední | M | strong (WBTB + MILD), promising (časování, malý zisk) |
 | 2 | **Od Stopy snů ke spouštěči** (osobní plán „když–pak“ a měření přenosu do snu) | střední až vysoký | vysoká | M | strong (implementační záměry obecně), promising, community |
 | 3 | **Zvukový klíč** (TLR podle Konkolyho pro Android) | střední, nejistý | vysoká | L | promising |
 | 4 | **Osobní laboratoř** (experimenty N-of-1, bayesovsky) | nepřímý, dlouhodobě vysoký | velmi vysoká | M | strong (metoda), promising (pro LD) |
@@ -52,7 +52,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 ### 1. Chytré probuzení do snu: Probuzení a návrat do spánku (WBTB) podle tvých REM oken
 
-**Co:** Budík WBTB nezvoní pevně „5 h po ulehnutí“. Zvoní do tvého nejpravděpodobnějšího pozdního REM okna 4,5–6,5 h po **skutečném** usnutí, spočítaného z historie Oury nebo Garminu a z časů snů v ranním zápisu. Spouští se jen přes bránu spánku: max 2× týdně, ne dvě noci po sobě, ne po červené ve „Jak ses vyspal“, ne při spánkovém dluhu. Ráno z hypnogramu ukáže, jak rychle jsi po technice znovu usnul, a podle toho upraví délku bdění.
+**Co:** Budík WBTB nezvoní pevně „5 h po ulehnutí“. Zvoní v nejpravděpodobnější části noci pro pozdní REM, 4,5–6,5 h po **skutečném** usnutí, spočítané z historie Oury nebo Garminu a z časů snů v ranním zápisu. Spouští se jen přes bránu spánku: od 15. dne programu, max 2× týdně, nikdy dvě noci po sobě, jen po dobré noci (zelená ve „Jak ses vyspal“, ne po žluté ani červené), ne při spánkovém dluhu. Ráno z hypnogramu ukáže, jak rychle jsi po technice znovu usnul, a podle toho upraví délku bdění.
 
 **Proč:**
 - WBTB + Záměr poznat sen (MILD) nebo Střídání smyslů (SSILD) je nejlépe doložená domácí kombinace: 17,4 % nocí v NALDIS (Aspy 2017), 16,5–16,9 % v ILDIS (Aspy 2020). `strong` v měřítku oboru.
@@ -60,6 +60,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 - Probuzení z REM dává vybavený sen v ~82 % případů, z NREM v ~43 % (Nielsen 2000). MILD začíná právě vybavením snu. `strong`
 - Usnutí do 10 min po technice je jediný replikovaný behaviorální prediktor (ILDIS: 18,3 vs 11,1 %, p = 0,037). `promising`
 - Personalizované časování podle wearables nikdo netestoval. `promising`, hypotéza, kterou funkce sama měří.
+- Poctivě: bez živých dat z téže noci trefí chytrý budík REM periodu jen o málo častěji než pevných 5 h (asi 0,31 proti 0,27, vybavení snu asi 55 proti 53 %; `algoritmus_rem_cyklu.md` 0 a 4.4), takže hlavní hodnota není přesný zásah REM, ale kotva na skutečné usnutí, brána spánku a osobní učení z tvých nocí.
 - Konkurence: Shape (jen iOS) odhaduje „špičku snění“ z Apple Health. Na Androidu s Ourou a Garminem, s branou spánku a se zpětnou vazbou usnutí nic.
 
 **Jak v UI:** Karta v Plánu na dnešek „Probuzení do snu · okno 4:35–5:05“, detail s noční orbitou a pásmem REM, červená noční obrazovka, ráno výsledek „Usnul jsi zpátky za 5–10 min“. Podrobně v UX specifikaci.
@@ -120,7 +121,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 ### 5. Rekonstrukce noci podle REM oken
 
-**Co:** Ráno po zápisu tě appka provede nocí pozpátku po REM oknech („Okno 4 · 5:20–5:45 · Kde jsi byl?“) jen obecnými otázkami a každý sen přiřadí k oknu s pravděpodobností. Přiřazené časy snů zpětně zpřesňují REM okna pro funkce 1, 3 a 7.
+**Co:** Ráno po zápisu tě appka provede nocí pozpátku po REM oknech („Okno 4 · 5:20–5:45 · Kde jsi byl?“) jen obecnými otázkami a každý sen přiřadí k oknu s pravděpodobností. Přiřazené časy snů zpětně zpřesňují REM okna pro funkce 1, 3 a 7. Součástí je rychlý záznam „Probudil jsem se, ale nic si nepamatuju“ s časem (ráno i v noci, jedním klepnutím): bez probuzení bez snu nejde kalibrovat, jak silný důkaz pro REM zapsaný sen je (`algoritmus_rem_cyklu.md` 4.1–4.3).
 
 **Proč:**
 - Vybavování je prerekvizita lucidity: v LD nocích 2,8 vs 1,7 vybavených snů (ILDIS), efekt TLR jen u lidí s vybavením (Konkoly 2024). `promising`
@@ -193,7 +194,7 @@ Podklad pro vývoj (Flutter, Android) · 23. 10. 2026 · úkol 5
 
 **Pracnost:** S.
 
-**Riziko:** Zklamání, když se téma neobjeví. Text: „I ve studii se téma ukázalo zhruba v každé druhé noci.“ Inkubace noční můry se přesměruje na přepis noční můry (IRT).
+**Riziko:** Zklamání, když se téma neobjeví. Text: „I ve studii mělo sen o zadaném tématu jen zhruba každý druhý člověk, a to za celý týden zkoušení.“ Inkubace noční můry se přesměruje na přepis noční můry (IRT).
 
 ### 11. Jóga snu napojená na Stopy snů a emoce
 
@@ -271,6 +272,7 @@ NOCI   = posledních 28 nocí: Oura type == "long_sleep", jinak relace ≥ 4 h
 VAHA   = {oura30s: 1.0, oura5min: 0.9, garminHC: 0.5, jinyHC: 0.6}
 K0     = 5        // síla populačního prioru p0 v "nocích"
 LR_SEN = 1.9      // sen při probuzení: 82 % vs 43 % vybavení (Nielsen 2000)
+LR_BEZ_SNU = 0.4  // „Probudil jsem se, ale nic si nepamatuju“: (1 − 0,82) / (1 − 0,43), viz algoritmus 4.2
 SIGMA  = {presne: 5, zhruba: 20, nevim: 60}   // minuty, nejistota času snu
 
 pro noc n v NOCI:
@@ -289,13 +291,15 @@ pas[b]    = 80% interval Beta(rem[b] + K0*p0[b] + 0.5, celkem[b] - rem[b] + K0*(
 p0        = populační křivka: REM periody zhruba po 90 min, prodlužují se k ránu
 ```
 
+Tenhle vzorec je zjednodušení pro MVP. Závazný model a parametry zařízení jsou v `algoritmus_rem_cyklu.md` a `presnost_nositelne_elektroniky.md`: Oura senzitivita REM 0,70 a falešně pozitivní 0,10, Garmin 0,50 a 0,15, korelace chyb ρ = 0,3 v binárním modelu přesnosti, což v třítřídním modelu algoritmu odpovídá ρ ≈ 0,4 (stejná předpokládaná závislost, jen jiný zápis). Sčítání vah VAHA bere obě zařízení jako nezávislé svědky, proto má Garmin jen poloviční váhu.
+
 **Rozpočet probuzení** (hlídá Štít, sdílí 1, 3, 7): WBTB nejvýš 2× za 7 dní a nikdy dvě noci po sobě. Ťuknutí nejvýš 2 za noc a 3 noci za 7 dní, nikdy v noci s WBTB. Dvě hlášení „Probudilo mě to“ za 7 dní přepnou Zvukový klíč do jemného režimu.
 
 ---
 
 ### TOP 1: Chytré probuzení do snu (WBTB podle REM oken)
 
-**Uživatelský příběh.** Jako nerd s Ourou chci, aby mě budík na Probuzení a návrat do spánku vzbudil, když nejspíš sním, a jen v noci, kdy si to můj spánek může dovolit. Chci si pamatovat živý sen pro Záměr poznat sen, rychle zase usnout a ráno vidět, jestli to vyšlo.
+**Uživatelský příběh.** Jako nerd s Ourou chci, aby mě budík na Probuzení a návrat do spánku vzbudil v nejpravděpodobnější části noci, a jen v noci, kdy si to můj spánek může dovolit. Chci si pamatovat živý sen pro Záměr poznat sen, rychle zase usnout a ráno vidět, jestli to vyšlo.
 
 **Vstupní body.**
 1. Plán na dnešek: karta „Probuzení do snu“ (jen pokud je den programu ≥ 15 a brána je otevřená).
@@ -309,11 +313,11 @@ p0        = populační křivka: REM periody zhruba po 90 min, prodlužují se k
 
 | Stav | Štítek | Titulek | Text | Akce |
 |---|---|---|---|---|
-| Povoleno, s daty | DNES MŮŽEŠ · PROBUZENÍ | Probuzení do snu | Tvoje REM okno vychází mezi 4:35 a 5:05. Budík zazní uprostřed. | Naplánovat · Dnes ne |
+| Povoleno, s daty | DNES MŮŽEŠ · PROBUZENÍ | Probuzení do snu | Nejpravděpodobnější část noci pro REM vychází mezi 4:35 a 5:05. Budík zazní uprostřed. Je to odhad, ne jistota. | Naplánovat · Dnes ne |
 | Povoleno, bez dat (prázdný) | OBECNÉ OKNO | Probuzení do snu | Tvoje REM okna zatím neznám. Budík dám 5 h po usnutí a za pár nocí to zpřesním. | Naplánovat · Připojit Spánková data |
-| Brána zavřená | SPÁNEK PRVNÍ | Dnes bez probouzení | Důvod v čipu, např. „Tento týden už 2×“, „Včera jsi spal 5 h 40 min“, „Ráno červená“. | Záměr ráno, bez budíku |
+| Brána zavřená | SPÁNEK PRVNÍ | Dnes bez probouzení | Důvod v čipu, např. „Tento týden už 2×“, „Včera byl budík, dvě noci po sobě ne“, „Včera jsi spal 5 h 40 min“, „Ráno žlutá“. | Záměr ráno, bez budíku |
 | Prvních 14 dní | CHRÁNÍME SPÁNEK | Probuzení přijde později | Prvních 14 dní jen vybavování snů. Od 15. dne ti budík nabídnu. | (žádná) |
-| Varování (ne zákaz) | POZOR | Po alkoholu bývá REM rozházený | Klidně to zkus, ale okno může sedět hůř. | Naplánovat · Dnes ne |
+| Brána zavřená: alkohol nebo nemoc | SPÁNEK PRVNÍ | Dnes bez probouzení | Po alkoholu bývá druhá polovina noci rozbitá a REM rozházený. Zkusíme to jindy. | Záměr ráno, bez budíku |
 
 *B. První použití (jednou, tři řádky a jedno tlačítko)*
 - „Budík jen 2× týdně.“
@@ -324,7 +328,7 @@ p0        = populační křivka: REM periody zhruba po 90 min, prodlužují se k
 *C. Detail plánu (spodní panel)*
 - Noční orbita: ulehnutí, odhad usnutí, oblouky REM oken s pásmem nejistoty, značka budíku. Štítek ODHAD · NE MĚŘENÍ.
 - Volby: „Technika: Záměr poznat sen (MILD) / Střídání smyslů (SSILD)“, „Bdění: 10 / 20 / 30 min“, „Jemný náběh 30 s“, „Nejpozději v 5:30“.
-- Text pod orbitou: „Okno je spočítané z 23 nocí. Oura se trefuje do REM zhruba ve 4 případech z 5.“
+- Text pod orbitou: „Okno je spočítané z 23 nocí. Šance, že tě budík zastihne v REM, je asi 3 z 10, o kousek víc než při pevných 5 h. Víc bez živých dat nejde.“
 
 *D. Start noci*
 - Tlačítko „Jdu spát“ uloží kotvu usnutí. Potvrzení: „Budík kolem 4:50. Posunu ho podle toho, kdy usneš.“
@@ -332,13 +336,13 @@ p0        = populační křivka: REM periody zhruba po 90 min, prodlužují se k
 
 *E. Probuzení (noční režim, jen červená)*
 1. Budík s náběhem 30 s, vibrace. Obrazovka: „Sním?“ (funkce 6, 3 s).
-2. „Nehýbej se. Co se ti zdálo?“ Tlačítka: „Mám sen“ (otevře Zápis poslepu) · „Nic“.
+2. „Nehýbej se. Co se ti zdálo?“ Tlačítka: „Mám sen“ (otevře Zápis poslepu) · „Nic si nepamatuju“ (uloží záznam bez snu s časem).
 3. Po zápisu: „Teď Záměr poznat sen. 10 minut, pak usni.“ Spustí se audio (funkce 9).
 4. Konec audia: „Zhasni. Usni do 10 minut, bez snahy.“ Tlačítko „Jdu spát“ uloží čas návratu.
 5. Probudil se sám do 30 min před budíkem a otevřel appku: „Probudil ses sám. Chceš teď udělat záměr? Budík zruším.“
 
 *F. Ráno (v toku Jak ses vyspal)*
-- S daty: „Usnul jsi zpátky asi za 6 min.“ a „Budík zazněl v REM. Podle Oury REM od 4:41.“
+- S daty: „Usnul jsi zpátky asi za 6 min.“ a „Budík zazněl ve 4:50. Podle Oury jsi byl možná v REM.“
 - Data ještě nejsou: „Až otevřeš aplikaci Oura, doplním, jak rychle jsi usnul.“
 - Pomalý návrat: „Usínal jsi přes 20 minut. Příště zkrátím bdění na 10 minut a necháme zhasnuto.“
 
@@ -387,14 +391,14 @@ funkce brana(dnes):
   pokud denProgramu < 15:                      duvody += PRVNICH_14
   pokud wbtbZa7Dni >= 2:                       duvody += TYDEN_PLNY
   pokud vcera WBTB nebo ťuknutí:               duvody += VCERA_BUZENI
-  pokud jakSesVyspal(dnes) == red:             duvody += CERVENA
+  pokud jakSesVyspal(dnes) != green:           duvody += NE_ZELENA   // jen po dobré noci
   pokud tst(vcera) < 6 h:                      duvody += MALO_SPANKU
   pokud prumerTst(7 dní) < 6.5 h:              duvody += DLUH
   pokud planovanyBudik - planovaneUlehnuti < 7.5 h: duvody += KRATKA_NOC
   pokud bezpecnost.bezProbouzeni:              duvody += BEZPECI
   pokud stit.pauzaDo >= dnes:                  duvody += KLIDOVY_TYDEN
+  pokud "alkohol" nebo "nemoc" v tagyDne:      duvody += ALKOHOL_NEMOC   // REM rozházený (Ebrahim 2013)
   varovani = []
-  pokud "alkohol" v tagyDne:                   varovani += ALKOHOL   // REM rozházený (Ebrahim 2013)
   vrať (duvody.prazdne, duvody, varovani)
 
 funkce cilovyCas(profil):
@@ -435,7 +439,7 @@ rano po příchodu hypnogramu:
 
 **Metriky úspěchu.**
 - Vybavení snu při buzení: cíl ≥ 70 %.
-- Zásah do REM podle zařízení: cíl ≥ 50 % (pevný čas typicky zasáhne zhruba čtvrtinu až třetinu, ověřit na vlastních datech).
+- Zásah do REM podle zařízení: sledovat, nic neslibovat. Model čeká asi 0,31 proti 0,27 u pevných 5 h (`algoritmus_rem_cyklu.md` 4.4), cíl je nebýt horší než pevný čas a zisk ověřit randomizací (bod 2 níž).
 - Návrat do spánku do 10 min: cíl ≥ 60 % WBTB nocí.
 - LD na WBTB noc: sledovat, nikdy neslibovat (benchmark studií 16–20 %).
 - Bezpečnost: 0 porušení rozpočtu. „Jak ses vyspal“ po WBTB nocích v průměru nejvýš o 1 bod horší (0–10) než jindy. Podíl lidí, kteří WBTB vypnou kvůli únavě.
@@ -884,6 +888,7 @@ CheckpointResult {
 *C. Čas snu v zápisu*
 - „Kdy ses z něj probudil?“ Čipy: „Teď ráno“ · „Při budíku“ · „V noci kolem…“ (kolečko po 15 min) · „Nevím“.
 - Jistota: „Přesně“ · „Zhruba“ · „Nevím“ (5, 20, 60 min).
+- Rychlá volba bez snu: „Probudil jsem se, ale nic si nepamatuju“ + čas, v ranním zápisu i v nočním režimu. Ukládá se jako záznam „bez snu“ (LR_BEZ_SNU) a je nutná pro kalibraci síly důkazu ze snů.
 - Předvyplnění z událostí appky (budík WBTB, „Probudilo mě to“, otevření appky v noci). Jiná data telefonu se nečtou.
 
 *D. Stavy*

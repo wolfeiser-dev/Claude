@@ -294,6 +294,8 @@ Při ne-REM (R = 0): totéž s f_O a f_G (falešně pozitivní míry) místo s_O
 | Strop zobrazení | **0,9** | 0,8–0,9 | PPV ≤ 0,79 i v nejlepší studii |
 | Mřížka | 5 min | | rozlišení Oury |
 
+**Pozn. k ρ:** tady jde o binární korelaci chyb ρ = 0,3 (REM / ne-REM); `algoritmus_rem_cyklu.md` používá třítřídní vazbu se zachovanými marginálami, kde stejné P(oba REM | REM) dává ρ ≈ 0,4, takže 0,3 tady a 0,4 tam je tatáž předpokládaná závislost, ne dvě různé hodnoty.
+
 ### 3.4 Jak shoda a neshoda mění důvěru
 
 Výpočet bez časového vyhlazení. Výchozí parametry: s_O 0,70, f_O 0,10, s_G 0,50, f_G 0,15.

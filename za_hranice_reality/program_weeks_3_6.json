@@ -352,7 +352,7 @@
         "steps": [
           "Ve Spánkových datech zjisti, kdy obvykle opravdu usínáš.",
           "Spočítej čas budíku: usnutí plus 5 hodin. Upravit ho můžeš mezi 4,5 a 6 hodinami.",
-          "Vyber noc před volnem, kdy ráno nemusíš brzy vstávat.",
+          "Vyber noc před volnem, kdy ráno nemusíš brzy vstávat. Výprava je nejvýš 2× týdně a nikdy dvě noci po sobě.",
           "Ve dne si jednou projdi celý postup: budík, zápis snu, krátké bdění, Záměr poznat sen.",
           "Večer si postup přečti ještě jednou. Dnes spi normálně, budík nenastavuj."
         ]
@@ -387,7 +387,7 @@
         "techniqueId": "wbtb",
         "evidence": "strong",
         "steps": [
-          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nejdřív podmínky: včera ses dobře vyspal a nebyla to noc s výpravou, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
           "Nastav jediný budík na 5 hodin po usnutí. Dej ho tak, abys k němu musel vstát.",
           "Po budíku nejdřív zapiš sen, i když je to jen útržek.",
           "Zůstaň vzhůru 10 až 30 minut. Posaď se, rozsviť tlumeně a přečti si postup.",
@@ -574,7 +574,7 @@
         "techniqueId": "wbtb",
         "evidence": "promising",
         "steps": [
-          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nejdřív podmínky: včera ses dobře vyspal a nebyla to noc s výpravou, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
           "Jediný budík na 5 hodin po usnutí. Uprav ho podle první výpravy, v rozsahu 4,5 až 6 hodin.",
           "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
           "V posteli 4 rychlá kola smyslů, pak 4 až 6 pomalých. Sekundy nepočítej.",
@@ -634,7 +634,7 @@
         "then": "vybavím si své místo a řeknu: Až tam budu, poznám, že sním."
       },
       "morningTask": "Zapiš sny s časem a luciditou 0–10. U každého snu poznač, jestli se v něm objevilo téma: celé, náznakem, nebo vůbec.",
-      "why": "Inkubace má slibná data: zhruba polovina studentů snila o tématu, které si zadala (Barrett 1993), a cílené podněty při usínání dostaly téma do snů častěji (Horowitz a kol. 2020). Inkubace cílí na obsah snu, ne na luciditu. Spojení se záměrem je tvůj vlastní experiment."
+      "why": "Inkubace má slibná data: zhruba polovina studentů snila o tématu, které si zadala (Barrett 1993), a cílené podněty při usínání dostaly téma do snů častěji (Haar Horowitz a kol. 2020). Inkubace cílí na obsah snu, ne na luciditu. Spojení se záměrem je tvůj vlastní experiment."
     },
     {
       "id": "d32",
@@ -685,7 +685,7 @@
         "techniqueId": "wbtb",
         "evidence": "strong",
         "steps": [
-          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nejdřív podmínky: včera ses dobře vyspal a nebyla to noc s výpravou, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
           "Jediný budík na 5 hodin po usnutí, v rozsahu 4,5 až 6 hodin.",
           "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
           "V posteli si vybav sen, ze kterého ses probudil, nebo svou inkubovanou scénu.",
@@ -837,7 +837,7 @@
         "techniqueId": "wbtb",
         "evidence": "strong",
         "steps": [
-          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nejdřív podmínky: včera ses dobře vyspal a nebyla to noc s výpravou, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
           "Jediný budík na čas, který ti zatím sedí nejlépe, mezi 4,5 a 6 hodinami po usnutí.",
           "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
           "V posteli dělej Záměr poznat sen. Jako plánovanou akci si představ tření dlaní a větu Tohle je lucidní sen.",
@@ -950,7 +950,7 @@
         "techniqueId": "wbtb",
         "evidence": "promising",
         "steps": [
-          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nejdřív podmínky: včera ses dobře vyspal a nebyla to noc s výpravou, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
           "Jediný budík na tvůj osvědčený čas, mezi 4,5 a 6 hodinami po usnutí.",
           "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
           "V posteli 4 rychlá kola smyslů, pak 4 až 6 pomalých. Tentokrát bez věty záměru.",
