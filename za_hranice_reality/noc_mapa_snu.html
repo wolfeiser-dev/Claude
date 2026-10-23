@@ -40,7 +40,7 @@ input.sr:focus-visible + label,input.sr:focus-visible + .lbl{outline:2px solid v
 @media (min-width:600px){
   body{background:radial-gradient(900px 600px at 50% -8%,#0E1832 0%,rgba(4,6,12,0) 70%),var(--bg);padding:48px 0 72px}
   .device{border-radius:46px;box-shadow:0 0 0 1px var(--line-2),0 0 0 10px #070A13,0 0 0 11px var(--line),0 50px 140px rgba(0,0,0,.75)}
-  .caption{display:flex;justify-content:space-between;max-width:390px;margin:0 auto 18px;font:500 12px/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .caption{display:flex;justify-content:space-between;gap:16px;white-space:nowrap;max-width:390px;margin:0 auto 18px;font:500 12px/1.4 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
   .caption b{color:var(--text);font-weight:500}
 }
 
@@ -193,12 +193,14 @@ a.dcard:hover{transform:translateX(2px)}
 .dcard.lucid .dc-top .t{color:var(--accent)}
 .dc-top .rem{margin-left:auto;font:500 12px/1 var(--f-mono);letter-spacing:.04em;color:var(--muted);white-space:nowrap}
 .dc-top .tag{height:22px;padding:0 7px}
-.dc-title{font:600 16px/1.22 var(--f-title);letter-spacing:-.01em}
+.dc-title{font:600 16px/1.22 var(--f-title);letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .dc-meta{display:flex;gap:12px;align-items:center;font:500 12px/1 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .dc-meta b{color:var(--text);font-weight:600;margin-left:2px}
 .dcard.lucid .dc-meta b{color:var(--accent)}
-.dc-chips .go{margin-left:auto;color:var(--accent);display:flex;align-items:center}
-.dc-chips{display:flex;gap:6px;margin-top:3px}
+.dc-chips .go{position:absolute;right:8px;bottom:14px;color:var(--accent);display:flex;align-items:center}
+.mchip{flex:none}
+.dc-chips{display:flex;gap:6px;margin-top:3px;overflow:hidden}
+.dcard.lucid .dc-chips{padding-right:26px}
 .mchip{height:24px;padding:0 9px;display:inline-flex;align-items:center;border-radius:999px;border:1px solid var(--line-2);font:500 13px/1 var(--f-text);color:var(--muted);transition:all .3s}
 .mchip.more{color:var(--faint)}
 .lgd{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin:6px 16px 0;padding:16px 0 0;border-top:1px solid var(--line)}
@@ -257,7 +259,7 @@ a.dcard:hover{transform:translateX(2px)}
 </style>
 </head>
 <body>
-<div class="caption" aria-hidden="true"><span><b>Za hranice reality</b> · Já²</span><span>Koncept · Deník, mapa noci</span></div>
+<div class="caption" aria-hidden="true"><span><b>Za hranice reality</b></span><span>Koncept · Mapa noci</span></div>
 <div class="device">
 <div class="sb" ><span class="tnum">07:18</span><span class="ic" aria-hidden="true">
 <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="8" width="3" height="4" rx=".8" fill="currentColor"/><rect x="4.6" y="5.5" width="3" height="6.5" rx=".8" fill="currentColor"/><rect x="9.2" y="3" width="3" height="9" rx=".8" fill="currentColor"/><rect x="13.8" y="0" width="3" height="12" rx=".8" fill="currentColor" opacity=".35"/></svg>
