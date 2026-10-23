@@ -1,0 +1,316 @@
+{
+  "experiments": [
+    {
+      "id": "recallIntention",
+      "title": "Večerní záměr pamatovat si sen",
+      "question": "Pamatuju si víc snů, když si večer v klidu řeknu, že si sen chci zapamatovat?",
+      "techniqueIds": ["recallTraining", "dreamJournal"],
+      "evidence": "promising",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Jen deník",
+          "instruction": "Večer nic zvláštního. Ráno zapiš všechno, co si ze snů pamatuješ. Prázdná noc je taky zápis."
+        },
+        {
+          "id": "B",
+          "label": "Záměr a klid",
+          "instruction": "Dvě minuty před spaním klid bez displeje. Pak si řekni, že si sen chceš zapamatovat a že tě zajímá. Ráno stejný zápis jako u A."
+        }
+      ],
+      "design": "alternating",
+      "nights": 14,
+      "minNightsPerArm": 5,
+      "outcomes": ["recall", "vividness", "sleepFeeling"],
+      "primary": "recall",
+      "safety": "Hodí se i do prvních 14 dní programu, protože chrání spánek a trénuje jen vybavování. Když jsi unavený, zkrať záměr na jednu větu a spi.",
+      "why": "Zájem o sny a postoj k nim souvisí s tím, kolik si jich člověk pamatuje (Schredl a kol. 2003). Vybavený sen je častá událost, takže rozdíl může být vidět už po dvou týdnech, mnohem dřív než u lucidních snů."
+    },
+    {
+      "id": "voiceVsWriting",
+      "title": "Ranní zápis hlasem, nebo písmem",
+      "question": "Zachytím víc snů, když je ráno hned namluvím, než když je píšu?",
+      "techniqueIds": ["dreamJournal", "recallTraining"],
+      "evidence": "community",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Psaní",
+          "instruction": "Ráno se chvíli nehýbej a přetoč si sen pozpátku. Pak ho napiš do Deníku."
+        },
+        {
+          "id": "B",
+          "label": "Hlas",
+          "instruction": "Ráno se chvíli nehýbej a přetoč si sen pozpátku. Pak ho hned vleže namluv do hlasového záznamu."
+        }
+      ],
+      "design": "alternating",
+      "nights": 14,
+      "minNightsPerArm": 5,
+      "outcomes": ["recall", "vividness"],
+      "primary": "recall",
+      "safety": "Mluv potichu a displej ztlum, ať se neprobudíš víc, než musíš. Když chceš ještě spát, stačí tři slova a jedna emoce.",
+      "why": "Pohyb a rušení hned po probuzení vybavování snižují (Koulack a Goodenough 1976) a hlas je rychlejší než psaní. Že hlasové záznamy bývají delší, je zkušenost z praxe bez studie, proto to stojí za ověření na sobě."
+    },
+    {
+      "id": "caffeineCutoff",
+      "title": "Bez kofeinu po druhé odpoledne",
+      "question": "Spím líp a pamatuju si sny jinak ve dnech, kdy po 14:00 nepiju kofein?",
+      "techniqueIds": ["recallTraining"],
+      "evidence": "strong",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Obvyklý den",
+          "instruction": "Kofein jako obvykle, i po 14:00. Nic nepřidávej navíc."
+        },
+        {
+          "id": "B",
+          "label": "Bez kofeinu po 14:00",
+          "instruction": "Po druhé odpoledne žádná káva, černý ani zelený čaj, kola ani energetický nápoj. Dopoledne jako obvykle."
+        }
+      ],
+      "design": "alternating",
+      "nights": 14,
+      "minNightsPerArm": 5,
+      "outcomes": ["sleepFeeling", "recall", "vividness"],
+      "primary": "sleepFeeling",
+      "safety": "Jen pokud kofein po 14:00 běžně piješ. Varianta A není pokyn pít víc. Když tě ve dnech bez odpolední kávy bolí hlava, experiment ukonči nebo kofein ubírej postupně.",
+      "why": "Podle metaanalýzy 24 studií kofein zkracuje spánek asi o 45 minut a ubírá hluboký spánek (Gardiner a kol. 2023). Hlavní výsledek je proto pocit ze spánku. Vybavování je vedlejší, protože víc nočních probuzení může počet vybavených snů paradoxně zvednout i při horším spánku."
+    },
+    {
+      "id": "mildVsJournal",
+      "title": "Záměr poznat sen (MILD), nebo jen deník",
+      "question": "Mám víc lucidních chvil ve snu, když večer dělám Záměr poznat sen (MILD), než když jen píšu deník?",
+      "techniqueIds": ["mild", "dreamJournal"],
+      "evidence": "strong",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Jen deník",
+          "instruction": "Večer bez techniky, usni jako obvykle. Ráno zapiš sny a u každého ohodnoť luciditu 0 až 10."
+        },
+        {
+          "id": "B",
+          "label": "Záměr poznat sen (MILD)",
+          "instruction": "V posteli si přehraj nedávný sen a najdi v něm divnou věc. Řekni si: Až budu příště snít, uvědomím si, že sním. Představ si, že to poznáš. Opakuj, dokud záměr nesedí, pak usni. Ráno stejný zápis jako u A."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 28,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucidity", "lucid", "recall", "sleepFeeling"],
+      "primary": "lucidity",
+      "safety": "Až po prvních 14 dnech programu. Když nemůžeš usnout, techniku pusť, spánek má přednost. Cítíš se přes den odpojeně nebo jako ve snu? Dej si pauzu a nech jen deník.",
+      "why": "Záměr poznat sen je nejlépe doložená technika lucidního snění (Aspy a kol. 2017; Tan a Fan 2023). Lucidní noc je ale vzácná, proto je hlavním výsledkem škála lucidity 0 až 10, která zachytí i krátké záblesky; samotná lucidní noc by potřebovala 30 a víc nocí na variantu."
+    },
+    {
+      "id": "ssildVsMildMorning",
+      "title": "Při ranním probuzení: Střídání smyslů, nebo Záměr",
+      "question": "Co mi při ranním probuzení sedí víc: Střídání smyslů (SSILD), nebo Záměr poznat sen (MILD)?",
+      "techniqueIds": ["ssild", "mild"],
+      "evidence": "promising",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Záměr poznat sen (MILD)",
+          "instruction": "Když se ráno sám probudíš a ještě můžeš spát, přehraj si sen, dej si záměr poznat, že sníš, a usni."
+        },
+        {
+          "id": "B",
+          "label": "Střídání smyslů (SSILD)",
+          "instruction": "Když se ráno sám probudíš a ještě můžeš spát, udělej 4 rychlá a 4 až 6 pomalých kol: zrak, sluch, tělo. Pak techniku pusť a usni."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 28,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucidity", "lucid", "recall", "sleepFeeling"],
+      "primary": "lucidity",
+      "safety": "Až po prvních 14 dnech programu a bez budíku, jen při přirozeném probuzení. Nevzbudil ses, nebo už nebyl čas? Noc se nepočítá a nic se neděje. Usnutí má přednost před technikou.",
+      "why": "Ve velké domácí studii vyšly obě techniky skoro stejně, 16,5 a 16,9 % nocí s lucidním snem (Aspy 2020). Rozdíl, pokud nějaký je, bude osobní a spíš malý, proto je hlavní škála lucidity a při shodě rozhoduje, která tě víc baví."
+    },
+    {
+      "id": "wbtbVsMorning",
+      "title": "Probuzení a návrat do spánku (WBTB), nebo jen ráno",
+      "question": "Funguje mi Záměr poznat sen (MILD) líp po Probuzení a návratu do spánku (WBTB) než při ranním probuzení bez budíku?",
+      "techniqueIds": ["wbtb", "mild"],
+      "evidence": "strong",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Jen ranní probuzení",
+          "instruction": "Bez budíku. Když se ráno sám probudíš a ještě můžeš spát, dej si Záměr poznat sen a usni."
+        },
+        {
+          "id": "B",
+          "label": "Probuzení a návrat do spánku (WBTB)",
+          "instruction": "Jediný budík 5 hodin po usnutí. Zapiš sen, zůstaň vzhůru 10 až 30 minut, pak v posteli Záměr poznat sen. Cílem je usnout do 10 minut. Když to nejde, techniku pusť a jen odpočívej."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 20,
+      "minNightsPerArm": 8,
+      "outcomes": ["lucidity", "lucid", "sleepFeeling", "recall"],
+      "primary": "lucidity",
+      "safety": "Do experimentu patří jen noc, kdy je WBTB dovolené: po 14. dni programu, po dobré noci, nikdy dvě noci po sobě a nejvýš 2 v týdnu. Appka to hlídá sama a noc A se do limitu nepočítá. Když se po nocích B cítíš o víc než bod hůř, experiment zastav, spánek má přednost.",
+      "why": "Doma vychází kombinace probuzení a Záměru poznat sen na 16 až 20 % nocí s lucidním snem, víc než bez probuzení (Aspy a kol. 2017; Aspy 2020). Vhodné noci jsou ale nejvýš dvě týdně, takže experiment potrvá spíš dva měsíce; pocit ze spánku sleduj vedle jako pojistku."
+    },
+    {
+      "id": "wbtbMildVsSsild",
+      "title": "Po nočním probuzení: Záměr, nebo Střídání smyslů",
+      "question": "Co mi po Probuzení a návratu do spánku (WBTB) funguje líp: Záměr poznat sen (MILD), nebo Střídání smyslů (SSILD)?",
+      "techniqueIds": ["wbtb", "mild", "ssild"],
+      "evidence": "promising",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Záměr poznat sen (MILD)",
+          "instruction": "Po budíku a 10 až 30 minutách bdění si v posteli dej Záměr poznat sen, dokud nesedí. Pak usni."
+        },
+        {
+          "id": "B",
+          "label": "Střídání smyslů (SSILD)",
+          "instruction": "Po budíku a 10 až 30 minutách bdění udělej v posteli 4 rychlá a 4 až 6 pomalých kol smyslů, celé asi 5 až 7 minut. Pak techniku pusť a usni."
+        }
+      ],
+      "design": "alternating",
+      "nights": 20,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucid", "lucidity", "sleepFeeling"],
+      "primary": "lucid",
+      "safety": "Jen noci, kdy je WBTB dovolené: po 14. dni programu, po dobré noci, nikdy dvě noci po sobě a nejvýš 2 v týdnu. Obě varianty mají stejné probuzení, liší se jen technika. Techniky nespojuj dohromady.",
+      "why": "Po nočním probuzení jsou lucidní noci nejčastější, kolem 16 až 20 %, proto tu může být hlavním výsledkem přímo lucidní noc (Aspy 2020). I tak počítej s 10 a více týdny a s tím, že malý rozdíl nepoznáš; spojení obou technik vyšlo ve stejné studii nejhůř."
+    },
+    {
+      "id": "rtThreeVsSix",
+      "title": "Tři, nebo šest testů reality denně",
+      "question": "Přidá mi šest testů reality denně něco proti třem pořádným?",
+      "techniqueIds": ["realityCheck"],
+      "evidence": "community",
+      "arms": [
+        {
+          "id": "A",
+          "label": "3 testy",
+          "instruction": "Přes den tři testy reality. Každý pořádně: zeptej se Sním?, rozhlédni se a zkus nádech zavřenými rty. Platí pro den a noc po něm."
+        },
+        {
+          "id": "B",
+          "label": "6 testů",
+          "instruction": "Přes den šest testů stejným postupem, rozložených od rána do večera. Platí pro den a noc po něm."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 28,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucidity", "lucid"],
+      "primary": "lucidity",
+      "safety": "Až po prvních 14 dnech programu. Testy nikdy za volantem ani tam, kde potřebuješ plnou pozornost. Když ti přinášejí úzkost nebo pocit neskutečna, přestaň a přejdi na Návrat do těla a do přítomnosti.",
+      "why": "Ve velké studii počet testů s lucidními sny nesouvisel a přidání testů k Záměru poznat sen výsledek spíš zhoršilo (Aspy 2020). Tady zjistíš, jestli tobě víc testů něco přidá; přenos návyku z jednoho dne do dalšího rozdíl spíš rozmaže, nevyrobí."
+    },
+    {
+      "id": "adaVsQuickTest",
+      "title": "Kritická reflexe (ADA), nebo rychlý test",
+      "question": "Pomáhá mi víc pár opravdových zastavení s otázkou Sním, nebo bdím? než rychlé testy reality?",
+      "techniqueIds": ["ada", "realityCheck"],
+      "evidence": "community",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Rychlé testy",
+          "instruction": "Přes den pět rychlých testů reality: nádech zavřenými rty a pohled na ruce. Platí pro den a noc po něm."
+        },
+        {
+          "id": "B",
+          "label": "Kritická reflexe (ADA)",
+          "instruction": "Přes den se pětkrát u svého spouštěče zastav. Zeptej se, co vnímáš a jak ses sem dostal, ohlédni se zpátky v čase a hledej, co je divné. Platí pro den a noc po něm."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 28,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucidity", "lucid", "vividness"],
+      "primary": "lucidity",
+      "safety": "Až po prvních 14 dnech programu. Zastavení dělej jen tam, kde je to bezpečné. Pocit neskutečna nebo úzkost? Přestaň a přejdi na Návrat do těla a do přítomnosti.",
+      "why": "Tholey doporučoval místo mechanického testu opravdovou kritickou otázku a ohlédnutí zpátky (Tholey 1983). Přímé srovnání s rychlými testy chybí, proto je to dobrá otázka pro vlastní laboratoř; lucidní noc je vzácná, a tak je hlavním výsledkem škála lucidity."
+    },
+    {
+      "id": "incubationTheme",
+      "title": "Inkubace tématu",
+      "question": "Pamatuju si víc snů, když si večer zadám téma, o kterém chci snít?",
+      "techniqueIds": ["incubation"],
+      "evidence": "promising",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Bez tématu",
+          "instruction": "Večer jako obvykle. Ráno zapiš sny."
+        },
+        {
+          "id": "B",
+          "label": "Téma na noc",
+          "instruction": "Večer si napiš jednu otázku nebo téma. Pár minut si ho představuj a usni s ním. Ráno zapiš sny a poznač, jestli se téma objevilo."
+        }
+      ],
+      "design": "alternating",
+      "nights": 14,
+      "minNightsPerArm": 5,
+      "outcomes": ["recall", "vividness", "sleepFeeling"],
+      "primary": "recall",
+      "safety": "Vybírej témata, která tě nezatěžují. Těžké a bolestné věci nech na den nebo na rozhovor s odborníkem, ne na chvíli před spaním.",
+      "why": "Zhruba polovině studentů se během týdne inkubace zdál sen související se zadaným problémem (Barrett 1993). Shodu s tématem tu měřit neumíme, proto je hlavním výsledkem vybavování; jestli se téma objevilo, si poznač v Deníku."
+    },
+    {
+      "id": "dreamYogaEvening",
+      "title": "Noční příprava jógy snu",
+      "question": "Jsou moje sny živější, když před spaním udělám krátkou přípravu jógy snu?",
+      "techniqueIds": ["dreamYogaBreath", "dreamYogaIntention"],
+      "evidence": "tradition",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Bez přípravy",
+          "instruction": "Usni jako obvykle."
+        },
+        {
+          "id": "B",
+          "label": "Dech a záměr",
+          "instruction": "V posteli pár minut pomalu dýchej a s každým výdechem pusť kus napětí dne. Pak si připomeň, proč praktikuješ, a dej si záměr: dnes v noci chci poznat, že sním."
+        }
+      ],
+      "design": "alternating",
+      "nights": 20,
+      "minNightsPerArm": 7,
+      "outcomes": ["vividness", "lucidity", "sleepFeeling"],
+      "primary": "vividness",
+      "safety": "Dýchej volně, nic nezadržuj. Když ti příprava brání usnout, zkrať ji na jeden výdech a jednu větu.",
+      "why": "Večerní dech a záměr popisují jako přípravu noci Wangyal i Norbu (Wangyal 1998; Norbu 1992); vědecky testované to není. Živost snu je častý a jemný výsledek, proto je hlavní, a luciditu sleduješ vedle."
+    },
+    {
+      "id": "meditationEvening",
+      "title": "Večerní meditace",
+      "question": "Mám jasnější a lucidnější sny ve dnech, kdy večer 10 minut medituju?",
+      "techniqueIds": ["meditation"],
+      "evidence": "promising",
+      "arms": [
+        {
+          "id": "A",
+          "label": "Bez meditace",
+          "instruction": "Večer jako obvykle."
+        },
+        {
+          "id": "B",
+          "label": "10 minut šamathy",
+          "instruction": "Večer vsedě, ještě mimo postel, 10 minut počítej výdechy od 1 do 9. Ztratíš počet? Začni znovu od jedné, nehodnoť. Pak jdi spát."
+        }
+      ],
+      "design": "randomBlocks",
+      "nights": 28,
+      "minNightsPerArm": 10,
+      "outcomes": ["lucidity", "vividness", "sleepFeeling"],
+      "primary": "lucidity",
+      "safety": "Až po prvních 14 dnech programu. Meditace nemá nahradit spánek: když je pozdě, zkrať ji. Když se při ní objevuje úzkost, přejdi na Návrat do těla a do přítomnosti.",
+      "why": "Dlouhodobí meditující hlásí víc lucidních snů, ale osmitýdenní kurz všímavosti jejich počet nezvýšil (Baird a kol. 2019) a vztah s častostí meditace je jen korelace (Gerhardt a Baird 2024). Rozdíl z jednoho večera bude spíš malý, proto je hlavní škála lucidity, ne vzácná lucidní noc."
+    }
+  ]
+}

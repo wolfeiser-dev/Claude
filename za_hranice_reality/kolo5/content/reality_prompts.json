@@ -1,0 +1,102 @@
+{
+  "prompts": [
+    {
+      "id": "rc_01",
+      "form": "palm",
+      "notification": "Podívej se na dlaň. Sníš, nebo bdíš?",
+      "silent": "Chvilka pro dlaň.",
+      "prompt": "Tři vteřiny se dívej na dlaň. Jsou čáry a prsty ostré? Co se dělo před pěti minutami?"
+    },
+    {
+      "id": "rc_02",
+      "form": "memory",
+      "notification": "Co se dělo před pěti minutami? A předtím?",
+      "silent": "Krátké zastavení.",
+      "prompt": "Projdi si v duchu cestu do téhle chvíle, krok po kroku. Navazuje to na sebe?"
+    },
+    {
+      "id": "rc_03",
+      "form": "oddity",
+      "notification": "Co je tu teď zvláštního?",
+      "silent": "Rozhlédni se.",
+      "prompt": "Najdi tři věci, které dávají smysl, a hledej jednu, která ho nedává. Teprve pak odpověz."
+    },
+    {
+      "id": "rc_04",
+      "form": "breath",
+      "notification": "Zavři rty a zkus se jimi nadechnout.",
+      "silent": "Jeden nádech.",
+      "prompt": "V bdění to nejde. Ve snu někdy ano. Co ti to říká o téhle chvíli?"
+    },
+    {
+      "id": "rc_05",
+      "form": "text",
+      "notification": "Přečti si tuhle větu dvakrát. Je pořád stejná?",
+      "silent": "Přečti si to znovu.",
+      "prompt": "Ve snu se text při druhém čtení může změnit. Najdi kolem sebe nějaký nápis a přečti ho dvakrát."
+    },
+    {
+      "id": "rc_06",
+      "form": "time",
+      "notification": "Kolik je hodin? Podívej se dvakrát.",
+      "silent": "Kolik je hodin?",
+      "prompt": "Podívej se na hodiny, odvrať pohled a podívej se znovu. Sedí čas s tím, co se dnes dělo?"
+    },
+    {
+      "id": "rc_07",
+      "form": "sign",
+      "notification": "Je kolem tebe některý z tvých znaků snů?",
+      "silent": "Tvůj znak?",
+      "prompt": "Vzpomeň si na svůj hlavní znak snu. Je tady něco podobného? Kdyby ano, podle čeho teď poznáš, jestli sníš?"
+    },
+    {
+      "id": "rc_08",
+      "form": "body",
+      "notification": "Jak teď cítíš tělo? Tíhu, kroky, dech?",
+      "silent": "Vnímej tělo.",
+      "prompt": "Vnímej váhu těla, dotek oblečení a dech. Je to obvyklé, nebo je něco jinak?"
+    },
+    {
+      "id": "rc_09",
+      "form": "light",
+      "notification": "Podívej se na nejbližší světlo. Vypadá jako vždy?",
+      "silent": "Světlo kolem.",
+      "prompt": "Ve snu může být světlo zvláštní nebo nereagovat na vypínač. Jak je to tady a teď?"
+    },
+    {
+      "id": "rc_10",
+      "form": "fingers",
+      "notification": "Spočítej prsty na ruce. Sedí to?",
+      "silent": "Spočítej prsty.",
+      "prompt": "Spočítej je pomalu, jeden po druhém. Kolik jich je a vypadají obvykle?"
+    },
+    {
+      "id": "rc_11",
+      "form": "people",
+      "notification": "Podívej se na lidi kolem. Chovají se obvykle?",
+      "silent": "Kdo je kolem?",
+      "prompt": "Kdo je s tebou a proč? Dává smysl, že jsou tady právě oni?"
+    },
+    {
+      "id": "rc_12",
+      "form": "sound",
+      "notification": "Co teď slyšíš? Dává to smysl?",
+      "silent": "Poslouchej.",
+      "prompt": "Pojmenuj tři zvuky kolem sebe. Odkud přicházejí a sedí k místu, kde jsi?"
+    },
+    {
+      "id": "rc_13",
+      "form": "place",
+      "notification": "Proč jsi teď právě tady?",
+      "silent": "Kde právě jsi?",
+      "prompt": "Kde jsi, proč tady a co přijde dál? Odpověz si celou větou."
+    },
+    {
+      "id": "rc_14",
+      "form": "emotion",
+      "notification": "Jak se právě cítíš? Odpovídá to situaci?",
+      "silent": "Jak se máš?",
+      "prompt": "Pojmenuj pocit a podívej se, odkud přišel. Ve snu emoce někdy nesedí k tomu, co se děje."
+    }
+  ]
+}

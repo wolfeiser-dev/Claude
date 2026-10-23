@@ -1,0 +1,148 @@
+{
+  "texts": {
+    "lab": {
+      "title": "Osobní laboratoř",
+      "intro": "Experiment N-of-1 je pokus s jedním člověkem: s tebou. Noci se losují mezi dvě varianty, takže obě dostanou stejné podmínky a rozdíl ukáže, co funguje právě tobě, ne průměrnému člověku ze studie. Stejnou metodu používá personalizovaná medicína (Kravitz a Duan 2014).",
+      "warning": "Jedna osoba, malý vzorek. Výsledek platí jen pro tebe a pro tohle období a i poctivý experiment se může splést. Ber ho jako vodítko, ne jako zákon.",
+      "endPrompt": "Experiment je u konce. Podívej se, co ti vyšlo, a rozhodni se: ponecháš si variantu, která ti sedí, nebo zkusíš další otázku? Klidně si mezi tím dej pár nocí jen na spánek.",
+      "empty": "Laboratoř je prázdná. Vyber otázku, kterou chceš na sobě ověřit.",
+      "lengthNote": "Lucidní noc je vzácná. I velký rozdíl často poznáš až po 30 a víc nocích na variantu, proto většina experimentů měří i něco častějšího, třeba vybavené sny nebo škálu lucidity.",
+      "progress": "{done} z {total} nocí",
+      "nextCheckpoint": "Další výsledek po {n}. noci.",
+      "betweenCheckpoints": "Mezi kontrolními body výsledek neukazuju. Chrání to před honbou za vítězem i před náhodnými výkyvy.",
+      "secondaryNote": "Vedlejší výsledky jsou jen doplněk. Rozhoduje ten hlavní, protože čím víc věcí sleduješ, tím spíš některá vyjde náhodou.",
+      "extend": "Prodloužit o 14 nocí",
+      "ruleStrict": "Přísnější pravidlo: méně omylů, delší čekání.",
+      "verdict": {
+        "tooEarly": {
+          "title": "Zatím nevíme",
+          "body": "Dat je zatím málo na to, aby šlo říct, která varianta ti sedí víc."
+        },
+        "noDifference": {
+          "title": "Prakticky stejné",
+          "body": "Obě varianty ti fungují skoro stejně. Vyber tu, která tě víc baví a míň ruší spánek."
+        },
+        "leanA": {
+          "title": "Náznak: {arm}",
+          "body": "Varianta „{arm}“ vychází o něco lépe, ale tak slabě, že to může být náhoda. Ber to jako náznak, ne jako závěr."
+        },
+        "leanB": {
+          "title": "Náznak: {arm}",
+          "body": "Varianta „{arm}“ vychází o něco lépe, ale tak slabě, že to může být náhoda. Ber to jako náznak, ne jako závěr."
+        },
+        "clearA": {
+          "title": "Vychází lépe: {arm}",
+          "body": "Varianta „{arm}“ ti vychází lépe a rozdíl je dost velký, aby dával smysl. Pořád jde o jednoho člověka a jedno období."
+        },
+        "clearB": {
+          "title": "Vychází lépe: {arm}",
+          "body": "Varianta „{arm}“ ti vychází lépe a rozdíl je dost velký, aby dával smysl. Pořád jde o jednoho člověka a jedno období."
+        }
+      },
+      "reason": {
+        "fewNights": "Výsledek ukážu, až bude mít každá varianta aspoň {min} nocí se záznamem.",
+        "inconclusive": "Nocí je dost, ale rozdíl zatím není jasný. Můžeš experiment prodloužit o 14 nocí, nebo skončit a vybrat podle toho, co tě baví.",
+        "inconclusiveAtMax": "Rozdíl je menší, než umíme na jednom člověku poznat. I to je výsledek: vyber variantu, která tě baví a míň ruší spánek."
+      },
+      "flag": {
+        "changesOverTime": "Výsledek se mění v čase. Rozdíl mezi variantami nebyl na začátku a na konci stejný, třeba proto, že ses technikou učil.",
+        "manyMissing": "Hodně nocí bez záznamu. Výsledek je proto slabší.",
+        "unbalanced": "Varianty nejsou rozložené rovnoměrně. Srovnání je proto méně spolehlivé.",
+        "unblinded": "Věděl jsi, co děláš. Část rozdílu může být očekávání.",
+        "earlyLook": "Předčasný pohled mimo kontrolní bod. Zvyšuje riziko omylu, ber ho s rezervou."
+      },
+      "explain": {
+        "lucid": "Ze 100 nocí by ti varianta A dala asi {a} lucidních nocí a varianta B asi {b}. Rozdíl B proti A nejspíš od {lo} do {hi} nocí ze 100.",
+        "recall": "Naměřeno: s variantou A průměrně {a} snu za noc, s variantou B {b}. Po započtení náhody a vývoje v čase je rozdíl B proti A nejspíš od {lo} do {hi} snu za noc.",
+        "vividness": "Živost snů: s variantou A průměrně {a}, s variantou B {b} bodu z 10. Po započtení náhody a vývoje v čase je rozdíl B proti A nejspíš od {lo} do {hi} bodu.",
+        "lucidity": "Lucidita: s variantou A průměrně {a}, s variantou B {b} bodu z 10. Po započtení náhody a vývoje v čase je rozdíl B proti A nejspíš od {lo} do {hi} bodu.",
+        "sleepFeeling": "Pocit ze spánku: s variantou A průměrně {a}, s variantou B {b} bodu z 10. Po započtení náhody a vývoje v čase je rozdíl B proti A nejspíš od {lo} do {hi} bodu."
+      },
+      "outcome": {
+        "lucid": "Lucidní noc",
+        "recall": "Vybavené sny za noc",
+        "vividness": "Živost snu",
+        "lucidity": "Lucidita",
+        "sleepFeeling": "Pocit ze spánku"
+      },
+      "design": {
+        "alternating": "Noci se střídají A, B, A, B a začátek losuju. Obě varianty tak dostanou stejné období, i když se časem zlepšuješ.",
+        "randomBlocks": "Noci losuju po blocích po čtyřech: v každém bloku dvakrát A a dvakrát B. Obě varianty dostanou stejné období a další noc se nedá snadno uhodnout."
+      },
+      "wbtb": {
+        "notTonight": "Dnes tahle noc do experimentu nepatří. Pokračujeme další vhodnou nocí.",
+        "inFirst14Days": "Prvních 14 dní programu patří vybavování snů a spánku. Noční probuzení přijde potom.",
+        "consecutiveNights": "Včera byla noc s probuzením. Dvě noci po sobě nikdy.",
+        "moreThanTwoPerWeek": "Za posledních 7 nocí už máš dvě noci s probuzením. Víc ne.",
+        "afterPoorSleep": "Minulou noc ses nevyspal dobře. Dnes spi bez budíku, spánek má přednost.",
+        "status": {
+          "scheduled": "Dnešní noc patří experimentu: {arm}.",
+          "recorded": "Tahle noc je v experimentu zapsaná: {arm}.",
+          "experimentDone": "Všechny noci experimentu máš za sebou. Výsledek čeká v laboratoři.",
+          "pastNight": "Tahle noc už je za tebou, do experimentu ji zpětně nepřidám. Pořadí nocí musí zůstat, jak bylo vylosované.",
+          "conflictingRecord": "U téhle noci jsou zapsané dvě různé varianty. Oprav záznam, ať srovnání sedí."
+        },
+        "sleepFirst": "Když po budíku nemůžeš usnout nebo se necítíš dobře, techniku pusť a spi. Spánek má přednost.",
+        "bothArmsWait": "Dnes nepoběží ani varianta bez budíku. Obě varianty srovnávám jen na nocích, kdy by šlo i probuzení, jinak by srovnání nebylo férové."
+      },
+      "detail": {
+        "title": "Jak to počítám",
+        "nights": "Nocí se záznamem: A {a}, B {b}.",
+        "missing": "Bez záznamu: {n} nocí. Do výpočtu se nepočítají.",
+        "model": {
+          "betaBinomial": "Lucidní noc je ano, nebo ne. Počítám beta-binomickým modelem: každá varianta má svůj podíl lucidních nocí a model ho odhaduje z tvých nocí.",
+          "tModel": "Rozdíl průměrů počítám bayesovským t-modelem. Počítá s nejistotou malého vzorku a s tím, že se v čase můžeš zlepšovat."
+        },
+        "prior": {
+          "lucid": "Výchozí předpoklad: asi 10 lucidních nocí ze 100 pro obě varianty, s váhou 10 nocí. Odpovídá tomu, co hlásí praktikující, a žádnou variantu nezvýhodňuje.",
+          "scale": "Výchozí předpoklad: velký rozdíl je méně pravděpodobný než malý. Brzdí to náhodné výkyvy z několika nocí a žádnou variantu nezvýhodňuje."
+        },
+        "trendAdjusted": "Rozdíl je očištěný o trend: když se v průběhu zlepšuješ, nepřipíše se to jedné variantě.",
+        "rope": {
+          "lucid": "Za prakticky stejné beru rozdíl do {rope} lucidních nocí ze 100.",
+          "recall": "Za prakticky stejné beru rozdíl do {rope} snu za noc.",
+          "scale": "Za prakticky stejné beru rozdíl do {rope} bodu."
+        },
+        "effect": {
+          "lucid": "Odhad rozdílu B proti A: {d} nocí ze 100. Do pásma od {lo} do {hi} padá 9 z 10 hodnot modelu.",
+          "recall": "Odhad rozdílu B proti A: {d} snu za noc. Do pásma od {lo} do {hi} padá 9 z 10 hodnot modelu.",
+          "scale": "Odhad rozdílu B proti A: {d} bodu. Do pásma od {lo} do {hi} padá 9 z 10 hodnot modelu."
+        },
+        "probs": "Pravděpodobnosti modelu (0 až 1): B výš {pB}. B výš o víc než prakticky stejné {pBm}. A výš o víc než prakticky stejné {pAm}. Prakticky stejné {pSame}.",
+        "note": "Tahle čísla počítá model z tvých nocí. Nejsou to kalibrované šance: na jednom člověku vyjdou vysoká čísla často i bez skutečného rozdílu. Proto rozhoduje slovní verdikt s přísnými pravidly, ne jedno číslo."
+      },
+      "ui": {
+        "kicker": "Výcvik · experimenty na sobě",
+        "cardLabel": "Osobní laboratoř",
+        "cardTitle": "Co funguje právě tobě",
+        "cardBody": "Vyber otázku a appka ti rozlosuje noci mezi dvě varianty. Po pár týdnech uvidíš, která ti sedí víc.",
+        "cardActive": "Běží: {nazev}",
+        "cardCta": "Otevřít laboratoř",
+        "choose": "Vyber otázku",
+        "nights": "{n} nocí",
+        "arms": "Dvě varianty",
+        "arm": "Varianta {id}",
+        "design": "Jak losuju noci",
+        "safety": "Bezpečnost",
+        "why": "Proč to zkoušet",
+        "start": "Začít dnes večer",
+        "startNote": "První noc experimentu je ta dnešní. Ráno zapiš sen jako vždy, appka si noci spáruje sama.",
+        "tonight": "Dnes večer",
+        "tonightArm": "Varianta {id}: {nazev}",
+        "afterEnd": "Experiment má za sebou všechny noci.",
+        "result": "Výsledek",
+        "secondary": "Vedlejší výsledky",
+        "showDetail": "Jak to počítám",
+        "stop": "Ukončit experiment",
+        "stopTitle": "Ukončit experiment?",
+        "stopBody": "Rozpis nocí se smaže. Tvoje zápisy v deníku zůstanou.",
+        "cancel": "Zpět",
+        "confirmStop": "Ukončit",
+        "today": "Laboratoř dnes: varianta {id}, {nazev}",
+        "wbtbBlocked": "Běží experiment s nočním probuzením. Budík dnes řídí laboratoř, mimo ni ho nenabízím.",
+        "todayOff": "Laboratoř dnes: noc mimo experiment",
+        "startNoteWbtb": "Do experimentu se počítají jen noci, kdy je noční probuzení dovolené. Kterou variantu kdy, ti ukážu večer na obrazovce Dnes. Noc se započítá, až ji tam spustíš."
+      }
+    }
+  }
+}

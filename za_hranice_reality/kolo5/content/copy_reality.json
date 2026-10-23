@@ -1,0 +1,134 @@
+{
+  "texts": {
+    "reality": {
+      "hub": {
+        "label": "Realita · denní výcvik",
+        "title": "Sníš, nebo bdíš?",
+        "lead": "Test funguje, jen když se ptáš doopravdy. Pak ho jednou uděláš i ve snu.",
+        "settings": "Nastavení připomínek",
+        "today": "Dnešní plán",
+        "timelineEmpty": "Na dnešek není nic naplánováno. Připomínky si nastavíš vpravo nahoře.",
+        "now": "teď",
+        "testNow": "Test teď",
+        "status": {
+          "scheduled": "Čeká",
+          "pending": "Právě teď",
+          "answered": "Hotovo",
+          "ignored": "Propásnuto",
+          "undelivered": "Nedoručeno"
+        },
+        "kind": {
+          "prompt": "Otázka",
+          "custom": "Vlastní otázka"
+        },
+        "triggers": "Dnešní spouštěče",
+        "triggersHint": "Vyber si 1 až 3 chvíle z běžného dne. Fungují líp než náhodné notifikace.",
+        "triggersMax": "Nejvýš tři, ať zůstanou živé.",
+        "intention": "Dnešní záměr",
+        "intentionLine": "{spoustec}, zastav se a udělej test.",
+        "library": "Knihovna testů",
+        "libraryHint": "Spolehlivost je jen komunitní odhad, ve snu ji nikdo neměřil.",
+        "mine": "Můj",
+        "reliability": "Odhad spolehlivosti",
+        "discreet": "Nenápadný",
+        "notDiscreet": "Spíš doma",
+        "needs": {
+          "none": "Nic nepotřebuješ",
+          "phone": "Telefon",
+          "mirror": "Zrcadlo",
+          "text": "Nápis",
+          "clock": "Hodiny",
+          "light": "Vypínač",
+          "wall": "Zeď"
+        },
+        "stats": "Jak ti to jde",
+        "days7": "7 dní",
+        "days30": "30 dní",
+        "answered": "Odpovězeno",
+        "ignored": "Propásnuto",
+        "inDream": "Test ve snu",
+        "inDreamUnit": "snů",
+        "inDreamHint": "Tohle je hlavní číslo: test, který se přenesl do snu. Zaškrtáváš ho v deníku.",
+        "top": "Nejčastější testy",
+        "statsEmpty": "Zatím žádný test. První uděláš tlačítkem „Test teď“.",
+        "principles": "Jak testovat správně"
+      },
+      "test": {
+        "notFound": "Tenhle test neznám.",
+        "steps": "Postup",
+        "inDream": "Co se stane ve snu",
+        "tip": "Tip",
+        "evidence": "Důkazy",
+        "sources": "Zdroje",
+        "tryNow": "Vyzkoušej teď",
+        "guide": {
+          "label": "Průvodce · {krok}/4",
+          "question": "Jak ses sem dostal? Proč si myslíš, že bdíš?",
+          "questionHint": "Odpověz si doopravdy, ne z rutiny. Rozhlédni se.",
+          "next": "Dál",
+          "doTest": "Teď test",
+          "countdown": "{pocet} s",
+          "finished": "Mám hotovo",
+          "dreaming": "Sníš?",
+          "awake": "Bdím",
+          "dream": "Sním",
+          "unsure": "Nevím jistě",
+          "reflect": "Jedna věta: co tě přesvědčilo?",
+          "reflectHint": "Nepovinné",
+          "save": "Uložit",
+          "saved": "Zapsáno. Ve snu se ptej stejně poctivě.",
+          "again": "Znovu"
+        }
+      },
+      "settings": {
+        "title": "Připomínky testů",
+        "perDay": "Kolikrát denně",
+        "perDayNote": "Na začátek stačí 3× denně. Výzkum a zkušenosti lidí mluví spíš o 5× mezi 9. a 21. hodinou.",
+        "manyNote": "Víc není automaticky líp. Stejné notifikace rychle zevšední a pak už se neptáš doopravdy.",
+        "capacity": "Do okna se vejde nejvýš {pocet} (rozestup aspoň 90 min).",
+        "window": "Okno připomínek",
+        "from": "Od",
+        "to": "Do",
+        "windowInvalid": "Okno musí skončit po začátku, nejpozději o půlnoci.",
+        "mode": "Forma",
+        "modes": {
+          "prompts": "Otázky",
+          "tests": "Testy",
+          "mix": "Mix"
+        },
+        "modeHint": {
+          "prompts": "Volné otázky na stav vědomí a tvoje vlastní formulace.",
+          "tests": "Jen konkrétní testy, které si vybereš níž.",
+          "mix": "Střídá testy, otázky a tvůj znak snu z deníku, ať notifikace nezevšední."
+        },
+        "preview": "Náhled notifikace",
+        "previewApp": "Za hranice reality · teď",
+        "previewTitle": "Test reality",
+        "previewNext": "Další ukázka",
+        "previewSilent": "Tiché klepnutí",
+        "previewVoice": "Hlasem 3 s",
+        "previewPrivacy": "Notifikaci na zamčené obrazovce uvidí i lidé kolem. Nepiš do ní nic osobního.",
+        "tests": "Moje testy",
+        "testsHint": "Vyber si 2 až 3 svoje. Začni nosem a pamětí (jak ses sem dostal).",
+        "recommended": "Doporučený mix",
+        "recommendedOn": "Teď jede doporučený mix.",
+        "custom": "Vlastní formulace",
+        "customHint": "Zařadí se mezi otázky.",
+        "customEmpty": "Zatím žádné.",
+        "customAdd": "Přidat formulaci",
+        "customEdit": "Upravit formulaci",
+        "customField": "Text notifikace",
+        "customSave": "Uložit",
+        "customCancel": "Zrušit",
+        "customDelete": "Smazat",
+        "watch": "Vibrace na hodinkách",
+        "link": "Testy reality",
+        "linkBody": "Kolikrát denně, forma, vlastní formulace"
+      },
+      "check": {
+        "question": "Než začneš: jak ses sem dostal?",
+        "signs": "Tvoje znaky snu: {znaky}"
+      }
+    }
+  }
+}

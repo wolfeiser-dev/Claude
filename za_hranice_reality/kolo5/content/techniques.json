@@ -1,0 +1,871 @@
+{
+  "techniques": [
+    {
+      "id": "mild",
+      "technique": "mild",
+      "name": "MILD",
+      "fullName": "Záměr zapamatovat si, že sníš",
+      "group": "start",
+      "illustration": "mildLoop",
+      "evidence": "strong",
+      "evidenceNote": "Nejlépe podložená technika (ILDIS, přehled Tan a Fan 2023). Nejlíp funguje po nočním probuzení, když pak usneš do 10 minut. Testy reality přidané k MILD výsledek v ILDIS spíš zhoršily: 12,1 % proti 19,4 % rán s lucidním snem (hraniční výsledek).",
+      "minutes": 10,
+      "summary": "Trénink paměti na budoucí úmysl. Vybavíš si sen, najdeš v něm znak snu a představíš si, že ho příště poznáš. Nejde o afirmaci, ale o záměr, který myslíš vážně.",
+      "why": "MILD trénuje prospektivní paměť, tedy schopnost vzpomenout si ve správnou chvíli na to, co máš v úmyslu. Spojíš spouštěč (znak snu) s akcí (uvědomím si, že sním), stejně jako plán „když uvidím X, udělám Y“. Po probuzení z REM je sen čerstvý a záměr se uloží těsně před dalším, delším REM.",
+      "example": "Ve 4:50 tě vzbudí budík. Zdálo se ti, že bloudíš starou školou a hledáš zamčenou třídu. Ležíš a říkáš si: Až budu příště snít, uvědomím si, že sním. Představíš si chodbu, všimneš si, že dveře nemají kliku, a v představě si řekneš: Tohle je sen. Pak se ve snu podíváš na dlaně. Opakuješ to, dokud to nesedí, a usneš.",
+      "steps": [
+        "Vybav si sen, který právě skončil, nebo jakýkoli nedávný.",
+        "Lehni si pohodlně.",
+        "V duchu si řekni: Až budu příště snít, uvědomím si, že sním.",
+        "Představ si, že jsi zpátky ve snu a všimneš si znaku snu.",
+        "Přidej akci, kterou uděláš, až poznáš, že sníš.",
+        "Opakuj, dokud záměr nesedí. Když mysl odběhne, začni znovu.",
+        "Ať je záměr tvoje poslední myšlenka před usnutím."
+      ],
+      "nightSteps": [
+        "Vybav si sen.",
+        "Lehni si pohodlně.",
+        "Až budu snít, poznám to.",
+        "Představ si znak snu.",
+        "Zvol akci ve snu.",
+        "Mysl odběhla? Začni znovu."
+      ],
+      "mistakes": [
+        "Odříkávat větu jako mantru bez významu.",
+        "Počítat opakování. Na počtu nezáleží.",
+        "Bránit se usnutí. Usnout během techniky je v pořádku.",
+        "Přidávat k MILD testy reality. Ve výzkumu to spíš nepomohlo.",
+        "Zůstat dlouho vzhůru. Cílem je usnout do 10 minut."
+      ],
+      "sources": [
+        "Aspy 2020, ILDIS (mezinárodní studie technik indukce)",
+        "Aspy a kol. 2017, NALDIS",
+        "LaBerge a kol. 2018, PLOS ONE",
+        "Tan a Fan 2023, systematický přehled technik"
+      ]
+    },
+    {
+      "id": "ssild",
+      "technique": "ssild",
+      "name": "SSILD",
+      "fullName": "Kroužení pozornosti mezi smysly",
+      "group": "start",
+      "illustration": "ssild",
+      "evidence": "promising",
+      "evidenceNote": "V jedné velké terénní studii (ILDIS) vyšla stejně jako MILD. Dalších studií, které by to potvrdily, je zatím málo. Kombinace SSILD s větou z MILD vyšla nejhůř (13,3 %).",
+      "minutes": 6,
+      "summary": "Pozornost pasivně krouží mezi zrakem, sluchem a tělem. Nejdřív pár rychlých kol, pak pomalá. Nic se nevynucuje a nic se nepočítá.",
+      "why": "Po krátkém probuzení je mozek blízko REM. Pasivní přepínání mezi smysly drží malou část pozornosti vzhůru, zatímco tělo usíná. Protože nic nevynucuješ, spánek neodeženeš. Ve studii ILDIS delší provádění spíš škodilo, proto je technika krátká.",
+      "example": "Po budíku si lehneš. Tma za víčky, pár šedých skvrn. Tikot topení. Teplo v dlaních. Čtyři rychlá kola, pak pomalá. Při pátém pomalém kole se ztratíš v myšlenkách a usneš. Ráno si vybavíš, že jsi ve snu stál v kuchyni a všiml sis, že vypínač je na stropě.",
+      "steps": [
+        "Lehni si a zavři oči. Nic nevynucuj.",
+        "Zrak: pozoruj tmu za víčky. Nic nehledej.",
+        "Sluch: přesuň pozornost do uší. Jen poslouchej.",
+        "Tělo: vnímej tíhu, teplo, mravenčení.",
+        "Nejdřív čtyři rychlá kola, pár vteřin na každý smysl.",
+        "Pak pomalá kola, zhruba 20 vteřin na smysl. Nepočítej.",
+        "Po čtyřech až šesti pomalých kolech techniku pusť a spi."
+      ],
+      "nightSteps": [
+        "Zavři oči. Nic nevynucuj.",
+        "Zrak: tma za víčky.",
+        "Sluch: jen poslouchej.",
+        "Tělo: tíha a teplo.",
+        "Čtyři rychlá kola.",
+        "Pak pomalu. Nepočítej.",
+        "Pusť to. Spi."
+      ],
+      "mistakes": [
+        "Snažit se něco vidět nebo slyšet.",
+        "Protahovat techniku. Delší cvičení vycházelo hůř.",
+        "Míchat SSILD s větou ze záměru poznat sen (MILD). Tahle kombinace vyšla nejhůř.",
+        "Počítat vteřiny."
+      ],
+      "sources": [
+        "Aspy 2020, ILDIS",
+        "Multicentrická studie s podněty, verze 2 (preprint 2026)"
+      ]
+    },
+    {
+      "id": "wbtb",
+      "technique": "wbtb",
+      "name": "WBTB",
+      "fullName": "Probudit se a jít zpátky spát",
+      "group": "start",
+      "illustration": "hypnogram",
+      "evidence": "promising",
+      "evidenceNote": "Samo o sobě nefunguje. Zesiluje MILD nebo SSILD. V laboratoři mělo s MILD signálem ověřený lucidní sen 27 % lidí po 60 minutách bdění a 14 % po 30 minutách, se čtením knihy 0 % (Erlacher a Stumbrys 2020). Doma se laboratorní čísla nepřenášejí.",
+      "minutes": 10,
+      "summary": "Budík zhruba po pěti hodinách spánku, krátké bdění a návrat do postele se záměrem poznat sen (MILD) nebo se střídáním smyslů (SSILD). V appce nejvýš dvakrát za sedm dní a jen po noci, která vyšla zeleně.",
+      "why": "REM přibývá ve druhé polovině noci a sny jsou delší a živější. Krátké probuzení zhruba po pěti hodinách tě postaví na práh nejdelších REM fází s čerstvou myslí a technikou v hlavě. Pomáhá rychlý přechod zpátky do REM, ne samotné rozbití spánku (Gott a kol. 2020).",
+      "example": "Usneš ve 23:00, budík zazvoní ve 4:15. Dvě minuty ležíš a vybavuješ si sen, pak řekneš do telefonu tři slova. Pět minut sedíš v tlumeném červeném světle a napiješ se vody. Lehneš si, uděláš MILD a do deseti minut spíš.",
+      "safety": "Spánek má přednost. Při únavě, ranním řízení nebo nespavosti WBTB vynech. Cílená indukce byla v jedné studii spojená s nárůstem disociace během dvou měsíců (Aviram a Soffer-Dudek 2018): dělej pauzy a při pocitu neskutečna přestaň.",
+      "steps": [
+        "Budík zazvoní zhruba pět hodin po usnutí.",
+        "Nehýbej se a vybav si sen.",
+        "Zapiš ho hlasem nebo pár slovy.",
+        "Zůstaň vzhůru 5 až 10 minut v tlumeném světle. Nečti.",
+        "Lehni si a začni s MILD nebo SSILD.",
+        "Cílem je usnout do 10 minut.",
+        "Nespíš ani po 25 minutách? Konec techniky, jen klidný dech."
+      ],
+      "nightSteps": [
+        "Nehýbej se.",
+        "Vybav si sen.",
+        "Řekni tři slova.",
+        "Chvíli vzhůru. Nečti.",
+        "Lehni si. MILD nebo SSILD.",
+        "Nejde to? Jen dýchej."
+      ],
+      "mistakes": [
+        "Bdít dlouho nebo u displeje.",
+        "Dělat WBTB při únavě nebo před ranním řízením.",
+        "Brát samotné probuzení jako metodu.",
+        "Budit se častěji. Spánek má přednost."
+      ],
+      "sources": [
+        "Aspy 2020, ILDIS",
+        "Erlacher a Stumbrys 2020, Frontiers in Psychology",
+        "Gott a kol. 2020, probouzení a lucidní sny",
+        "LaBerge a kol. 2018, PLOS ONE"
+      ]
+    },
+    {
+      "id": "realityCheck",
+      "technique": "realityCheck",
+      "name": "Test reality na dlani",
+      "fullName": "Dlaň, nádech, otázka",
+      "group": "start",
+      "illustration": "realityTree",
+      "evidence": "promising",
+      "evidenceNote": "Samotné testy reality jsou slabé. Smysl dávají jako opravdové zhodnocení situace, ne jako mechanický zvyk. Přidané k záměru poznat sen (MILD) výsledek v ILDIS spíš zhoršily.",
+      "minutes": 1,
+      "summary": "Krátké zastavení na zhruba 12 vteřin: vibrace, pohled na dlaň, nádech a otázka „Sním?“. Odpovědí je pozorné zhodnocení toho, kde jsi a co se děje.",
+      "why": "Ve snu chybí kritický odstup, létající autobus tě nepřekvapí. Test funguje, jen když si otázku opravdu položíš a zhodnotíš okolí. Pak se stejný reflex může spustit i ve snu, kde dlaň nebo vzpomínka na posledních pět minut nesedí. Mechanické mrknutí na dlaň nic netrénuje.",
+      "example": "Stojíš ve frontě v obchodě, telefon krátce zavibruje. Podíváš se na dlaň: pět prstů, ostré čáry. Nádech. Sním? Vybavíš si, že jsi sem přišel pěšky z tramvaje. Nic divného. O týden později se ve snu podíváš na ruku a prsty se ohýbají jako guma.",
+      "steps": [
+        "Ucítíš vibraci: krátká, dlouhá.",
+        "Tři vteřiny se dívej na dlaň. Jsou čáry a prsty ostré?",
+        "Jeden klidný nádech s otázkou: Sním?",
+        "Zhodnoť to doopravdy: Co se dělo před pěti minutami? Co je tu divné?",
+        "Odpověz tři vteřiny hlasem, nebo tichým klepnutím.",
+        "Cítíš úzkost nebo pocit neskutečna? Místo testu se uzemni."
+      ],
+      "nightSteps": [
+        "Podívej se na dlaň.",
+        "Jsou prsty ostré?",
+        "Nádech. Sním?",
+        "Co je tu divné?",
+        "Odpověz hlasem, nebo klepnutím."
+      ],
+      "mistakes": [
+        "Odpovídat automaticky „nesním“.",
+        "Přidávat další testy. Víc neznamená líp.",
+        "Jen mrknout na dlaň a jít dál.",
+        "Testovat při úzkosti. Tehdy se raději uzemni."
+      ],
+      "sources": [
+        "Aspy 2020, ILDIS",
+        "Aspy a kol. 2017, NALDIS"
+      ]
+    },
+    {
+      "id": "dreamJournal",
+      "name": "Deník a znaky snů",
+      "fullName": "Ranní zápis a osobní znaky snů",
+      "group": "start",
+      "illustration": "forgetting",
+      "evidence": "promising",
+      "evidenceNote": "Důkazy jsou nepřímé, ale deník je podmínkou všeho ostatního. Kdo si pamatuje víc snů, má víc materiálu pro trénink. Vybavování snů předpovídá úspěch indukce (ILDIS).",
+      "minutes": 1,
+      "summary": "Ranní zápis do 30 vteřin a hledání znaků snů, tedy věcí, které by v bdění byly divné. LaBerge je dělí do čtyř kategorií: děj, souvislosti, tvar a vědomí. Prázdná noc je taky zápis.",
+      "why": "Sen po probuzení rychle mizí, protože se neuloží do dlouhodobé paměti. Rychlý zápis ho zachytí dřív, než ho přepíše den. Deník navíc ukáže tvoje znaky snů, tedy spouštěče pro záměr poznat sen (MILD). Bez vybavování si lucidity nemáš ani kdy všimnout.",
+      "example": "Ráno ležíš a přetáčíš: vlak, babička, voda na podlaze. Zapíšeš tři slova a označíš znak: voda v obýváku (souvislosti). Za dva týdny vidíš, že se voda v bytě objevila už potřetí. Je to tvůj znak snu a dáš ho do večerního záměru.",
+      "steps": [
+        "Po probuzení se nehýbej a přetoč sen zpátky.",
+        "Řekni nebo napiš tři slova, která ti zůstala.",
+        "Pak klidně detaily: místa, postavy, emoce.",
+        "Nic si nepamatuješ? Zapiš prázdnou noc.",
+        "Označ jeden znak snu: věc, která by v bdění byla divná.",
+        "Děj: co se dělo zvláštního. Souvislosti: místo nebo situace nesedí.",
+        "Tvar: tělo, předměty nebo postavy vypadají jinak. Vědomí: zvláštní myšlenka nebo pocit."
+      ],
+      "nightSteps": [
+        "Nehýbej se.",
+        "Přetoč sen zpátky.",
+        "Řekni tři slova.",
+        "Nic? Zapiš prázdnou noc.",
+        "Jeden divný detail."
+      ],
+      "mistakes": [
+        "Hned vstát nebo sáhnout po zprávách.",
+        "Psát román. Stačí záchytná slova.",
+        "Vynechávat prázdné noci. Zkreslí to tvoje data.",
+        "Vykládat sny podle snáře. Znaky slouží k tréninku."
+      ],
+      "sources": [
+        "LaBerge, kategorie znaků snů",
+        "Aspy 2020, ILDIS",
+        "Aspy a kol. 2017, NALDIS"
+      ]
+    },
+    {
+      "id": "recallTraining",
+      "name": "Trénink vybavování",
+      "fullName": "Jak si pamatovat víc snů",
+      "group": "start",
+      "illustration": "recallTraining",
+      "evidence": "promising",
+      "evidenceNote": "Vybavování souvisí s postojem ke snům, nočním probouzením a relaxací, ale tyto vlivy dohromady vysvětlují jen malou část rozdílů mezi lidmi (Schredl a kol. 2003). Randomizovaný důkaz, že deník sám vybavování zvyšuje, chybí. Je to rozumný postup s korelační oporou.",
+      "minutes": 3,
+      "summary": "Deník je začátek. Tady jde o to, jak vybavování posílit: zájem o sny, večerní klid, přetáčení snu pozpátku a hlasový záznam. Bez vybavování nejsou data ani lucidní sny.",
+      "why": "Vzpomínka na sen je křehká a přechod do bdění ji snadno přepíše. Klid bez pohybu a přehrání obrazů pozpátku jí dají šanci se zachytit. Lidé, které sny zajímají, si jich pamatují víc. Hlasový záznam bývá delší než psaný.",
+      "example": "V půl šesté se probudíš. Bez hnutí si vybavíš tmavou školu a hledání klíčů. Řekneš: škola, klíče, tma, nervozita. Pak se vynoří i schodiště, které vedlo dolů místo nahoru. Za týden zjistíš, že škola je ve tvých snech potřetí.",
+      "steps": [
+        "Večer si řekni, že si sen chceš pamatovat a že tě zajímá.",
+        "Dvě minuty před spaním klid bez displeje.",
+        "Ráno se nehýbej a nech oči zavřené.",
+        "Přetáčej sen pozpátku od posledního obrazu.",
+        "Řekni nahlas tři slova a jednu emoci.",
+        "Pak doplň detaily: místa, postavy, zvuky.",
+        "Jednou týdně projdi zápisy a najdi tři opakující se věci."
+      ],
+      "nightSteps": [
+        "Nehýbej se.",
+        "Oči zavřené.",
+        "Přetáčej sen pozpátku.",
+        "Tři slova, jedna emoce.",
+        "Pak detaily."
+      ],
+      "mistakes": [
+        "Vstát a vzít telefon dřív, než zapíšeš.",
+        "Považovat sny za nudné.",
+        "Vyčítat si, že je snů málo.",
+        "Vynechávat prázdné noci."
+      ],
+      "sources": [
+        "Schredl a kol. 2003, Journal of Sleep Research",
+        "Schredl a Doll 1997, autogenní trénink a vybavování",
+        "Aspy 2020, ILDIS"
+      ]
+    },
+    {
+      "id": "wild",
+      "name": "WILD",
+      "fullName": "Vstup do snu z bdění",
+      "group": "advanced",
+      "illustration": "wildBridge",
+      "evidence": "community",
+      "evidenceNote": "Komunitní praxe. Přímý laboratorní test WILD chybí a přehled 35 studií (Stumbrys a kol. 2012) neoznačil žádnou techniku za spolehlivou. Je těžší než záměr poznat sen (MILD) a nehodí se pro začátečníky.",
+      "minutes": 20,
+      "summary": "Tělo usíná, ty zůstáváš lehce vědomý a přejdeš do snu bez přerušení. Cestou přicházejí obrazy při usínání, vibrace, tlak a někdy spánková paralýza. Nejlíp po krátkém probuzení k ránu.",
+      "why": "Zhruba po pěti hodinách spánku se po usnutí rychle vrací REM. Když udržíš tenkou nit pozornosti, zatímco tělo vypíná, můžeš projít usínáním a vstoupit do snu vědomě. Obrazy při usínání (hypnagogie) jsou most mezi bděním a snem. Jakmile se do nich zapleteš, usneš bez vědomí.",
+      "example": "Po budíku ležíš patnáct minut a pomalu počítáš dechy. Za víčky se objeví šedé tvary, pak malý obraz schodiště. Pozoruješ ho, místo abys o něm přemýšlel. Schodiště se zvětší, tělem projde vibrace, ty jen dýcháš. Najednou stojíš na prvním schodu a cítíš pod chodidly dřevo.",
+      "safety": "Může přijít spánková paralýza: nemůžeš se hýbat, cítíš tlak nebo vidíš přeludy. Je neškodná a mine. Dýchej pomalu a nebojuj, nebo zkus pohnout malíčkem. Když tě děsí, WILD vynech. Cílená indukce byla spojená s nárůstem disociace (Aviram a Soffer-Dudek 2018): dělej pauzy a při pocitu neskutečna přestaň.",
+      "steps": [
+        "Zkoušej jen po budíku zhruba po 5 hodinách spánku, ne hned večer.",
+        "Lehni si pohodlně na záda nebo na bok, ve tmě.",
+        "Uvolni tělo od chodidel k hlavě.",
+        "Drž lehkou pozornost: pomalu počítej dechy.",
+        "Obrazy a zvuky jen pozoruj. Nezapojuj se do nich.",
+        "Když je obraz plný a stabilní, vstup do něj.",
+        "Vibrace nebo tlak jen přijmi a klidně dýchej."
+      ],
+      "nightSteps": [
+        "Uvolni tělo odspodu.",
+        "Počítej dechy pomalu.",
+        "Obrazy jen pozoruj.",
+        "Plný obraz? Vstup.",
+        "Vibrace? Klidně dýchej."
+      ],
+      "mistakes": [
+        "Zkoušet to hned po ulehnutí místo po budíku.",
+        "Honit obrazy a tím se probudit.",
+        "Panikařit při paralýze.",
+        "Zkoušet to každou noc."
+      ],
+      "sources": [
+        "LD4all Pocket Guide (pasQuale)",
+        "LD4all, WILD FAQ a návod",
+        "World of Lucid Dreaming, WILD",
+        "Stumbrys a kol. 2012, přehled 35 studií"
+      ]
+    },
+    {
+      "id": "deild",
+      "name": "DEILD",
+      "fullName": "Návrat do snu bez pohybu",
+      "group": "advanced",
+      "illustration": "deild",
+      "evidence": "community",
+      "evidenceNote": "Komunitní praxe, žádná kontrolovaná studie. Tvrzení o stoprocentní úspěšnosti pochází od autora techniky, ne z dat.",
+      "minutes": 2,
+      "summary": "Probudíš se ze snu a ani se nepohneš. Se zavřenýma očima si poslední scénu živě vybavíš a necháš se do ní vtáhnout. Mozek je často ještě blízko REM, takže se můžeš vrátit, tentokrát vědomě.",
+      "why": "Těsně po probuzení z REM je mozek na hraně mezi bděním a snem. Pohyb, světlo a přemýšlení tě vytáhnou do bdění. Klid a živá vzpomínka na sen tě mohou vrátit dřív, než se REM úplně přeruší, a protože jsi u toho byl, víš, že sníš.",
+      "example": "Ve snu jsi na nádraží, probudí tě zvuk z ulice. Ležíš bez hnutí a vybavíš si nástupiště, tikající hodiny a vůni kávy. Za pár desítek vteřin stojíš znovu na nástupišti. Hodiny mají tentokrát tři ručičky a ty víš, že sníš.",
+      "safety": "Při návratu může přijít vibrace nebo spánková paralýza. Je neškodná a mine: pomalu dýchej, nebojuj. Když tě děsí, techniku vynech. Cílenou indukci prokládej pauzami (Aviram a Soffer-Dudek 2018).",
+      "steps": [
+        "Po probuzení ze snu se nehni ani prstem.",
+        "Nech oči zavřené.",
+        "Vybav si poslední moment snu co nejpodrobněji.",
+        "Nech se do scény vtáhnout. Nepřemýšlej, prožívej.",
+        "Ve snu se hned zeptej: Sním? A podívej se na ruce.",
+        "Nevyšlo to? Zapiš sen. Jeden pokus stačí."
+      ],
+      "nightSteps": [
+        "Nehni se.",
+        "Oči zavřené.",
+        "Vybav si poslední scénu.",
+        "Nech se vtáhnout.",
+        "Sním? Ruce."
+      ],
+      "mistakes": [
+        "Natáhnout se pro telefon.",
+        "Rozsvítit.",
+        "Přemýšlet o snu, místo abys ho znovu prožil.",
+        "Zkoušet to unavený nebo po špatné noci."
+      ],
+      "sources": [
+        "LD4all, DEILD a chaining (návod a FAQ)",
+        "World of Lucid Dreaming, DEILD"
+      ]
+    },
+    {
+      "id": "fild",
+      "name": "FILD",
+      "fullName": "Prsty jako na klavíru při usínání",
+      "group": "advanced",
+      "illustration": "fild",
+      "evidence": "community",
+      "evidenceNote": "Komunitní praxe bez přímé studie. Nejbližší laboratorní data jsou skeptická: dotek na prstu během REM vyvolal lucidní sen v 0 z 21 pokusů (Paul, Schädlich a Erlacher 2014, jiný design).",
+      "minutes": 5,
+      "summary": "Při usínání po budíku nepatrně střídáš ukazovák a prostředník, jako bys hrál na klavír. Pohyb tě drží na hraně mezi bděním a spánkem. Pak uděláš test reality. Funguje jen v úzkém okně těsně před usnutím.",
+      "why": "Myšlenka je stejná jako u vědomého usnutí do snu (WILD): tělo usíná a malá část pozornosti zůstává. Drobný pohyb drží pozornost, aniž by tě probudil. Test reality pak může zachytit chvíli, kdy už jsi ve snu. Mimo okno ospalosti pohyb jen budí.",
+      "example": "Po třetím kole cítíš, jako by se ruka vzdalovala. Zavřeš rty a zkusíš se nadechnout ústy. Vzduch projde, i když by neměl. Víš, že sníš, a pomalu se rozhlédneš po pokoji, který má o jedno okno víc.",
+      "safety": "I tady může přijít spánková paralýza. Je neškodná a mine: pomalu dýchej, nebojuj. Cílenou indukci prokládej pauzami (Aviram a Soffer-Dudek 2018).",
+      "steps": [
+        "Přes den si pohyb pár minut zkoušej, ať se ho neučíš až v noci.",
+        "V noci po budíku si lehni s pohodlně opřenou rukou.",
+        "Až budeš ospalý, střídej prsty nepatrně asi 30 vteřin. Nepočítej.",
+        "Pak test reality: zavři rty a zkus se nadechnout ústy.",
+        "Jsi vzhůru? Počkej asi dvě minuty a zkus to znovu.",
+        "Usneš? Nech to být."
+      ],
+      "nightSteps": [
+        "Ruka opřená, pohodlně.",
+        "Prsty jako klavír.",
+        "Nepočítej, jen jemně.",
+        "Test: nádech zavřenými rty.",
+        "Vzhůru? Za chvíli znovu."
+      ],
+      "mistakes": [
+        "Zkoušet to úplně čilý.",
+        "Učit se pohyb až v posteli.",
+        "Brát FILD jako techniku pro začátečníky."
+      ],
+      "sources": [
+        "World of Lucid Dreaming, FILD",
+        "LD4all, vlákna o FILD",
+        "Paul, Schädlich a Erlacher 2014, IJoDR"
+      ]
+    },
+    {
+      "id": "ada",
+      "name": "ADA",
+      "fullName": "Kritická reflexe podle Tholeye",
+      "group": "advanced",
+      "illustration": "ada",
+      "evidence": "community",
+      "evidenceNote": "Komunitní praxe s nepřímou oporou: lucidní snění souvisí se všímavostí, ale jen u lidí se zkušeností s meditací (Stumbrys a kol. 2015). Tholeyho postoj je popsaný, kontrolovaný test chybí.",
+      "minutes": 1,
+      "summary": "Místo mechanického testu každou hodinu si během dne všímáš, kde je tvoje pozornost. Pětkrát až desetkrát denně se zastavíš u spouštěče a opravdu se zeptáš: Sním, nebo bdím? A ohlédneš se, jak ses sem dostal.",
+      "why": "Ve snu chybí ohlédnutí: nevíš, jak ses dostal na místo, a nedivíš se tomu. Když si ve dne zvykneš ptát se doopravdy a dívat se zpátky v čase, zvyk se může přenést do snu. Paul Tholey to navrhl jako kritický postoj, ne jako rituál.",
+      "example": "U dveří do kuchyně se zastavíš. Jak jsem se sem dostal? Šel jsem ze schodů a nesl hrnek. Cítíš teplo čaje a slyšíš lednici. Je tu něco divného? Ne. Pokračuješ. O pár nocí později stojíš u stejných dveří ve snu, ale schody za tebou chybí.",
+      "steps": [
+        "Zvol 3 až 5 spouštěčů z běžného dne: dveře, hodiny, voda, čaj.",
+        "U spouštěče se na pár vteřin zastav.",
+        "Zeptej se: Co teď vnímám? Jak jsem se sem dostal?",
+        "Ohlédni se zpátky v čase: kdy a kde to začalo?",
+        "Je tu něco divného? Odpověz vlastními slovy.",
+        "Večer jedním slovem zapiš, jestli to šlo doopravdy."
+      ],
+      "nightSteps": [
+        "Zastav se.",
+        "Co vnímám?",
+        "Jak jsem se sem dostal?",
+        "Je tu něco divného?"
+      ],
+      "mistakes": [
+        "Odpovídat „nesním“ jako zaklínadlo.",
+        "Dělat to úzkostně.",
+        "Přidávat to k záměru poznat sen (MILD) jako povinnost.",
+        "Pokračovat při pocitu neskutečna. Tehdy se uzemni."
+      ],
+      "sources": [
+        "Tholey 1983, Perceptual and Motor Skills",
+        "Stumbrys, Erlacher a Malinowski 2015, Imagination, Cognition and Personality",
+        "Baird a kol. 2019, Psychology of Consciousness",
+        "Aspy 2020, ILDIS"
+      ]
+    },
+    {
+      "id": "incubation",
+      "name": "Inkubace snu",
+      "fullName": "Zaseješ téma, o kterém se ti má zdát",
+      "group": "advanced",
+      "illustration": "seedMoon",
+      "evidence": "community",
+      "evidenceNote": "Laboratorní verze se zvukem při usínání nebo v REM obsah snů ovlivnila (Haar Horowitz 2020, Konkoly 2026), přehled 51 studií ale ukazuje velkou nejednotnost. Ruční verze v appce je komunitní praxe. Nejde o luciditu, ale o tvořivou práci se sny.",
+      "minutes": 5,
+      "summary": "Před spaním si zvolíš jednu otázku nebo obraz a při usínání se k nim vracíš. Ráno zjistíš, jestli se téma objevilo. Sen ho většinou nesplní doslova, spíš se k němu přiblíží.",
+      "why": "Co tě zaměstnává před spaním, se do snů dostává častěji. Při usínání je mysl volná a asociativní a slovo nebo obraz v tu chvíli může zabarvit první sny. Laboratoře to zesilují zvukem, doma stačí jednoduchý rituál.",
+      "example": "Téma je most. Ráno si vybavíš, že přecházíš úzkou lávku nad řekou a na druhé straně čeká někdo známý. Most to není přesně, ale téma je blízko. Zapíšeš si, co tě na tom zaujalo.",
+      "steps": [
+        "Večer napiš jednu otázku nebo jeden obraz. Nejvýš jednu větu.",
+        "Pár minut se na téma soustřeď s klidným očekáváním.",
+        "Při usínání si tiše opakuj slovo nebo vybav obraz.",
+        "Ráno nejdřív vybav sen, pak hledej stopy tématu.",
+        "Zapiš i to, co se tématu jen dotklo."
+      ],
+      "nightSteps": [
+        "Jedno slovo, jeden obraz.",
+        "Opakuj ho při usínání.",
+        "Ráno: kde bylo téma?"
+      ],
+      "mistakes": [
+        "Dávat tématu složitý obsah.",
+        "Čekat doslovné splnění.",
+        "Brát sen jako odpověď nebo radu."
+      ],
+      "sources": [
+        "Haar Horowitz a kol. 2020, Dormio",
+        "Haar Horowitz a kol. 2023, Scientific Reports",
+        "Konkoly a kol. 2026, Neuroscience of Consciousness",
+        "Salvesen a kol. 2024, Sleep Medicine Reviews"
+      ]
+    },
+    {
+      "id": "stabilization",
+      "name": "Stabilizace ve snu",
+      "fullName": "Ruce, dotek, točení",
+      "group": "advanced",
+      "illustration": "ladder",
+      "evidence": "community",
+      "evidenceNote": "Komunitní praxe. Vychází z osobních zpráv, experimenty na stabilizaci prakticky chybějí. Točení popsal LaBerge na vlastních záznamech. Že funguje přes rovnovážné ústrojí, je jen jeho hypotéza.",
+      "minutes": 1,
+      "summary": "Když se sen začne rozpadat, barvy blednou nebo se obraz třese, zapojíš další smysly: podíváš se na dlaně nebo na zem, třeš ruce o sebe, dotýkáš se věcí. Když nic nepomáhá, roztočíš se.",
+      "why": "Sen drží pohromadě, dokud mozek dostává snové vjemy. Když pozornost sklouzne k tělu v posteli, sen bledne. Živé vjemy ze snu, jako dotek, tření nebo pohled na ruce, ho podle LaBergea znovu zatíží a udrží. Klid je důležitý, protože nadšení probouzí.",
+      "example": "Barvy zahrady blednou. Zvedneš dlaně, vidíš čáry, třeš je o sebe a cítíš teplo. Scéna se zase zaostří. O chvíli později mizí znovu, tak roztáhneš ruce a točíš se. Ocitneš se v ložnici. Hodiny ukazují nesmysl, takže jsi pořád ve snu.",
+      "steps": [
+        "Zůstaň v klidu. Nadšení probouzí.",
+        "Podívej se na dlaně nebo na zem pod nohama.",
+        "Zahřej si ruce třením a cíť teplo.",
+        "Dotýkej se věcí kolem: zeď, látka, tráva.",
+        "Připomeň si: Sním.",
+        "Sen se rozpadá dál? Roztoč se a cíť pohyb.",
+        "Po roztočení otestuj novou scénu. Může to být falešné probuzení."
+      ],
+      "nightSteps": [
+        "Klid.",
+        "Dlaně nebo zem.",
+        "Zahřej ruce třením.",
+        "Dotýkej se věcí.",
+        "Rozpadá se? Toč se."
+      ],
+      "mistakes": [
+        "Zírat na jeden bod bez mrknutí.",
+        "Radostně křičet.",
+        "Jen si točení představit, místo abys ho prožil.",
+        "Uvěřit falešnému probuzení."
+      ],
+      "sources": [
+        "LaBerge a Rheingold 1990, Exploring the World of Lucid Dreaming, kap. 6",
+        "LD4all Pocket Guide (pasQuale)"
+      ]
+    },
+    {
+      "id": "dreamYogaBreath",
+      "technique": "dreamYoga",
+      "name": "Devět očistných dechů",
+      "fullName": "Dechová příprava podle Wangyala",
+      "group": "yoga",
+      "illustration": "breath",
+      "evidence": "tradition",
+      "evidenceNote": "Tradiční příprava, pro lucidní snění netestovaná. Tady ve zjednodušené podobě. Holecek místo ní doporučuje před spaním počítat dechy.",
+      "minutes": 1,
+      "summary": "Wangyal začíná praxi devíti očistnými dechy. Tahle verze je zjednodušená: devět klidných dechů, každý výdech odnáší kus napětí. Plné tradiční podání najdeš v jeho knize.",
+      "why": "Pomalý výdech zklidňuje tělo a mysl se přestane honit. Tradice to chápe jako očistu před praxí. Prakticky je to přechod z denního shonu do klidu, ze kterého se snáz usíná s pozorností.",
+      "example": "Večer si sedneš na postel. Devět pomalých dechů. Při třetím si všimneš ztuhlých ramen, při šestém povolí. Po devátém chvíli jen sedíš a cítíš, že hlava je tišší.",
+      "steps": [
+        "Sedni si nebo si lehni, záda rovná a volná.",
+        "Pomalu se nadechni nosem.",
+        "S výdechem pusť napětí z těla.",
+        "Takhle devět dechů. Nespěchej.",
+        "Na konci chvíli jen buď a vnímej klid."
+      ],
+      "nightSteps": [
+        "Záda rovně, volně.",
+        "Pomalý nádech nosem.",
+        "Výdech pouští napětí.",
+        "Devět dechů.",
+        "Chvíli jen buď."
+      ],
+      "mistakes": [
+        "Dýchat násilím nebo zadržovat dech.",
+        "Brát dechy jako úkol. Jde o zklidnění.",
+        "Čekat okamžitý účinek na sny."
+      ],
+      "sources": [
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Andrew Holecek, Dream Yoga (počítání dechů před spaním)"
+      ]
+    },
+    {
+      "id": "dreamYogaDay",
+      "technique": "dreamYoga",
+      "name": "Den jako sen",
+      "fullName": "Záměr dne",
+      "group": "yoga",
+      "evidence": "tradition",
+      "evidenceNote": "První ze čtyř příprav podle Wangyala. Netestováno. Vychází z buddhistického přirovnání jevů ke snu. Při sklonu k pocitu neskutečna vynech.",
+      "minutes": 1,
+      "summary": "Během dne si občas připomeneš: tohle, co prožívám, je jako sen. Na slově „jako“ záleží. Nejde o to, že nic není skutečné, ale o lehčí vztah k tomu, co se děje.",
+      "why": "Ve snu bereš všechno jako pevné a samozřejmé, proto sen nepoznáš. Když si ve dne připomínáš, že zážitky jsou proměnlivé a plynou jako ve snu, oslabuje se tenhle automatický postoj. Tradice vychází z přirovnání podmíněných jevů ke snu, iluzi a bublině.",
+      "example": "Čekáš na tramvaj a jsi netrpělivý. Řekneš si: tohle je jako sen. Všimneš si, jak se netrpělivost během pár minut mění a jak lidé přicházejí a odcházejí. Situace se nezměnila, ale drží tě o něco méně.",
+      "safety": "Při sklonu k úzkosti, pocitu neskutečna nebo odpojení tuhle praxi vynech a použij uzemnění.",
+      "steps": [
+        "Ráno si dej záměr: dnes budu vnímat den jako sen.",
+        "Párkrát za den se zastav a rozhlédni se.",
+        "Řekni si v duchu: tohle je jako sen.",
+        "Všimni si, jak se věci mění a plynou.",
+        "Cítíš úzkost nebo pocit neskutečna? Přejdi na uzemnění."
+      ],
+      "nightSteps": [
+        "Tohle je jako sen.",
+        "Jen pozoruj.",
+        "Úzkost? Chodidla na zem."
+      ],
+      "mistakes": [
+        "Říkat si „nic není skutečné“. Jde o „jako sen“.",
+        "Cvičit to při úzkosti nebo pocitu odpojení.",
+        "Přehánět to. Pár zastavení denně stačí."
+      ],
+      "sources": [
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Andrew Holecek, Dream Yoga",
+        "Diamantová sútra, verš o podmíněných jevech"
+      ],
+      "illustration": "dreamYogaDay"
+    },
+    {
+      "id": "dreamYogaRelease",
+      "technique": "dreamYoga",
+      "name": "Uvolnění lpění a odporu",
+      "fullName": "Večerní ohlédnutí",
+      "group": "yoga",
+      "evidence": "tradition",
+      "evidenceNote": "Druhá z příprav podle Wangyala. Pro lucidní snění netestováno.",
+      "minutes": 1,
+      "summary": "Večer projdeš den a všimneš si chvil silné touhy nebo odporu: co chceš držet a co odstrkuješ. Nehodnotíš, jen to necháš povolit.",
+      "why": "Silná touha a odpor tě strhávají ve dne i ve snu. Když je večer uvidíš a necháš povolit, usínáš s klidnější myslí. Tradice to chápe jako přípravu, aby tě sen tolik nevláčel a mohl sis ho všimnout.",
+      "example": "Večer si vybavíš poradu, kde tě rozčílil kolega. Cítíš sevření v hrudi. S výdechem ho necháš povolit a nic neřešíš. Řekneš si: i tohle bylo jako sen. Usínáš s lehčí hlavou.",
+      "steps": [
+        "Večer si v klidu projdi den.",
+        "Najdi chvíli silné touhy nebo odporu.",
+        "Všimni si, kde to cítíš v těle.",
+        "S výdechem to nech povolit. Nic neřeš.",
+        "Řekni si: i tohle bylo jako sen."
+      ],
+      "nightSteps": [
+        "Projdi den.",
+        "Chvíle touhy nebo odporu.",
+        "Kde to cítíš?",
+        "S výdechem povol."
+      ],
+      "mistakes": [
+        "Hodnotit se a vyčítat si.",
+        "Rozebírat den dlouho před spaním.",
+        "Snažit se pocit potlačit."
+      ],
+      "sources": [
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Andrew Holecek, Dream Yoga"
+      ],
+      "illustration": "dreamYogaRelease"
+    },
+    {
+      "id": "dreamYogaIntention",
+      "technique": "dreamYoga",
+      "name": "Večerní záměr a ranní radost",
+      "fullName": "Třetí a čtvrtá příprava",
+      "group": "yoga",
+      "evidence": "tradition",
+      "evidenceNote": "Podle Wangyala. Večerní záměr se překrývá s MILD, ranní radost s deníkem bez výčitek.",
+      "minutes": 1,
+      "summary": "Večer si dáš záměr poznat sen. Ráno se k noci vrátíš s radostným úsilím, ať z ní zůstalo cokoli. Bez hodnocení a bez výčitek.",
+      "why": "Večerní záměr stojí na stejném principu jako záměr poznat sen (MILD): plán uložený těsně před spaním. Ranní radost bez výčitek drží motivaci, protože oceňuje proces, ne výsledek. Proto appka nepočítá série ani počet lucidních snů.",
+      "example": "Večer si řekneš: dnes v noci chci poznat, že sním. Ráno si vybavíš jen útržek, žlutou bundu. Místo zklamání se zaraduješ, že něco zůstalo, a dáš si záměr na další noc.",
+      "steps": [
+        "Před spaním si připomeň, proč praktikuješ.",
+        "Dej si záměr: dnes v noci chci poznat, že sním.",
+        "Ráno si nejdřív vybav, co se ti zdálo.",
+        "Přijmi to s radostí, i když je toho málo.",
+        "Nic? Dej si záměr na další noc. Bez výčitek."
+      ],
+      "nightSteps": [
+        "Proč praktikuju?",
+        "Chci poznat, že sním.",
+        "Ráno: co se zdálo?",
+        "S radostí, bez výčitek."
+      ],
+      "mistakes": [
+        "Brát prázdné ráno jako selhání.",
+        "Opakovat záměr bez opravdového chtění."
+      ],
+      "sources": [
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Andrew Holecek, Dream Yoga"
+      ],
+      "illustration": "dreamYogaIntention"
+    },
+    {
+      "id": "dreamYogaSleep",
+      "technique": "dreamYoga",
+      "name": "Bdělost při usínání",
+      "fullName": "Poloha, hrdlo a světlo",
+      "group": "yoga",
+      "illustration": "body",
+      "evidence": "tradition",
+      "evidenceNote": "Kontemplativní opora pozornosti, ne mechanismus. Pro lucidní snění netestováno. Pilotní studie Wolk a kol. 2024, která se k tomu někdy uvádí, testovala počítání dechů s hudebními podněty, ne jógu snu.",
+      "minutes": 1,
+      "summary": "Usínáš s lehkou pozorností v hrdle. Wangyal radí mužům ležet na pravém boku a ženám na levém, s rukou pod tváří. Norbu doporučuje zpočátku levý bok. Zvol, co je ti pohodlné. V hrdle si představíš rudý lotos ze světla.",
+      "why": "Tradice spojuje hrdlo se sny, věda to nepotvrzuje. Prakticky jde o oporu pozornosti: drží tenkou nit vědomí při usínání, podobně jako počítání dechů u vědomého usnutí do snu (WILD). Školy se liší v poloze i obrazu, takže si vyber, co ti sedí.",
+      "example": "Lehneš si na bok, ruka pod tváří. Uvolníš čelist. V hrdle si představíš malé teplé světlo jako rudý lotos. Obraz se rozmazává a pozornost se k němu vrací. Usneš a ráno si vybavíš, že jsi ve snu na chvíli zaváhal: tohle je divné.",
+      "steps": [
+        "Lehni si na bok, ruku pod tvář.",
+        "Uvolni hrdlo a čelist.",
+        "Představ si v hrdle malý rudý lotos ze světla.",
+        "Doprostřed si můžeš přidat tibetské písmeno A.",
+        "Nech pozornost lehce u světla a usínej.",
+        "Nesnaž se zůstat vzhůru. Spánek má přednost."
+      ],
+      "nightSteps": [
+        "Na bok, ruka pod tvář.",
+        "Uvolni hrdlo.",
+        "Rudý lotos v hrdle.",
+        "Pozornost lehce u světla.",
+        "Usínej. Nic nedrž."
+      ],
+      "mistakes": [
+        "Držet obraz násilím. Má být lehký.",
+        "Bránit se spánku.",
+        "Brát obraz jako povinnost. Je to opora pozornosti."
+      ],
+      "sources": [
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Namkhai Norbu, Dream Yoga and the Practice of Natural Light",
+        "Andrew Holecek, Dream Yoga (Lion's Roar)"
+      ]
+    },
+    {
+      "id": "lucidMission",
+      "name": "Cvičení v lucidním snu",
+      "fullName": "Co dělat, když víš, že sníš",
+      "group": "yoga",
+      "illustration": "lucidMission",
+      "evidence": "tradition",
+      "evidenceNote": "Tradice bez vědeckého důkazu. První laboratorní popis u šesti zkušených praktikantů (Torres Platas a kol. 2026, preprint bez recenze) zachytil „nemožné akce“ jako průchod zdí, autoři ale na prospěch praxe neusuzují. Lucidita neznamená kontrolu (Bonamino a Peters 2026).",
+      "minutes": 5,
+      "summary": "Když víš, že sníš, nabízí jóga snu řadu cvičení: rozpoznat, stabilizovat, proměnit, překročit nemožné, rozmnožit, čelit strachu a rozpustit. Cílem není zábava, ale uvolnit pevné představy o tom, co je možné. Pevné pořadí neexistuje.",
+      "why": "Kontrola ve snu závisí na očekávání a sebedůvěře, proto začni malou změnou, která vyjde. Tradice to používá jinak: když vidíš, že se sen mění podle mysli, povolí lpění na pevnosti věcí. Obojí začíná malým krokem.",
+      "example": "Ve snu víš, že sníš, a zkusíš rozsvítit lampu. Nic se nestane. Místo vzteku otevřeš dveře a za nimi je světlo. Pak zkusíš projít zdí rukama napřed. Jde to, ale barvy začnou blednout, tak se podíváš na dlaně a scéna se vrátí.",
+      "steps": [
+        "Před spaním zvol jeden malý cíl, třeba změnit barvu předmětu.",
+        "Ve snu nejdřív rozpoznej a stabilizuj.",
+        "Malá proměna: stůl se změní v květinu.",
+        "Překroč nemožné: natáhni ruku skrz zeď.",
+        "Rozmnož: z jedné věci udělej víc.",
+        "Strach: pojmenuj ho z odstupu, pak se přibliž a zeptej se, co chce.",
+        "Na konci můžeš scénu rozpustit do světla a pustit ji."
+      ],
+      "nightSteps": [
+        "Jeden malý cíl.",
+        "Rozpoznej, stabilizuj.",
+        "Malá proměna.",
+        "Strach? Zeptej se.",
+        "Rozpusť a pusť."
+      ],
+      "mistakes": [
+        "Začít velkou ambicí, třeba letem do vesmíru.",
+        "Tlačit moc silně. Sen se tím rozpadá.",
+        "Přeskočit stabilizaci.",
+        "Brát pořadí jako povinné."
+      ],
+      "sources": [
+        "Andrew Holecek, Dream Yoga (Lion's Roar)",
+        "Tenzin Wangyal Rinpočhe, The Tibetan Yogas of Dream and Sleep",
+        "Torres Platas a kol. 2026, preprint Northwestern",
+        "Bonamino a Peters 2026, Journal of Sleep Research"
+      ]
+    },
+    {
+      "id": "meditation",
+      "name": "Meditace a všímavost",
+      "fullName": "Šamatha, počítání dechů, otevřené pozorování",
+      "group": "yoga",
+      "illustration": "meditation",
+      "evidence": "promising",
+      "evidenceNote": "Souvislost je hlavně korelační: dlouhodobí meditující mají víc lucidních snů (1,11 proti 0,45 za měsíc, Baird a kol. 2019), denně meditující víc než ti, kdo meditují jednou týdně (Gerhardt a Baird 2024). Osmitýdenní kurz MBSR ale lucidní sny nezvýšil. Meditace luciditu nezpůsobí, ale trénuje schopnosti, na kterých lucidita stojí.",
+      "minutes": 10,
+      "summary": "Pět až deset minut denně trénuješ pozornost. Nejdřív ji klidně držíš na dechu (šamatha), pak jen pozoruješ, co přichází (otevřené pozorování). Každý návrat od zatoulané myšlenky je jedno opakování.",
+      "why": "Lucidita je chvíle, kdy si všimneš, co se děje ve tvé mysli. Stejný pohyb trénuje meditace: všimnout si, že mysl odběhla, a vrátit se. Vědci tomu říkají meta-uvědomění a právě to ve studii zprostředkovalo vztah mezi meditací a luciditou.",
+      "example": "Za pět minut se mysl dvanáctkrát zatoulá k práci. Dvanáctkrát si toho všimneš a vrátíš se k dechu. To je dvanáct opakování. Po týdnu si častěji i během dne všimneš: teď přemýšlím o včerejšku. Je to stejný pohyb jako otázka Sním? ve snu.",
+      "steps": [
+        "Sedni si nebo si lehni, záda volně rovná.",
+        "Pozornost na dech u nosu nebo na břiše.",
+        "Počítej výdechy od 1 do 9, pak znovu od jedné.",
+        "Ztratíš počet? Všimni si toho a začni od jedné. Nehodnoť.",
+        "Posledních pár minut jen pozoruj, co přichází.",
+        "Občas to tiše pojmenuj: myšlenka, zvuk, pocit."
+      ],
+      "nightSteps": [
+        "Pozornost na dech.",
+        "Počítej výdechy do devíti.",
+        "Odběhl jsi? Od jedné.",
+        "Jen pozoruj, co přichází."
+      ],
+      "mistakes": [
+        "Cílit na mysl bez myšlenek.",
+        "Slibovat si, že meditace způsobí lucidní sny.",
+        "Čekat výsledek za týden.",
+        "Soutěžit o co nejdelší řadu."
+      ],
+      "sources": [
+        "Baird a kol. 2019, Psychology of Consciousness",
+        "Gerhardt a Baird 2024, Brain Sciences",
+        "Stumbrys, Erlacher a Malinowski 2015",
+        "Levinson a kol. 2014, Frontiers in Psychology",
+        "B. Alan Wallace, Dreaming Yourself Awake (2012)"
+      ]
+    },
+    {
+      "id": "yogaNidra",
+      "name": "Jóga nidra",
+      "fullName": "Řízená hluboká relaxace",
+      "group": "yoga",
+      "illustration": "yogaNidra",
+      "evidence": "tradition",
+      "evidenceNote": "Pro lucidní snění tradice bez vědeckého důkazu. Někdy se jí říká lucidní bezesný spánek, ale EEG u začátečníků ukazuje bdělý stav s lokálními pomalými vlnami (Datta a kol. 2022). Pro spánek jsou data slibná, ale s velmi nízkou jistotou.",
+      "minutes": 15,
+      "summary": "Ležíš a pozornost vedeš tělem, jednu část po druhé. Tělo těžkne a zklidní se. Je to relaxace a příprava, ne technika na lucidní sen. Hodí se večer nebo po náročném dni.",
+      "why": "Postupné procházení těla uvolňuje svaly a tlumí rozběhnuté myšlenky. Pozornost se přitom drží na jemných pocitech, podobně jako při střídání smyslů (SSILD) nebo vědomém usnutí do snu (WILD). V malé studii se zlepšily spánkové deníky, lucidita testována nebyla.",
+      "example": "Večer po dlouhém dni si lehneš. Postupně vnímáš pravý palec, ukazovák, dlaň. Ruka těžkne a hřeje. U levé nohy už myšlenky na práci utichly. Když dojdeš k obličeji, povolí čelist, o které jsi ani nevěděl, že ji svíráš.",
+      "steps": [
+        "Lehni si na záda, ruce volně podél těla.",
+        "Pár pomalých výdechů, delších než nádech.",
+        "Pozornost veď postupně: pravá ruka, prsty, dlaň, paže.",
+        "Pak pravá noha, levá ruka, levá noha, záda, břicho, obličej.",
+        "U každé části se na chvíli zastav a jen vnímej.",
+        "Nakonec vnímej celé tělo najednou. Usneš? Je to v pořádku."
+      ],
+      "nightSteps": [
+        "Lehni si na záda.",
+        "Dlouhé výdechy.",
+        "Pravá ruka, pravá noha.",
+        "Levá ruka, levá noha.",
+        "Celé tělo najednou."
+      ],
+      "mistakes": [
+        "Vydávat ji za techniku lucidního snu.",
+        "Nahrazovat jí léčbu nespavosti.",
+        "Snažit se za každou cenu neusnout."
+      ],
+      "sources": [
+        "Datta a kol. 2022, Frontiers in Neurology",
+        "Kavi 2023, Progress in Brain Research",
+        "Singh a kol. 2026, Sleep and Breathing (meta-analýza)",
+        "Mota-Rolim a kol. 2020, Frontiers in Psychology"
+      ]
+    },
+    {
+      "id": "irt",
+      "name": "Přepis noční můry (IRT)",
+      "fullName": "Nácvik nové verze snu ve dne",
+      "group": "care",
+      "evidence": "strong",
+      "evidenceNote": "U nočních můr má lepší oporu než trénink lucidity a Americká akademie spánkové medicíny ho doporučuje. K úlevě není lucidita potřeba.",
+      "minutes": 10,
+      "summary": "Ve dne si noční můru přepíšeš do nové verze a tu si pak pár minut představuješ. Úspěch se měří tím, že můr ubývá, ne počtem lucidních snů.",
+      "why": "Noční můra se opakuje jako naučený scénář. Když si ve dne v bezpečí nacvičíš novou verzi, mozek dostane jiný scénář. Účinkuje přepis a nácvik, lucidita k tomu nutná není (Spoormaker a van den Bout 2006).",
+      "example": "Opakuje se ti, že tě někdo honí po schodech. Odpoledne napíšeš novou verzi: na odpočívadle se zastavíš, otočíš se a postava je jen soused s taškou. Pět minut si to živě představuješ a opakuješ to týden.",
+      "steps": [
+        "Dělej to ve dne, v klidu, ne těsně před spaním.",
+        "Krátce popiš noční můru. Stačí pár vět.",
+        "Vyber místo, kde se děj může změnit.",
+        "Napiš novou verzi. Nemusí být veselá, jen snesitelná.",
+        "Pár minut si novou verzi živě představuj.",
+        "Opakuj ji několik dní. Původní můru znovu neprožívej.",
+        "Souvisí můra s traumatem nebo se to zhoršuje? S tím se obrať na odborníka."
+      ],
+      "nightSteps": [
+        "Jsi vzhůru a v bezpečí.",
+        "Rozsviť tlumené světlo.",
+        "Polož chodidla na zem.",
+        "Přepis až ve dne.",
+        "Zapiš jen tři slova."
+      ],
+      "mistakes": [
+        "Přepisovat traumatický zážitek bez odborníka.",
+        "Prožívat můru znovu do detailu.",
+        "Čekat, že pomůže lucidita. Pomáhá přepis.",
+        "Pokračovat v nočních probuzeních, když se můry vracejí."
+      ],
+      "sources": [
+        "Spoormaker a van den Bout 2006",
+        "Krakow a kol. 2001, JAMA",
+        "Morgenthaler a kol. 2018, AASM",
+        "Holzinger a kol. 2020",
+        "Yount a kol. 2025",
+        "Carr a kol. 2025, Behavioral Sleep Medicine"
+      ],
+      "illustration": "rewriteScript"
+    },
+    {
+      "id": "grounding",
+      "name": "Uzemnění",
+      "fullName": "Návrat do těla a do přítomnosti",
+      "group": "care",
+      "illustration": "grounding",
+      "evidence": "promising",
+      "evidenceNote": "Běžná technika pro zvládání úzkosti. Pro lucidní snění se netestovala, slouží jako pojistka.",
+      "minutes": 1,
+      "summary": "Když test reality nebo „den jako sen“ vyvolá úzkost či pocit neskutečna, vrátíš se smysly do přítomnosti. Stačí minuta.",
+      "why": "Smysly tě vracejí do přítomnosti. Když pojmenuješ, co vidíš, cítíš a slyšíš, pozornost se přesune od úzkostných myšlenek k tělu a místu. Dlouhý výdech tělo zklidňuje.",
+      "example": "Při testu reality tě přepadne zvláštní pocit, že nic není skutečné. Zastavíš se, chodidla na zem. Vidíš stůl, hrnek, okno, kytku, svou ruku. Dotýkáš se židle, rukávu, stolu, podlahy. Slyšíš auto, lednici, svůj dech. Dlouhý výdech. Jsi doma a je středa.",
+      "steps": [
+        "Zastav se. Polož chodidla na zem.",
+        "Pojmenuj pět věcí, které vidíš.",
+        "Čtyři věci, kterých se dotýkáš.",
+        "Tři zvuky, které slyšíš.",
+        "Pomalý výdech, delší než nádech.",
+        "Řekni si, kde jsi a jaký je den."
+      ],
+      "nightSteps": [
+        "Chodidla na zem.",
+        "Pět věcí, které vidíš.",
+        "Čtyři doteky.",
+        "Tři zvuky.",
+        "Dlouhý výdech.",
+        "Kde jsi? Jaký je den?"
+      ],
+      "mistakes": [
+        "Pokračovat v testech reality při pocitu neskutečna.",
+        "Spěchat. Stačí minuta.",
+        "Nechat si to pro sebe, když se to vrací."
+      ],
+      "sources": [
+        "Jednotný přehled výzkumu, kapitola 10: bezpečnost a riziko derealizace"
+      ]
+    }
+  ]
+}

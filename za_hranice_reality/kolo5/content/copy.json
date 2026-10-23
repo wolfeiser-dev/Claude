@@ -1,0 +1,534 @@
+{
+  "onboarding": [
+    {
+      "id": "welcome",
+      "title": "Ve snu jsi každou noc.",
+      "body": "Otázka je, jestli u toho budeš. Za hranice reality tě provede krok za krokem, mezi vědou a duší.",
+      "cta": "Pokračovat"
+    },
+    {
+      "id": "honesty",
+      "title": "Týdny, ne noci",
+      "body": "Lucidní sen se nedá zapnout. Dá se natrénovat. Prvních 14 dní patří vzpomínkám na sny a dobrému spánku. Lucidita přijde, až bude na čem stavět.",
+      "cta": "Rozumím"
+    },
+    {
+      "id": "paths",
+      "title": "Dvě cesty, jedno jádro",
+      "body": "Každý den minuta vědy a minuta jógy snu. U každé praxe vidíš, z čeho vychází: „Výzkum“, nebo „Tradice“. Důraz si můžeš kdykoli změnit.",
+      "cta": "Dál"
+    },
+    {
+      "id": "you",
+      "title": "Jak ti máme říkat?",
+      "body": "Křestní jméno a obvyklé časy spánku. Podle nich appka plánuje testy reality i noci. Ukládá se to jen v telefonu.",
+      "cta": "Uložit"
+    },
+    {
+      "id": "preflight",
+      "title": "Předletová kontrola",
+      "body": "Pár otázek o zdraví a spánku. Není to diagnóza. Pomůže nastavit program tak, aby tvůj spánek nestrádal.",
+      "cta": "Spustit kontrolu"
+    }
+  ],
+  "trafficLight": {
+    "green": {
+      "label": "Zelená",
+      "title": "Spánek v pořádku",
+      "meaning": "Noc byla dobrá a tělo je odpočaté.",
+      "tonight": [
+        "Deník, záměr a praxe běží.",
+        "Noční probuzení je možné, pokud jsou splněné podmínky."
+      ]
+    },
+    "amber": {
+      "label": "Oranžová",
+      "title": "Šetrný režim",
+      "meaning": "Spánek byl slabší nebo chybí data. Trénink běží, noční budík ne.",
+      "tonight": [
+        "Deník, záměr a praxe běží.",
+        "Dnes bez nočního probuzení."
+      ]
+    },
+    "red": {
+      "label": "Červená",
+      "title": "Regenerační noc",
+      "meaning": "Tělo potřebuje spát. Dnes jen deník a klid.",
+      "tonight": [
+        "Ráno jen zápis.",
+        "Žádný budík.",
+        "Večerní záměr je dobrovolný."
+      ]
+    }
+  },
+  "nightGuide": [
+    {
+      "id": "alarm",
+      "text": "Budík. Nehýbej se.",
+      "night": "Nehýbej se."
+    },
+    {
+      "id": "recall",
+      "text": "Zůstaň se zavřenýma očima a vybav si sen.",
+      "night": "Vybav si sen."
+    },
+    {
+      "id": "record",
+      "text": "Řekni tři slova, která ti zůstala. Stačí šeptem.",
+      "night": "Řekni tři slova."
+    },
+    {
+      "id": "awake",
+      "text": "Pět až deset minut zůstaň vzhůru. Tlumené světlo, žádné čtení.",
+      "night": "Chvíli vzhůru. Nečti."
+    },
+    {
+      "id": "choose",
+      "text": "Vyber techniku: Záměr poznat sen (MILD), nebo Střídání smyslů (SSILD).",
+      "night": "MILD, nebo SSILD?"
+    },
+    {
+      "id": "lieDown",
+      "text": "Lehni si zpátky do pohodlné polohy.",
+      "night": "Lehni si zpátky."
+    },
+    {
+      "id": "technique",
+      "text": "Udělej techniku a pak ji pusť. Usnout během ní je v pořádku.",
+      "night": "Technika. Pak ji pusť."
+    },
+    {
+      "id": "sleep",
+      "text": "Teď už jen spi.",
+      "night": "Spi."
+    },
+    {
+      "id": "fallback",
+      "text": "Nespíš ani po 25 minutách? Konec techniky, jen klidný dech. Pokus se počítá.",
+      "night": "Konec techniky. Jen dýchej."
+    }
+  ],
+  "patches": [
+    {
+      "id": "firstReport",
+      "name": "První hlášení",
+      "description": "Začátek mise. První ráno s uloženým hlášením.",
+      "condition": "Ulož první ranní zápis.",
+      "metric": "entries",
+      "count": 1
+    },
+    {
+      "id": "emptyNight",
+      "name": "Prázdná noc se počítá",
+      "description": "I noc bez vzpomínky přináší cenná data.",
+      "condition": "Zapiš noc bez vzpomínky na sen.",
+      "metric": "emptyNights",
+      "count": 1
+    },
+    {
+      "id": "calmNight",
+      "name": "Klidná noc",
+      "description": "Spánek má přednost a ty to víš.",
+      "condition": "Při oranžové nebo červené zvol klidnou noc bez budíku.",
+      "metric": "calmNights",
+      "count": 1
+    },
+    {
+      "id": "anchor",
+      "name": "První připomínka",
+      "description": "Dlaň, nádech, otázka. Poprvé doopravdy.",
+      "condition": "Odpověz na první test reality.",
+      "metric": "realityChecksAnswered",
+      "count": 1
+    },
+    {
+      "id": "tenAnchors",
+      "name": "Deset pohledů na dlaň",
+      "description": "Zvyk se usazuje.",
+      "condition": "Odpověz celkem na 10 testů reality.",
+      "metric": "realityChecksAnswered",
+      "count": 10
+    },
+    {
+      "id": "intention",
+      "name": "Záměr na palubě",
+      "description": "První večer s větou „Když…, tak…“.",
+      "condition": "Ulož první večerní záměr.",
+      "metric": "intentions",
+      "count": 1
+    },
+    {
+      "id": "firstSign",
+      "name": "První znak",
+      "description": "Tvoje první osobní nápověda ze snů.",
+      "condition": "Potvrď první znak snu.",
+      "metric": "signs",
+      "count": 1
+    },
+    {
+      "id": "allCategories",
+      "name": "Čtyři směry",
+      "description": "Znáš své znaky snů ve všech čtyřech kategoriích.",
+      "condition": "Měj aspoň jeden znak snu v každé kategorii: děj, souvislosti, tvar, vědomí.",
+      "metric": "signCategories",
+      "count": 4
+    },
+    {
+      "id": "voice",
+      "name": "Hlas z noci",
+      "description": "Sen zachycený hlasem, dřív než zmizel.",
+      "condition": "Ulož první hlasový zápis.",
+      "metric": "voiceEntries",
+      "count": 1
+    },
+    {
+      "id": "sevenNights",
+      "name": "Sedm zapsaných nocí",
+      "description": "Nemusí jít po sobě. Počítá se každá.",
+      "condition": "Zapiš celkem 7 nocí, i prázdných.",
+      "metric": "entries",
+      "count": 7
+    },
+    {
+      "id": "halfMission",
+      "name": "Polovina mise",
+      "description": "Sedm dní programu za tebou, svým tempem.",
+      "condition": "Dokonči 7 dní programu, v jakémkoli tempu.",
+      "metric": "programDays",
+      "count": 7
+    },
+    {
+      "id": "missionComplete",
+      "name": "Základy hotové",
+      "description": "Dva týdny základů za tebou. Teď přijdou techniky.",
+      "condition": "Dokonči prvních 14 dní programu, v jakémkoli tempu.",
+      "metric": "programDays",
+      "count": 14
+    },
+    {
+      "id": "programComplete",
+      "name": "Mise splněna",
+      "description": "Šest týdnů výcviku za tebou a vlastní recept v ruce.",
+      "condition": "Dokonči všech 42 dní programu, v jakémkoli tempu.",
+      "metric": "programDays",
+      "count": 42
+    }
+  ],
+  "texts": {
+    "evidence": {
+      "strong": "Výzkum: nejlépe podložené",
+      "promising": "Výzkum: slibné",
+      "community": "Komunitní praxe, bez studie",
+      "tradition": "Tradice"
+    },
+    "program": {
+      "title": "Mise 6 týdnů",
+      "week1": "Týden 1: Vzpomínky a spánek",
+      "week2": "Týden 2: Záměr a technika",
+      "science": "Minuta vědy",
+      "yoga": "Minuta jógy snu",
+      "intention": "Večerní záměr",
+      "morningTask": "Ranní úkol",
+      "why": "Proč",
+      "dayLabel": "Den {pocet}",
+      "waiting": "Program počká. Vynechaný den nic nemaže.",
+      "metric": "Počítá se každá zapsaná noc a klidný spánek.",
+      "briefing": "Plán na dnešek, {jmeno}",
+      "notStarted": "Program ještě nezačal. Až začne, počítá se každá zapsaná noc.",
+      "stageStart": "START",
+      "stageWeek1": "T1–2",
+      "stageWeek2": "T3–4",
+      "stageEnd": "CÍL",
+      "loggedNights": "Zapsané noci",
+      "greenNights": "Zelené noci",
+      "today": "Dnes",
+      "patches": "Nášivky",
+      "patchesNote": "Dostáváš je za praxi, nikdy za série. Počet lucidních snů nerozhoduje.",
+      "week3": "Týden 3: Záměr poznat sen",
+      "week4": "Týden 4: Smysly a první noční výprava",
+      "week5": "Týden 5: Vědomí ve dne a inkubace",
+      "week6": "Týden 6: Udržet sen a vlastní recept",
+      "stageWeek3": "T5–6",
+      "ofTotal": "ze 42"
+    },
+    "techniques": {
+      "title": "Techniky",
+      "lead": "Dvě cesty, jedno jádro. U každé techniky vidíš, z čeho vychází.",
+      "science": "Výzkum",
+      "tradition": "Tradice: jóga snu",
+      "minutes": "~{pocet} min",
+      "back": "Techniky",
+      "evidenceTitle": "Co víme",
+      "steps": "Postup",
+      "stepDone": "Hotovo, další krok",
+      "mistakes": "Časté chyby",
+      "sources": "Zdroje",
+      "tryNow": "Vyzkoušet teď · 1 min",
+      "tryNext": "Další krok",
+      "tryDone": "Minuta je za tebou. To stačí.",
+      "tryClose": "Zavřít",
+      "notFound": "Tuhle techniku jsme nenašli."
+    },
+    "telemetry": {
+      "kicker": "Spánková data",
+      "title": "Spánek a REM",
+      "none": "zatím nic",
+      "remMap": "Osobní REM mapa",
+      "remMapNote": "z profilu · ~",
+      "remDefault": "Výchozí profil podle průměru lidí. Časy jsou odhad, ne měření.",
+      "onset": "Usnutí ~{cas}",
+      "wbtbWindow": "Okno pro probuzení (WBTB) ~{cas} · {pocet} min po usnutí",
+      "lastNight": "Poslední noc",
+      "sleep": "Spánek",
+      "sleepUnit": "h:min",
+      "feeling": "Pocit",
+      "light": "Jak ses vyspal",
+      "score": "Skóre",
+      "readiness": "Připravenost",
+      "rem": "REM",
+      "latency": "Usínání",
+      "minutesUnit": "minut",
+      "week": "Posledních 7 nocí",
+      "weekCount": "zapsáno {pocet} ze 7",
+      "anchorTitle": "Proč budík počítá od usnutí",
+      "anchorBody": "REM přichází v cyklech od chvíle, kdy usneš, ne podle hodin. Když usneš o hodinu později, posune se celá noc. Proto budík zvoní {pocet} min po usnutí, ne v pevný čas."
+    },
+    "trafficLight": {
+      "missingData": "Chybí data o spánku, proto oranžová. Deník a záměr běží dál.",
+      "manualPrompt": "Bez prstenu stačí dvě věci: délka spánku a jak se cítíš.",
+      "sleepHours": "Kolik hodin spánku?",
+      "feeling": "Jak se cítíš?"
+    },
+    "morning": {
+      "title": "Ranní hlášení",
+      "greeting": "Dobré ráno, {jmeno}.",
+      "stayStill": "Nehýbej se. Přehraj si sen.",
+      "record": "Nahrát",
+      "type": "Napsat",
+      "recordHint": "Tři slova stačí. Detaily počkají.",
+      "voiceLocal": "Nahrávka se přepisuje jen v telefonu.",
+      "emptyNight": "Nic si nevybavuju",
+      "emptyNightSaved": "Zapsáno. Prázdná noc se počítá taky.",
+      "signQuestion": "Objevil se ve snu některý z tvých znaků?",
+      "signSkip": "Dnes bez znaku",
+      "lucidQuestion": "Došlo ti ve snu, že sníš?",
+      "nightmareQuestion": "Byla to noční můra?",
+      "nightmareNote": "Díky, že to zapisuješ. Dnes v noci bez budíku. Kdyby se můry vracely, pomůže přepis noční můry.",
+      "feelingQuestion": "Jak se cítíš? 0 až 10",
+      "feeling1": "Vyčerpaně",
+      "feeling2": "Unaveně",
+      "feeling3": "Ujde to",
+      "feeling4": "Dobře",
+      "feeling5": "Svěže",
+      "saved": "Hlášení uloženo, {jmeno}.",
+      "progress": "Zapsané noci: {pocet} ze 42",
+      "close": "Zavřít",
+      "recallQuestion": "Kolik si pamatuješ?",
+      "recallFragment": "Útržek",
+      "recallPartial": "Část",
+      "recallFull": "Celý sen",
+      "vividQuestion": "Jak živý byl? 0 až 10",
+      "yes": "Ano",
+      "no": "Ne",
+      "signNew": "Nový znak",
+      "signName": "Co se ve snu objevilo?",
+      "signCategory": "Kategorie podle LaBergea",
+      "signAdd": "Přidat",
+      "cancel": "Zrušit",
+      "recording": "Nahrávám",
+      "stop": "Zastavit",
+      "recorded": "Nahrávka uložená",
+      "micDenied": "Mikrofon teď nejde. Sen můžeš napsat.",
+      "textHint": "Co se ti zdálo?",
+      "save": "Uložit hlášení",
+      "transcriptPending": "Přepis počká, nahrávka je uložená v telefonu.",
+      "checkin": "Ranní zápis spánku",
+      "tonight": "Co to znamená pro dnešní noc",
+      "patchEarned": "Nová nášivka",
+      "done": "Hotovo",
+      "sleepUnset": "posuň, ať víme"
+    },
+    "anchor": {
+      "title": "Připomínka",
+      "palm": "Podívej se na dlaň.",
+      "breath": "Jeden klidný nádech. Sním?",
+      "reflect": "Co se dělo před pěti minutami? Co je tu divné?",
+      "answerVoice": "Odpověz hlasem, tři vteřiny.",
+      "answerTap": "Odpovědět klepnutím",
+      "dreaming": "Sním",
+      "awake": "Bdím",
+      "grounding": "Je toho moc? Místo testu se uzemni.",
+      "saved": "Zapsáno.",
+      "step": "Krok {pocet} ze 3",
+      "answerVoiceButton": "Odpovědět hlasem",
+      "listening": "Poslouchám, {pocet} s",
+      "done": "Hotovo"
+    },
+    "night": {
+      "title": "Noc",
+      "calm": "Klidná noc",
+      "calmBody": "Žádný budík. Jen spánek a ráno zápis.",
+      "mildAtWake": "Záměr poznat sen při probuzení",
+      "mildAtWakeBody": "Probudíš se v noci? Nehýbej se a začni s MILD.",
+      "wbtb": "Noc s probuzením",
+      "wbtbBody": "Budík zhruba pět hodin po usnutí, krátká technika a zpátky spát.",
+      "sos": "Spánková paralýza",
+      "goodNight": "Dobrou noc, {jmeno}.",
+      "alarm": "Budík",
+      "cancel": "Zrušit a zpět",
+      "back": "Zpět",
+      "failedReturn": "Nespím ani po 25 minutách",
+      "awake": "Vzhůru {cas} · stačí 5 až 10 minut",
+      "awakeLimit": "Už 15 minut. Lehni si a spi.",
+      "tapNext": "Ťukni kamkoli pro další krok"
+    },
+    "wbtb": {
+      "offerTitle": "Nabídka: první noční probuzení",
+      "offerBody": "Můžeš zkusit jedno noční probuzení s technikou. Je to dobrovolné a v prvních 14 dnech jen jednou.",
+      "conditionRecords": "Aspoň 4 zápisy za posledních 7 dní",
+      "conditionGreen": "Dvě zelené noci po sobě",
+      "conditionConfirm": "Cítím se dobře a ráno nemusím brzy vstávat ani řídit.",
+      "accept": "Naplánovat na dnešní noc",
+      "decline": "Dnes ne",
+      "notTonight": "Dnes noční probuzení nebude. Spánek má přednost.",
+      "alarmSet": "Budík: {cas}. Odhad podle toho, jak obvykle usínáš.",
+      "preflight": "Zkontroluj hlasitost budíku a baterii. Telefon polož obrazovkou dolů."
+    },
+    "notifications": {
+      "morningTitle": "Ranní hlášení",
+      "morningBody": "Ještě se nehýbej. Co se ti zdálo?",
+      "eveningTitle": "Plán na dnešek",
+      "eveningBody": "Minuta vědy, minuta jógy snu a záměr na noc.",
+      "wbtbTitle": "Noční probuzení",
+      "wbtbBody": "Nehýbej se. Co se ti zdálo?",
+      "wbtbAlarmTitle": "Probuzení a návrat do spánku · WBTB",
+      "wbtbAlarmBody": "Vstaň na pár minut, pak se vrať ke spánku se svým záměrem.",
+      "morningReminderTitle": "Dobré ráno, {jmeno}",
+      "morningReminderBody": "Než sen vybledne, zapiš si ho. I prázdná noc se počítá.",
+      "realityTitle": "Test reality",
+      "realityBody": "Podívej se na dlaň a zeptej se, {jmeno}: Jak jsem se sem dostal?"
+    },
+    "whatsNew": {
+      "label": "Aktualizace",
+      "title": "Co je nového",
+      "version": "Verze",
+      "continue": "Pokračovat"
+    },
+    "signs": {
+      "action": "Děj",
+      "context": "Souvislosti",
+      "form": "Tvar",
+      "awareness": "Vědomí"
+    },
+    "journal": {
+      "title": "Deník snů",
+      "count": "Záznamy: {pocet}",
+      "nights7": "Zapsané noci za 7 dní",
+      "nights14": "Zapsané noci za 14 dní",
+      "topSigns": "Nejčastější znaky",
+      "filterAll": "Vše",
+      "emptyNight": "Prázdná noc",
+      "emptyNightBody": "Nic si nepamatuješ. I to se počítá.",
+      "untitled": "Sen bez názvu",
+      "empty": "Zatím tu nic není. První ranní hlášení založí deník.",
+      "newEntry": "Nový zápis",
+      "weekdays": "po út st čt pá so ne",
+      "lucid": "lucidní",
+      "nightmare": "noční můra",
+      "afterWbtb": "po nočním probuzení"
+    },
+    "dream": {
+      "title": "Záznam",
+      "titleHint": "Název",
+      "edit": "Upravit",
+      "save": "Uložit",
+      "delete": "Smazat",
+      "deleteConfirm": "Smazat tenhle zápis i nahrávku? Nejde to vrátit.",
+      "play": "Přehrát nahrávku",
+      "pause": "Pauza",
+      "audioError": "Nahrávku se nepodařilo přehrát.",
+      "notFound": "Tenhle zápis už neexistuje.",
+      "transcriptPending": "Přepis čeká",
+      "transcriptFailed": "Přepis se nepovedl, nahrávka zůstává.",
+      "vividness": "Živost {pocet}/10"
+    },
+    "onboarding": {
+      "firstName": "Křestní jméno",
+      "addressName": "Jak tě oslovit",
+      "addressHint": "Návrh podle jména. Když nesedí, oprav ho.",
+      "bedtime": "Obvykle uléhám",
+      "wake": "Obvykle vstávám",
+      "evaluate": "Vyhodnotit",
+      "next": "Dál",
+      "permissionsTitle": "Budík a připomínky",
+      "permissionsBody": "Přes notifikace chodí testy reality a ranní připomínka zápisu. Noční probuzení potřebuje přesný budík. Bez povolení ho telefon ve spánku může posunout o pár minut a okno snu uteče.",
+      "allowNotifications": "Povolit notifikace",
+      "allowAlarm": "Povolit přesný budík",
+      "granted": "povoleno",
+      "start": "Začít program"
+    },
+    "path": {
+      "label": "Cesta",
+      "science": "Věda",
+      "dreamYoga": "Jóga snu",
+      "both": "Obojí"
+    },
+    "today": {
+      "sleepToday": "Spánek dnes ráno",
+      "intentionWhen": "Když …",
+      "intentionThen": "tak …",
+      "nightPlan": "Plán noci",
+      "holdStart": "Podrž pro start noci",
+      "alarmNotReady": "Budík by v noci nezazvonil: appka nemá povolené notifikace nebo přesný budík. Povol je v nastavení telefonu, nebo dnes nech klidnou noc.",
+      "alarmInexact": "Telefon nepovolil přesný budík, může zazvonit o pár minut později."
+    },
+    "wbtbReason": {
+      "weeklyLimit": "Za posledních 7 dní už byla dvě noční probuzení.",
+      "tooSoonAfterLast": "Od posledního nočního probuzení ještě neuběhly dva dny.",
+      "notGreen": "Dnešní noc nevyšla zeleně.",
+      "greenStreakTooShort": "Zelená zatím jen jednu noc. Potřeba jsou dvě po sobě.",
+      "tooCloseToWake": "Budík by zazvonil moc blízko ranního vstávání.",
+      "tooEarlyInProgram": "První noční probuzení přijde nejdřív 10. den programu.",
+      "programLimit": "V prvních 14 dnech stačí jedno noční probuzení. To už máš za sebou.",
+      "tooFewEntries": "Za posledních 7 dní nejsou aspoň 4 zápisy.",
+      "notConfirmed": "Chybí večerní potvrzení, že se cítíš dobře."
+    },
+    "settings": {
+      "title": "Nastavení",
+      "you": "Ty",
+      "times": "Časy spánku",
+      "realityChecks": "Testy reality za den",
+      "watchVibration": "Vibrace hodinek",
+      "wbtbBlocked": "Noční probuzení vypnuté",
+      "phase": "Vzhled podle denní doby (náhled)",
+      "phaseAuto": "Podle času",
+      "phaseDay": "Den",
+      "phaseEvening": "Večer",
+      "phaseNight": "Noc",
+      "devices": "Zařízení",
+      "devicesBody": "Oura, Garmin a hlavní zdroj spánku.",
+      "vault": "Záloha",
+      "vaultBody": "Uložení do souboru a obnova. Data zůstávají v telefonu.",
+      "safety": "Bezpečnost",
+      "about": "O aplikaci",
+      "aboutBody": "Za hranice reality od Já², mezi vědou a duší. Appka nic nediagnostikuje a nenahrazuje péči lékaře. Data se ukládají jen v telefonu. Výjimky: online diktát přes Google, volitelné učesání textu přes Claude a stahování spánku z tvého účtu Oura nebo Garmin.",
+      "testAlarm": "Vyzkoušet budík",
+      "testAlarmBody": "Za minutu zazvoní noční budík. Ověříš, že projde i přes tichý režim.",
+      "testAlarmSet": "Budík zazvoní za minutu. Můžeš zamknout telefon."
+    },
+    "vault": {
+      "title": "Záloha",
+      "body": "Všechna data v jednom souboru .zip, včetně nahrávek a kreseb. Appka zálohu nikam neposílá. Kam ji uložíš (Disk, Soubory), je na tobě.",
+      "export": "Uložit zálohu",
+      "shareSubject": "Záloha deníku snů",
+      "import": "Obnovit ze zálohy",
+      "confirmTitle": "Jak obnovit?",
+      "confirmBody": "Doplnit: přidá jen záznamy, které v telefonu chybí. Přepsat: záznamy se stejným id a nastavení nahradí daty ze zálohy.",
+      "merge": "Doplnit",
+      "confirm": "Přepsat",
+      "cancel": "Zrušit",
+      "imported": "Obnoveno položek: {pocet}.",
+      "error": "Zálohu nejde načíst. Je to soubor .zip z této appky?"
+    }
+  }
+}

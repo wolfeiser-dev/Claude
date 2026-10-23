@@ -1,0 +1,61 @@
+{
+  "texts": {
+    "design": {
+      "today": {
+        "mission": "Den {den}",
+        "tonight": "Dnes v noci",
+        "dayStrip": "Den {den} ze 42",
+        "noRush": "bez spěchu",
+        "flightPlan": "Plán noci",
+        "legendOnset": "usnutí ~{cas}",
+        "legendAlarm": "budík {cas}",
+        "legendRem": "REM",
+        "intentionShape": "když… tak…",
+        "signsLabel": "Tvoje znaky snů",
+        "signWhen": "se objeví {znak}",
+        "signThen": "se zeptám: sním?",
+        "calmIsMission": "Klidná noc se taky počítá",
+        "wbtbWeek": "Noční probuzení tento týden: {pocet} ze {max}",
+        "programPatch": "Program mise"
+      },
+      "program": {
+        "kicker": "Výcvikový program",
+        "patchArc": "PROGRAM LUCIDNÍHO SNĚNÍ",
+        "patchArcBottom": "ZA HRANICE REALITY",
+        "profile": "Profil mise",
+        "profileNote": "čím výš, tím hlubší praxe",
+        "dragHint": "Táhni po křivce a projdi stupně.",
+        "spanStart": "Den 0",
+        "spanWeek1": "Den 1–14",
+        "spanWeek2": "Den 15–28",
+        "spanEnd": "Po 42 dnech",
+        "titleStart": "Příprava",
+        "titleWeek1": "Základy",
+        "titleWeek2": "Techniky",
+        "titleEnd": "Vlastní cesta",
+        "noteStart": "Bezpečnost, obvyklé časy spánku a cíl. Hotovo už v úvodu.",
+        "noteWeek1": "Deník každé ráno a ochrana spánku. Pak večerní záměr „když… tak…“ a testy reality.",
+        "noteWeek2": "Záměr poznat sen (MILD), Střídání smyslů (SSILD) a první noční výpravy s budíkem.",
+        "noteEnd": "Vybereš si, jak pokračovat. Žádný spěch, praxe se sčítá.",
+        "missionCode": "MISE {cislo}",
+        "spanWeek3": "Den 29–42",
+        "titleWeek3": "Hloubka",
+        "noteWeek3": "Vědomí po celý den, inkubace snu, jak sen udržet a tvůj vlastní recept."
+      },
+      "onboarding": {
+        "kicker": "Ponor do vnitřního vesmíru"
+      },
+      "training": {
+        "kicker": "Výcvik · lekce a techniky",
+        "mapTitle": "Mapa lekcí",
+        "mapLead": "Každá projitá lekce rozsvítí další hvězdu. Klepni na hvězdu a začni.",
+        "lessonNo": "Lekce {cislo}",
+        "lessonMeta": "~{min} min · {pocet} kapitol",
+        "start": "Začít lekci",
+        "again": "Projít znovu",
+        "chapter": "Kapitola {cislo}",
+        "discovery": "Objev"
+      }
+    }
+  }
+}
