@@ -278,13 +278,13 @@ class _ParalysisWave extends _Art {
     c.drawLine(Offset(leg.dx, 17), Offset(leg.dx, leg.dy - 3), lead);
     final arc = p(-0.025, 0.05);
     label(c, 'awake', const Offset(0, 124), color: skin.accentText);
-    c.drawLine(Offset(arc.dx, 117), arc + const Offset(0, 2), stroke(skin.accent.withValues(alpha: 0.5), 1));
+    c.drawLine(Offset(arc.dx, 115), arc + const Offset(0, 2), stroke(skin.accent.withValues(alpha: 0.5), 1));
     final dm = p(0.31 + d, 0.06);
     label(c, 'breath', Offset(dm.dx, 124), align: 0.5, color: skin.accentText);
-    c.drawLine(Offset(dm.dx, 117), dm + const Offset(0, 3), stroke(skin.accent.withValues(alpha: 0.5), 1));
+    c.drawLine(Offset(dm.dx, 115), dm + const Offset(0, 3), stroke(skin.accent.withValues(alpha: 0.5), 1));
     final fx = tip.dx + 9;
     label(c, 'finger', Offset(fx - 4, 124), color: skin.accentText);
-    c.drawPath(Path()..addPolygon([Offset(fx, 117), Offset(fx, tip.dy + 3)], false), stroke(skin.accent.withValues(alpha: 0.5), 1));
+    c.drawPath(Path()..addPolygon([Offset(fx, 115), Offset(fx, tip.dy + 3)], false), stroke(skin.accent.withValues(alpha: 0.5), 1));
 
     // Vlna: rychlý nástup, pomalé odeznění; tečka po ní putuje.
     final xa = xs, xb = xs + L, axis = 158.0;
@@ -301,6 +301,7 @@ class _ParalysisWave extends _Art {
     final q = live ? (t / 16) % 1.0 : 0.22;
     c.drawCircle(w(q), 2.6, fill(skin.text));
     label(c, 'time', Offset(xa, 169), size: 8.5);
+    label(c, 'caption', Offset(s.width, 169), align: 1, size: 8.5, color: skin.faint);
     label(c, 'passes', Offset(xb, 144), align: 1, color: skin.accentText);
   }
 }
@@ -435,14 +436,14 @@ class _PostureVariants extends _Art {
       final throat = p(0.152, 0.128), heart = p(0.265, 0.115);
       if (i == 0) {
         _lotus(c, throat, 3.2);
-        label(c, 'letterA', p(0.215, 0.128), align: 0.5, size: 8.5, color: skin.accentText);
+        label(c, 'letterA', p(0.226, 0.128), align: 0.5, size: 8.5, color: skin.accentText);
       } else if (i == 1) {
         c.drawCircle(throat, 2.2 * pulse, fill(skin.accent));
         c.drawCircle(throat, 4.2, fill(skin.accent.withValues(alpha: 0.16)));
-        label(c, 'letterA', p(0.215, 0.128), align: 0.5, size: 8.5, color: skin.accentText);
+        label(c, 'letterA', p(0.212, 0.128), align: 0.5, size: 8.5, color: skin.accentText);
         c.drawCircle(heart, 3, stroke(skin.text, 1));
         c.drawCircle(heart, 1, fill(skin.text));
-        label(c, 'letterA', p(0.322, 0.115), align: 0.5, size: 8.5, color: skin.text);
+        label(c, 'letterA', p(0.33, 0.115), align: 0.5, size: 8.5, color: skin.text);
       }
     }
 
@@ -506,8 +507,8 @@ class _Butterfly extends _Art {
 
   /// Spící hlava z profilu (obličej doprava, nahoru Y): přední obrys od temene ke krku a zadní obrys.
   static const _face = [
-    (-0.05, 0.5), (0.18, 0.46), (0.31, 0.34), (0.37, 0.17), (0.34, 0.1), (0.47, -0.05), (0.39, -0.12), (0.41, -0.19), //
-    (0.37, -0.24), (0.39, -0.3), (0.33, -0.36), (0.36, -0.45), (0.24, -0.53), (0.12, -0.56), (0.1, -0.75),
+    (-0.05, 0.5), (0.18, 0.46), (0.31, 0.34), (0.36, 0.19), (0.33, 0.12), (0.5, -0.04), (0.38, -0.11), (0.4, -0.18), //
+    (0.36, -0.23), (0.38, -0.28), (0.33, -0.34), (0.37, -0.44), (0.25, -0.52), (0.1, -0.56), (0.08, -0.72),
   ];
   static const _back = [(-0.05, 0.5), (-0.3, 0.45), (-0.48, 0.25), (-0.52, 0.02), (-0.45, -0.22), (-0.33, -0.42), (-0.3, -0.75)];
 
@@ -568,11 +569,9 @@ class _Butterfly extends _Art {
     c.drawRRect(RRect.fromRectAndRadius(Rect.fromPoints(h(-0.53, 0.3), h(-0.72, -0.32)), const Radius.circular(2)), stroke(skin.lineStrong, 1));
     c.drawPath(_smooth(hp(_face)), ink);
     c.drawPath(_smooth(hp(_back)), ink);
-    c.drawPath(_smooth(hp([(0.21, 0.43), (0.1, 0.3), (0.02, 0.17), (-0.04, 0.12)])), stroke(skin.faint, 1));
-    // Krk přechází do zkříženého límce roucha a ramene na podložce.
-    c.drawPath(_smooth(hp([(0.1, -0.75), (0.06, -0.86), (-0.02, -0.98)])), soft);
-    c.drawPath(_smooth(hp([(-0.3, -0.75), (-0.2, -0.86), (-0.02, -0.98), (0.08, -1.02)])), soft);
-    c.drawPath(_smooth(hp([(-0.3, -0.75), (-0.42, -0.86), (-0.56, -0.96)])), soft);
+    // Krk přechází do hrudníku (nahoře) a zad (dole, na lůžku pod podložkou).
+    c.drawPath(_smooth(hp([(0.08, -0.72), (0.1, -0.88), (0.18, -1.05)])), soft);
+    c.drawPath(_smooth(hp([(-0.3, -0.75), (-0.55, -0.88), (-0.72, -1.0)])), soft);
     c.drawPath(_smooth(hp([(-0.03, -0.02), (-0.06, 0.1), (-0.13, 0.11), (-0.17, -0.02), (-0.14, -0.13), (-0.06, -0.14)])), soft);
     c.drawPath(_smooth(hp([(0.23, 0.075), (0.28, 0.052), (0.325, 0.07)])), ink);
     c.drawPath(_smooth(hp([(0.22, 0.17), (0.29, 0.195), (0.35, 0.17)])), soft);

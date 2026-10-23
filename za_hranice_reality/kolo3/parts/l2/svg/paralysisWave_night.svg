@@ -50,11 +50,11 @@
 <text x="358" y="13.54" text-anchor="end" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">TĚLO JEŠTĚ SPÍ</text>
 <line x1="276.2" y1="17" x2="276.2" y2="45.18" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="0" y="127.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">MYSL BDÍ</text>
-<line x1="42.65" y1="117" x2="42.65" y2="81.5" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="42.65" y1="115" x2="42.65" y2="81.5" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="134.72" y="127.54" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">POMALU DÝCHEJ</text>
-<line x1="134.72" y1="117" x2="134.72" y2="85.2" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="134.72" y1="115" x2="134.72" y2="85.2" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="209.92" y="127.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">POHNI MALÍČKEM</text>
-<path d="M213.92 117L213.92 99.64" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M213.92 115L213.92 99.64" fill="none" stroke="#FF3B2F" stroke-opacity="0.5" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M49.4 158L52.83 155.49L56.17 153.3L59.64 151.3L62.98 149.6L66.17 148.16L69.66 146.79L73.21 145.6L76.33 144.69L79.97 143.79L83.16 143.12L86.6 142.53L89.82 142.08L93.3 141.69L96.79 141.4L100.03 141.2L106.78 141.01L113.53 141.05L120.27 141.28L127.01 141.65L136.98 142.4L150.67 143.68L184.48 147.19L201.4 148.85L221.32 150.6L238.52 151.9L255.48 153.01L275.7 154.1L295.68 154.97L319.4 155.78L319.37 158L49.4 158Z" fill="#FF3B2F" fill-opacity="0.08"/>
 <path d="M49.4 158L52.83 155.49L56.17 153.3L59.64 151.3L62.98 149.6L66.17 148.17L69.66 146.79L73.21 145.6L76.33 144.69L79.97 143.79L83.15 143.12L86.6 142.53L89.82 142.08L93.3 141.69L96.79 141.4L100.03 141.2L106.77 141.01L113.52 141.05L120.27 141.28L127.01 141.65L136.98 142.4L150.67 143.68L184.48 147.19L201.39 148.85L221.31 150.6L238.51 151.9L255.47 153.01L275.69 154.1L295.92 154.98L319.4 155.77" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="49.4" y1="158" x2="319.4" y2="158" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
@@ -62,5 +62,6 @@
 <line x1="323.4" y1="158" x2="319.97" y2="155.94" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="108.8" cy="141" r="2.6" fill="#FF3B2F"/>
 <text x="49.4" y="172.04" text-anchor="start" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#B3261E">SEKUNDY AŽ MINUTY</text>
+<text x="358" y="172.04" text-anchor="end" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#6E1A12">SCHÉMA</text>
 <text x="319.4" y="147.54" text-anchor="end" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">MINE</text>
 </svg>

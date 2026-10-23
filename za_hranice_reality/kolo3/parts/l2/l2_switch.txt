@@ -1,0 +1,26 @@
+// 1) Do `switch (id)` v TrainingArt.build vlož před výchozí větev `_ => _Ladder(skin, l, clock),`:
+      'lucidityAxes' => _LucidityAxes(skin, l, clock),
+      'paralysisWave' => _ParalysisWave(skin, l, clock),
+      'postureVariants' => _PostureVariants(skin, l, clock),
+      'butterfly' => _Butterfly(skin, l, clock),
+      'predictionLoop' => _PredictionLoop(skin, l, clock),
+
+// 2) Do `static const ids = [...]` přidej:
+    'lucidityAxes',
+    'paralysisWave',
+    'postureVariants',
+    'butterfly',
+    'predictionLoop',
+
+// 3) Výška: všech 5 ilustrací používá výchozích 176 px (ověřeno na šířkách 320, 358, 390 a 430, den i noc).
+//    Řádek s výškou zůstává beze změny.
+
+// 4) Mapování na karty lekcí (návrh):
+//    notControl karta 0 "Tři různé věci"        -> lucidityAxes
+//    notControl karta 2 "Neúspěch bez dramatu"  -> lucidityAxes (kontrola nízko, lucidita drží)
+//    sleepParalysis karta 1 "Běžné a neškodné"  -> paralysisWave
+//    sleepParalysis karta 2 "Co dělat"          -> paralysisWave
+//    sleepParalysis karta 3 "Kdy k lékaři"      -> paralysisWave (obecně; klinické znaky nekreslí)
+//    yogaNight karta 1 "Zdroje se liší"         -> postureVariants
+//    reality karta 0 "Zhuangzi a motýl"         -> butterfly
+//    reality karta 3 "Anil Seth: řízená halucinace" -> predictionLoop

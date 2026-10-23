@@ -22,7 +22,8 @@
           "breath": "POMALU DÝCHEJ",
           "finger": "POHNI MALÍČKEM",
           "time": "SEKUNDY AŽ MINUTY",
-          "passes": "MINE"
+          "passes": "MINE",
+          "caption": "SCHÉMA"
         },
         "postureVariants": {
           "wangyal": "WANGYAL",

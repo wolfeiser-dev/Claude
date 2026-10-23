@@ -65,6 +65,7 @@
 <text x="0" y="87.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">SPÁNEK</text>
 <rect x="144.36" y="39" width="107.08" height="40" fill="#FF3B2F" fill-opacity="0.08"/>
 <text x="197.9" y="101.54" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">ÚZKÉ OKNO</text>
+<text x="150.36" y="47.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">ASI 30 S</text>
 <circle cx="80" cy="16" r="5.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="80" y1="16" x2="80" y2="12.8" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="80" y1="16" x2="82.4" y2="16.8" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
