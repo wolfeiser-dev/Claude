@@ -14,11 +14,15 @@ class _DreamSignGrid extends _Art {
       final r = Rect.fromLTWH(1 + i % 2 * (w + gap), 1 + i ~/ 2 * (h + gap), w, h);
       final hot = i == _main;
       final ink = hot ? skin.accent : skin.muted;
-      if (hot) c.drawRect(r, fill(skin.accent.withValues(alpha: 0.06)));
+      if (hot) {
+        c.drawRect(r, fill(skin.accent.withValues(alpha: 0.06)));
+      }
       c.drawRect(r, stroke(hot ? skin.accent.withValues(alpha: 0.5) : skin.line, 1));
       _corners(c, r, stroke(hot ? skin.accent : skin.lineStrong, 1.5));
       label(c, _keys[i], Offset(r.left + 10, r.top + 13), color: hot ? skin.accentText : skin.muted);
-      if (hot) label(c, 'main', Offset(r.right - 10, r.top + 13), align: 1, color: skin.accentText, size: 8.5);
+      if (hot) {
+        label(c, 'main', Offset(r.right - 10, r.top + 13), align: 1, color: skin.accentText, size: 8.5);
+      }
 
       final tally = stroke(hot ? skin.accent : skin.faint);
       for (var k = 0; k < _marks[i]; k++) {
@@ -105,7 +109,9 @@ class _DreamSignGrid extends _Art {
         }
       }
       c.drawPath(p..close(), stroke(ink));
-      if (j < 2) arrowHead(c, q + const Offset(16, 0), const Offset(1, 0), stroke(skin.faint, 1), 3);
+      if (j < 2) {
+        arrowHead(c, q + const Offset(16, 0), const Offset(1, 0), stroke(skin.faint, 1), 3);
+      }
     }
   }
 
@@ -215,7 +221,9 @@ class _FadingTrace extends _Art {
 
     c.drawPath(trace(kept, 0, grab), stroke(skin.text));
     c.drawPath(trace(kept, grab, 5), stroke(skin.accentText, 2));
-    if (live) c.drawCircle(kept(grab + (t * 0.4) % (5 - grab)), 2.4, fill(skin.text));
+    if (live) {
+      c.drawCircle(kept(grab + (t * 0.4) % (5 - grab)), 2.4, fill(skin.text));
+    }
     label(c, 'kept', Offset(s.width, down + 17), align: 1, color: skin.accentText);
 
     final tip = kept(grab);
@@ -436,7 +444,9 @@ class _LoopRoom extends _Art {
       _room(c, r, d);
       final ink = d == 2 ? skin.accentText : (d == 0 ? skin.muted : skin.faint);
       label(c, keys[d], Offset(r.left, 10), color: ink);
-      if (d > 0) c.drawLine(Offset(r.left, 17), Offset(r.left, r.top - 2), stroke(d == 2 ? skin.accent.withValues(alpha: 0.6) : skin.lineStrong, 1));
+      if (d > 0) {
+        c.drawLine(Offset(r.left, 17), Offset(r.left, r.top - 2), stroke(d == 2 ? skin.accent.withValues(alpha: 0.6) : skin.lineStrong, 1));
+      }
       r = Rect.fromLTWH(r.left + r.width * _mirror.left, r.top + r.height * _mirror.top, r.width * _mirror.width, r.height * _mirror.height);
     }
   }
@@ -719,7 +729,9 @@ class _CueWave extends _Art {
       p
         ..lineTo(x(m), y(k))
         ..lineTo(x(m + d), y(k));
-      if (k == 1) rem.add((m, m + d));
+      if (k == 1) {
+        rem.add((m, m + d));
+      }
       m += d;
     }
 
@@ -874,7 +886,9 @@ class _EyeSignal extends _Art {
     }
     knots.add(Offset(xe + 3, mid + noise(xe + 3 - left)));
     double traceY(double x) {
-      if (x <= xs || x >= xe + 3) return mid + noise(x - left);
+      if (x <= xs || x >= xe + 3) {
+        return mid + noise(x - left);
+      }
       var i = 1;
       while (knots[i].dx < x) {
         i++;
@@ -990,7 +1004,9 @@ class _ChronoDial extends _Art {
 
     track(-1, 7, 4.5, 6.5, r + 9, skin.accent);
     track(1, 9, 6, 8, r + 17, skin.muted);
-    if (live) c.drawCircle(at((t * 0.5) % 24, r), 2, fill(skin.text));
+    if (live) {
+      c.drawCircle(at((t * 0.5) % 24, r), 2, fill(skin.text));
+    }
 
     final lx = o.dx + r + 34;
     label(c, 'windows', Offset(lx, o.dy - 20), color: skin.faint, size: 8.5);
@@ -1035,7 +1051,9 @@ class _TwoHypnograms extends _Art {
         p
           ..lineTo(x(m), y(k))
           ..lineTo(x(m + d), y(k));
-        if (k == 1) rem.add(Rect.fromLTRB(x(m), y(1), x(m + d), y(2)));
+        if (k == 1) {
+          rem.add(Rect.fromLTRB(x(m), y(1), x(m + d), y(2)));
+        }
         m += d;
       }
       for (final r in rem) {
@@ -1058,7 +1076,9 @@ class _TwoHypnograms extends _Art {
       c.drawLine(Offset(x(a), my), Offset(x(b), my), p);
       c.drawLine(Offset(x(a), my - 3), Offset(x(a), my + 3), p);
       c.drawLine(Offset(x(b), my - 3), Offset(x(b), my + 3), p);
-      if (key.isNotEmpty) label(c, key, Offset(x((a + b) / 2), my + 12), align: 0.5, size: 8.5);
+      if (key.isNotEmpty) {
+        label(c, key, Offset(x((a + b) / 2), my + 12), align: 0.5, size: 8.5);
+      }
     }
     if (live) {
       final xs = x((t * 12) % 430);
