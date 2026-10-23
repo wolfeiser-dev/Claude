@@ -1,0 +1,127 @@
+{
+  "techniques": {
+    "recallTraining": "recallTraining",
+    "deild": "deild",
+    "fild": "fild",
+    "ada": "ada",
+    "dreamYogaDay": "dreamYogaDay",
+    "dreamYogaRelease": "dreamYogaRelease",
+    "dreamYogaIntention": "dreamYogaIntention",
+    "lucidMission": "lucidMission",
+    "meditation": "meditation",
+    "yogaNidra": "yogaNidra",
+    "grounding": "grounding"
+  },
+  "lessonCards": [
+    {
+      "lesson": "sleepCycles",
+      "card": 1,
+      "art": "eyeSignal"
+    },
+    {
+      "lesson": "recall",
+      "card": 1,
+      "art": "recallTraining"
+    },
+    {
+      "lesson": "recall",
+      "card": 2,
+      "art": "fadingTrace"
+    },
+    {
+      "lesson": "prospective",
+      "card": 0,
+      "art": "mildLoop"
+    },
+    {
+      "lesson": "realityTest",
+      "card": 0,
+      "art": "brainMap"
+    },
+    {
+      "lesson": "realityTest",
+      "card": 2,
+      "art": "realityTree"
+    },
+    {
+      "lesson": "notControl",
+      "card": 0,
+      "art": "lucidityAxes"
+    },
+    {
+      "lesson": "notControl",
+      "card": 2,
+      "art": "lucidMission"
+    },
+    {
+      "lesson": "sleepParalysis",
+      "card": 1,
+      "art": "paralysisWave"
+    },
+    {
+      "lesson": "sleepParalysis",
+      "card": 2,
+      "art": "breath"
+    },
+    {
+      "lesson": "sleepParalysis",
+      "card": 3,
+      "art": "paralysisWave"
+    },
+    {
+      "lesson": "yogaDay",
+      "card": 0,
+      "art": "dreamYogaIntention"
+    },
+    {
+      "lesson": "yogaDay",
+      "card": 1,
+      "art": "fourPreps"
+    },
+    {
+      "lesson": "yogaDay",
+      "card": 2,
+      "art": "dreamYogaDay"
+    },
+    {
+      "lesson": "yogaNight",
+      "card": 1,
+      "art": "postureVariants"
+    },
+    {
+      "lesson": "yogaNight",
+      "card": 3,
+      "art": "body"
+    },
+    {
+      "lesson": "meditation",
+      "card": 0,
+      "art": "meditation"
+    },
+    {
+      "lesson": "meditation",
+      "card": 2,
+      "art": "ada"
+    },
+    {
+      "lesson": "reality",
+      "card": 0,
+      "art": "butterfly"
+    },
+    {
+      "lesson": "reality",
+      "card": 1,
+      "art": "loopRoom"
+    },
+    {
+      "lesson": "reality",
+      "card": 2,
+      "art": "dreamYogaDay"
+    },
+    {
+      "lesson": "reality",
+      "card": 3,
+      "art": "predictionLoop"
+    }
+  ]
+}

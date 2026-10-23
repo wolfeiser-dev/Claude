@@ -1,0 +1,22 @@
+// Sdíl t1: 6 ilustrací technik. Řádky patří do `switch (id)` v TrainingArt.build,
+// kamkoli před výchozí větev `_ => _Ladder(skin, l, clock),`:
+      'recallTraining' => _RecallTraining(skin, l, clock),
+      'deild' => _Deild(skin, l, clock),
+      'fild' => _Fild(skin, l, clock),
+      'ada' => _Ada(skin, l, clock),
+      'yogaNidra' => _YogaNidra(skin, l, clock),
+      'grounding' => _Grounding(skin, l, clock),
+
+// Položky do `static const ids = [...]`:
+    'recallTraining',
+    'deild',
+    'fild',
+    'ada',
+    'yogaNidra',
+    'grounding',
+
+// Výška: všech 6 vychází z výchozích 176 px (ověřeno na šířkách 320, 358, 390 a 430).
+// Řádek `height: height ?? (id == 'realityTree' ? 210 : 176)` zůstává beze změny.
+
+// Pozor: t1_classes.dart obsahuje kromě šesti tříd i `mixin _T1Ink on _Art` (sdílené pomůcky:
+// čárkovaná cesta, hladká křivka, hlava z profilu, ležící postava). Vlož ho spolu s třídami.

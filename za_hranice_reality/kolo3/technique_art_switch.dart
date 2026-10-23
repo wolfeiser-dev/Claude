@@ -1,0 +1,41 @@
+// 1) Do `switch (id)` v TrainingArt.build vlož před výchozí větev `_ => _Ladder(skin, l, clock),`:
+      'recallTraining' => _RecallTraining(skin, l, clock),
+      'deild' => _Deild(skin, l, clock),
+      'fild' => _Fild(skin, l, clock),
+      'ada' => _Ada(skin, l, clock),
+      'yogaNidra' => _YogaNidra(skin, l, clock),
+      'grounding' => _Grounding(skin, l, clock),
+      'dreamYogaDay' => _DreamYogaDay(skin, l, clock),
+      'dreamYogaRelease' => _DreamYogaRelease(skin, l, clock),
+      'dreamYogaIntention' => _DreamYogaIntention(skin, l, clock),
+      'lucidMission' => _LucidMission(skin, l, clock),
+      'meditation' => _Meditation(skin, l, clock),
+      'fourPreps' => _FourPreps(skin, l, clock),
+      'lucidityAxes' => _LucidityAxes(skin, l, clock),
+      'paralysisWave' => _ParalysisWave(skin, l, clock),
+      'postureVariants' => _PostureVariants(skin, l, clock),
+      'butterfly' => _Butterfly(skin, l, clock),
+      'predictionLoop' => _PredictionLoop(skin, l, clock),
+
+// 2) Do `static const ids = [...]` přidej:
+    'recallTraining',
+    'deild',
+    'fild',
+    'ada',
+    'yogaNidra',
+    'grounding',
+    'dreamYogaDay',
+    'dreamYogaRelease',
+    'dreamYogaIntention',
+    'lucidMission',
+    'meditation',
+    'fourPreps',
+    'lucidityAxes',
+    'paralysisWave',
+    'postureVariants',
+    'butterfly',
+    'predictionLoop',
+
+// 3) Výška: všech 17 nových ilustrací používá výchozích 176 px (ověřeno na šířkách 320, 358, 390 a 430).
+//    Řádek `height: height ?? (id == 'realityTree' ? 210 : 176)` zůstává beze změny.
+// 4) technique_art.dart obsahuje kromě 17 tříd i mixin `_T1Ink on _Art` a pomocnou třídu `_T2Geo`; vlož je spolu se třídami.
