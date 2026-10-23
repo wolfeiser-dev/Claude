@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176" style="background:#000000" font-family="'JetBrains Mono', ui-monospace, monospace">
+<rect x="38.4" y="24" width="281.2" height="148" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.4 24L38.4 24L38.4 36" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M307.6 24L319.6 24L319.6 36" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.4 172L38.4 172L38.4 160" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M307.6 172L319.6 172L319.6 160" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="38.4" y1="151.28" x2="319.6" y2="151.28" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.46 151.28L52.47 53.6L86.2 53.6L86.2 151.28" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="79.17" cy="105.4" r="1.8" fill="#B3261E"/>
+<rect x="103.08" y="44.72" width="39.37" height="47.36" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="122.76" y1="44.72" x2="122.76" y2="92.08" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="103.08" y1="68.4" x2="142.44" y2="68.4" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="111.51" cy="53.6" r="0.9" fill="#FF3B2F" fill-opacity="0.6"/>
+<circle cx="134.01" cy="61" r="0.9" fill="#FF3B2F" fill-opacity="0.6"/>
+<circle cx="117.14" cy="81.72" r="0.9" fill="#FF3B2F" fill-opacity="0.6"/>
+<rect x="295.7" y="120.2" width="8.44" height="31.08" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="170.56" y="127.6" width="5.62" height="23.68" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="176.19" y="132.04" width="119.51" height="10.36" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="268.98" y="125.38" width="23.9" height="6.66" rx="3" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176.19 135L185.88 133.45L195.5 132.22L205.24 131.28L214.7 130.68L219.43 130.5L224.2 130.4L228.96 130.38L233.69 130.44L242.93 130.79L247.42 131.08L252.15 131.47L257.6 132.02L257.74 132.15L257.74 142.4" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="38.4" y="13.19" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">PROBUZENÍ</text>
+<rect x="156.5" y="34.36" width="151.85" height="79.92" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164.82 34.36L156.63 34.36L156.5 34.48L156.5 42.68" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300.03 34.36L308.23 34.36L308.35 34.48L308.35 42.68" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164.82 114.28L156.63 114.28L156.5 114.16L156.5 105.96" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300.03 114.28L308.23 114.28L308.35 114.16L308.35 105.96" fill="none" stroke="#5A120D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="156.5" y1="103.09" x2="308.35" y2="103.09" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164.1 103.09L164.1 50.36L164.33 50.34L182.32 50.36L182.32 103.09" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="178.52" cy="78.32" r="1.25" fill="#6E1A12"/>
+<rect x="191.43" y="45.55" width="21.26" height="25.57" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="202.06" y1="45.55" x2="202.06" y2="71.12" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="191.43" y1="58.34" x2="212.69" y2="58.34" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="295.44" y="86.31" width="4.56" height="16.78" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="227.87" y="90.3" width="3.04" height="12.79" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="230.91" y="92.7" width="64.54" height="5.59" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="281.02" y="89.11" width="12.91" height="3.6" rx="1.62" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230.91 94.3L236.17 93.46L241.4 92.79L246.58 92.29L251.72 91.97L256.96 91.81L261.97 91.84L266.95 92.03L271.88 92.39L274.82 92.69L274.95 92.82L274.95 98.3" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="156.5" y="13.19" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#6E1A12">A ZNOVU</text>
+<line x1="156.5" y1="17" x2="156.5" y2="32.36" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="220.28" y="39.95" width="82" height="43.16" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226.61 39.95L220.4 39.95L220.28 40.08L220.28 46.29" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M295.95 39.95L302.15 39.95L302.28 40.08L302.28 46.29" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226.61 83.11L220.4 83.11L220.28 82.99L220.28 76.78" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M295.95 83.11L302.15 83.11L302.28 82.99L302.28 76.78" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="220.28" y1="77.07" x2="302.28" y2="77.07" fill="none" stroke="#6E1A12" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M224.38 77.07L224.38 48.65L224.56 48.59L234.04 48.59L234.22 48.65L234.22 77.07" fill="none" stroke="#6E1A12" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="232.17" cy="63.69" r="0.95" fill="#6E1A12"/>
+<rect x="239.14" y="46" width="11.48" height="13.81" fill="none" stroke="#6E1A12" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="244.88" y1="46" x2="244.88" y2="59.81" fill="none" stroke="#6E1A12" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="239.14" y1="52.9" x2="250.62" y2="52.9" fill="none" stroke="#6E1A12" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="276.86" cy="59.81" r="16.59" fill="#FF3B2F" fill-opacity="0.12"/>
+<path d="M271.51 73.19L270.41 63.52L265.64 58.76L265.48 58.27L265.5 57.72L265.69 57.22L265.84 57.01L266.23 56.68L266.73 56.47L267 56.44L267.53 56.51L267.77 56.6L270.9 59.47L270.97 59.39L271 49.9L271.18 49.38L271.56 48.93L272.05 48.66L272.32 48.59L272.83 48.59L273.35 48.77L273.8 49.13L273.97 49.37L274.16 49.89L274.18 59.16L274.19 47.92L274.32 47.4L274.63 46.92L275.1 46.59L275.36 46.49L275.88 46.44L276.4 46.56L276.88 46.86L277.23 47.33L277.38 47.85L277.39 59.21L277.4 48.97L277.53 48.45L277.67 48.2L277.86 47.97L278.33 47.64L278.86 47.5L279.37 47.54L279.88 47.76L280.11 47.95L280.3 48.17L280.55 48.67L280.6 49.19L280.6 59.17L280.6 51.88L280.66 51.37L280.75 51.1L281.09 50.63L281.31 50.45L281.82 50.22L282.34 50.18L282.86 50.31L283.34 50.64L283.53 50.86L283.76 51.37L283.82 51.88L283.8 59.37L283.28 63.58L281.68 73.19" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="220.28" y="13.19" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">TEST REALITY</text>
+<line x1="220.28" y1="17" x2="220.28" y2="37.95" fill="none" stroke="#FF3B2F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

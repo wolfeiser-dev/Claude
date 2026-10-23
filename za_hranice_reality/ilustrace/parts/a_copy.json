@@ -1,0 +1,47 @@
+{
+  "texts": {
+    "training": {
+      "art": {
+        "dreamSignGrid": {
+          "inner": "VNITŘNÍ PROŽITEK",
+          "action": "DĚJ",
+          "form": "PODOBA",
+          "context": "SOUVISLOSTI",
+          "main": "TVOJE HLAVNÍ"
+        },
+        "fadingTrace": {
+          "axis": "MINUTY",
+          "wake": "PROBUZENÍ",
+          "dream": "SEN",
+          "lost": "ROZPLYNE SE",
+          "kept": "ZAPSANÝ SEN"
+        },
+        "brainMap": {
+          "precuneus": "PRECUNEUS",
+          "pfc": "PŘEDNÍ ČELNÍ KŮRA",
+          "tpj": "TEMPOROPARIETÁLNÍ",
+          "tpjSide": "SPOJENÍ VPRAVO",
+          "frontalPole": "ČELNÍ PÓL"
+        },
+        "remRebound": {
+          "rem": "REM",
+          "missing": "CHYBÍ",
+          "rebound": "DOHÁNÍ",
+          "night1": "KRÁTKÁ NOC",
+          "night2": "DALŠÍ NOC",
+          "caption": "PRINCIP, NE MĚŘENÍ"
+        },
+        "loopRoom": {
+          "wake": "PROBUZENÍ",
+          "again": "A ZNOVU",
+          "check": "TEST REALITY"
+        },
+        "rewriteScript": {
+          "before": "NOČNÍ MŮRA",
+          "after": "NOVÝ KONEC",
+          "rehearse": "PŘEHRÁVAT DENNĚ"
+        }
+      }
+    }
+  }
+}

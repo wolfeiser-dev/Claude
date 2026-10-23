@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176" style="background:#04060C" font-family="'JetBrains Mono', ui-monospace, monospace">
+<line x1="100.24" y1="24" x2="344" y2="24" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="24" x2="100.24" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100.24" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">0</text>
+<line x1="148.99" y1="24" x2="148.99" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="148.99" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">1</text>
+<line x1="197.74" y1="24" x2="197.74" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="197.74" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">2</text>
+<line x1="246.5" y1="24" x2="246.5" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="246.5" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">3</text>
+<line x1="295.25" y1="24" x2="295.25" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="295.25" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">4</text>
+<line x1="344" y1="24" x2="344" y2="28" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="344" y="15.18" text-anchor="middle" font-size="9" font-weight="500" letter-spacing="0.54" fill="#8D97AD">5</text>
+<text x="88.24" y="15.19" text-anchor="end" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#8D97AD">MINUTY</text>
+<line x1="100.24" y1="34" x2="100.24" y2="36.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="40" x2="100.24" y2="42.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="46" x2="100.24" y2="48.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="52" x2="100.24" y2="54.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="58" x2="100.24" y2="60.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="64" x2="100.24" y2="66.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="70" x2="100.24" y2="72.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="76" x2="100.24" y2="78.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="82" x2="100.24" y2="84.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="88" x2="100.24" y2="90.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="94" x2="100.24" y2="96.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="100" x2="100.24" y2="102.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="106" x2="100.24" y2="108.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="112" x2="100.24" y2="114.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="118" x2="100.24" y2="120.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="124" x2="100.24" y2="126.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="130" x2="100.24" y2="132.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="136" x2="100.24" y2="138.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="142" x2="100.24" y2="144.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100.24" y1="148" x2="100.24" y2="150.5" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="100.24" y="169.19" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#8D97AD">PROBUZENÍ</text>
+<circle cx="17.9" cy="44" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<circle cx="57.28" cy="60" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<circle cx="75.18" cy="40" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<circle cx="32.22" cy="128" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<circle cx="71.6" cy="140" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<circle cx="10.74" cy="112" r="0.9" fill="#8D97AD" fill-opacity="0.6"/>
+<path d="M4 87.23L6.19 87.73L8.08 88.37L9.93 89.14L12.17 90.24L18.09 93.46L20.1 94.48L21.92 95.3L24.03 96.09L25.96 96.6L28.18 96.93L29.93 96.99L31.92 96.82L33.88 96.43L36.02 95.76L38.1 94.91L39.9 94.04L46.05 90.7L48.05 89.67L49.86 88.84L51.96 88.03L53.88 87.48L56.1 87.1L58.09 87.01L60.08 87.16L62.05 87.54L63.96 88.12L66.05 88.95L68.08 89.91L74.01 93.13L76 94.17L78.04 95.12L79.9 95.85L81.81 96.43L84.01 96.87L86.01 97L88 96.89L89.97 96.54L91.89 96L93.99 95.2L96.03 94.25L100 92.13" fill="none" stroke="#E9EDF5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="4" y="75.19" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#8D97AD">SEN</text>
+<path d="M100.24 92L102.33 90.64L104.08 89.24L106.12 87.4L110 83.52L115.84 77.38" fill="none" stroke="#8D97AD" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118.28 74.89L121.84 71.45L125.18 68.5L127.11 66.96L128.71 65.79L130.58 64.57" fill="none" stroke="#8D97AD" stroke-opacity="0.92" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M133.89 62.87L135.52 62.29L137.21 61.91L138.69 61.78L141.91 61.78L143.65 61.71" fill="none" stroke="#8D97AD" stroke-opacity="0.85" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M147.72 61.31L155.47 60.19" fill="none" stroke="#8D97AD" stroke-opacity="0.79" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.21 59.58L163.39 59.29L166.34 59.14" fill="none" stroke="#8D97AD" stroke-opacity="0.74" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M171.69 59.14L176.51 59.38" fill="none" stroke="#8D97AD" stroke-opacity="0.69" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M182.41 59.81L186.15 60.07" fill="none" stroke="#8D97AD" stroke-opacity="0.64" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M192.57 60.38L195.4 60.44" fill="none" stroke="#8D97AD" stroke-opacity="0.6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M202.31 60.38L204.4 60.32" fill="none" stroke="#8D97AD" stroke-opacity="0.56" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="211.79" cy="60.06" r="0.71" fill="#8D97AD" fill-opacity="0.48"/>
+<circle cx="221.1" cy="59.81" r="0.67" fill="#8D97AD" fill-opacity="0.44"/>
+<circle cx="230.36" cy="59.81" r="0.63" fill="#8D97AD" fill-opacity="0.39"/>
+<circle cx="239.68" cy="59.97" r="0.59" fill="#8D97AD" fill-opacity="0.35"/>
+<circle cx="249.15" cy="60.1" r="0.55" fill="#8D97AD" fill-opacity="0.31"/>
+<circle cx="258.9" cy="60.09" r="0.51" fill="#8D97AD" fill-opacity="0.26"/>
+<text x="268.43" y="63.19" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#5B6478">ROZPLYNE SE</text>
+<path d="M100.24 92L102.06 91.19L103.76 90.8L105.76 90.76L107.7 91.2L109.3 91.89L111.2 93.09L113.11 94.7L114.85 96.48L116.61 98.58L118.56 101.18L120.4 103.85L122.18 106.56" fill="none" stroke="#E9EDF5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122.18 106.56L127.96 115.61L129.95 118.49L131.92 121.07L133.75 123.12L135.8 124.96L137.72 126.13L139.63 126.71L141.61 126.96L143.61 126.97L145.59 126.73L147.54 126.28L149.43 125.65L151.27 124.87L153.3 123.89L159.22 120.67L161 119.75L163.04 118.8L164.9 118.08L167.06 117.46L168.78 117.15L170.77 117L172.77 117.1L174.74 117.44L176.66 117.98L178.53 118.69L180.58 119.61L182.36 120.52L188.28 123.75L190.3 124.75L192.14 125.53L194.02 126.19L196.21 126.72L197.94 126.94L199.94 126.98L202.17 126.72L203.88 126.34L206.01 125.63L207.86 124.86L209.65 123.99L217.58 119.73L219.39 118.89L221.25 118.16L223.4 117.51L225.36 117.14L227.11 117.01L229.1 117.09L231.08 117.4L233.01 117.92L234.88 118.61L236.94 119.52L238.94 120.54L244.64 123.65L246.65 124.66L248.72 125.55L250.61 126.21L252.54 126.69L254.53 126.95L256.27 126.98L258.51 126.76L260.46 126.32L262.36 125.71L264.21 124.95L266.23 123.97L272.16 120.75L273.93 119.83L275.97 118.87L277.83 118.14L279.74 117.56L281.7 117.17L283.69 117L285.69 117.09L287.66 117.41L289.59 117.93L291.47 118.61L293.52 119.54L295.52 120.56L301.22 123.67L303.24 124.67L305.07 125.47L306.95 126.14L308.88 126.64L310.86 126.93L312.86 126.99L314.85 126.8L316.8 126.38L318.71 125.78L320.56 125.03L322.59 124.07L328.52 120.85L330.29 119.92L332.32 118.96L334.18 118.21L336.08 117.62L338.04 117.2L340.03 117.01L342.02 117.07L344 117.36" fill="none" stroke="#FF7A45" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="358" y="142.19" text-anchor="end" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF7A45">ZAPSANÝ SEN</text>
+<path d="M0 0L5.94 -2.57L6.18 -2.6L23.86 -2.6L24 -2.49L24 2.49L23.86 2.6L5.94 2.57L0 0Z" fill="none" stroke="#FF5F1F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.58 -0.81 0.81 0.58 122.18 106.56)"/>
+<line x1="6" y1="-2.6" x2="6" y2="2.6" fill="none" stroke="#FF5F1F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.58 -0.81 0.81 0.58 122.18 106.56)"/>
+<line x1="20" y1="-2.6" x2="20" y2="2.6" fill="none" stroke="#FF5F1F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0.58 -0.81 0.81 0.58 122.18 106.56)"/>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176">
+<rect width="358" height="176" fill="#000000"/>
+<circle cx="128" cy="88" r="56" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="128" y1="32" x2="128" y2="38" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="142.49" y1="33.91" x2="141.72" y2="36.81" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="156" y1="39.5" x2="154.5" y2="42.1" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="167.6" y1="48.4" x2="165.48" y2="50.52" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="176.5" y1="60" x2="173.9" y2="61.5" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="182.09" y1="73.51" x2="179.19" y2="74.28" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="184" y1="88" x2="178" y2="88" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="182.09" y1="102.49" x2="179.19" y2="101.72" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="176.5" y1="116" x2="173.9" y2="114.5" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="167.6" y1="127.6" x2="165.48" y2="125.48" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="156" y1="136.5" x2="154.5" y2="133.9" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="142.49" y1="142.09" x2="141.72" y2="139.19" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="128" y1="144" x2="128" y2="138" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="113.51" y1="142.09" x2="114.28" y2="139.19" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="136.5" x2="101.5" y2="133.9" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88.4" y1="127.6" x2="90.52" y2="125.48" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="79.5" y1="116" x2="82.1" y2="114.5" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="73.91" y1="102.49" x2="76.81" y2="101.72" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="72" y1="88" x2="78" y2="88" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="73.91" y1="73.51" x2="76.81" y2="74.28" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="79.5" y1="60" x2="82.1" y2="61.5" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88.4" y1="48.4" x2="90.52" y2="50.52" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="100" y1="39.5" x2="101.5" y2="42.1" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="113.51" y1="33.91" x2="114.28" y2="36.81" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="128" y="49.17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.06em" fill="#6E1A12">0</text>
+<text x="170" y="91.17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.06em" fill="#6E1A12">6</text>
+<text x="128" y="133.17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.06em" fill="#6E1A12">12</text>
+<text x="86" y="91.17" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.06em" fill="#6E1A12">18</text>
+<path d="M133.7 67.6L132.86 68.16L131.92 68.56L130.93 68.81L130.42 68.87L129.46 68.86L128.49 68.69L128 68.54L127.05 68.11L126.17 67.5L125.41 66.74L124.79 65.86L124.36 64.91L124.09 63.94L124.01 62.51L124.16 61.52L124.29 61.03L124.69 60.09L125.24 59.23L126.11 58.26L124.76 58.84L123.92 59.42L123.16 60.14L122.82 60.55L122.26 61.43L121.85 62.38L121.53 63.85L121.55 65.28L121.74 66.24L122.1 67.21L122.34 67.68L122.94 68.56L123.69 69.34L124.11 69.68L125.01 70.25L125.97 70.65L127.42 70.95L128.86 70.92L129.84 70.71L130.8 70.35L131.26 70.1L132.11 69.52L132.85 68.81L133.7 67.6Z" fill="#FF3B2F" fill-opacity="0.12"/>
+<path d="M133.7 67.6L132.86 68.16L131.92 68.56L130.93 68.81L130.42 68.87L129.46 68.86L128.49 68.69L128 68.54L127.05 68.11L126.17 67.5L125.41 66.74L124.79 65.86L124.36 64.91L124.09 63.94L124.01 62.51L124.16 61.52L124.29 61.03L124.69 60.09L125.24 59.23L126.11 58.26L124.76 58.84L123.92 59.42L123.16 60.14L122.82 60.55L122.26 61.43L121.85 62.38L121.53 63.85L121.55 65.28L121.74 66.24L122.1 67.21L122.34 67.68L122.94 68.56L123.69 69.34L124.11 69.68L125.01 70.25L125.97 70.65L127.42 70.95L128.86 70.92L129.84 70.71L130.8 70.35L131.26 70.1L132.11 69.52L132.85 68.81L133.7 67.6Z" fill="none" stroke="#FF3B2F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="128" cy="111.52" r="3.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="133.5" y1="111.52" x2="135.5" y2="111.52" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="131.89" y1="115.41" x2="133.3" y2="116.82" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="128" y1="117.02" x2="128" y2="119.02" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="124.11" y1="115.41" x2="122.7" y2="116.82" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="122.5" y1="111.52" x2="120.5" y2="111.52" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="124.11" y1="107.63" x2="122.7" y2="106.22" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="128" y1="106.02" x2="128" y2="104.02" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="131.89" y1="107.63" x2="133.3" y2="106.22" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M111.18 25.21L115.47 24.22L119.44 23.57L123.48 23.16L127.92 23L132.45 23.15L136.47 23.55L140.88 24.29L144.79 25.21L148.66 26.37L152.87 27.94L156.97 29.81L160.51 31.71L163.93 33.83L167.6 36.45L171.06 39.31L174 42.08L176.75 45.01L179.59 48.46L181.95 51.74L184.34 55.59L186.42 59.51L188.09 63.22L189.51 66.98L190.79 71.2L191.8 75.57L192.45 79.53L192.88 84.01L193 88.01L192.88 92.01L192.44 96.49L191.8 100.45L190.79 104.82" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M188.05 63.13L189.61 67.27L190.75 71.06L191.76 75.38L192.41 79.27L192.82 83.2L193 87.63L192.87 92.08L192.44 96.48" fill="none" stroke="#FF3B2F" stroke-opacity="0.2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M188.05 63.13L189.61 67.27L190.75 71.06L191.76 75.38L192.41 79.27L192.82 83.2L193 87.63L192.87 92.08L192.44 96.48" fill="none" stroke="#FF3B2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="111.18" cy="25.21" r="2" fill="#FF3B2F"/>
+<path d="M146.89 17.49L149.23 18.16L151.57 18.91L153.92 19.76L156.26 20.69L160.4 22.58L162.58 23.71L164.74 24.92L166.88 26.22L169 27.6L172.67 30.26L174.6 31.81L176.48 33.43L179.76 36.53L182.86 39.84L184.47 41.73L186.01 43.69L187.5 45.7L188.91 47.77L191.28 51.61L193.41 55.58L194.48 57.85L195.47 60.14L196.39 62.46L197.22 64.8L198.52 69.15L199.55 73.54L200 75.98L200.37 78.43L200.82 82.94L200.96 85.46L201 87.96L200.96 90.44L200.84 92.89L200.39 97.43L200.02 99.92L199.57 102.37L199.05 104.77L198.45 107.13L197.76 109.51L196.98 111.88L195.38 116.1L194.38 118.38L193.3 120.63L191.17 124.59L188.78 128.43L187.35 130.5L185.86 132.51L183.01 135.99L181.34 137.84L179.62 139.62" fill="none" stroke="#5A120D" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201 88L200.96 90.47L200.83 92.94L200.39 97.4L200.03 99.86L199.59 102.3L199.06 104.72L198.45 107.13L197.14 111.41L196.31 113.75L195.4 116.05L193.55 120.13L192.42 122.34L191.22 124.5" fill="none" stroke="#B3261E" stroke-opacity="0.2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201 88L200.96 90.47L200.83 92.94L200.39 97.4L200.03 99.86L199.59 102.3L199.06 104.72L198.45 107.13L197.14 111.41L196.31 113.75L195.4 116.05L193.55 120.13L192.42 122.34L191.22 124.5" fill="none" stroke="#B3261E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="146.89" cy="17.49" r="2" fill="#B3261E"/>
+<text x="218" y="71.17" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.06em" fill="#6E1A12">REM OKNO</text>
+<line x1="218" y1="88" x2="230" y2="88" fill="none" stroke="#FF3B2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="236" y="91.19" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em" fill="#FF3B2F">RANNÍ TYP</text>
+<line x1="218" y1="106" x2="230" y2="106" fill="none" stroke="#B3261E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="236" y="109.19" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em" fill="#B3261E">VEČERNÍ TYP</text>
+</svg>

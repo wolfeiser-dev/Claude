@@ -1,0 +1,18 @@
+// ---- switch (id) in TrainingArt.build: insert before the default arm `_ => _Ladder(skin, l, clock),`
+      'dreamSignGrid' => _DreamSignGrid(skin, l, clock),
+      'fadingTrace' => _FadingTrace(skin, l, clock),
+      'brainMap' => _BrainMap(skin, l, clock),
+      'remRebound' => _RemRebound(skin, l, clock),
+      'loopRoom' => _LoopRoom(skin, l, clock),
+      'rewriteScript' => _RewriteScript(skin, l, clock),
+
+// ---- TrainingArt.ids: append
+    'dreamSignGrid',
+    'fadingTrace',
+    'brainMap',
+    'remRebound',
+    'loopRoom',
+    'rewriteScript',
+
+// ---- height: all six use the default 176 px, no change to the height expression.
+//      (Verified at widths 320, 358, 390 and 430 with height 176.)
