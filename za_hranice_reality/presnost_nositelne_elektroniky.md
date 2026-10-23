@@ -67,10 +67,10 @@ Stav k 23. 10. 2026. Podklad pro záložku Spánek a funkci „odhad výskytu RE
 |---|---|---|---|---|---|---|---|---|---|---|
 | de Zambotti 2019, *Behav Sleep Med* | Gen1 | n = 41, 17,2 ± 2,4 r., laboratoř, 1 noc, PSG | 0,61 („agreement“) | n/a | n/a | n/a | n/a | +17 min (nadhodnocení) | n/a | NIH (NIAAA, NCANDA). De Zambotti je od 2025 zaměstnanec Oury. |
 | Chee 2021, *Nat Sci Sleep* | Gen2, fw 1.36.3 | n = 53 adolescentů 15–19 r., laboratoř, více nocí (6,5 / 8 / 9 h v posteli), PSG | 0,51–0,53 | n/a | n/a | n/a | 0,44–0,45 / n/a | −12,8 až −19,5 min | n/a | Grant NMRC. Prsteny dodala Oura pro sběr dat pro vlastní účely firmy. |
-| Altini & Kinnunen 2021, *Sensors* | Gen2M (výzkumná verze), model akcelerometr + teplota + HRV + cirkadiánní znaky (základ OSSA 2.0) | 106 osob, 440 nocí, 3 kontinenty, PSG; **křížová validace vývojových dat** | 0,78 | 0,94 | n/a | 0,78 (celkové F1 4f) | n/a (4f přesnost 79 %) | ≈ +2 min (LoA ≈ ±44 min při 90 min REM) | n/a | Kinnunen zaměstnanec Oury, Altini poradce Oury |
-| Ghorbani 2022, *Nat Sci Sleep* | Hardware Gen2, nový algoritmus („Gen3“) | n = 58, 23–69 r., domácí PSG, 3 noci | n/a (jen v příloze) | n/a | n/a | n/a | κ pro REM 0,67–0,69 (starý algoritmus 0,49); 4f přesnost 76–78 % | +0,8 až +11,7 min (SD 23–32) | n/a | Chee a Ong mají patent na Z3Score; skupina spolupracuje s Ourou |
+| Altini & Kinnunen 2021, *Sensors* | Gen2M (výzkumná verze), model akcelerometr + teplota + HRV + cirkadiánní znaky (Oura ho uvádí jako základ současného algoritmu) | 106 osob, 440 nocí, 3 kontinenty, PSG; **křížová validace vývojových dat** | 0,78 | 0,94 | n/a | 0,78 (celkové F1 4f) | n/a (4f přesnost 79 %) | ≈ +2 min (LoA ≈ ±44 min při 90 min REM) | n/a | Kinnunen zaměstnanec Oury, Altini poradce Oury |
+| Ghorbani 2022, *Nat Sci Sleep* | Hardware Gen2, nový algoritmus („Gen3“) | n = 58, 23–69 r., domácí PSG, 3 noci | n/a (jen v příloze) | n/a | n/a | n/a | κ pro REM 0,67–0,69 (starý algoritmus 0,49); 4f přesnost 76–78 % | +0,8 až +11,7 min (SD 23–32) | n/a | Chee a Ong mají patent na Z3Score; prohlášení zní „report other conflicts“ bez upřesnění; Oura studii propaguje jako svou validaci |
 | Miller 2022, *Sensors* | Gen2 | n = 53, 25 r., laboratoř, 1 noc, 9 h v posteli, PSG | 0,52 | ≈ 0,92 (odv.) | ≈ 0,61 (odv.) | ≈ 0,56 (odv.) | 0,43 / 0,51 | −20,7 ± 35,3 min | n/a | Laboratoř dostává podporu od WHOOP |
-| Chinoy 2022, *Nat Sci Sleep* | Gen2 | n = 21, doma, 7 nocí, reference EEG čelenka Dreem 2 | 0,39–0,40 | 0,92 | 0,68 | 0,50 (odv.) | n/a (REM PABAK 0,51) | 77,5 vs 132,7 min (podle Dreemu) | n/a | Navy; bez COI |
+| Chinoy 2022, *Nat Sci Sleep* | Gen2 | n = 21, doma, 7 nocí, reference EEG čelenka Dreem 2 | 0,39–0,40 | 0,92 | 0,68 | 0,50 (odv.) | n/a (REM PABAK 0,51) | 77,5 vs 132,7 min (podle Dreemu) | n/a | Office of Naval Research; bez COI |
 | Kainec 2024, *Sensors* | Gen2 | n = 53 mladých dospělých, laboratoř, 1 noc, PSG; jen souhrnné hodnoty | n/a | n/a | n/a | n/a | n/a | +5,8 min (SD 37,7); ICC 0,34 | n/a | Grant UMass; bez COI |
 | **Robbins 2024**, *Sensors* | **Gen3, OSSA 2.0** | n = 35, 20–50 r., zdraví, laboratoř, 1 noc, PSG | **0,76** | ≈ 0,95 (odv.) | **0,79** | 0,77 | **0,65 / 0,60**; 4f shoda 76,3 % | −3 min; ICC 0,27 | n/a | **Financovala Oura Ring Inc.**; Robbins je v poradním sboru Oury |
 | Lee 2023, *JMIR mHealth uHealth* | Oura Ring 3; verze algoritmu neuvedena (data před 7/2023, pravděpodobně před OSSA 2.0) | n = 53 (z 75), korejští pacienti s plánovanou PSG a klientela kliniky, laboratoř | 0,71 | 0,87 | ≈ 0,52 (odv. z F1) | 0,60 | **0,35** / n/a; 4f přesnost 0,54 | n/a | **≈ −9,5 min** (odečteno z obr. 5) | Autoři z firmy Asleep (konkurenční SleepRoutine) mají akcie |
@@ -91,7 +91,7 @@ Stav k 23. 10. 2026. Podklad pro záložku Spánek a funkci „odhad výskytu RE
 | Chinoy 2021 | Vivosmart 3 | totéž, 43–44 nocí | 0,50 | 0,82 | 0,46 | 0,48 (odv.) | n/a (PABAK 0,48) | +8,4 min (LoA −75,9 až +92,6) | **+24,5 min** (LoA −94,8 až +143,7) | totéž |
 | Mouritzen 2020, *PLoS One* | Vivosmart 4 | n = 18, 56 ± 12 r., 72 % žen, domácí PSG (typ II) | 0,34 ± 0,26 | 0,88 ± 0,08 | 0,42 (z matice) | 0,37 | **0,20 / 0,33** | −22,1 ± 54,7 min; ICC 0,14 | **+16,1 ± 40,3 min** (n = 14; u 3 osob Garmin REM vůbec nenašel) | Hodinky zapůjčil Garmin |
 | Kainec 2024, *Sensors* | Vivosmart 4 | n = 53, laboratoř, PSG; jen souhrnné hodnoty | n/a | n/a | n/a | n/a | n/a | **+39,2 min (SD 82,3)**; ICC 0,06 | n/a | Bez COI |
-| Schyvens 2025, *Sleep Adv* | Vivosmart 4 | n = 25 (z 62; 84 % mužů, 46 r., i podezření na apnoe), laboratoř, PSG | **0,33** | ≈ 0,89 (odv.) | ≈ **0,39** (odv.) | ≈ 0,36 (odv.) | **0,21** (typ κ nejasný) | −14,4 min (LoA **−163,6 až +134,8**) | n/a | VLAIO; bez COI |
+| Schyvens 2025, *Sleep Adv* | Vivosmart 4 | n = 25 (z 62; celý vzorek 84 % mužů, 46 r., i podezření na apnoe), laboratoř, PSG | **0,33** | ≈ 0,89 (odv.) | ≈ **0,39** (odv.) | ≈ 0,36 (odv.) | **0,21** (typ κ nejasný) | −14,4 min (LoA **−163,6 až +134,8**) | n/a | VLAIO; bez COI |
 | Miller 2022, *Sensors* | Forerunner 245 Music | n = 53, 25 r., laboratoř, PSG | 0,50 (21 % lehkého a 23 % bdění označí jako REM) | ≈ 0,81 (odv.) | ≈ 0,40 (odv.) | ≈ 0,44 (odv.) | 0,25 / 0,35 | +20,2 ± 64,1 min | n/a | Laboratoř dostává podporu od WHOOP |
 | Budig 2022, *Sensors* | Forerunner 945, fw 5.50 | n = 49 pacientů s podezřením na poruchu spánku, PSG; jen souhrnné hodnoty | n/a | n/a | n/a | n/a | n/a | REM MAE 53,1 min, MAPE 97,5 % | n/a | Bez COI |
 | Topalidis 2025/2026, preprint | Vivoactive 5/6 a Venu 3, fw 5.10.0.22 | n = 18 × 5 nocí doma, ambulantní PSG | **0,49** (0,45–0,53) | n/a | n/a (PPV pro fáze 0,55–0,64) | n/a | **0,41** / n/a; 4f přesnost 63 % | 71 vs 89 min, při průměru ≈ −19 min, LoA ±64,9 | n/a | COI NUKKUAA; optimistické zarovnání |
@@ -114,7 +114,7 @@ Stav k 23. 10. 2026. Podklad pro záložku Spánek a funkci „odhad výskytu RE
 
 ### 1.4 Srovnání a hodnoty, které appka použije
 
-| Metrika (REM) | Oura Gen3 / Gen4 (OSSA 2.0) | Garmin, novější modely (Venu 3, Vivoactive 5/6, Forerunner a Fenix s Advanced Sleep Monitoring) | Garmin Vivosmart 4 a starší | Kontext |
+| Metrika (REM) | Oura Gen3 / Gen4 (OSSA 2.0) | Garmin výchozí (Fenix 5S, Vivosmart 3, Forerunner 245, Venu 3, Vivoactive 5/6) | Garmin Vivosmart 4 (pesimistická varianta) | Kontext |
 |---|---|---|---|---|
 | Senzitivita | 0,55–0,76 (střed **0,70**) | 0,49–0,54 (střed **0,50**); výrobce 0,70 | 0,33–0,34 | Apple Watch (white paper 2025) 0,82; EEG Dreem 3 κ 4f 0,76–0,86 |
 | Falešně pozitivní (1 − spec.) | 0,05–0,18 (střed **0,10**) | 0,16–0,19 (střed **0,15**) | 0,11–0,12 | |
@@ -170,7 +170,7 @@ Stav k 23. 10. 2026. Podklad pro záložku Spánek a funkci „odhad výskytu RE
 | REM minuty | „REM za noc: asi 1 h 30 min (odhad, může se lišit i o hodinu). Víc řekne týdenní průměr.“ | Zaokrouhlit na 10 min |
 | Týdenní trend | „Tento týden v průměru asi 1 h 35 min REM, minulý asi 1 h 25 min. Rozdíl je menší, než kolik zařízení dokáže spolehlivě rozlišit.“ | Rozdíl pod ~30–40 min neinterpretovat (inference) |
 | Sen v čase T | „Probudil ses ve 4:52. Podle odhadu jsi těsně předtím byl pravděpodobně v REM.“ | Formulovat jako pravděpodobnost |
-| Vysvětlivka (info ikona) | „Odhad vzniká až po noci z dat Oury a Garminu. Ve studiích se shoda prstenu se spánkovou laboratoří u REM pohybovala zhruba mezi polovinou a třemi čtvrtinami, u hodinek Garmin kolem poloviny.“ | Jedna věta o zdroji: „podle studií 2020–2026“ |
+| Vysvětlivka (info ikona) | „Odhad vzniká až po noci z dat Oury a Garminu. Ve studiích prsten zachytil zhruba polovinu až tři čtvrtiny REM ze spánkové laboratoře, hodinky Garmin nejvýš asi polovinu.“ | Jedna věta o zdroji: „podle studií 2020–2026“ |
 | Po aktualizaci firmwaru | „Oura nebo Garmin změnily algoritmus. Pár nocí může být odhad méně srovnatelný se starými daty.“ | Logovat verze |
 
 ### 2.3 Co netvrdit
@@ -284,9 +284,9 @@ Při ne-REM (R = 0): totéž s f_O a f_G (falešně pozitivní míry) místo s_O
 | s_O, Oura Gen3/Gen4 | **0,70** | 0,55–0,76 | Lee 0,71; Topalidis 0,73; Robbins 0,76; Herberger 0,55 |
 | f_O, Oura Gen3/Gen4 | **0,10** | 0,05–0,18 | Robbins ≈ 0,05 (odv.); Chinoy 2022 0,08; Lee 0,13; Herberger ≈ 0,18 (odv.) |
 | s_O / f_O, Oura Gen2 | 0,52 / 0,08 | 0,39–0,61 / 0,05–0,10 | Miller 2022; Chinoy 2021; Chinoy 2022 |
-| s_G, Garmin novější | **0,50** | 0,49–0,54 (výrobce 0,70) | Chinoy 2021; Miller 2022; Topalidis 2025 |
-| f_G, Garmin novější | **0,15** | 0,11–0,19 | Chinoy 0,16–0,18; Miller ≈ 0,19 (odv.); Schyvens ≈ 0,11 (odv.) |
-| s_G / f_G, Vivosmart 4 a starší | 0,33 / 0,12 | 0,33–0,34 / 0,11–0,12 | Mouritzen 2020; Schyvens 2025 |
+| s_G, Garmin výchozí | **0,50** | 0,49–0,54 (výrobce 0,70) | Chinoy 2021; Miller 2022; Topalidis 2025 |
+| f_G, Garmin výchozí | **0,15** | 0,11–0,19 | Chinoy 0,16–0,18; Miller ≈ 0,19 (odv.); Schyvens ≈ 0,11 (odv.) |
+| s_G / f_G, Vivosmart 4 (pesimisticky) | 0,33 / 0,12 | 0,33–0,34 / 0,11–0,12 | Mouritzen 2020; Schyvens 2025 |
 | ρ | **0,3** | 0–0,5 | Přímá data pro dvojici Oura + Garmin chybí. Oba používají PPG a akcelerometr, oba přidávají čas v noci a oba přesouvají REM do lehkého spánku (inference) |
 | γ | **0,5** | 0,3–1 | Autokorelace chyb (Altini 2021: klouzavá okna, normalizace na noc) |
 | β | **0,5** | 0–1 | Dvojí započtení času v noci (Altini 2021) |
@@ -449,8 +449,8 @@ log(device_versions, params, rho_hat)
 | Altini M, Kinnunen H, 2021 | Sensors 21:4302 | 10.3390/s21134302 | Kinnunen zaměstnanec Oury, Altini poradce Oury |
 | Chee NIYN a kol., 2021 | Nat Sci Sleep 13:177 | 10.2147/NSS.S286070 | NMRC; prsteny dodala Oura |
 | Chinoy ED a kol., 2021 | Sleep 44(5):zsaa291 | 10.1093/sleep/zsaa291 | Office of Naval Research; bez COI |
-| Chinoy ED, Cuellar JA, Jameson JT, Markwald RR, 2022 | Nat Sci Sleep 14:493 | 10.2147/NSS.S348795 | Navy; autoři zaměstnanci Leidos; bez vazby na výrobce |
-| Ghorbani S a kol., 2022 | Nat Sci Sleep 14:645 | 10.2147/NSS.S359789 | Patent Z3Score (Chee, Ong) |
+| Chinoy ED, Cuellar JA, Jameson JT, Markwald RR, 2022 | Nat Sci Sleep 14:493 | 10.2147/NSS.S348795 | Office of Naval Research; autoři zaměstnanci Leidos; bez vazby na výrobce |
+| Ghorbani S a kol., 2022 | Nat Sci Sleep 14:645–660 | 10.2147/NSS.S359789 | Patent Z3Score (Chee, Ong); nespecifikované „other conflicts“ |
 | Miller DJ, Sargent C, Roach GD, 2022 | Sensors 22:6317 | 10.3390/s22166317 | Laboratoř podporuje WHOOP |
 | Budig M, Stoohs R, Keiner M, 2022 | Sensors 22:9540 | 10.3390/s22239540 | Bez COI |
 | Lee T a kol., 2023 | JMIR mHealth uHealth 11:e50983 | 10.2196/50983 | Akcie Asleep (SleepRoutine) |
@@ -477,6 +477,6 @@ log(device_versions, params, rho_hat)
 | Oura, 2026 | Blog „Standing Behind Our Science“ (23. 8. 2026) a podpora „Sleep Graphs“ (5min hypnogram) | https://ouraring.com/blog/how-oura-measures-sleep-and-validates-accuracy/ ; https://support.ouraring.com/hc/en-us/articles/4403155260307 | Výrobce |
 | Žaloba Surber v. Oura, 2026 (N.D. Cal., podána 20. 8. 2026) | zpravodajství | https://www.mddionline.com/wearable-medical-devices/oura-faces-class-action-over-sleep-tracking-claims | Nerozhodnuto |
 | NCT06174558, 2023 | ClinicalTrials.gov | https://clinicaltrials.gov/study/NCT06174558 | Výsledky nejsou |
-| Vacek PM, 1985; Gardner IA a kol., 2000 | Biometrics 41:959; Prev Vet Med 45:107 | metodika kombinace závislých testů | |
+| Vacek PM, 1985; Gardner IA a kol., 2000; Hui SL, Walter SD, 1980 | Biometrics 41(4):959–968; Prev Vet Med 45(1–2):107–122; Biometrics 36(1):167–171 | 10.2307/2530967; 10.1016/S0167-5877(00)00119-7; 10.2307/2530508 | metodika: závislé diagnostické testy, latentní třídy |
 
 *Pozn.: Ong 2024, Willoughby 2024 a Svensson 2024 jsem četl jen v abstraktu. Hodnoty „odv.“ jsou mé výpočty z matic chyb a nejsou publikované.*
