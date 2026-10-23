@@ -1,6 +1,6 @@
 # k4: změny v textech UI (copy*.json)
 
-Výchozí stav byl celkem čistý (typografie bez chyb: žádné rovné uvozovky, „—“, „...“ ani nalepené jednotky). Úpravy jsou hlavně sjednocení pojmů a tlačítek, noční texty do 6 slov a oprava 3 popisků ilustrací.
+Výchozí stav byl celkem čistý (typografie bez chyb: žádné rovné uvozovky, dlouhé pomlčky, „...“ ani nalepené jednotky). Úpravy jsou hlavně sjednocení pojmů a tlačítek, noční texty do 6 slov a oprava 3 popisků ilustrací.
 
 ## Počty upravených řetězců (podle check_a.py)
 | Soubor | Řetězců |
