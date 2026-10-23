@@ -78,8 +78,8 @@
 <path d="M138.84 122.93L137.88 122" fill="none" stroke="#FF5F1F" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="137.88" y1="122" x2="142.11" y2="124.65" fill="none" stroke="#FF5F1F" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="137.88" y1="122" x2="137.52" y2="126.97" fill="none" stroke="#FF5F1F" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="161.12" cy="118" r="1.6" fill="#FF5F1F"/>
-<circle cx="146.4" cy="118" r="1.6" fill="#FF5F1F"/>
+<circle cx="161.06" cy="118" r="1.6" fill="#FF5F1F"/>
+<circle cx="146.27" cy="118" r="1.6" fill="#FF5F1F"/>
 <circle cx="135.88" cy="118" r="1.6" fill="#FF5F1F"/>
 <text x="155.86" y="147.54" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#E9EDF5">ODKUD JDU?</text>
 </svg>

@@ -24,9 +24,39 @@
           "time": "SEKUNDY AŽ MINUTY",
           "passes": "MINE"
         },
-        "postureVariants": {},
-        "butterfly": {},
-        "predictionLoop": {}
+        "postureVariants": {
+          "wangyal": "WANGYAL",
+          "wangyalMen": "MUŽI PRAVÝ BOK",
+          "wangyalWomen": "ŽENY LEVÝ BOK",
+          "wangyalImage": "LOTOS V HRDLE",
+          "norbu": "NORBU",
+          "norbuSide": "ZPOČÁTKU LEVÝ BOK",
+          "norbuImage": "SRDCE A HRDLO",
+          "kagyu": "KAGJÜ",
+          "kagyuSide": "PRAVÝ BOK",
+          "kagyuImage": "LVÍ POLOHA",
+          "letterA": "A",
+          "other": "JINÉ TEXTY",
+          "brow": "SVĚTLO MEZI OBOČÍM",
+          "untested": "NETESTOVÁNO"
+        },
+        "butterfly": {
+          "zhuang": "ZHUANG ZHOU",
+          "butterfly": "MOTÝL",
+          "who": "KDO KOHO SNÍ",
+          "change": "PROMĚNA VĚCÍ"
+        },
+        "predictionLoop": {
+          "awake": "BDĚNÍ",
+          "dream": "SEN",
+          "pred": "PREDIKCE",
+          "error": "CHYBA PREDIKCE",
+          "senses": "SMYSLY",
+          "world": "SVĚT",
+          "ownLoop": "BEZ OPRAVY",
+          "noInput": "BEZ VSTUPU",
+          "theory": "TEORIE, NE FAKT"
+        }
       }
     }
   }

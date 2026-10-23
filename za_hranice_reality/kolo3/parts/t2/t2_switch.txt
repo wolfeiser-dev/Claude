@@ -1,0 +1,22 @@
+// Sdíl t2: 6 ilustrací. Řádky patří do `switch (id)` v TrainingArt.build,
+// kamkoli před výchozí větev `_ => _Ladder(skin, l, clock),`:
+      'dreamYogaDay' => _DreamYogaDay(skin, l, clock),
+      'dreamYogaRelease' => _DreamYogaRelease(skin, l, clock),
+      'dreamYogaIntention' => _DreamYogaIntention(skin, l, clock),
+      'lucidMission' => _LucidMission(skin, l, clock),
+      'meditation' => _Meditation(skin, l, clock),
+      'fourPreps' => _FourPreps(skin, l, clock),
+
+// Položky do `static const ids = [...]`:
+    'dreamYogaDay',
+    'dreamYogaRelease',
+    'dreamYogaIntention',
+    'lucidMission',
+    'meditation',
+    'fourPreps',
+
+// Výška: všech 6 vychází z výchozích 176 px (ověřeno na šířkách 320, 358, 390, 430).
+// Řádek `height: height ?? (id == 'realityTree' ? 210 : 176)` zůstává beze změny.
+//
+// Pozor: t2_classes.dart obsahuje kromě šesti tříd `extends _Art` i pomocnou třídu
+// `_T2Geo` (jen statické metody: smooth, dashed, crescent, sun, sparkle). Vlož ji spolu s nimi.

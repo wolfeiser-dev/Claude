@@ -42,7 +42,7 @@ mixin _T1Ink on _Art {
     Offset q(double x, double y) => t1HeadPt(o, r, Offset(x, y), supine: supine);
     c.drawPath(t1Smooth([for (final v in _t1Profile) q(v.dx, v.dy)]), p);
     final thin = stroke(p.color, 1);
-    c.drawPath(t1Smooth([q(-0.06, -0.16), q(-0.2, -0.22), q(-0.3, -0.02), q(-0.22, 0.22), q(-0.08, 0.26)]), thin);
+    c.drawPath(t1Smooth([q(-0.1, -0.16), q(-0.24, -0.2), q(-0.32, -0.02), q(-0.24, 0.2), q(-0.12, 0.24)]), stroke(skin.muted, 0.9));
     if (eyesOpen) {
       c.drawPath(t1Smooth([q(0.4, -0.22), q(0.56, -0.15), q(0.42, -0.06)]), thin);
       c.drawCircle(q(0.5, -0.14), r * 0.05 + 0.4, fill(p.color));
@@ -62,11 +62,11 @@ mixin _T1Ink on _Art {
         t1Smooth([q(-1.45, 1.5), q(-1.55, 1.2), q(-1.2, 1.0), q(-0.4, 0.99), q(0.6, 1.0), q(1.5, 1.1), q(1.75, 1.35), q(1.7, 1.5)]),
         bed);
     t1Head(c, o, r, body, supine: true);
-    c.drawPath(t1Smooth([q(1.3, 0.5), q(1.75, 1.05), q(2.25, 1.5)]), body);
     c.drawPath(t1Smooth([q(1.35, -0.26), q(1.75, -0.5), q(2.05, -0.64)]), body);
+    c.drawPath(t1Smooth([q(1.3, 0.5), q(1.7, 0.6), q(2.18, 0.64)]), body);
     final cover = [
       q(2.05, -0.64), q(3.0, -0.84), q(4.2, -0.62), q(5.4, -0.42), q(6.8, -0.22), q(8.4, -0.08), //
-      q(9.7, 0.02), q(10.8, 0.06), q(11.5, -0.6), q(12.05, -0.44), q(12.4, 0.5), q(12.55, 1.5),
+      q(9.7, 0.02), q(10.8, 0.08), q(11.5, -0.36), q(12.05, -0.26), q(12.4, 0.6), q(12.55, 1.5),
     ];
     c.drawPath(t1Smooth(cover), body);
     c.drawPath(t1Smooth([q(2.05, -0.64), q(2.2, 0.4), q(2.45, 1.5)]), stroke(body.color, 1));
@@ -81,7 +81,7 @@ class _RecallTraining extends _Art with _T1Ink {
   void paint(Canvas c, Size s) {
     final w = s.width;
     final mx0 = w * 0.24, mx1 = w * 0.7, wx0 = w * 0.765;
-    const axisY = 150.0;
+    const axisY = 157.0;
 
     // Osa večer, ráno, týden.
     c.drawLine(Offset(4, axisY), Offset(w - 4, axisY), stroke(skin.lineStrong, 1));
@@ -95,12 +95,10 @@ class _RecallTraining extends _Art with _T1Ink {
 
     // Večer: srpek měsíce, zájem o sny, displej zhasnutý dvě minuty před spaním.
     const ex = 20.0;
-    final moon = Path()
-      ..addOval(Rect.fromCircle(center: const Offset(ex, 30), radius: 8))
-      ..addOval(Rect.fromCircle(center: const Offset(ex + 4.5, 27), radius: 7))
-      ..fillType = PathFillType.evenOdd;
+    final moon = Path.combine(PathOperation.difference, Path()..addOval(Rect.fromCircle(center: const Offset(ex, 30), radius: 8)),
+        Path()..addOval(Rect.fromCircle(center: const Offset(ex + 4.6, 26.6), radius: 7)));
     c.drawPath(moon, fill(skin.muted.withValues(alpha: 0.2)));
-    c.drawArc(Rect.fromCircle(center: const Offset(ex, 30), radius: 8), 0.2, 4.1, false, stroke(skin.muted, 1));
+    c.drawPath(moon, stroke(skin.muted, 1));
     label(c, 'intent', const Offset(0, 54), color: skin.text);
     final phone = RRect.fromRectAndRadius(Rect.fromCenter(center: const Offset(ex, 84), width: 13, height: 22), const Radius.circular(2.5));
     c.drawRRect(phone, stroke(skin.muted, 1));
@@ -140,10 +138,10 @@ class _RecallTraining extends _Art with _T1Ink {
     label(c, 'last', Offset(mx1, sy0 - 9), align: 1, color: skin.text);
 
     // Ráno: ležící se nehýbe, oči zavřené; hlasem tři slova a jedna emoce.
-    final o = Offset(mx0 + 16, 120);
-    const r = 8.5;
+    final o = Offset(mx0 + 16, 126);
+    const r = 9.5;
     t1Sleeper(c, o, r, stroke(skin.text, 1.2), stroke(skin.lineStrong, 1));
-    label(c, 'still', Offset(mx0, axisY - 10));
+    label(c, 'still', Offset(mx0, axisY - 9));
     final mouth = t1HeadPt(o, r, const Offset(0.7, 0.44), supine: true);
     final pulse = live ? (t / 1.2) % 1 : 0.0;
     for (var i = 0; i < 3; i++) {
@@ -151,7 +149,7 @@ class _RecallTraining extends _Art with _T1Ink {
       c.drawArc(Rect.fromCircle(center: mouth, radius: rr), -1.35, 0.75, false,
           stroke(skin.accent.withValues(alpha: 1 - i * 0.28), 1.1));
     }
-    final cy = 92.0;
+    const cy = 101.0;
     final cx0 = mouth.dx + 22;
     for (var i = 0; i < 3; i++) {
       c.drawRRect(RRect.fromRectAndRadius(Rect.fromLTWH(cx0 + i * 15, cy - 3.5, 12, 7), const Radius.circular(3.5)),
@@ -236,7 +234,7 @@ class _Deild extends _Art with _T1Ink {
     (449, 1), (474, 0),
   ];
   static const _end = 480;
-  static const _z0 = 432, _z1 = 476;
+  static const _z0 = 432, _z1 = 472;
 
   @override
   void paint(Canvas c, Size s) {
@@ -284,8 +282,6 @@ class _Deild extends _Art with _T1Ink {
     double zx(num m) => px0 + (px1 - px0) * (m - _z0) / (_z1 - _z0);
     c.drawLine(Offset(zr.left, zr.bottom), Offset(px0, zy0), stroke(skin.accent.withValues(alpha: 0.35), 1));
     c.drawLine(Offset(zr.right, zr.bottom), Offset(px1, zy0), stroke(skin.accent.withValues(alpha: 0.35), 1));
-    c.drawLine(Offset(px0, zw), Offset(px1, zw), stroke(skin.line, 1));
-    c.drawLine(Offset(px0, zrem), Offset(px1, zrem), stroke(skin.line, 1));
 
     c.drawLine(Offset(zx(_z0), zrem), Offset(zx(446), zrem), stroke(skin.accent, 2));
     final wake = Path()
@@ -297,12 +293,8 @@ class _Deild extends _Art with _T1Ink {
       ..moveTo(zx(449), zw)
       ..cubicTo(zx(450.5), zw, zx(450.5), zrem, zx(452.5), zrem);
     t1Dashed(c, back, stroke(skin.accent, 1.5), dash: 3, gap: 2.5);
-    c.drawLine(Offset(zx(452.5), zrem), Offset(zx(474), zrem), stroke(skin.accent, 2));
-    c.drawPath(Path()
-      ..moveTo(zx(474), zrem)
-      ..lineTo(zx(474), zw)
-      ..lineTo(zx(_z1), zw), stroke(skin.muted, 1));
-    final dot = live ? 446 + (t / 0.6) % 28 : 447.5;
+    c.drawLine(Offset(zx(452.5), zrem), Offset(zx(_z1), zrem), stroke(skin.accent, 2));
+    final dot = live ? 446 + (t / 0.6) % 26 : 447.5;
     final dp = dot < 449
         ? Offset(zx(dot), zw)
         : (dot < 452.5 ? back.computeMetrics().first.getTangentForOffset(
@@ -383,7 +375,7 @@ class _Fild extends _Art with _T1Ink {
     label(c, 'test', Offset(xt + 12, yW + 12), color: skin.text);
 
     // Pravá ruka dlaní dolů, opřená, prsty míří doprava; palec nahoře.
-    final fingers = _hand(c, const Offset(26, 138));
+    final fingers = _hand(c, const Offset(24, 136));
     final (iTip, iDir) = fingers[0];
     final (mTip, mDir) = fingers[1];
     final active = live ? ((t / 0.6).floor() % 2) : 0;
@@ -395,8 +387,8 @@ class _Fild extends _Art with _T1Ink {
             stroke((on ? skin.accent : skin.faint).withValues(alpha: on ? 1 - j * 0.35 : 0.8), 1));
       }
     }
-    label(c, 'index', Offset(iTip.dx + 12, iTip.dy), color: active == 0 ? skin.accentText : skin.muted);
-    label(c, 'middle', Offset(mTip.dx + 12, mTip.dy + 1), color: active == 1 ? skin.accentText : skin.muted);
+    label(c, 'index', Offset(iTip.dx + 15, iTip.dy), color: active == 0 ? skin.accentText : skin.muted);
+    label(c, 'middle', Offset(mTip.dx + 15, mTip.dy + 1), color: active == 1 ? skin.accentText : skin.muted);
     label(c, 'rest', const Offset(0, 168));
   }
 
@@ -422,25 +414,26 @@ class _Fild extends _Art with _T1Ink {
     c.drawLine(Offset(o.dx - 6.5, o.dy), Offset(o.dx + 6.5, o.dy), p);
   }
 
-  /// Hřbet pravé ruky dlaní dolů: jeden obrys od zápěstí kolem prstů po palec, nehty, klouby, šlachy.
+  /// Hřbet pravé ruky dlaní dolů: jeden obrys od zápěstí kolem prstů po palec, nehty, kloubní vrásky, šlachy.
+  /// Proporce: dlaň po klouby ~0,48 délky ruky, prostředník od kloubu ~0,52; palec se dvěma články.
   /// Vrací konečky a směry ukazováku a prostředníku.
   List<(Offset, Offset)> _hand(Canvas c, Offset wrist) {
-    const lp = 44.0, wp = 38.0;
-    final u = wp / 4;
+    const lp = 40.0, wp = 38.0;
+    const u = wp / 4;
     final cy = wrist.dy, mcpX = wrist.dx + lp;
     // (osa y báze, posun MCP v ose x, úhel, délka od MCP, šířka) pro ukazovák, prostředník, prsteník, malík.
-    final f = [
-      (cy - 1.5 * u, -1.5, -0.13, 33.0, 8.6),
-      (cy - 0.5 * u, 0.0, -0.035, 37.0, 8.9),
-      (cy + 0.5 * u, -1.8, 0.06, 34.5, 8.3),
-      (cy + 1.5 * u, -6.5, 0.16, 27.0, 7.3),
+    const f = [
+      (-1.5 * u, -1.0, -0.09, 40.0, 8.4),
+      (-0.5 * u, 0.0, -0.02, 44.0, 8.7),
+      (0.5 * u, -1.5, 0.05, 41.0, 8.1),
+      (1.5 * u, -6.0, 0.13, 33.0, 7.0),
     ];
-    Offset base(int i) => Offset(mcpX + f[i].$2, f[i].$1);
+    Offset base(int i) => Offset(mcpX + f[i].$2, cy + f[i].$1);
     Offset dir(int i) => Offset(math.cos(f[i].$3), math.sin(f[i].$3));
     Offset nrm(int i) => Offset(-math.sin(f[i].$3), math.cos(f[i].$3));
-    double wid(int i, double sFrac) => f[i].$5 * (1 - 0.16 * sFrac);
-    Offset side(int i, double sFrac, double sign) =>
-        base(i) + dir(i) * (f[i].$4 * sFrac) + nrm(i) * (sign * wid(i, sFrac) / 2);
+    double wid(int i, double sf) => f[i].$5 * (1 - 0.14 * sf);
+    Offset along(int i, double sf, [double across = 0]) => base(i) + dir(i) * (f[i].$4 * sf) + nrm(i) * across;
+    Offset side(int i, double sf, double sign) => along(i, sf, sign * wid(i, sf) / 2);
     List<Offset> finger(int i, double fromLow, double fromHigh) {
       final len = f[i].$4, tipR = wid(i, 1) / 2;
       final end = 1 - tipR / len;
@@ -452,63 +445,63 @@ class _Fild extends _Art with _T1Ink {
       ];
     }
 
-    Offset web(int lower, int upper) => (side(lower, 0.26, -1) + side(upper, 0.26, 1)) / 2 - const Offset(2.2, 0);
-    // Palec: od karpometakarpálního kloubu šikmo nahoru a dopředu, dva články.
-    final tb = Offset(wrist.dx + 6, cy - wp * 0.36);
-    const ta = -0.68, tl = 41.0, tw = 10.0;
+    Offset web(int lower, int upper) => (side(lower, 0.22, -1) + side(upper, 0.22, 1)) / 2 - dir(lower) * 1.6;
+    // Palec: od karpometakarpálního kloubu u zápěstí šikmo k ukazováku, uvolněně přitažený.
+    final tb = Offset(wrist.dx + 4, cy - wp * 0.3);
+    const ta = -0.33, tl = 46.0, tw = 11.0;
     final td = Offset(math.cos(ta), math.sin(ta)), tn = Offset(-math.sin(ta), math.cos(ta));
-    Offset ts(double sf, double sign) => tb + td * (tl * sf) + tn * (sign * tw * (1 - 0.2 * sf) / 2);
-    final tTipR = tw * 0.8 / 2, tEnd = 1 - tTipR / tl;
+    Offset tAlong(double sf, [double across = 0]) => tb + td * (tl * sf) + tn * across;
+    Offset ts(double sf, double sign) => tAlong(sf, sign * tw * (1 - 0.22 * sf) / 2);
+    const tTipR = tw * 0.78 / 2, tEnd = 1 - tTipR / tl;
 
     final outline = <Offset>[
       Offset(wrist.dx, cy + wp * 0.36),
-      Offset(wrist.dx + lp * 0.45, cy + wp / 2 + 1.2),
-      ...finger(3, 0.12, 0.28),
+      Offset(wrist.dx + lp * 0.45, cy + wp / 2 + 1.4),
+      ...finger(3, 0.1, 0.22),
       web(3, 2),
-      ...finger(2, 0.28, 0.28),
+      ...finger(2, 0.22, 0.22),
       web(2, 1),
-      ...finger(1, 0.28, 0.28),
+      ...finger(1, 0.22, 0.22),
       web(1, 0),
-      ...finger(0, 0.28, 0.2),
-      Offset(mcpX - lp * 0.32, cy - wp / 2 + 0.5),
-      ts(0.55, 1), ts(tEnd * 0.8, 1), ts(tEnd, 1),
-      for (var a = 1; a < 6; a++)
-        tb + td * (tl * tEnd) + (tn * math.cos(a * math.pi / 6) + td * math.sin(a * math.pi / 6)) * tTipR,
-      ts(tEnd, -1), ts(0.6, -1), ts(0.32, -1),
-      Offset(wrist.dx + 2, cy - wp * 0.4),
+      ...finger(0, 0.22, 0.16),
+      Offset(mcpX - lp * 0.14, cy - wp / 2 - 0.5),
+      ts(0.56, 1), ts((0.56 + tEnd) / 2, 1), ts(tEnd, 1),
+      for (var a = 1; a < 6; a++) tAlong(tEnd) + (tn * math.cos(a * math.pi / 6) + td * math.sin(a * math.pi / 6)) * tTipR,
+      ts(tEnd, -1), ts(0.55, -1), ts(0.25, -1),
+      Offset(wrist.dx + 1.5, cy - wp * 0.4),
     ];
     final skinLine = stroke(skin.text, 1.2);
     c.drawPath(t1Smooth(outline), skinLine);
     // Předloktí k okraji plochy.
-    c.drawLine(Offset(0, cy - wp * 0.4), Offset(wrist.dx + 2, cy - wp * 0.4), skinLine);
-    c.drawLine(Offset(0, cy + wp * 0.36), outline.first, skinLine);
+    c.drawLine(Offset(1, cy - wp * 0.4), outline.last, skinLine);
+    c.drawLine(Offset(1, cy + wp * 0.36), outline.first, skinLine);
 
+    final tendon = stroke(skin.line, 1);
+    final crease = stroke(skin.muted, 0.8);
     final faint = stroke(skin.faint, 1);
-    final crease = stroke(skin.muted, 0.9);
     for (var i = 0; i < 4; i++) {
-      // Šlacha natahovače od zápěstí ke kloubu, kloub jako oblouček.
-      final b = base(i);
-      c.drawLine(Offset(wrist.dx + 10, cy + (i - 1.5) * u * 0.45), b - dir(i) * 4, faint);
-      final len = f[i].$4, wd = f[i].$5;
-      for (final (sf, k) in [(0.49, 0.32), (0.53, 0.26), (0.79, 0.28)]) {
-        final m = b + dir(i) * (len * sf);
-        c.drawLine(m + nrm(i) * (wd * k), m - nrm(i) * (wd * k), crease);
+      // Šlacha natahovače od zápěstí ke kloubu.
+      c.drawLine(Offset(wrist.dx + 7, cy + (i - 1.5) * 2.6), along(i, -0.08), tendon);
+      final wd = f[i].$5;
+      // Kloubní vrásky nad PIP a DIP, oblouček vypouklý k zápěstí.
+      for (final (sf, k) in [(0.5, 0.24), (0.535, 0.18), (0.79, 0.2)]) {
+        c.drawPath(t1Smooth([along(i, sf + 0.012, wd * k), along(i, sf, 0), along(i, sf + 0.012, -wd * k)]), crease);
       }
-      // Nehet na distálním článku.
-      final n0 = b + dir(i) * (len * 0.82), n1 = b + dir(i) * (len - 1.6);
-      final hw = wd * 0.27;
+      // Nehet na distální polovině posledního článku.
+      final len = f[i].$4, hw = wd * 0.27;
+      final n0 = 0.86, n1 = 1 - 1.5 / len;
       c.drawPath(
-          t1Smooth([n0 + nrm(i) * hw, n1 + nrm(i) * hw, n1 - nrm(i) * hw, n0 - nrm(i) * hw], closed: true), faint);
+          t1Smooth([along(i, n0, hw * 0.6), along(i, n0 - 0.012, 0), along(i, n0, -hw * 0.6), along(i, n1, -hw), along(i, n1, hw)],
+              closed: true),
+          faint);
     }
-    final tm = tb + td * (tl * 0.76);
-    c.drawLine(tm + tn * 3.2, tm - tn * 3.2, crease);
-    final tn0 = tb + td * (tl * 0.84), tn1 = tb + td * (tl - 2);
-    c.drawPath(t1Smooth([tn0 + tn * 2.6, tn1 + tn * 2.6, tn1 - tn * 2.6, tn0 - tn * 2.6], closed: true), faint);
+    c.drawPath(t1Smooth([tAlong(0.77, 3), tAlong(0.76, 0), tAlong(0.77, -3)]), crease);
+    c.drawPath(
+        t1Smooth([tAlong(0.85, 1.6), tAlong(0.84, 0), tAlong(0.85, -2.6), tAlong(1 - 1.6 / tl, -2.6), tAlong(1 - 1.6 / tl, 1.6)],
+            closed: true),
+        faint);
 
-    return [
-      (base(0) + dir(0) * f[0].$4, dir(0)),
-      (base(1) + dir(1) * f[1].$4, dir(1)),
-    ];
+    return [(along(0, 1), dir(0)), (along(1, 1), dir(1))];
   }
 }
 
@@ -580,17 +573,18 @@ class _Ada extends _Art with _T1Ink {
     label(c, 'ask', Offset(bx, 29), align: 0.5, color: skin.accentText);
     label(c, 'perceive', Offset(bx, 44), align: 0.5, color: skin.text);
 
-    final back = x(h - 1.9);
+    final span = math.min(1.9, h - 7.3);
+    final back = x(h - span);
     final arc = Path()
       ..moveTo(ax - 4, ly + 3)
       ..quadraticBezierTo((ax + back) / 2, ly + 22, back + 2, ly + 4);
     t1Dashed(c, arc, stroke(skin.accent, 1.3), dash: 3, gap: 2.5);
     arrowHead(c, Offset(back + 2, ly + 4), Offset(-0.45, -0.89), stroke(skin.accent, 1.3), 5);
-    for (final dh in [0.7, 1.4]) {
+    for (final dh in [span * 0.37, span * 0.74]) {
       c.drawCircle(Offset(x(h - dh), ly), 1.6, fill(skin.accent));
     }
     c.drawCircle(Offset(back, ly), 1.6, fill(skin.accent));
-    label(c, 'lookBack', Offset((ax + back) / 2, ly + 26), align: 0.5, color: skin.text);
+    label(c, 'lookBack', Offset(math.max((ax + back) / 2, 34), ly + 26), align: 0.5, color: skin.text);
   }
 
   void _door(Canvas c, Offset o, Paint p) {
@@ -660,10 +654,10 @@ class _YogaNidra extends _Art with _T1Ink {
 
   /// Pravá paže ležícího (vlevo na obrázku), mírně od těla, dlaň vzhůru, palec ven.
   static const _arm = [
-    Offset(-16.6, 48.4), Offset(-19.6, 53), Offset(-21.3, 64), Offset(-23.4, 77), Offset(-25.8, 87.5), Offset(-27.8, 95.4), //
-    Offset(-30.2, 97.8), Offset(-33.2, 102.6), Offset(-31.8, 103.4), Offset(-31.6, 108), Offset(-30.2, 112.6), //
-    Offset(-27.6, 112), Offset(-26.4, 104), Offset(-25.2, 96.4), Offset(-22, 86), Offset(-19.2, 76.4), Offset(-16.4, 64), //
-    Offset(-14.2, 57.6),
+    Offset(-16.6, 48.4), Offset(-20.2, 53), Offset(-22.6, 64), Offset(-25.4, 77), Offset(-28.8, 87.5), Offset(-31.8, 95), //
+    Offset(-34.6, 96.8), Offset(-38, 101.4), Offset(-36.4, 102.4), Offset(-35.8, 106), Offset(-35.2, 112.2), //
+    Offset(-32.6, 112.8), Offset(-30.8, 104.5), Offset(-29.2, 96), Offset(-25.4, 86), Offset(-21.6, 76.4), Offset(-17.6, 64), //
+    Offset(-14.4, 57.6),
   ];
 
   @override
@@ -674,7 +668,7 @@ class _YogaNidra extends _Art with _T1Ink {
     label(c, 'caption', Offset(w, 10), align: 1, color: skin.faint, size: 8.5);
 
     // Podložka.
-    final mat = RRect.fromRectAndRadius(Rect.fromLTRB(cx - 36, 13, cx + 36, 172), const Radius.circular(5));
+    final mat = RRect.fromRectAndRadius(Rect.fromLTRB(cx - 43, 13, cx + 43, 172), const Radius.circular(5));
     c.drawRRect(mat, fill(skin.panelAlt.withValues(alpha: 0.2)));
     c.drawRRect(mat, stroke(skin.line, 1));
 
@@ -718,13 +712,13 @@ class _YogaNidra extends _Art with _T1Ink {
 
     // U pravé ruky pořadí prsty, dlaň, paže.
     if (active == 0) {
-      for (final p in [const Offset(-29.6, 110), const Offset(-28.6, 103), const Offset(-25, 88), const Offset(-21, 68)]) {
+      for (final p in [const Offset(-33.8, 109.6), const Offset(-33.2, 102.6), const Offset(-27.4, 88), const Offset(-21.4, 67)]) {
         c.drawCircle(at(p), 1.5, fill(skin.accent));
       }
     }
 
     // Popisky: vlevo pravá strana ležícího, vpravo levá.
-    final lc = cx - 48, rc = cx + 48;
+    final lc = cx - 53, rc = cx + 53;
     void station(int i, String key, double y, Offset target, bool leftSide) {
       final on = i == active;
       final n = '${i + 1}';
@@ -737,12 +731,12 @@ class _YogaNidra extends _Art with _T1Ink {
 
     station(6, 'face', 28, at(const Offset(-7.8, 24)), true);
     station(4, 'back', 62, at(const Offset(0, 62)), true);
-    station(0, 'rightHand', 104, at(const Offset(-33.2, 104)), true);
+    station(0, 'rightHand', 104, at(const Offset(-38.6, 104)), true);
     label(c, 'rightHandParts', Offset(lc - 11, 116), align: 1, color: active == 0 ? skin.accentText : skin.faint, size: 8.5);
     station(1, 'rightLeg', 146, at(const Offset(-11.6, 146)), true);
-    station(7, 'whole', 26, Offset(cx + 36, 26), false);
+    station(7, 'whole', 26, Offset(cx + 43, 26), false);
     station(5, 'belly', 80, at(const Offset(0, 80)), false);
-    station(2, 'leftHand', 104, at(const Offset(-33.2, 104), -1), false);
+    station(2, 'leftHand', 104, at(const Offset(-38.6, 104), -1), false);
     station(3, 'leftLeg', 146, at(const Offset(-11.6, 146), -1), false);
 
     // Dech: krátký nádech, dlouhý výdech.
@@ -774,36 +768,37 @@ class _Grounding extends _Art with _T1Ink {
     const floor = 160.0;
     label(c, 'caption', Offset(w, 10), align: 1, color: skin.faint, size: 8.5);
 
-    // Podlaha a židle.
+    // Podlaha a židle; postava je kreslená v souřadnicích 1 : 1,3 od paty židle.
+    Offset q(double x, double y) => Offset(14 + (x - 14) * 1.3, floor + (y - floor) * 1.3);
     c.drawLine(Offset(4, floor), Offset(w - 4, floor), stroke(skin.lineStrong, 1));
     final chair = stroke(skin.lineStrong, 1.2);
-    c.drawLine(const Offset(12, 123), const Offset(50, 123), chair);
-    c.drawLine(const Offset(13, 123), const Offset(10, 84), chair);
-    c.drawLine(const Offset(14, 123), const Offset(14, floor), chair);
-    c.drawLine(const Offset(48, 123), const Offset(48, floor), chair);
+    c.drawLine(q(12, 123), q(50, 123), chair);
+    c.drawLine(q(13, 123), q(10, 84), chair);
+    c.drawLine(q(14, 123), q(14, floor), chair);
+    c.drawLine(q(48, 123), q(48, floor), chair);
 
     // Sedící z profilu, obličejem doprava: záda opřená, kyčle a kolena v pravém úhlu, chodidla celou plochou na zemi.
     final body = stroke(skin.text, 1.2);
-    const ho = Offset(31, 68);
-    t1Head(c, ho, 8, body, eyesOpen: true);
-    c.drawPath(t1Smooth([const Offset(27, 78.4), const Offset(23.4, 86), const Offset(22.4, 98), const Offset(24, 110),
-        const Offset(21.8, 118), const Offset(24, 122.4)]), body);
-    c.drawPath(t1Smooth([const Offset(33.1, 78.8), const Offset(37.6, 88), const Offset(38.4, 98), const Offset(37.4, 106),
-        const Offset(40, 113.4)]), body);
+    final ho = q(31, 68);
+    t1Head(c, ho, 8 * 1.3, body, eyesOpen: true);
+    c.drawPath(t1Smooth([q(27, 78.4), q(23.4, 86), q(22.4, 98), q(24, 110),
+        q(21.8, 118), q(24, 122.4)]), body);
+    c.drawPath(t1Smooth([q(33.1, 78.8), q(37.6, 88), q(38.4, 98), q(37.4, 106),
+        q(40, 113.4)]), body);
     // Stehno a bérec.
-    c.drawPath(t1Smooth([const Offset(40, 113.4), const Offset(50, 113.2), const Offset(60, 113.4), const Offset(63.6, 117.4),
-        const Offset(62.6, 124), const Offset(60.4, 140), const Offset(60, 152.4)]), body);
-    c.drawPath(t1Smooth([const Offset(24, 122.4), const Offset(40, 122.6), const Offset(53.6, 122.6), const Offset(53, 132),
-        const Offset(54.6, 144), const Offset(55, 152.6)]), body);
+    c.drawPath(t1Smooth([q(40, 113.4), q(50, 113.2), q(60, 113.4), q(63.6, 117.4),
+        q(62.6, 124), q(60.4, 140), q(60, 152.4)]), body);
+    c.drawPath(t1Smooth([q(24, 122.4), q(40, 122.6), q(53.6, 122.6), q(53, 132),
+        q(54.6, 144), q(55, 152.6)]), body);
     // Chodidlo: pata, klenba, prsty.
-    c.drawPath(t1Smooth([const Offset(60, 152.4), const Offset(66, 155.2), const Offset(72.6, 157.6), const Offset(74, 159.6)]), body);
-    c.drawPath(t1Smooth([const Offset(55, 152.6), const Offset(53.4, 157.4), const Offset(55, 159.6)]), body);
-    c.drawLine(const Offset(54.4, floor), const Offset(74, floor), stroke(skin.accent, 2.2));
-    // Paže: rameno, loket u boku, předloktí a dlaň na stehně.
-    c.drawPath(t1Smooth([const Offset(29, 85), const Offset(28, 96), const Offset(30, 106.4), const Offset(40, 109.4),
-        const Offset(50, 110.6), const Offset(56.4, 111.6)]), body);
-    c.drawPath(t1Smooth([const Offset(35, 87), const Offset(34.6, 97), const Offset(35.4, 103), const Offset(42, 105.2),
-        const Offset(50, 106.6), const Offset(56.6, 108.2), const Offset(59, 110.6), const Offset(56.4, 111.6)]), body);
+    c.drawPath(t1Smooth([q(60, 152.4), q(66, 155.2), q(72.6, 157.6), q(74, 159.6)]), body);
+    c.drawPath(t1Smooth([q(55, 152.6), q(53.4, 157.4), q(55, 159.6)]), body);
+    c.drawLine(q(54.4, floor), q(74, floor), stroke(skin.accent, 2.2));
+    // Paže: deltový sval, loket u boku, předloktí a dlaň položená na stehně u kolena.
+    c.drawPath(t1Smooth([q(33.6, 83.4), q(30.4, 81.6), q(27.6, 84), q(26.6, 94), q(28, 104.4), q(32, 107.6), q(40, 109.6),
+        q(48, 111.2), q(55, 112.4), q(60, 113.2), q(62.4, 115.6)]), body);
+    c.drawPath(t1Smooth([q(33.6, 83.4), q(35.2, 90), q(35.6, 98), q(36.2, 102.6), q(42, 104.8), q(49, 106.6), q(55.6, 107.6),
+        q(60.4, 109.6), q(63.2, 112.4), q(62.4, 115.6)]), body);
     label(c, 'feet', const Offset(4, 170), color: skin.accentText);
 
     // Schody dolů: pět kroků k zemi.
@@ -816,8 +811,8 @@ class _Grounding extends _Art with _T1Ink {
       final on = i == active;
       final col = on ? skin.accent : skin.muted;
       if (i < 4) {
-        final q = Offset(x0 + (i + 1) * dx, 26 + (i + 1) * 25.5);
-        t1Dashed(c, Path()..moveTo(p.dx, p.dy + 12)..lineTo(p.dx, q.dy)..lineTo(q.dx - 12, q.dy), stroke(skin.lineStrong, 1),
+        final nx = Offset(x0 + (i + 1) * dx, 26 + (i + 1) * 25.5);
+        t1Dashed(c, Path()..moveTo(p.dx, p.dy + 12)..lineTo(p.dx, nx.dy)..lineTo(nx.dx - 12, nx.dy), stroke(skin.lineStrong, 1),
             dash: 2, gap: 2.5);
       } else {
         t1Dashed(c, Path()..moveTo(p.dx, p.dy + 12)..lineTo(p.dx, floor - 1), stroke(skin.lineStrong, 1), dash: 2, gap: 2.5);

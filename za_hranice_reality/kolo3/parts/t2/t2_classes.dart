@@ -91,23 +91,23 @@ class _DreamYogaDay extends _Art {
   void paint(Canvas c, Size s) {
     final w = s.width;
     const gy = 140.0;
-    final fx = (w * 0.33).roundToDouble();
+    final fx = (w * 0.34).roundToDouble();
     final bx0 = (w * 0.47).roundToDouble(), bx1 = w - 40;
     final bw = bx1 - bx0;
     final ink = stroke(skin.muted, 1.1);
     final faint = stroke(skin.faint, 1);
 
     // Den jako cesta: ráno slunce, večer měsíc, mezi tím zastavení.
-    c.drawLine(Offset(12, gy), Offset(w - 12, gy), stroke(skin.lineStrong, 1));
+    c.drawLine(const Offset(12, gy), Offset(w - 12, gy), stroke(skin.lineStrong, 1));
     _T2Geo.sun(c, const Offset(26, gy - 1), 5, ink, rays: 5, from: -math.pi * 0.92, sweep: math.pi * 0.84);
     c.drawPath(_T2Geo.crescent(Offset(w - 26, gy - 14), 6), ink);
     c.drawCircle(Offset((w * 0.2).roundToDouble(), gy), 2.4, faint);
     label(c, 'morning', const Offset(10, gy + 16));
 
     // Postava se zastaví a rozhlédne.
-    _figure(c, Offset(fx, gy), 64, stroke(skin.text, 1.1));
-    label(c, 'pause', Offset(fx, gy - 78), align: 0.5, color: skin.text);
-    final eye = Offset(fx + 4.2, gy - 60);
+    _figure(c, Offset(fx, gy), 70, stroke(skin.text, 1.1));
+    label(c, 'pause', Offset(fx, gy - 84), align: 0.5, color: skin.text);
+    final eye = Offset(fx + 4.6, gy - 65.5);
     final gaze = stroke(skin.faint, 1);
     c.drawPath(_T2Geo.dashed(Path()..moveTo(eye.dx + 3, eye.dy)..lineTo(bx0 - 2, 72), 2, 3), gaze);
     c.drawPath(_T2Geo.dashed(Path()..moveTo(eye.dx + 3, eye.dy + 1)..lineTo(bx0 - 2, 126), 2, 3), gaze);
@@ -164,12 +164,12 @@ class _DreamYogaDay extends _Art {
         ink);
 
     // Úzkost nebo pocit neskutečna: odbočka dolů k chodidlům a zemi.
-    label(c, 'anxious', Offset(fx - 14, gy - 50), align: 1, color: skin.text);
+    label(c, 'anxious', Offset(fx - 15, gy - 54), align: 1, color: skin.text);
     final exit = Path()
-      ..moveTo(fx - 26, gy - 42)
-      ..quadraticBezierTo(fx - 30, gy - 6, fx - 9, gy - 3);
+      ..moveTo(fx - 27, gy - 46)
+      ..quadraticBezierTo(fx - 31, gy - 6, fx - 10, gy - 3);
     c.drawPath(_T2Geo.dashed(exit, 3, 2.5), stroke(skin.accentText, 1.1));
-    arrowHead(c, Offset(fx - 8, gy - 3), const Offset(1, 0.1), stroke(skin.accentText, 1.1), 4.5);
+    arrowHead(c, Offset(fx - 9, gy - 3), const Offset(1, 0.1), stroke(skin.accentText, 1.1), 4.5);
     for (var i = 0; i < 5; i++) {
       final x = fx - 8 + i * 4.5;
       c.drawLine(Offset(x, gy + 2), Offset(x - 3, gy + 6), stroke(skin.accentText, 1));
@@ -246,7 +246,7 @@ class _DreamYogaRelease extends _Art {
     c.drawPath(_T2Geo.crescent(const Offset(17, 13), 5), stroke(skin.muted, 1.1));
     label(c, 'evening', const Offset(28, 13));
     const x0 = 12.0, gap = 6.0, top = 44.0, fh = 26.0;
-    final fw = math.min(30.0, (bx - 46 - x0 - 4 * gap) / 5);
+    final fw = math.min(40.0, (bx - 46 - x0 - 4 * gap) / 5);
     double fx(int i) => x0 + i * (fw + gap);
     for (var i = 0; i < 5; i++) {
       final key = i == 1 || i == 3;
@@ -272,7 +272,7 @@ class _DreamYogaRelease extends _Art {
     final ph = live ? (t / 10) % 1 : (fx(1) + fw / 2 - x0) / (fx(4) + fw - x0);
     final px = x0 + ph * (fx(4) + fw - x0);
     c.drawLine(Offset(px, top - 4), Offset(px, top + fh + 4), stroke(skin.accent, 1));
-    c.drawLine(Offset(x0, top + fh + 9), Offset(fx(4) + fw, top + fh + 9), faint);
+    c.drawLine(const Offset(x0, top + fh + 9), Offset(fx(4) + fw, top + fh + 9), faint);
     arrowHead(c, Offset(fx(4) + fw, top + fh + 9), const Offset(1, 0), faint, 4);
     label(c, 'crave', Offset(fx(1) + fw / 2, top + fh + 22), align: 0.5, color: skin.accentText);
     label(c, 'averse', Offset(fx(3) + fw / 2, top + fh + 22), align: 0.5, color: skin.text);
@@ -283,7 +283,7 @@ class _DreamYogaRelease extends _Art {
       ..moveTo(x0 + 78, 117)
       ..quadraticBezierTo(bx - 60, 114, bx - 34, 74);
     c.drawPath(_T2Geo.dashed(link, 3, 2.5), stroke(skin.muted, 1));
-    arrowHead(c, Offset(bx - 34, 74), Offset(0.53, -0.85), stroke(skin.muted, 1), 4.5);
+    arrowHead(c, Offset(bx - 34, 74), const Offset(0.53, -0.85), stroke(skin.muted, 1), 4.5);
     label(c, 'noJudge', const Offset(x0, 144), color: skin.faint, size: 8.5);
     label(c, 'asIf', const Offset(x0, 160), color: skin.faint, size: 8.5);
   }
@@ -324,6 +324,12 @@ class _DreamYogaIntention extends _Art {
       _T2Geo.sparkle(c, Offset(cx + rx * fx, cy + ry * fy), 1.8, stroke(skin.faint, 1));
     }
     label(c, 'night', Offset(cx, cy - 16), align: 0.5, color: skin.faint, size: 8.5);
+    // Spáč na boku pod přikrývkou.
+    final sl = stroke(skin.muted, 1);
+    c.drawLine(Offset(cx - 26, cy + 7), Offset(cx + 24, cy + 7), stroke(skin.line, 1));
+    c.drawRRect(RRect.fromLTRBR(cx - 27, cy + 2.5, cx - 13, cy + 7, const Radius.circular(2.2)), sl);
+    c.drawCircle(Offset(cx - 18, cy - 1.2), 3.6, sl);
+    c.drawPath(_T2Geo.smooth([Offset(cx - 13, cy + 7), Offset(cx - 11, cy + 0.5), Offset(cx - 1, cy - 1.5), Offset(cx + 10, cy + 1.2), Offset(cx + 19, cy + 2.8), Offset(cx + 22, cy + 7)]), sl);
 
     // Den: spodní oblouk od rána zpět k dalšímu večeru.
     c.drawPath(_T2Geo.dashed(arc(gap, math.pi - gap), 4, 3), line);
@@ -334,13 +340,13 @@ class _DreamYogaIntention extends _Art {
 
     // Večer: měsíc a záměr.
     final ev = at(math.pi), mo = at(0);
-    c.drawPath(_T2Geo.crescent(ev, 9), stroke(skin.text, 1.2));
+    c.drawPath(_T2Geo.crescent(ev, 9), stroke(skin.text));
     label(c, 'evening', Offset(ev.dx - 16, cy - 7), align: 1);
     label(c, 'intent', Offset(ev.dx - 16, cy + 7), align: 1, color: skin.accentText);
     label(c, 'phrase', Offset(cx, cy - ry - 18), align: 0.5, color: skin.accentText);
 
     // Ráno: slunce, vybavit si, co zůstalo (i útržek), s radostí.
-    _T2Geo.sun(c, mo, 4.5, stroke(skin.text, 1.2));
+    _T2Geo.sun(c, mo, 4.5, stroke(skin.text));
     label(c, 'morning', Offset(mo.dx + 16, cy - 14));
     label(c, 'recall', Offset(mo.dx + 16, cy), color: skin.text);
     label(c, 'joy', Offset(mo.dx + 16, cy + 14), color: skin.accentText);
@@ -350,7 +356,7 @@ class _DreamYogaIntention extends _Art {
     c.drawCircle(mo + const Offset(-33, -13), 1.8, fr);
     final f2 = mo + const Offset(-23, -8);
     c.drawPath(Path()..addPolygon([f2.translate(-3, 2), f2.translate(0, -3), f2.translate(3, 1.5)], true), stroke(skin.accentText, 1));
-    label(c, 'little', Offset(mo.dx - 15, cy + 5), align: 1, color: skin.faint, size: 8.5);
+    label(c, 'little', Offset(mo.dx + 16, cy + 28), color: skin.faint, size: 8.5);
 
     // Záměr putuje nocí, ráno se vrací.
     final u = live ? (t / 16) % 1 : 0.25;
@@ -426,7 +432,7 @@ class _LucidMission extends _Art {
           ..quadraticBezierTo(cx, cy - 8.5, cx + 10, cy)
           ..quadraticBezierTo(cx, cy + 8.5, cx - 10, cy),
         stroke(skin.text, 1.1));
-    c.drawCircle(hub, 3.3, stroke(skin.accentText, 1.2));
+    c.drawCircle(hub, 3.3, stroke(skin.accentText));
     c.drawCircle(hub, 1.2, fill(skin.accentText));
     label(c, 'recognize', Offset(cx, cy - 29), align: 0.5, color: skin.text);
     label(c, 'stabilize', Offset(cx, cy + 29), align: 0.5, color: skin.text);
@@ -538,58 +544,66 @@ class _Meditation extends _Art {
     final soft = stroke(skin.muted, 1);
     final faint = stroke(skin.faint, 1);
 
-    // Podložka a podlaha.
-    c.drawLine(Offset(8, sy + 14), Offset(r0 - 18, sy + 14), stroke(skin.line, 1));
-    c.drawRRect(RRect.fromLTRBR(sx - 28, sy + 1, sx + 20, sy + 13, const Radius.circular(6)), stroke(skin.lineStrong, 1));
+    // Podložka a podlaha. Pánev na podložce výš než kolena, aby se páteř sama napřímila.
+    c.drawLine(const Offset(8, sy + 14), Offset(r0 - 18, sy + 14), stroke(skin.line, 1));
+    c.drawRRect(RRect.fromLTRBR(sx - 26, sy + 1, sx + 18, sy + 13, const Radius.circular(6)), stroke(skin.lineStrong, 1));
 
-    // Hlava z profilu, oči zavřené.
-    final hc = q(1, -104);
+    // Hlava z profilu (28 px, sed ~3,9 hlavy), oči zavřené.
+    final hc = q(1, -95);
+    const hk = 1.12;
     const head = [
-      (0.0, -12.0), (6.5, -10.2), (9.6, -6.0), (10.7, -2.2), (10.4, -0.6), (13.9, 3.6), (11.2, 5.0), (11.7, 6.5), //
+      (0.0, -12.0), (6.5, -10.2), (9.6, -6.0), (10.7, -2.2), (10.5, -0.4), (14.6, 3.9), (11.2, 5.2), (11.7, 6.5), //
       (11.0, 7.6), (11.3, 8.7), (10.4, 10.0), (10.9, 11.6), (7.0, 13.0), (3.0, 12.0), (-3.6, 10.6), (-8.8, 6.4), //
       (-10.2, 0.0), (-8.8, -7.2), (-5.0, -11.0),
     ];
-    c.drawPath(_T2Geo.smooth([for (final (x, y) in head) hc + Offset(x, y)], closed: true), body);
-    c.drawPath(Path()..moveTo(hc.dx + 5.2, hc.dy - 1.2)..quadraticBezierTo(hc.dx + 6.8, hc.dy, hc.dx + 8.4, hc.dy - 1.2), soft);
-    c.drawPath(Path()..addArc(Rect.fromCircle(center: hc + const Offset(-1.5, 1.5), radius: 2.6), -1.2, 2.6), faint);
+    c.drawPath(_T2Geo.smooth([for (final (x, y) in head) hc + Offset(x * hk, y * hk)], closed: true), body);
+    c.drawPath(Path()..moveTo(hc.dx + 5.6, hc.dy - 1.2)..quadraticBezierTo(hc.dx + 7.4, hc.dy, hc.dx + 9.2, hc.dy - 1.2), soft);
+    c.drawPath(Path()..addArc(Rect.fromCircle(center: hc + const Offset(-1.6, 1.8), radius: 2.8), -1.2, 2.6), faint);
 
-    // Trup: záda volně rovná (krční a bederní lordóza, hrudní kyfóza), pánev vzpřímená.
+    // Trup: krční a bederní lordóza, hrudní kyfóza; krátký krk, ramena nad pánví.
     c.drawPath(
         _T2Geo.smooth([
-          q(-16, 1), q(-17.2, -7), q(-13.2, -26), q(-14.2, -44), q(-16.4, -60), q(-14, -76), q(-8.6, -87), q(-6.8, -93),
+          q(-15, 1), q(-16, -8), q(-12.6, -24), q(-14, -40), q(-17, -56), q(-15.6, -68), q(-10, -77), q(-6.6, -82),
+          q(-6, -85),
         ]),
         body);
     c.drawPath(
         _T2Geo.smooth([
-          q(6.4, -91.8), q(5, -85), q(8.2, -77), q(10.2, -66), q(9.4, -54), q(9.4 + b * 0.5, -44), q(10.2 + b, -34),
-          q(9.4 + b * 0.6, -22), q(7.2, -12), q(22, -8), q(36, -2.5), q(43, 1.5), q(46, 7), q(43.5, 12.5), q(30, 14),
-          q(14, 14), q(8, 13.2), q(4.6, 10.4), q(6, 7.6),
+          q(8.8, -80.4), q(7.2, -74), q(10, -68), q(12.6, -58), q(11, -46), q(11 + b * 0.5, -40), q(12 + b, -32),
+          q(10.6 + b * 0.6, -20), q(8, -9), q(22, -5.5), q(36, -1), q(43, 4), q(42.6, 11), q(30, 13.6), q(14, 13.8),
+          q(7, 13), q(4.6, 10),
         ]),
         body);
-    c.drawPath(_T2Geo.smooth([q(12, 7), q(27, 8.6), q(40, 9)]), soft);
-    c.drawPath(_T2Geo.smooth([q(30, 14), q(33, 10.6), q(39, 10.2)]), faint);
-    // Paže: rameno, loket u boku, ruce v klíně.
-    c.drawPath(_T2Geo.smooth([q(-6, -77), q(-6.5, -60), q(-2, -45), q(10, -24), q(20, -9)]), soft);
-    c.drawOval(Rect.fromCenter(center: q(23, -8), width: 9, height: 4.6), soft);
+    // Druhé chodidlo pod kolenem (zkřížené nohy) a spodní linie stehna.
+    c.drawPath(_T2Geo.smooth([q(28, 13.6), q(32, 9.6), q(40, 9.2)]), faint);
+    c.drawPath(_T2Geo.smooth([q(12, 6.5), q(26, 7.6), q(38, 7.4)]), faint);
+    // Paže: rameno nad hrudníkem, loket u boku, předloktí k dlaním v klíně.
+    c.drawPath(_T2Geo.smooth([q(-9.6, -71), q(-5, -75.5), q(1.5, -74.5), q(4.4, -69)]), soft);
+    c.drawPath(_T2Geo.smooth([q(-9.6, -71), q(-8.4, -54), q(-6, -40), q(-3.2, -33.4), q(1, -33.6), q(20, -6.4)]), soft);
+    c.drawPath(_T2Geo.smooth([q(4.4, -69), q(3.6, -54), q(2.6, -42), q(24, -11)]), soft);
+    c.drawOval(Rect.fromCenter(center: q(25, -8), width: 10, height: 5), soft);
 
     // Páteř z obratlů a klenba bránice.
-    final spine = _T2Geo.smooth([q(-12.4, -4), q(-9, -26), q(-10.2, -44), q(-12.2, -60), q(-9.6, -76), q(-4.4, -87), q(-3, -94)]);
+    final spine = _T2Geo.smooth([
+      q(-11, -4), q(-8.6, -22), q(-10, -40), q(-12.8, -55), q(-11.4, -68), q(-6, -77), q(-3.4, -84), q(-2.4, -88),
+    ]);
     for (final m in spine.computeMetrics()) {
-      for (var d = 0.0; d <= m.length; d += 4.6) {
+      for (var d = 0.0; d <= m.length; d += 4.4) {
         c.drawCircle(m.getTangentForOffset(d)!.position, 0.9, fill(skin.muted));
       }
     }
     final dia = 2.6 * inh;
-    c.drawPath(_T2Geo.dashed(_T2Geo.smooth([q(-11.4, -48 + dia * 0.4), q(-3, -57 + dia), q(4, -56.5 + dia), q(8.6, -50)]), 2, 2),
+    c.drawPath(
+        _T2Geo.dashed(_T2Geo.smooth([q(-12.4, -41 + dia * 0.4), q(-4, -50 + dia), q(3, -50.5 + dia), q(10, -44)]), 2, 2),
         stroke(skin.muted, 1));
 
     // Kotvy pozornosti: nos (aktivní) a břicho.
-    final nose = hc + const Offset(15.4, 3.8);
-    c.drawCircle(nose, 4, stroke(skin.accentText, 1.2));
-    label(c, 'nose', Offset(nose.dx + 8, nose.dy), color: skin.accentText);
-    final belly = q(12.6 + b, -34);
+    final nose = hc + const Offset(20.4, 5.2);
+    c.drawCircle(nose, 3.4, stroke(skin.accentText));
+    label(c, 'nose', Offset(nose.dx + 7, nose.dy), color: skin.accentText);
+    final belly = q(16.6 + b, -32);
     c.drawPath(_T2Geo.dashed(Path()..addOval(Rect.fromCircle(center: belly, radius: 4.6)), 1.6, 2), soft);
-    label(c, 'belly', Offset(sx + 22, belly.dy));
+    label(c, 'belly', Offset(sx + 26, belly.dy));
     label(c, 'posture', const Offset(8, 12), color: skin.faint, size: 8.5);
 
     // Časová osa praxe: nejdřív šamatha, pak otevřené pozorování.
@@ -642,8 +656,8 @@ class _Meditation extends _Art {
     final back = Path()
       ..moveTo(cl.dx + 18, 66)
       ..quadraticBezierTo(x3 - 6, 66, x3, bl - 6);
-    c.drawPath(back, stroke(skin.accentText, 1.2));
-    arrowHead(c, Offset(x3, bl - 6), const Offset(0.2, 0.98), stroke(skin.accentText, 1.2), 4.5);
+    c.drawPath(back, stroke(skin.accentText));
+    arrowHead(c, Offset(x3, bl - 6), const Offset(0.2, 0.98), stroke(skin.accentText), 4.5);
     label(c, 'return', Offset(x3, bl + 15), align: 0.5, color: skin.accentText);
     label(c, 'rep', Offset(x3, bl + 28), align: 0.5, color: skin.faint, size: 8.5);
 
@@ -696,7 +710,7 @@ class _FourPreps extends _Art {
   void paint(Canvas c, Size s) {
     final w = s.width;
     final cx = w / 2;
-    const cy = 84.0, r = 48.0, sr = 8.5;
+    const cy = 82.0, r = 52.0, sr = 8.5;
     Offset at(double deg, [double rr = r]) => Offset(cx + rr * math.cos(deg * math.pi / 180), cy + rr * math.sin(deg * math.pi / 180));
     const ang = [-120.0, -45.0, 12.0, 168.0];
     const gapDeg = 12.5;
