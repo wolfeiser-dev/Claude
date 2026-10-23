@@ -1,0 +1,204 @@
+{
+  "awarenessPrompts": [
+    {
+      "id": "aw_19",
+      "notification": "Sním? Odpověz až po jednom testu.",
+      "prompt": "Nejdřív zavři rty a zkus se nadechnout ústy, teprve pak odpověz. Když vzduch projde, sníš."
+    },
+    {
+      "id": "aw_20",
+      "notification": "Tři kroky: otázka, rozhled, test.",
+      "prompt": "Upřímně se zeptej, jestli sníš, rozhlédni se po něčem divném a udělej jeden fyzický test. Celé to zabere 20 vteřin."
+    },
+    {
+      "id": "aw_21",
+      "notification": "Přečti nejbližší nápis. Odvrať oči a znovu.",
+      "prompt": "Ve snu se text při druhém čtení často změní nebo rozpadne. Porovnej obě čtení a zeptej se, jestli sníš."
+    },
+    {
+      "id": "aw_22",
+      "notification": "Podívej se na hodiny. Pak ještě jednou.",
+      "prompt": "Ve snu čas na hodinách při druhém pohledu často skočí nebo nedává smysl. Odvrať se, vrať se a porovnej."
+    },
+    {
+      "id": "aw_23",
+      "notification": "Kolik je hodin? Nejdřív odhadni.",
+      "prompt": "Odhadni čas a teprve pak se podívej. Sedí odhad s tím, co se dnes dělo, nebo je v tom díra?"
+    },
+    {
+      "id": "aw_24",
+      "notification": "Kolik je 17 + 26? Ověř si to dvakrát.",
+      "prompt": "Spočítej příklad a pak ho zkontroluj jinou cestou. Ve snu se počítání často zadrhne nebo výsledek uteče."
+    },
+    {
+      "id": "aw_25",
+      "notification": "Zavři rty a zkus se nadechnout ústy.",
+      "prompt": "Tenhle test používala velká studie ILDIS. Pokud vzduch projde přes zavřené rty, je to sen."
+    },
+    {
+      "id": "aw_26",
+      "notification": "Zmáčkni si nos a zkus se nadechnout.",
+      "prompt": "Ve snu se často nadechneš i přes ucpaný nos. Udělej to pomalu a s opravdovou zvědavostí, ne ze zvyku."
+    },
+    {
+      "id": "aw_27",
+      "notification": "Zkus protlačit prst dlaní druhé ruky.",
+      "prompt": "Zatlač ukazovákem do středu dlaně a prohlédni si obě ruce. Ve snu prst může projít nebo ruce vypadají jinak."
+    },
+    {
+      "id": "aw_28",
+      "notification": "Spočítej prsty. Pomalu, jeden po druhém.",
+      "prompt": "Ve snu jich bývá jiný počet nebo se při počítání mění. Počítej nahlas nebo šeptem, ať to není automat."
+    },
+    {
+      "id": "aw_29",
+      "notification": "Podívej se na ruce pět vteřin v kuse.",
+      "prompt": "Sleduj tvar, linie a nehty. Ve snu se ruce při delším pohledu často mění nebo rozmazávají."
+    },
+    {
+      "id": "aw_30",
+      "notification": "Malý poskok na místě. Jak dopadneš?",
+      "prompt": "Poskoč a sleduj, jak tě to stáhne zpátky. Ve snu můžeš zůstat chvíli viset nebo dopadnout zpomaleně."
+    },
+    {
+      "id": "aw_31",
+      "notification": "Zkus vypínač. Reaguje světlo, jak má?",
+      "prompt": "Ve snech vypínače často nefungují nebo světlo reaguje divně. Když žádný není po ruce, udělej test s dechem."
+    },
+    {
+      "id": "aw_32",
+      "notification": "Najdi svůj odraz: okno, displej, lžička.",
+      "prompt": "Prohlédni si odraz pozorně, ne jen letmo. Ve snu bývá rozmazaný, cizí nebo se mění."
+    },
+    {
+      "id": "aw_33",
+      "notification": "Jak vede cesta až sem? Projdi ji krok po kroku.",
+      "prompt": "Vybav si posledních pár minut, které tě sem přivedly. Když v cestě chybí kus, je to typický znak snu."
+    },
+    {
+      "id": "aw_34",
+      "notification": "Co se dělo před deseti minutami?",
+      "prompt": "Vybav si jeden konkrétní detail z té doby. Navazuje plynule na tuhle chvíli, nebo je mezi nimi skok?"
+    },
+    {
+      "id": "aw_35",
+      "notification": "Co bylo tvoje poslední jídlo?",
+      "prompt": "Zkus si vybavit chuť, místo a čas. Když se vzpomínka nechce chytit, rozhlédni se po anomáliích."
+    },
+    {
+      "id": "aw_36",
+      "notification": "Co bylo dnes ráno úplně první?",
+      "prompt": "Projdi si den od probuzení až sem. Souvislá linie mluví pro bdění, mezery jsou důvod udělat test."
+    },
+    {
+      "id": "aw_37",
+      "notification": "Kde budeš za hodinu? A dává to smysl?",
+      "prompt": "Ve snu plány často nesedí s tím, kde jsi a co máš na sobě. Ověř si to a udělej jeden test."
+    },
+    {
+      "id": "aw_38",
+      "notification": "Vyjmenuj tři zvuky, které teď slyšíš.",
+      "prompt": "Pojmenuj je, urči, odkud jdou, a posuď, jestli sedí k místu, kde jsi. Pak se zeptej: sním?"
+    },
+    {
+      "id": "aw_39",
+      "notification": "Dotkni se něčeho studeného nebo drsného.",
+      "prompt": "Vnímej teplotu a texturu pod prsty. Pak zkus zatlačit prst do dlaně a sleduj, jestli neprojde."
+    },
+    {
+      "id": "aw_40",
+      "notification": "Nadechni se nosem. Co cítíš?",
+      "prompt": "Ve snech bývají vůně vzácné, tak si všimni, jestli nějakou cítíš. Pak se zeptej, jestli jsi opravdu vzhůru."
+    },
+    {
+      "id": "aw_41",
+      "notification": "Jakou chuť máš právě v puse?",
+      "prompt": "Všimni si chuti nebo jejího chybění. Pak se rozhlédni, jestli je tu něco, co sem nepatří."
+    },
+    {
+      "id": "aw_42",
+      "notification": "Zavři oči. Kde přesně máš ruce?",
+      "prompt": "Odhadni polohu rukou bez dívání a pak se podívej, jestli to sedí. Při tom spočítej prsty."
+    },
+    {
+      "id": "aw_43",
+      "notification": "Cítíš váhu těla? Čím se dotýkáš země?",
+      "prompt": "Všimni si chodidel nebo židle pod sebou. Pak se upřímně zeptej, jestli to není sen."
+    },
+    {
+      "id": "aw_44",
+      "notification": "Odkud sem teď padá světlo?",
+      "prompt": "Najdi zdroj světla a zkontroluj, jestli k němu sedí stíny. Ve snu světlo často nemá jasný původ."
+    },
+    {
+      "id": "aw_45",
+      "notification": "Nehýbej očima. Co vidíš na okrajích?",
+      "prompt": "Všimni si okraje zorného pole: je stálý, nebo se něco hýbe a mění? Pak udělej jeden test."
+    },
+    {
+      "id": "aw_46",
+      "notification": "Najdi kolem sebe jednu věc, která sem nesedí.",
+      "prompt": "Hledej opravdu, jako detektiv: barvu, předmět, člověka, zvuk. Když nějakou najdeš, udělej test reality."
+    },
+    {
+      "id": "aw_47",
+      "notification": "Objevila se dnes některá z tvých Stop snů?",
+      "prompt": "Vzpomeň si na své opakující se motivy. Pokud je jeden z nich právě kolem tebe, zastav se a udělej test."
+    },
+    {
+      "id": "aw_48",
+      "notification": "Kdo je kolem tebe? Sedí to?",
+      "prompt": "Ve snech se objevují lidé, kteří by tu nemohli být, nebo se mění jejich tváře. Prohlédni si okolí a zeptej se: sním?"
+    },
+    {
+      "id": "aw_49",
+      "notification": "Podívej se z okna. Sedí počasí a denní doba?",
+      "prompt": "Ve snu se roční období i denní doba umí přeskočit. Porovnej to s tím, co si pamatuješ z rána."
+    },
+    {
+      "id": "aw_50",
+      "notification": "Podívej se na předmět, odvrať se, znovu.",
+      "prompt": "Zůstal stejný? Ve snu se věci při druhém pohledu rády mění tvarem, barvou nebo nápisem."
+    },
+    {
+      "id": "aw_51",
+      "notification": "Pomalu se otoč dokola. Drží svět pohromadě?",
+      "prompt": "Sleduj, jestli místnost navazuje tak, jak čekáš. Ve snu se prostor za zády umí přeskládat."
+    },
+    {
+      "id": "aw_52",
+      "notification": "Každé dveře dnes ber jako připomínku.",
+      "prompt": "Až projdeš dveřmi, zastav se na prahu, rozhlédni se a udělej jeden test. Návyk spojený se situací se do snu přenáší snáz."
+    },
+    {
+      "id": "aw_53",
+      "notification": "Cítíš teď něco silně? Zastav se.",
+      "prompt": "Silná emoce, strach, nadšení nebo vztek, patří k častým znakům snů. Pojmenuj ji a zeptej se, jestli nesníš."
+    },
+    {
+      "id": "aw_54",
+      "notification": "Co tě dnes naposledy překvapilo?",
+      "prompt": "Překvapení je chvíle, kdy mysl zaznamenala nesoulad. Vrať se k ní a zeptej se, jestli to nebyl znak snu."
+    },
+    {
+      "id": "aw_55",
+      "notification": "Jakou máš náladu na škále 0 až 10?",
+      "prompt": "Ohodnoť ji a všimni si, odkud se vzala. Když nevíš proč, rozhlédni se po něčem neobvyklém."
+    },
+    {
+      "id": "aw_56",
+      "notification": "Představ si, že tohle je sen. Co by se změnilo?",
+      "prompt": "Vezmi tu možnost na chvíli vážně a hledej důkaz pro i proti. Pak rozhodni až po jednom fyzickém testu."
+    },
+    {
+      "id": "aw_57",
+      "notification": "Nakresli si na dlaň tečku.",
+      "prompt": "Pokaždé, když ji dnes zahlédneš, udělej test reality. Ve snu může tečka chybět nebo vypadat jinak."
+    },
+    {
+      "id": "aw_58",
+      "notification": "Zažij chvíli, jako by byla snem. Pak test.",
+      "prompt": "Na pár nádechů nech všechno, co vnímáš, plynout jako sen, beze snahy něco měnit. Pak se vrať a udělej jeden test, ať víš."
+    }
+  ]
+}
