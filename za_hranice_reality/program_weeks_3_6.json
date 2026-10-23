@@ -1,0 +1,1056 @@
+{
+  "days": [
+    {
+      "id": "d15",
+      "day": 15,
+      "week": 3,
+      "mission": "Zasaď si do paměti větu, která ti ve snu připomene, že sníš.",
+      "goal": "Naučit se Záměr poznat sen (MILD) ve dne nanečisto a večer s ním usnout.",
+      "science": {
+        "title": "Záměr poznat sen (MILD) nanečisto",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Vyber si z deníku jeden nedávný sen.",
+          "Zavři oči a přehraj si ho od začátku do konce.",
+          "Najdi v něm jednu věc, která by v bdění nedávala smysl.",
+          "V duchu řekni: „Až budu příště snít, uvědomím si, že sním.“ Mysli to vážně, není to mantra.",
+          "Představ si, že jsi zpátky ve snu, všimneš si té divné věci a poznáš, že sníš.",
+          "Večer v posteli to zopakuj, dokud záměr nesedí. Pak klidně usni."
+        ]
+      },
+      "yoga": {
+        "title": "Den jako sen, večerní ohlédnutí",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "V posteli si projdi dnešní den jako film.",
+          "U každé scény si řekni: „I tohle bylo jako sen.“",
+          "Na konci se pevně rozhodni, že dnes v noci sen poznáš."
+        ]
+      },
+      "intention": {
+        "when": "Když se ráno probudím ze snu",
+        "then": "zůstanu chvíli bez hnutí, přehraju si sen a zopakuji: Až budu příště snít, uvědomím si, že sním."
+      },
+      "morningTask": "Zapiš každý sen zvlášť a přidej přibližný čas probuzení. U každého ohodnoť luciditu 0–10. Nula je normální výsledek, počítá se zápis.",
+      "why": "Záměr poznat sen je nejlépe podložená technika lucidního snění (LaBerge 1980; Aspy 2020). Je to plán ve tvaru když–pak a takové plány lidé plní častěji, hlavně když si je opakují (Gollwitzer & Sheeran 2006). Věta je semínko, vizualizace mu dává půdu."
+    },
+    {
+      "id": "d16",
+      "day": 16,
+      "week": 3,
+      "mission": "Najdi své Stopy snů a udělej z nich háčky pro záměr.",
+      "goal": "Objevit tři opakující se motivy ve svých snech a jeden vložit do záměru.",
+      "science": {
+        "title": "Stopy snů jako spoušť",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Projdi sny v deníku za poslední dva týdny.",
+          "Hledej, co se opakuje: místo, osoba, situace, pocit, nemožná věc.",
+          "Tři nejčastější motivy si označ jako Stopy snů.",
+          "Večer při Záměru poznat sen si představ, že jednu z nich potkáš a hned poznáš, že sníš.",
+          "Příklad věty: „Až budu zase ve staré škole, poznám, že sním.“"
+        ]
+      },
+      "yoga": {
+        "title": "Jako sen, třikrát za den",
+        "minutes": 2,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "Třikrát za den se na 20 až 60 sekund zastav.",
+          "Rozhlédni se a řekni si: „Tohle je jako sen.“",
+          "Vnímej barvy, zvuky a tělo s čerstvou zvědavostí.",
+          "Pak se vrať k tomu, co děláš. Svět je skutečný, jen se na něj díváš jinak."
+        ]
+      },
+      "intention": {
+        "when": "Když večer zhasnu",
+        "then": "vybavím si svou nejčastější Stopu snů a řeknu: Až ji uvidím, poznám, že sním."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. U každého snu označ Stopy snů, které v něm najdeš. Nová Stopa je malé vítězství.",
+      "why": "Sny mají opakující se znaky a kdo je zná, snáz si ve snu všimne, že něco nesedí (LaBerge 1985). Proto první dva týdny patřily paměti: bez zapsaných snů nejsou Stopy, které by šlo hledat. Stopa je jako maják na pobřeží, které znáš jen ze snů."
+    },
+    {
+      "id": "d17",
+      "day": 17,
+      "week": 3,
+      "mission": "Rozhodni předem, co uděláš, až poznáš, že sníš.",
+      "goal": "Přidat do záměru jednu jednoduchou akci ve snu.",
+      "science": {
+        "title": "Plánovaná akce ve snu",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Vyber jednu jednoduchou akci do snu. Třeba: podívám se na dlaně a řeknu „Tohle je sen.“",
+          "Spoj ji se záměrem: „Až budu příště snít, uvědomím si, že sním, a podívám se na dlaně.“",
+          "Při vizualizaci tu akci v duchu proveď, pomalu a jasně.",
+          "Večer v posteli celé zopakuj, dokud to nesedí."
+        ]
+      },
+      "yoga": {
+        "title": "Zklidňující dech před spaním",
+        "minutes": 3,
+        "techniqueId": "dreamYogaBreath",
+        "evidence": "tradition",
+        "steps": [
+          "Lehni si a pár minut dýchej pomalu nosem.",
+          "S každým výdechem pusť kus napětí dne: ramena, čelist, ruce.",
+          "Pak nech dech běžet samotný a jen ho pozoruj.",
+          "Jóga snu otevírá noc očistnými dechy. Tohle je jejich jednoduchá verze."
+        ]
+      },
+      "intention": {
+        "when": "Když ve snu poznám, že sním",
+        "then": "podívám se na své dlaně a řeknu: Tohle je sen."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Pokud byl sen lucidní, poznač si, jestli se povedla plánovaná akce. Je to tvůj důkaz, že nešlo jen o sen o luciditě.",
+      "why": "LaBerge a kol. (2018) přidali do záměru předem zvolenou akci. Dává snu úkol a ráno pomáhá poznat, jestli byl sen opravdu lucidní. Je to jako domluvený signál s posádkou, ještě než odletíš."
+    },
+    {
+      "id": "d18",
+      "day": 18,
+      "week": 3,
+      "mission": "Ať je záměr poslední myšlenkou před spánkem.",
+      "goal": "Usnout se záměrem v mysli, bez počítání a bez křečovité snahy.",
+      "science": {
+        "title": "Usnout se záměrem",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "V posteli zopakuj větu i vizualizaci s plánovanou akcí.",
+          "Když mysl odběhne, bez výčitek začni znovu.",
+          "Opakování nepočítej. Rozhoduje, jestli záměr sedí, ne kolikrát zazněl.",
+          "Klidně při tom usni. Ve studiích tak usnula většina lidí a nevadilo to."
+        ]
+      },
+      "yoga": {
+        "title": "Reakce jako vlny ve snu",
+        "minutes": 2,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Když tě dnes něco naštve nebo potěší, všimni si toho.",
+          "Pojmenuj pocit jedním slovem.",
+          "Řekni si: „I tahle reakce je jako ve snu. Přijde a odejde.“",
+          "Pak jednej, jak uznáš za vhodné. Nejde o potlačení, jen o odstup."
+        ]
+      },
+      "intention": {
+        "when": "Když se mi při záměru zatoulá mysl",
+        "then": "v klidu se vrátím k větě a k obrazu snu."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Poznač si, jestli sis při usínání pamatoval záměr. Ano i ne jsou užitečná data.",
+      "why": "Ve studii NALDIS měl být záměr posledním obsahem mysli před usnutím (Aspy a kol. 2017). Počet opakování s úspěchem nesouvisel (Aspy 2020). Záměr je jako cíl v navigaci: stačí ho zadat jednou a dobře."
+    },
+    {
+      "id": "d19",
+      "day": 19,
+      "week": 3,
+      "mission": "Využij ranní okno, které ti noc nabízí zadarmo.",
+      "goal": "Zkusit Záměr poznat sen při přirozeném ranním probuzení, bez budíku.",
+      "science": {
+        "title": "Záměr při ranním probuzení",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Když se brzy ráno probudíš sám a máš ještě čas spát, zůstaň ležet bez hnutí.",
+          "Přehraj si sen, ze kterého ses probudil, a zapiš pár klíčových slov.",
+          "Lehni si zpátky a dělej Záměr poznat sen, dokud záměr nesedí.",
+          "Pak techniku pusť a usni.",
+          "Když už je čas vstávat, jen zapiš sen a vstaň. Kvůli technice nepřispávej na úkor povinností."
+        ]
+      },
+      "yoga": {
+        "title": "Kroky jako ve snu",
+        "minutes": 3,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "Když dnes půjdeš pěšky, vnímej krok za krokem.",
+          "Řekni si: „Jdu krajinou, která je jako sen.“",
+          "Všimni si světla, zvuků a pohybu lidí kolem.",
+          "Na konci cesty se vrať do běžného režimu."
+        ]
+      },
+      "intention": {
+        "when": "Když se brzy ráno probudím a mám ještě čas",
+        "then": "zapíšu sen, lehnu si zpátky a s větou o snu znovu usnu."
+      },
+      "morningTask": "Zapiš sen před ranním probuzením a sen po něm zvlášť, každý s časem. Ohodnoť luciditu 0–10. Ranní sny bývají delší a živější, všimni si rozdílu.",
+      "why": "REM fáze se k ránu prodlužují, proto má lucidní sen největší šanci v druhé polovině noci (Erlacher a kol. 2022). Přirozené probuzení je okno bez budíku: nic nenarušíš a spánek neztratíš. Je to jako vystoupit na stanici, kde vlak stejně zastavuje."
+    },
+    {
+      "id": "d20",
+      "day": 20,
+      "week": 3,
+      "mission": "Přehraj si včerejší sen znovu, tentokrát lucidně.",
+      "goal": "Nacvičit ve dne návrat do snu a okamžik, kdy poznáš, že sníš.",
+      "science": {
+        "title": "Zkouška snu ve dne",
+        "minutes": 5,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Vyber sen z posledních nocí, nejlépe se Stopou snů.",
+          "Zavři oči a vrať se do něj.",
+          "Ve chvíli, kdy se Stopa objeví, si představ: „Moment, tohle je sen.“",
+          "Proveď plánovanou akci a nech sen chvíli klidně pokračovat.",
+          "Zopakuj to dvakrát až třikrát. Večer stačí jedna krátká verze."
+        ]
+      },
+      "yoga": {
+        "title": "Jídlo jako ve snu",
+        "minutes": 2,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "U jednoho jídla dnes zpomal.",
+          "Vnímej chuť, vůni a teplotu, jako bys je ochutnával ve snu.",
+          "Řekni si: „I tohle je jako sen.“ Pak normálně dojez."
+        ]
+      },
+      "intention": {
+        "when": "Když dnes večer zhasnu",
+        "then": "projdu si nacvičený sen ještě jednou a usnu s plánovanou akcí v mysli."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Poznač si, jestli se ve snu objevila nacvičená scéna nebo Stopa snů.",
+      "why": "Vizualizace návratu do snu je jádrem Záměru poznat sen (LaBerge 1980). Ve studiích lidé techniku jednou zkusili ve dne, než ji použili v noci (Aspy 2020). Je to jako trénink v simulátoru před prvním startem."
+    },
+    {
+      "id": "d21",
+      "day": 21,
+      "week": 3,
+      "mission": "Ohlédni se za týdnem a oslav, co jsi udělal.",
+      "goal": "Uvidět pokrok v procesu: sny, Stopy snů, pokusy. Bez sérií a bez hodnocení výsledků.",
+      "science": {
+        "title": "Týdenní ohlédnutí: Záměr poznat sen",
+        "minutes": 5,
+        "techniqueId": "dreamJournal",
+        "evidence": "promising",
+        "steps": [
+          "Spočítej sny, které sis tento týden zapsal.",
+          "Kolik Stop snů jsi našel? Každá nová se počítá.",
+          "Kolikrát jsi zkusil Záměr poznat sen? Pokus je úspěch sám o sobě.",
+          "Vyber znění věty, které ti sedí nejvíc, a nech si ho.",
+          "Vynechané dny nic nemažou. Pokračuješ tam, kde jsi.",
+          "Cítíš se přes den odpojeně nebo nereálně? Dej si pauzu a týden jen deník."
+        ]
+      },
+      "yoga": {
+        "title": "Radost z úsilí",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Projdi sny z celého týdne.",
+          "U každého zapsaného snu si v duchu řekni: dobře.",
+          "Bez kritiky obnov záměr na další týden."
+        ]
+      },
+      "intention": {
+        "when": "Když mi týden nepřinese lucidní sen",
+        "then": "připomenu si, že u většiny lidí jde o týdny, a pochválím se za každý zápis."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10 a vyplň Jak ses vyspal. Sleduj, jestli ti Záměr nebere spánek.",
+      "why": "V přehledu gamifikace byla nejdůležitějším prvkem zpětná vazba (Yu a kol. 2025) a vynechaný den tvorbu návyku nenarušuje (Lally a kol. 2010). Proto tu nejsou série, jen přehled. Záměrně navozované lucidní sny mohou u citlivých lidí zvyšovat pocity odpojení (Aviram & Soffer-Dudek 2018), takže pauza je součástí tréninku."
+    },
+    {
+      "id": "d22",
+      "day": 22,
+      "week": 4,
+      "mission": "Nauč se druhou techniku: Střídání smyslů.",
+      "goal": "Vyzkoušet Střídání smyslů (SSILD) ve dne, v klidu a bez očekávání.",
+      "science": {
+        "title": "Střídání smyslů (SSILD) nanečisto",
+        "minutes": 7,
+        "techniqueId": "ssild",
+        "evidence": "promising",
+        "steps": [
+          "Sedni si nebo lehni a zavři oči. Postoj je pasivní, nic nenuť.",
+          "Zrak: pozornost na tmu za víčky. Nesnaž se nic vidět.",
+          "Sluch: přesuň pozornost do uší. Vzdálené zvuky, vlastní tep.",
+          "Tělo: tíha, teplota, mravenčení. Jen pozoruj.",
+          "Nejdřív 4 rychlá kola, 2 až 3 sekundy na smysl. Pak 4 až 6 pomalých, asi 20 sekund na smysl.",
+          "Sekundy nepočítej. Odhad stačí, přesnost tu nehraje roli."
+        ]
+      },
+      "yoga": {
+        "title": "Smysly jako sen",
+        "minutes": 2,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "Dnes několikrát vnímej zvlášť, co vidíš, slyšíš a cítíš tělem.",
+          "U každého smyslu si řekni: „I tohle je jako sen.“",
+          "Večer si všimni, jestli se ti dnešní vjemy vybavují ostřeji."
+        ]
+      },
+      "intention": {
+        "when": "Když se ráno sám probudím a mám ještě čas",
+        "then": "udělám Záměr poznat sen jako minulý týden a znovu usnu."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Poznač, který smysl byl ve snu nejsilnější: obraz, zvuk, nebo tělo.",
+      "why": "Střídání smyslů vyšlo ve velké domácí studii stejně jako Záměr poznat sen: 16,9 % proti 16,5 % nocí s lucidním snem (Aspy 2020). Má zatím jen jednu velkou terénní studii, proto nese štítek slibné. Je to jako ladit rádio: neotáčíš silou, jen jemně posouváš."
+    },
+    {
+      "id": "d23",
+      "day": 23,
+      "week": 4,
+      "mission": "Zkus Střídání smyslů v ranním okně.",
+      "goal": "Použít Střídání smyslů při přirozeném ranním probuzení a pak normálně usnout.",
+      "science": {
+        "title": "Střídání smyslů v ranním okně",
+        "minutes": 7,
+        "techniqueId": "ssild",
+        "evidence": "promising",
+        "steps": [
+          "Když se ráno probudíš sám a máš čas, zůstaň ležet se zavřenýma očima.",
+          "Udělej 4 rychlá kola: zrak, sluch, tělo.",
+          "Pak 4 až 6 pomalých kol. Nic nečekej, jen pozoruj.",
+          "Potom techniku pusť a usni, jak jsi zvyklý.",
+          "Celé to má trvat 5 až 7 minut. Nepřidávej větu ze Záměru, tahle kombinace vyšla ve studii nejhůř."
+        ]
+      },
+      "yoga": {
+        "title": "Odstup od chtění a odporu",
+        "minutes": 2,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Když dnes ucítíš silnou chuť nebo odpor, zastav se na tři dechy.",
+          "Pojmenuj, co se děje: chci, nechci, bojím se.",
+          "Řekni si: „Je to jako ve snu.“ Pak se rozhodni, co uděláš."
+        ]
+      },
+      "intention": {
+        "when": "Když se ráno probudím a mám ještě čas",
+        "then": "projdu zrak, sluch a tělo, nejdřív rychle, pak pomalu, a nechám se usnout."
+      },
+      "morningTask": "Zapiš sen před ranním probuzením i po něm zvlášť, každý s časem. U obou lucidita 0–10. Poznač, jestli jsi usnul během kol, nebo až po nich.",
+      "why": "Delší sezení Střídání smyslů souviselo s úspěchem mírně negativně a hybrid se Záměrem vyšel ze všech skupin nejhůř (Aspy 2020). Krátce a lehce je tu lepší než dlouze a usilovně. Techniku pustíš jako lano, když loď vyplouvá."
+    },
+    {
+      "id": "d24",
+      "day": 24,
+      "week": 4,
+      "mission": "Připrav svou první noční výpravu.",
+      "goal": "Naplánovat první Probuzení a návrat do spánku (WBTB) a projít si celý postup ve dne. Dnes spíš bez budíku.",
+      "science": {
+        "title": "Celý postup nanečisto",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Ve Spánkových datech zjisti, kdy obvykle opravdu usínáš.",
+          "Spočítej čas budíku: usnutí plus 5 hodin. Upravit ho můžeš mezi 4,5 a 6 hodinami.",
+          "Vyber noc před volnem, kdy ráno nemusíš brzy vstávat.",
+          "Ve dne si jednou projdi celý postup: budík, zápis snu, krátké bdění, Záměr poznat sen.",
+          "Večer si postup přečti ještě jednou. Dnes spi normálně, budík nenastavuj."
+        ]
+      },
+      "yoga": {
+        "title": "Večerní záměr jógy snu",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Večer si projdi den jako sen.",
+          "Rozhodni se, že sen poznáš, kdykoli přijde.",
+          "Usni s tímto rozhodnutím, bez tlaku na výsledek."
+        ]
+      },
+      "intention": {
+        "when": "Když se mi zítřejší noc pro výpravu nehodí",
+        "then": "přesunu ji na jinou noc tohoto týdne a do té doby dělám jen Záměr při ranním probuzení."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Podívej se, v kolik ses ze snů probouzel. Časy ti napoví, kde máš ráno REM.",
+      "why": "Ve studiích lidé dostali návod předem, techniku jednou zkusili ve dne a každý večer si postup přečetli (Aspy a kol. 2017; Aspy 2020). Budík se počítá od skutečného usnutí, ne od večerky. Probuzení po 4,5 hodině vyšlo hůř než dřívější výsledky po 6 hodinách, jde ale jen o srovnání dvou studií (Erlacher a kol. 2022)."
+    },
+    {
+      "id": "d25",
+      "day": 25,
+      "week": 4,
+      "mission": "První noční výprava: probuď se v půli noci a vrať se se záměrem.",
+      "goal": "Vyzkoušet Probuzení a návrat do spánku (WBTB) se Záměrem poznat sen, jen pokud jsou splněné podmínky.",
+      "science": {
+        "title": "Probuzení a návrat do spánku (WBTB) se Záměrem",
+        "minutes": 30,
+        "techniqueId": "wbtb",
+        "evidence": "strong",
+        "steps": [
+          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Nastav jediný budík na 5 hodin po usnutí. Dej ho tak, abys k němu musel vstát.",
+          "Po budíku nejdřív zapiš sen, i když je to jen útržek.",
+          "Zůstaň vzhůru 10 až 30 minut. Posaď se, rozsviť tlumeně a přečti si postup.",
+          "Vrať se do postele a dělej Záměr poznat sen, dokud záměr nesedí.",
+          "Cílem je usnout do 10 minut. Když to nejde, techniku pusť a jen odpočívej."
+        ]
+      },
+      "yoga": {
+        "title": "Den jako sen a pevné rozhodnutí",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Před spaním si projdi den jako sen.",
+          "Rozhodni se: „Dnes v noci sen poznám.“",
+          "Pak už na nic nemysli a usni."
+        ]
+      },
+      "intention": {
+        "when": "Když po technice nemůžu usnout",
+        "then": "pustím ji, budu klidně dýchat a nechám spánek přijít. Spánek má přednost."
+      },
+      "morningTask": "Zapiš sen před budíkem i sny po návratu zvlášť, každý s časem. U každého lucidita 0–10. V Jak ses vyspal buď upřímný, je to důležitější než lucidita.",
+      "why": "Samotné probuzení bez lucidního záměru vyšlo na úrovni náhody (Klofat a kol. 2024). S krátkou technikou je to nejlépe podložený domácí postup: ve velké studii vyšel na zhruba 16,5 % nocí s lucidním snem a rozhodovalo usnutí do 10 minut (Aspy 2020). Je to krátké mezipřistání: dotkneš se země a hned letíš dál."
+    },
+    {
+      "id": "d26",
+      "day": 26,
+      "week": 4,
+      "mission": "Vyhodnoť noční výpravu a dopřej si celou noc.",
+      "goal": "Zjistit, jak ti noční probuzení sedlo, a doladit ho. Dnes spíš bez budíku.",
+      "science": {
+        "title": "Ladění po první výpravě",
+        "minutes": 5,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Podívej se na Jak ses vyspal a na Spánková data z minulé noci.",
+          "Usnul jsi po technice do 10 minut? Odhad stačí.",
+          "Usínal jsi tak rychle, že se záměr ztratil? Příště rozsviť na pár minut a přečti si postup znovu.",
+          "Usínal jsi těžko? Příště nech zhasnuto, budík dej k posteli a zvol tišší tón.",
+          "Dnes spi bez budíku. Záměr jen při přirozeném ranním probuzení."
+        ]
+      },
+      "yoga": {
+        "title": "Pusť očekávání",
+        "minutes": 2,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Pokud se lucidní sen nekonal, všimni si zklamání.",
+          "Pojmenuj ho a nech ho odplout jako mrak ve snu.",
+          "Řekni si: „Pokus se počítá.“"
+        ]
+      },
+      "intention": {
+        "when": "Když se dnes ráno probudím sám",
+        "then": "zapíšu sen a udělám krátký Záměr poznat sen, bez budíku a bez tlaku."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Porovnej v deníku, kolik snů sis pamatoval po noci s budíkem a kolik dnes.",
+      "why": "Úpravy podle bdělosti pocházejí přímo z návodu velké domácí studie (Aspy 2020). Hlavním rizikem lucidního snění není sen, ale narušený spánek (Vallat & Ruby 2019). Proto po noci s budíkem přichází noc bez něj."
+    },
+    {
+      "id": "d27",
+      "day": 27,
+      "week": 4,
+      "mission": "Nauč se poznat falešné probuzení.",
+      "goal": "Spojit Střídání smyslů v ranním okně s krátkou kontrolou po každém probuzení.",
+      "science": {
+        "title": "Smysly a kontrola po probuzení",
+        "minutes": 7,
+        "techniqueId": "ssild",
+        "evidence": "promising",
+        "steps": [
+          "Při každém probuzení se nejdřív zeptej: „Jsem opravdu vzhůru?“",
+          "Udělej jeden test: zavři rty a zkus se nadechnout ústy.",
+          "Když vzduch neprojde, jsi vzhůru. Když projde, sníš. Zůstaň klidný.",
+          "Pak, máš-li čas, udělej 4 rychlá a 4 až 6 pomalých kol smyslů.",
+          "Techniku pusť a usni."
+        ]
+      },
+      "yoga": {
+        "title": "Dech pod dlaní",
+        "minutes": 3,
+        "techniqueId": "dreamYogaBreath",
+        "evidence": "tradition",
+        "steps": [
+          "Lehni si na záda a polož si ruku na břicho.",
+          "Nadechni se nosem a pomalu vydechni. Vnímej, jak se ruka zvedá a klesá.",
+          "Po pár minutách nech dech běžet sám a usínej."
+        ]
+      },
+      "intention": {
+        "when": "Když se ráno probudím v posteli",
+        "then": "nejdřív udělám test s dechem, abych věděl, jestli nesním."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Pokud ses ve snu probudil a pak ses probudil znovu, označ to v poznámce jako falešné probuzení.",
+      "why": "Falešná probuzení bývají bránou k luciditě: v jedné laboratorní studii se 17 ze 121 snů stalo lucidními právě po falešném probuzení (Peters a kol. 2026, preprint). Test s dechem přes zavřené rty používala velká domácí studie (Aspy 2020). Je to jako ověřit, že jsi opravdu přistál, než otevřeš poklop."
+    },
+    {
+      "id": "d28",
+      "day": 28,
+      "week": 4,
+      "mission": "Ohlédni se za týdnem smyslů a první výpravy.",
+      "goal": "Ocenit pokusy a zkontrolovat, jak se noční probuzení snáší se spánkem. Bez sérií.",
+      "science": {
+        "title": "Týdenní ohlédnutí: smysly a noc",
+        "minutes": 5,
+        "techniqueId": "dreamJournal",
+        "evidence": "promising",
+        "steps": [
+          "Spočítej zapsané sny a nové Stopy snů.",
+          "Které techniky jsi zkusil? Záměr, Střídání smyslů, noční probuzení. Každá se počítá.",
+          "Která ti byla příjemnější? To je první řádek tvého receptu.",
+          "Jak ses vyspal po noci s budíkem? Pokud špatně, příští týden stačí jedna výprava.",
+          "Cítíš se přes den odpojeně? Dej si pauzu od technik a nech jen deník."
+        ]
+      },
+      "yoga": {
+        "title": "Radost z úsilí",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Projdi sny týdne a u každého si řekni: dobře.",
+          "Vzpomeň si na chvíli, kdy jsi byl při technice opravdu přítomný.",
+          "Obnov záměr na další týden, bez kritiky."
+        ]
+      },
+      "intention": {
+        "when": "Když mi některá technika nejde",
+        "then": "přepnu na tu druhou nebo si dám den jen s deníkem."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Vyplň Jak ses vyspal a porovnej ho s nocí s budíkem.",
+      "why": "Obě techniky vyšly ve studii srovnatelně, takže rozhoduje, co sedí tobě (Aspy 2020). Nepříjemné zážitky se pojí hlavně s neúspěšnými pokusy, ne s luciditou samotnou (Mallett a kol. 2022). Méně pokusů po dobré noci je víc než hodně pokusů v únavě."
+    },
+    {
+      "id": "d29",
+      "day": 29,
+      "week": 5,
+      "mission": "Prober se ve dne, aby ses mohl probrat i ve snu.",
+      "goal": "Zkusit Vědomí po celý den (ADA) se třemi poctivými kontrolami.",
+      "science": {
+        "title": "Vědomí po celý den (ADA)",
+        "minutes": 5,
+        "techniqueId": "ada",
+        "evidence": "community",
+        "steps": [
+          "Vyber si tři kotvy dne, třeba průchod dveřmi, odemčení telefonu a pití vody.",
+          "U každé kotvy se na pár dechů zastav a zeptej se: „Kde jsem? Jak jsem se sem dostal? Sním?“",
+          "Rozhlédni se po něčem divném. Pak udělej jeden test: zavři rty a zkus se nadechnout ústy.",
+          "Mezi kotvami jen lehce vnímej, kde jsi a co děláš.",
+          "Nejde o počet. Tři poctivé kontroly mají větší cenu než deset rychlých.",
+          "Pokud ti testy připadají jako zátěž, vynech je. Záměr funguje i bez nich."
+        ]
+      },
+      "yoga": {
+        "title": "Kotva jako sen",
+        "minutes": 2,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "Při každé kotvě si řekni: „Tohle je jako sen.“",
+          "Říkej jako sen, ne nic není skutečné. Jde o pohled, ne o popření světa.",
+          "Když se cítíš nepříjemně odpojeně, dotkni se pevného předmětu a pojmenuj pět věcí kolem sebe."
+        ]
+      },
+      "intention": {
+        "when": "Když projdu dveřmi",
+        "then": "zastavím se na jeden dech a zeptám se: Sním?"
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Objevila se ve snu některá z tvých kotev? Označ ji jako Stopu snů.",
+      "why": "Vědomí po celý den je komunitní praxe bez vlastní studie. Samotné testy reality ve studiích nepomohly a jejich počet za den s luciditou nesouvisel (Aspy 2020; Schredl 2025). Ber je jako trénink pozornosti, ne jako čárky v tabulce."
+    },
+    {
+      "id": "d30",
+      "day": 30,
+      "week": 5,
+      "mission": "Druhá výprava: vrať se do spánku přes smysly.",
+      "goal": "Vyzkoušet Probuzení a návrat do spánku (WBTB) se Střídáním smyslů, jen pokud jsou splněné podmínky.",
+      "science": {
+        "title": "Probuzení a návrat do spánku (WBTB) se Střídáním smyslů",
+        "minutes": 25,
+        "techniqueId": "wbtb",
+        "evidence": "promising",
+        "steps": [
+          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Jediný budík na 5 hodin po usnutí. Uprav ho podle první výpravy, v rozsahu 4,5 až 6 hodin.",
+          "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
+          "V posteli 4 rychlá kola smyslů, pak 4 až 6 pomalých. Sekundy nepočítej.",
+          "Potom techniku pusť a usni normálně. Cílem je usnout do 10 minut."
+        ]
+      },
+      "yoga": {
+        "title": "Tři chvíle dne jako sen",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Před spaním si vybav tři nejživější chvíle dne.",
+          "U každé si řekni: „Bylo to jako sen.“",
+          "Rozhodni se, že sen v noci poznáš, a pusť myšlenky."
+        ]
+      },
+      "intention": {
+        "when": "Když se při kolech smyslů přistihnu, že přemýšlím",
+        "then": "bez výčitek přejdu k dalšímu smyslu."
+      },
+      "morningTask": "Zapiš sen před budíkem a sny po návratu zvlášť, s časem a luciditou 0–10. Porovnej s nocí se Záměrem: po které technice se ti usínalo snáz?",
+      "why": "Přesně tenhle postup testovala velká domácí studie: probuzení po 5 hodinách, Střídání smyslů a rychlé usnutí. Vyšel na 16,9 % nocí s lucidním snem (Aspy 2020). Jde o jednu velkou studii, proto štítek slibné."
+    },
+    {
+      "id": "d31",
+      "day": 31,
+      "week": 5,
+      "mission": "Pozvi si do snu konkrétní místo.",
+      "goal": "Vyzkoušet Inkubaci snu: zvolit téma a usnout s ním.",
+      "science": {
+        "title": "Inkubace snu",
+        "minutes": 5,
+        "techniqueId": "incubation",
+        "evidence": "promising",
+        "steps": [
+          "Vyber jedno příjemné téma: místo, otázku nebo činnost. Nic děsivého.",
+          "Napiš ho jednou větou do deníku.",
+          "Večer si ho 2 až 3 minuty živě představ: co vidíš, slyšíš a cítíš.",
+          "Přidej záměr: „Až tam budu, poznám, že sním.“",
+          "Usni s obrazem v mysli. Když se rozplyne, nevadí."
+        ]
+      },
+      "yoga": {
+        "title": "Pozvi, ale nelpi",
+        "minutes": 2,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Téma do snu pozvi, ale nelpi na něm.",
+          "Když přijde něco jiného, přijmi to jako hosta.",
+          "Ráno se raduj z jakéhokoli snu, který si pamatuješ."
+        ]
+      },
+      "intention": {
+        "when": "Když večer zavřu oči",
+        "then": "vybavím si své místo a řeknu: Až tam budu, poznám, že sním."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. U každého snu poznač, jestli se v něm objevilo téma: celé, náznakem, nebo vůbec.",
+      "why": "Inkubace má slibná data: zhruba polovina studentů snila o tématu, které si zadala (Barrett 1993), a cílené podněty při usínání dostaly téma do snů častěji (Horowitz a kol. 2020). Inkubace cílí na obsah snu, ne na luciditu. Spojení se záměrem je tvůj vlastní experiment."
+    },
+    {
+      "id": "d32",
+      "day": 32,
+      "week": 5,
+      "mission": "Udělej ze silných emocí spoušť vědomí.",
+      "goal": "Při silném pocitu si všimnout, v jakém jsi stavu, a zeptat se, jestli sníš.",
+      "science": {
+        "title": "Vědomí po celý den: emoce",
+        "minutes": 5,
+        "techniqueId": "ada",
+        "evidence": "community",
+        "steps": [
+          "Když dnes přijde silný pocit, radost, vztek nebo strach, zastav se.",
+          "Zeptej se: „Dává tahle situace smysl? Vím, jak jsem se sem dostal?“",
+          "Udělej jeden test: zkus protlačit prst dlaní druhé ruky a prohlédni si ruce.",
+          "Pojmenuj pocit jedním slovem a pokračuj.",
+          "Večer zapiš, který pocit byl dnes nejčastější. Může to být tvá Stopa snů."
+        ]
+      },
+      "yoga": {
+        "title": "Zůstat s pocitem",
+        "minutes": 2,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Před jedním nepříjemným pocitem dnes hned neutíkej.",
+          "Vnímej ho pár dechů v těle: kde sedí, jak je velký.",
+          "Řekni si: „I tohle je jako ve snu.“ Pak se rozhodni, co uděláš."
+        ]
+      },
+      "intention": {
+        "when": "Když ucítím silnou emoci",
+        "then": "zastavím se a zeptám se: Sním?"
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. U každého snu poznač nejsilnější emoci.",
+      "why": "LaBerge řadí pocity mezi znaky snů ve skupině vnitřního prožívání (LaBerge & Rheingold 1990). Test s prstem a dlaní používala velká domácí studie (Aspy 2020). Vědomí po celý den je komunitní praxe, takže jistě nevíme, jak moc pomáhá. Sleduj to na sobě."
+    },
+    {
+      "id": "d33",
+      "day": 33,
+      "week": 5,
+      "mission": "Třetí výprava: vrať se do své inkubované scény.",
+      "goal": "Spojit Probuzení a návrat do spánku (WBTB) se Záměrem poznat sen a s vlastním tématem, jen pokud jsou splněné podmínky.",
+      "science": {
+        "title": "Probuzení a návrat do spánku (WBTB) se Záměrem a tématem",
+        "minutes": 30,
+        "techniqueId": "wbtb",
+        "evidence": "strong",
+        "steps": [
+          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Jediný budík na 5 hodin po usnutí, v rozsahu 4,5 až 6 hodin.",
+          "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
+          "V posteli si vybav sen, ze kterého ses probudil, nebo svou inkubovanou scénu.",
+          "Dělej Záměr poznat sen: představ si, že jsi tam a poznáváš, že sníš.",
+          "Cílem je usnout do 10 minut. Když to nejde, pusť to a odpočívej."
+        ]
+      },
+      "yoga": {
+        "title": "Dech před výpravou",
+        "minutes": 3,
+        "techniqueId": "dreamYogaBreath",
+        "evidence": "tradition",
+        "steps": [
+          "Před spaním se pohodlně uvelebi a dýchej pomalu nosem.",
+          "S každým výdechem pusť jednu starost dne.",
+          "Pak nech dech být a usínej."
+        ]
+      },
+      "intention": {
+        "when": "Když se ocitnu na svém místě ze snu",
+        "then": "poznám, že sním, a podívám se na dlaně."
+      },
+      "morningTask": "Zapiš sen před budíkem a sny po návratu zvlášť, s časem a luciditou 0–10. Poznač, jestli se objevilo inkubované téma.",
+      "why": "Záměr poznat sen po probuzení je nejlépe podložená domácí kombinace (Aspy 2020). Původní postup vizualizuje návrat do snu, ze kterého ses probudil (LaBerge 1980). Inkubovaná scéna místo něj je tvoje varianta, tak si poctivě zapiš, jak dopadla."
+    },
+    {
+      "id": "d34",
+      "day": 34,
+      "week": 5,
+      "mission": "Přepiš sen tak, aby v něm bylo místo pro luciditu.",
+      "goal": "Nacvičit ve dne nový průběh snu s okamžikem, kdy poznáš, že sníš.",
+      "science": {
+        "title": "Nácvik snu",
+        "minutes": 5,
+        "techniqueId": "incubation",
+        "evidence": "promising",
+        "steps": [
+          "Vyber sen z deníku, který se opakuje nebo tě zajímá.",
+          "Představ si ho znovu a v klíčovém místě poznej, že sníš.",
+          "Dej mu nový směr, jaký chceš.",
+          "Přehrávej si novou verzi 3 až 5 minut ve dne a krátce večer.",
+          "Těžké noční můry na sebe sám nenakládej. Na ně je Přepis noční můry (IRT) a u traumatu odborník."
+        ]
+      },
+      "yoga": {
+        "title": "Setkání jako ve snu",
+        "minutes": 2,
+        "techniqueId": "dreamYogaDay",
+        "evidence": "tradition",
+        "steps": [
+          "Při jednom rozhovoru dnes vnímej hlas a tvář druhého.",
+          "Řekni si v duchu: „Setkání jako ve snu.“",
+          "Zůstaň plně v rozhovoru. Jde o lehký odstup, ne o odpojení."
+        ]
+      },
+      "intention": {
+        "when": "Když se mi bude zdát tenhle sen znovu",
+        "then": "v klíčovém místě poznám, že sním."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Hledej, jestli se nacvičená scéna objevila, třeba jen kouskem.",
+      "why": "Schredl, Dyck & Kühnel (2020) spojili buzení jednou týdně s nácvikem prvků snu a lucidních nocí bylo víc: 18 % proti 6 %. Nácvik nové verze snu ulevuje i od nočních můr, a to i bez lucidity (Spoormaker & van den Bout 2006)."
+    },
+    {
+      "id": "d35",
+      "day": 35,
+      "week": 5,
+      "mission": "Ohlédni se za týdnem vědomí a inkubace.",
+      "goal": "Ocenit chvíle vědomí ve dne a sledovat, co z nich proniklo do snů. Bez sérií.",
+      "science": {
+        "title": "Týdenní ohlédnutí: den a noc",
+        "minutes": 5,
+        "techniqueId": "dreamJournal",
+        "evidence": "promising",
+        "steps": [
+          "Spočítej sny, Stopy snů a noci, kdy jsi zkusil techniku.",
+          "Objevilo se inkubované téma? I náznak se počítá.",
+          "Kolik kotev dne jsi opravdu prožil vědomě? Kvalita je víc než počet.",
+          "Jak ses vyspal po nocích s výpravou? Pokud hůř, příští týden stačí jedna.",
+          "Cítíš se přes den odpojeně nebo jako za sklem? Dej si pauzu od technik, zkus uzemnění a nech jen deník."
+        ]
+      },
+      "yoga": {
+        "title": "Radost z úsilí",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Projdi sny týdne a najdi jeden, který tě potěšil.",
+          "Raduj se z něj, i když nebyl lucidní.",
+          "Obnov záměr na poslední týden programu."
+        ]
+      },
+      "intention": {
+        "when": "Když si všimnu, že mě testy nebo techniky unavují",
+        "then": "uberu a nechám jen to, co mě baví."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10 a vyplň Jak ses vyspal.",
+      "why": "U studentů záměrně navozované lucidní sny předpovídaly nárůst pocitů odpojení, u spontánních ne (Aviram & Soffer-Dudek 2018). Proto kontrola každý týden. Vynechaný den návyk nezboří (Lally a kol. 2010), takže pauza nic nestojí."
+    },
+    {
+      "id": "d36",
+      "day": 36,
+      "week": 6,
+      "mission": "Nauč se udržet lucidní sen, když přijde.",
+      "goal": "Mít připravený postup na první vteřiny lucidity a poprvé zkusit jógu snu před usnutím.",
+      "science": {
+        "title": "Stabilizace snu",
+        "minutes": 5,
+        "techniqueId": "stabilization",
+        "evidence": "community",
+        "steps": [
+          "Když poznáš, že sníš, zůstaň v klidu. Velké nadšení tě často probudí.",
+          "Tři dlaně o sebe a soustřeď se na teplo a tření.",
+          "Řekni nahlas: „Tohle je lucidní sen.“",
+          "Rozhlédni se a pozoruj detaily. Létání a pády nech na později.",
+          "Když se sen rozpadá, vrať se k dlaním a ke klidnému pohledu.",
+          "Ve dne si postup dvakrát projdi v představě."
+        ]
+      },
+      "yoga": {
+        "title": "Rudý lotos v hrdle",
+        "minutes": 5,
+        "techniqueId": "dreamYogaSleep",
+        "evidence": "tradition",
+        "steps": [
+          "Lehni si na pravý bok, pokud je ti to pohodlné.",
+          "Uvolni tělo, hlavně krk a hrdlo.",
+          "Představ si v hrdle malý, sytě rudý zářící lotos.",
+          "Drž obraz lehce, jako plamínek svíčky ve tmě.",
+          "Až se obraz rozplyne, nech ho jít a usni."
+        ]
+      },
+      "intention": {
+        "when": "Když ve snu poznám, že sním",
+        "then": "zůstanu v klidu, budu třít dlaně a řeknu: Tohle je lucidní sen."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Pokud byl některý lucidní, poznač, jak dlouho lucidita přibližně vydržela a čím skončila.",
+      "why": "Tření dlaní a věta Tohle je lucidní sen byly v návodu studie NALDIS, srovnávací data ale chybí (Aspy a kol. 2017). Klidné pozorování místo prudkých akcí doporučuje i laboratorní protokol (Picard-Deland a kol. 2026, preprint). Rudý lotos a pravý bok pocházejí z bönské jógy snu (Wangyal 1998), Namkhai Norbu místo lotosu používá bílou slabiku A (Norbu 1992). Vědecky testované to není."
+    },
+    {
+      "id": "d37",
+      "day": 37,
+      "week": 6,
+      "mission": "Čtvrtá výprava: se záměrem i s plánem, jak sen udržet.",
+      "goal": "Spojit Probuzení a návrat do spánku (WBTB), Záměr poznat sen a stabilizaci jako plánovanou akci, jen pokud jsou splněné podmínky.",
+      "science": {
+        "title": "Probuzení a návrat do spánku (WBTB) se Záměrem a stabilizací",
+        "minutes": 30,
+        "techniqueId": "wbtb",
+        "evidence": "strong",
+        "steps": [
+          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Jediný budík na čas, který ti zatím sedí nejlépe, mezi 4,5 a 6 hodinami po usnutí.",
+          "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
+          "V posteli dělej Záměr poznat sen. Jako plánovanou akci si představ tření dlaní a větu Tohle je lucidní sen.",
+          "Cílem je usnout do 10 minut. Když to nejde, pusť to a odpočívej."
+        ]
+      },
+      "yoga": {
+        "title": "Chvíle dne, kdy poznáváš sen",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Před spaním si projdi den jako sen.",
+          "Vyber jednu chvíli dne a představ si, že v ní poznáváš, že sníš.",
+          "Pevně se rozhodni, že to v noci zopakuješ, a usni."
+        ]
+      },
+      "intention": {
+        "when": "Když se ve snu začne obraz rozpadat",
+        "then": "zpomalím, budu třít dlaně a podívám se na jeden detail."
+      },
+      "morningTask": "Zapiš sen před budíkem a sny po návratu zvlášť, s časem a luciditou 0–10. Pokud byl některý lucidní, poznač, jestli se povedla stabilizace.",
+      "why": "Záměr poznat sen po probuzení je nejlépe podložená domácí kombinace (Aspy 2020; LaBerge a kol. 2018). Lucidní sny bývají krátké, u téměř poloviny lidí pod minutu (Mota-Rolim a kol. 2013). Plán, jak sen udržet, proto patří přímo do záměru."
+    },
+    {
+      "id": "d38",
+      "day": 38,
+      "week": 6,
+      "mission": "Vyber si misi pro svůj příští lucidní sen.",
+      "goal": "Mít jednu klidnou misi, kterou zkusíš ve snu po stabilizaci.",
+      "science": {
+        "title": "Mise ve snu",
+        "minutes": 5,
+        "techniqueId": "lucidMission",
+        "evidence": "community",
+        "steps": [
+          "Vyber jednu misi. Třeba: zeptej se postavy snu, co ti chce ukázat.",
+          "Nebo si zblízka prohlédni detail: kámen, list, vlastní dlaň.",
+          "Nebo v klidu zopakuj pohyb, který trénuješ ve dne.",
+          "Misi zařaď až po stabilizaci. Nejdřív klid, pak úkol.",
+          "Přidej ji do záměru a ráno zapiš, jestli se povedla."
+        ]
+      },
+      "yoga": {
+        "title": "Čelit strachu ve snu",
+        "minutes": 3,
+        "techniqueId": "dreamYogaRelease",
+        "evidence": "tradition",
+        "steps": [
+          "Když se ve snu objeví něco děsivého, neutíkej.",
+          "Otoč se k tomu a zeptej se: „Kdo jsi?“ nebo „Co potřebuješ?“",
+          "Připomeň si: tohle je sen a nemůže ti ublížit.",
+          "Ve dne si to jednou projdi v představě s malým, snesitelným strachem."
+        ]
+      },
+      "intention": {
+        "when": "Když se ve snu začnu bát",
+        "then": "otočím se k tomu, co mě straší, a zeptám se, co potřebuje."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Pokud byl sen lucidní, poznač, jestli se povedla mise a jak ses v něm cítil.",
+      "why": "Kontrola nad snem je vzácnější než lucidita sama (Mota-Rolim a kol. 2013), proto klidné mise místo velkých plánů. Pohybový nácvik v lucidním snu zlepšil výkon v jednoduché úloze s prsty (Stumbrys a kol. 2016). Čelení strachu je jedna z praxí jógy snu (Wangyal 1998; Holecek 2016)."
+    },
+    {
+      "id": "d39",
+      "day": 39,
+      "week": 6,
+      "mission": "Napiš si vlastní větu záměru.",
+      "goal": "Vytvořit osobní znění Záměru poznat sen se svou Stopou snů a misí.",
+      "science": {
+        "title": "Tvůj vlastní záměr",
+        "minutes": 10,
+        "techniqueId": "mild",
+        "evidence": "strong",
+        "steps": [
+          "Vezmi základ: „Až budu příště snít, uvědomím si, že sním.“",
+          "Přidej svou nejčastější Stopu snů: „Až uvidím…, poznám, že sním.“",
+          "Přidej plánovanou akci nebo misi.",
+          "Řekni si větu nahlas a uprav ji, dokud nezní jako ty. Krátká je lepší než dlouhá.",
+          "Používej ji při ranním probuzení i při výpravách se Záměrem."
+        ]
+      },
+      "yoga": {
+        "title": "Lotos jako noční světlo",
+        "minutes": 5,
+        "techniqueId": "dreamYogaSleep",
+        "evidence": "tradition",
+        "steps": [
+          "Lehni si na pravý bok, pokud je ti to pohodlné, a uvolni hrdlo.",
+          "Představ si v hrdle rudý lotos, jasný a klidný.",
+          "Spoj ho s rozhodnutím: sen, který přijde, poznám.",
+          "Nech obraz pomalu slábnout a usínej s ním jako s nočním světlem."
+        ]
+      },
+      "intention": {
+        "when": "Když se ráno sám probudím a mám čas",
+        "then": "řeknu svou vlastní větu záměru a usnu s ní."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Poznač, jestli se ti tvoje věta vybavila při usínání nebo ve snu.",
+      "why": "Plány když–pak fungují nejlépe, když je lidé chtějí, mají je konkrétní a opakují si je (Sheeran, Listrom & Gollwitzer 2024). Proto se vyplatí věta, která zní jako ty. Převzatý záměr je půjčený skafandr, vlastní ti sedí."
+    },
+    {
+      "id": "d40",
+      "day": 40,
+      "week": 6,
+      "mission": "Pátá výprava: vrať se do spánku přes smysly.",
+      "goal": "Zopakovat Probuzení a návrat do spánku (WBTB) se Střídáním smyslů, ať máš srovnání se Záměrem. Jen pokud jsou splněné podmínky.",
+      "science": {
+        "title": "Probuzení a návrat do spánku (WBTB) se Střídáním smyslů",
+        "minutes": 25,
+        "techniqueId": "wbtb",
+        "evidence": "promising",
+        "steps": [
+          "Nejdřív podmínky: včera ses dobře vyspal, zítra nemáš brzkou povinnost a cítíš se odpočatý. Pokud ses nevyspal, dnes jen Záměr při ranním probuzení.",
+          "Jediný budík na tvůj osvědčený čas, mezi 4,5 a 6 hodinami po usnutí.",
+          "Po budíku zapiš sen a zůstaň vzhůru 10 až 30 minut.",
+          "V posteli 4 rychlá kola smyslů, pak 4 až 6 pomalých. Tentokrát bez věty záměru.",
+          "Techniku pusť a usni. Cílem je usnout do 10 minut."
+        ]
+      },
+      "yoga": {
+        "title": "Zklidňující dech",
+        "minutes": 3,
+        "techniqueId": "dreamYogaBreath",
+        "evidence": "tradition",
+        "steps": [
+          "Na posteli udělej pár pomalých nádechů nosem.",
+          "S každým výdechem pusť kus dne.",
+          "Pak nech dech být a připrav se na noc."
+        ]
+      },
+      "intention": {
+        "when": "Když se ve snu probudím do své ložnice",
+        "then": "udělám test s dechem, než uvěřím, že jsem vzhůru."
+      },
+      "morningTask": "Zapiš sen před budíkem a sny po návratu zvlášť, s časem a luciditou 0–10. Poznač, jestli jsi usnul do 10 minut.",
+      "why": "Ve stejné studii vyšly obě techniky po probuzení srovnatelně (Aspy 2020). Až budeš mít noci s oběma, uvidíš, která sedí tobě. Je to tvůj malý experiment N-of-1: jeden člověk, víc pokusů."
+    },
+    {
+      "id": "d41",
+      "day": 41,
+      "week": 6,
+      "mission": "Proměň zápisky v data o sobě.",
+      "goal": "Sečíst pokusy a výsledky podle techniky a podívat se na ně poctivě.",
+      "science": {
+        "title": "Experiment N-of-1: co víš o sobě",
+        "minutes": 10,
+        "techniqueId": "dreamJournal",
+        "evidence": "promising",
+        "steps": [
+          "Spočítej noci se Záměrem a noci se Střídáním smyslů, zvlášť s budíkem a bez.",
+          "U každé techniky spočítej noci, kdy jsi ve snu poznal, že sníš.",
+          "Úspěšnost na pokus je počet lucidních nocí dělený počtem nocí s technikou.",
+          "Při pár nocích jsou čísla jen orientační. Jedna noc navíc může pořadí otočit.",
+          "Porovnej Jak ses vyspal po nocích s budíkem a bez něj.",
+          "Poznač si, po kterých nocích jsi usnul do 10 minut."
+        ]
+      },
+      "yoga": {
+        "title": "Lotos a chvíle usnutí",
+        "minutes": 5,
+        "techniqueId": "dreamYogaSleep",
+        "evidence": "tradition",
+        "steps": [
+          "Lehni si na pravý bok, pokud je ti to pohodlné, a uvolni hrdlo.",
+          "Vybav si rudý lotos v hrdle.",
+          "Všimni si chvíle, kdy obraz začne přecházet v usínání.",
+          "Nic nedrž. Jen se nech nést do spánku."
+        ]
+      },
+      "intention": {
+        "when": "Když mě zklame malé číslo",
+        "then": "připomenu si, že i ve studiích vycházela zhruba jedna lucidní noc z pěti až šesti pokusů, a to u motivovaných lidí."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Porovnej časy svých snů s odhadem výskytu REM ve Spánkových datech.",
+      "why": "Nejlepší domácí studie vycházejí zhruba na jednu lucidní noc z pěti až šesti pokusů (Aspy a kol. 2017; Aspy 2020). Když porovnáváš sám sebe, neruší tě rozdíly mezi lidmi. Málo dat ale znamená velkou nejistotu, proto čísla čti jako stopu, ne jako rozsudek."
+    },
+    {
+      "id": "d42",
+      "day": 42,
+      "week": 6,
+      "mission": "Sestav si vlastní recept a oslav šest týdnů práce.",
+      "goal": "Ohlédnout se za týdnem i celým programem a vybrat postup, který ti sedí. Bez sérií, jen s radostí z procesu.",
+      "science": {
+        "title": "Týdenní ohlédnutí a tvůj recept",
+        "minutes": 10,
+        "techniqueId": "dreamJournal",
+        "evidence": "promising",
+        "steps": [
+          "Spočítej sny, Stopy snů a vyzkoušené techniky za týden i za šest týdnů. Každý zápis a pokus tě sem přivedl.",
+          "Recept, část 1: technika, která ti sedí víc. Záměr poznat sen, nebo Střídání smyslů.",
+          "Recept, část 2: budík 4,5 až 6 hodin po usnutí, bdění 10 až 30 minut, nejvýš 2 noci týdně, nikdy dvě po sobě.",
+          "Recept, část 3: denní a noční praxe, která tě baví. Vědomí po celý den, Jako sen, nebo lotos večer.",
+          "Recept, část 4: podmínky. Výprava jen po dobré noci, před volnem a když se cítíš odpočatý.",
+          "Cítíš se unaveně nebo odpojeně? Pak recept zní: týden jen deník a spánek."
+        ]
+      },
+      "yoga": {
+        "title": "Radost z úsilí a obnovený záměr",
+        "minutes": 3,
+        "techniqueId": "dreamYogaIntention",
+        "evidence": "tradition",
+        "steps": [
+          "Projdi své oblíbené sny z celého programu.",
+          "Raduj se z nich bez hodnocení.",
+          "Obnov záměr na další týdny vlastními slovy."
+        ]
+      },
+      "intention": {
+        "when": "Když se příští týden nevyspím",
+        "then": "vynechám výpravy a nechám jen deník a Záměr při ranním probuzení."
+      },
+      "morningTask": "Zapiš sny s časem a luciditou 0–10. Do poznámky napiš svůj recept, ať ho máš hned u snů.",
+      "why": "Nejlepší domácí výsledky stojí na spánku, záměru, krátké technice a rychlém usnutí (Aspy 2020). Doplňky ani léky do receptu nepatří. Návyk se tvoří týdny až měsíce a vynechaný den ho nezboří (Lally a kol. 2010)."
+    }
+  ]
+}
