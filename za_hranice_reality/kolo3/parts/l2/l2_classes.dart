@@ -716,7 +716,7 @@ class _PredictionLoop extends _Art {
     final tx = s.width - 20;
     final ex = (bl + bw + tx) / 2 + 12;
     final shift = live ? t * 6 : 0.0;
-    final hot = stroke(skin.accent, 1.2);
+    final hot = stroke(skin.accent);
     final back = stroke(skin.text, 1);
     c.drawLine(const Offset(1, 88), Offset(s.width - 1, 88), stroke(skin.line));
 
