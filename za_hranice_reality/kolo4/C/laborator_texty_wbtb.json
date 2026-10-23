@@ -1,0 +1,17 @@
+{
+  "texts": {
+    "lab": {
+      "wbtb": {
+        "status": {
+          "scheduled": "Dnešní noc patří experimentu: {arm}.",
+          "recorded": "Tahle noc je v experimentu zapsaná: {arm}.",
+          "experimentDone": "Všechny noci experimentu máš za sebou. Výsledek čeká v laboratoři.",
+          "pastNight": "Tahle noc už je za tebou, do experimentu ji zpětně nepřidám. Pořadí nocí musí zůstat, jak bylo vylosované.",
+          "conflictingRecord": "U téhle noci jsou zapsané dvě různé varianty. Oprav záznam, ať srovnání sedí."
+        },
+        "sleepFirst": "Když po budíku nemůžeš usnout nebo se necítíš dobře, techniku pusť a spi. Spánek má přednost.",
+        "bothArmsWait": "Dnes nepoběží ani varianta bez budíku. Obě varianty srovnávám jen na nocích, kdy by šlo i probuzení, jinak by srovnání nebylo férové."
+      }
+    }
+  }
+}
