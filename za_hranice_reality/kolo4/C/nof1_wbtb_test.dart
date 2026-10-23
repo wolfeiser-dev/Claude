@@ -309,7 +309,7 @@ void main() {
       ]);
       const planned = ['B', 'A', 'B', 'A', 'B'];
       final plannedView = List<String>.unmodifiable(planned);
-      final base = _plan(21, past, plannedView);
+      final base = _plan(23, past, plannedView);
       final messy = List<({DateTime night, String arm})>.unmodifiable([
         past[2],
         (night: _day(15, 23), arm: 'B'),
@@ -317,14 +317,14 @@ void main() {
         (night: DateTime.utc(2026, 3, 18, 6), arm: 'A'),
         past[1],
       ]);
-      final again = _plan(21, messy, plannedView);
+      final again = _plan(23, messy, plannedView);
       expect(base.status, WbtbNightStatus.scheduled);
       expect(again.arm, base.arm);
       expect(again.nightNumber, 4);
       expect(again.recordedNights, 3);
       // Opakované volání dá totéž (bez skrytého stavu).
       for (var k = 0; k < 5; k++) {
-        expect(_plan(21, messy, plannedView).toString(), base.toString());
+        expect(_plan(23, messy, plannedView).toString(), base.toString());
       }
       expect(past.length, 3);
       expect(plannedView, planned);
@@ -546,7 +546,7 @@ void main() {
           ? <String, dynamic>{}
           : (jsonDecode(File('${data.path}/laborator_texty.json').readAsStringSync()) as Map<String, dynamic>)['texts']
               as Map<String, dynamic>;
-      final addKeys = _leafKeys(add).map((k) => k).toSet();
+      final addKeys = _leafKeys(add).toSet();
       final baseKeys = _leafKeys(base).toSet();
       final codeKeys = nof1WbtbCopyKeys().toSet();
       expect(codeKeys.length, nof1WbtbCopyKeys().length, reason: 'bez duplicit');
@@ -559,11 +559,12 @@ void main() {
         expect(_lookup(add, k) ?? _lookup(base, k), isNotNull, reason: 'chybí $k');
       }
       if (data != null) {
-        // Klíče z kola 3 (WbtbIssue) zůstaly v nof1CopyKeys().
-        expect(nof1CopyKeys().toSet().containsAll(codeKeys.difference(addKeys)), isTrue);
+        // Co v doplňku není, je v laborator_texty.json z kola 3 (důvody WbtbIssue hlídá i nof1CopyKeys()).
+        expect(baseKeys.containsAll(codeKeys.difference(addKeys)), isTrue);
+        expect(nof1CopyKeys(), containsAll([for (final w in WbtbIssue.values) 'lab.wbtb.${w.name}']));
       }
       // Styl: bez dlouhé pomlčky, bez sérií a trestů, krátké věty.
-      expect(raw.contains('—'), isFalse);
+      expect(raw.contains('\u2014'), isFalse);
       for (final k in addKeys) {
         final text = _lookup(add, k)!;
         expect(text.length, lessThanOrEqualTo(160), reason: k);
