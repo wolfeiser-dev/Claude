@@ -1,0 +1,174 @@
+{
+  "texts": {
+    "triggers": {
+      "sentence": "Když {when}, tak {then}.",
+      "kind": {
+        "day": {
+          "label": "Ve dne",
+          "note": "Dá se potkat i ve dne."
+        },
+        "evening": {
+          "label": "Večer",
+          "note": "Hodí se jako večerní záměr."
+        }
+      },
+      "day": {
+        "context": {
+          "a": {
+            "when": "vejdu na místo, které mi připomíná Stopu snů „{label}“"
+          },
+          "b": {
+            "when": "uvidím něco, co patří ke Stopě snů „{label}“"
+          },
+          "then": "udělám pauzu, rozhlédnu se a zkontroluju, jestli sním"
+        },
+        "action": {
+          "a": {
+            "when": "zažiju něco, co mi připomíná Stopu snů „{label}“"
+          },
+          "b": {
+            "when": "mi něco nepůjde jako ve Stopě snů „{label}“"
+          },
+          "then": "udělám pauzu a zkontroluju, jestli sním"
+        },
+        "form": {
+          "a": {
+            "when": "uvidím něco, co mi připomíná Stopu snů „{label}“"
+          },
+          "b": {
+            "when": "uvidím něco, co patří ke Stopě snů „{label}“"
+          },
+          "then": "udělám pauzu, podívám se znovu a zkontroluju, jestli sním"
+        },
+        "awareness": {
+          "a": {
+            "when": "ucítím něco, co mi připomíná Stopu snů „{label}“"
+          },
+          "b": {
+            "when": "přijde pocit jako ve Stopě snů „{label}“"
+          },
+          "then": "udělám pauzu, nadechnu se a zkontroluju, jestli sním"
+        },
+        "thenTest": "udělám pauzu a pak test reality"
+      },
+      "evening": {
+        "context": {
+          "a": {
+            "when": "se objeví „{label}“"
+          },
+          "b": {
+            "when": "narazím na Stopu snů „{label}“"
+          }
+        },
+        "action": {
+          "a": {
+            "when": "se stane něco jako „{label}“"
+          },
+          "b": {
+            "when": "mi něco nepůjde jako ve Stopě snů „{label}“"
+          }
+        },
+        "form": {
+          "a": {
+            "when": "uvidím něco jako „{label}“"
+          },
+          "b": {
+            "when": "narazím na Stopu snů „{label}“"
+          }
+        },
+        "awareness": {
+          "a": {
+            "when": "přijde pocit „{label}“"
+          },
+          "b": {
+            "when": "ucítím něco jako ve Stopě snů „{label}“"
+          }
+        },
+        "a": {
+          "then": "poznám, že sním"
+        },
+        "b": {
+          "then": "poznám, že je to sen"
+        }
+      },
+      "reason": {
+        "recent": "Ve snech {pocet}× za 30 dní, naposledy {kdy}.",
+        "older": "Ve snech {pocet}×, naposledy {kdy}.",
+        "countOnly": "V deníku {pocet}×.",
+        "none": "Ve snech zatím není, máš ji v seznamu."
+      },
+      "ago": {
+        "lastNight": "minulou noc",
+        "nights": "před {pocet} nocemi",
+        "long": "před víc než 3 měsíci"
+      },
+      "prompt": {
+        "ask": "Stopa snů: {label}. Sníš?",
+        "seek": "Dnes hledej: {label}.",
+        "where": "Kde dnes potkáš Stopu „{label}“?",
+        "known": "Znáš „{label}“ ze snů? Sníš teď?",
+        "context": "Kde teď jsi? Stopa snů: {label}.",
+        "action": "Funguje všechno? Stopa snů: {label}.",
+        "form": "Podívej se dvakrát. Stopa snů: {label}.",
+        "awareness": "Co teď cítíš? Stopa snů: {label}."
+      },
+      "metric": {
+        "realityCheck": "test ve snu",
+        "lucid": "lucidní sen"
+      },
+      "freq": {
+        "some": "{v} {k} {z} {n} {snu}",
+        "none": "v žádném {z} {n} {snu}",
+        "oneYes": "v tom jednom snu ano",
+        "oneNo": "v tom jednom snu ne",
+        "empty": "zatím bez snů"
+      },
+      "count": {
+        "zero": "v žádném snu",
+        "some": "{v} {n} {snech}"
+      },
+      "word": {
+        "dream": {
+          "gen": "snů",
+          "loc1": "snu",
+          "loc": "snech"
+        }
+      },
+      "funnel": "Stopa ve snu {stopa}× · test ve snu {test}× · lucidita {lucid}×",
+      "verdict": {
+        "noDreams": {
+          "title": "Zatím ve snech není",
+          "body": "Stopa se ve snech zatím neobjevila. Počítat začnu, až ji zapíšeš."
+        },
+        "tooEarly": {
+          "title": "Zatím brzy",
+          "body": "Od začátku plánu je Stopa {pocet}. Srovnávat začnu od {min} snů."
+        },
+        "noBaseline": {
+          "title": "Zatím bez srovnání",
+          "body": "{Co} od začátku plánu: {po}. Snů se Stopou z doby před plánem je málo, srovnání zatím nemám."
+        },
+        "noEventsYet": {
+          "title": "Zatím ani jednou",
+          "body": "{Co} zatím v žádném snu se Stopou. Snů se Stopou: před plánem {nPred}, od začátku plánu {nPo}."
+        },
+        "noChangeYet": {
+          "title": "Zatím bez jasné změny",
+          "body": "{Co} před plánem: {pred}. Od začátku plánu: {po}. Takový rozdíl může být náhoda."
+        },
+        "possiblyMore": {
+          "title": "Náznak zlepšení",
+          "body": "{Co} před plánem: {pred}. Od začátku plánu: {po}. Vypadá to líp, ale zatím je to jen náznak."
+        },
+        "clearlyMore": {
+          "title": "Častěji než dřív",
+          "body": "{Co} před plánem: {pred}. Od začátku plánu: {po}. Na náhodu je to velký rozdíl. Jestli ho dělá plán, ukáže experiment v Laboratoři."
+        },
+        "fewer": {
+          "title": "Méně než dřív",
+          "body": "{Co} před plánem: {pred}. Od začátku plánu: {po}. Teď je to méně. Zkus spouštěč upravit nebo vyměnit Stopu."
+        }
+      }
+    }
+  }
+}
