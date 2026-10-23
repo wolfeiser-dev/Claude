@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176" font-family="'JetBrains Mono', ui-monospace, monospace">
+<!-- lucidityAxes, den, statický snímek (clock == null), 358 × 176. Ze stejných volání Canvasu jako Dart paint(). -->
+<rect width="358" height="176" fill="#04060C"/>
+<text x="0" y="13.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#8D97AD">TŘI RŮZNÉ OSY</text>
+<text x="0" y="49.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF7A45">LUCIDITA</text>
+<text x="0" y="62.04" text-anchor="start" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#5B6478">VÍŠ, ŽE SNÍŠ</text>
+<line x1="88" y1="48" x2="88" y2="56" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="111.8" y1="50" x2="111.8" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="135.6" y1="50" x2="135.6" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="159.4" y1="50" x2="159.4" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="183.2" y1="50" x2="183.2" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="207" y1="48" x2="207" y2="56" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="230.8" y1="50" x2="230.8" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="254.6" y1="50" x2="254.6" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="278.4" y1="50" x2="278.4" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="302.2" y1="50" x2="302.2" y2="54" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="326" y1="48" x2="326" y2="56" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="52" x2="326" y2="52" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="52" x2="292.68" y2="52" fill="none" stroke="#FF5F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="91.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#E9EDF5">STABILITA</text>
+<text x="0" y="104.04" text-anchor="start" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#5B6478">SEN SE DRŽÍ</text>
+<line x1="88" y1="90" x2="88" y2="98" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="111.8" y1="92" x2="111.8" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="135.6" y1="92" x2="135.6" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="159.4" y1="92" x2="159.4" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="183.2" y1="92" x2="183.2" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="207" y1="90" x2="207" y2="98" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="230.8" y1="92" x2="230.8" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="254.6" y1="92" x2="254.6" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="278.4" y1="92" x2="278.4" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="302.2" y1="92" x2="302.2" y2="96" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="326" y1="90" x2="326" y2="98" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="94" x2="326" y2="94" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M173.68 88L249.84 88.01L249.84 100L173.68 99.99L173.68 88Z" fill="#E9EDF5" fill-opacity="0.05"/>
+<line x1="173.68" y1="88" x2="173.68" y2="100" fill="none" stroke="#5B6478" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="249.84" y1="88" x2="249.84" y2="100" fill="none" stroke="#5B6478" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="94" x2="211.76" y2="94" fill="none" stroke="#8D97AD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="133.54" text-anchor="start" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#E9EDF5">KONTROLA</text>
+<text x="0" y="146.04" text-anchor="start" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#5B6478">MĚNÍŠ DĚJ</text>
+<line x1="88" y1="132" x2="88" y2="140" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="111.8" y1="134" x2="111.8" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="135.6" y1="134" x2="135.6" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="159.4" y1="134" x2="159.4" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="183.2" y1="134" x2="183.2" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="207" y1="132" x2="207" y2="140" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="230.8" y1="134" x2="230.8" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="254.6" y1="134" x2="254.6" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="278.4" y1="134" x2="278.4" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="302.2" y1="134" x2="302.2" y2="138" fill="none" stroke="#1E2740" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="326" y1="132" x2="326" y2="140" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="136" x2="326" y2="136" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="88" y1="136" x2="135.6" y2="136" fill="none" stroke="#8D97AD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 18L292.68 20" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 22L292.68 24" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 26L292.68 28" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 30L292.68 32" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 34L292.68 36" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 38L292.68 40" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 42L292.68 44" fill="none" stroke="#FF5F1F" stroke-opacity="0.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292.68 52L290.02 53.38" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M287.35 54.76L284.69 56.15" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M282.03 57.53L279.37 58.91" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M276.7 60.29L274.04 61.67" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M271.38 63.06L268.72 64.44" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M266.05 65.82L263.39 67.2" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M260.73 68.58L258.06 69.97" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M255.4 71.35L252.74 72.73" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M250.08 74.11L247.41 75.49" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M244.75 76.88L242.09 78.26" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M239.43 79.64L236.76 81.02" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234.1 82.4L231.44 83.79" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M228.78 85.17L226.11 86.55" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M223.45 87.93L220.79 89.31" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M218.12 90.7L215.46 92.08" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M212.8 93.46L210.16 94.88" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M207.53 96.33L204.9 97.78" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M202.28 99.23L199.65 100.68" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M197.02 102.13L194.4 103.58" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M191.77 105.02L189.14 106.47" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186.51 107.92L183.89 109.37" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M181.26 110.82L178.63 112.27" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M176.01 113.72L173.38 115.17" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M170.75 116.61L168.13 118.06" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M165.5 119.51L162.87 120.96" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160.24 122.41L157.62 123.86" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M154.99 125.31L152.36 126.76" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M149.74 128.2L147.11 129.65" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144.48 131.1L141.86 132.55" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M139.23 134L136.6 135.45" fill="none" stroke="#FF5F1F" stroke-opacity="0.55" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="292.68" y="13.54" text-anchor="middle" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF7A45">JEDEN SEN</text>
+<circle cx="292.68" cy="52" r="7" fill="#FF5F1F" fill-opacity="0.14"/>
+<circle cx="292.68" cy="52" r="7" fill="none" stroke="#FF5F1F" stroke-opacity="0.4" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="292.68" cy="52" r="3.5" fill="#FF5F1F"/>
+<circle cx="211.76" cy="94" r="3.2" fill="#E9EDF5"/>
+<circle cx="135.6" cy="136" r="3.2" fill="#E9EDF5"/>
+<path d="M336 52L337.06 51.17L338.11 50.45L339.17 49.82L340.44 49.21L341.65 48.77L342.87 48.46L343.84 48.31L345.06 48.25L346.04 48.3L347.26 48.49L348.23 48.73L349.45 49.17L350.51 49.66L351.57 50.25L352.63 50.94L353.89 51.91L353.89 52.09L352.2 53.35L350.94 54.12L349.67 54.74L348.48 55.19L347.26 55.51L346.04 55.7L345.06 55.75L343.84 55.69L342.87 55.54L341.65 55.23L340.44 54.79L339.17 54.18L338.11 53.55L337.06 52.83L336 52" fill="none" stroke="#FF7A45" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="345" cy="52" r="3" fill="none" stroke="#FF7A45" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="345" cy="52" r="1.2" fill="#FF7A45"/>
+<path d="M335.5 94L335.56 93.29L335.77 92.56L336.13 91.85L336.62 91.22L337.24 90.7L337.94 90.32L338.67 90.09L339.63 90L350.62 90L351.58 90.15L352.3 90.43L352.76 90.7L353.38 91.22L353.72 91.63L354.01 92.08L354.32 92.8L354.44 93.29L354.5 94L354.44 94.71L354.23 95.44L353.87 96.15L353.38 96.78L352.76 97.3L352.06 97.68L351.33 97.91L350.37 98L339.38 98L338.42 97.85L337.7 97.57L337.24 97.3L336.82 96.97L336.28 96.37L335.99 95.92L335.68 95.2L335.56 94.71L335.5 94Z" fill="none" stroke="#8D97AD" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="342" y1="90" x2="342" y2="92.4" fill="none" stroke="#8D97AD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="348" y1="90" x2="348" y2="92.4" fill="none" stroke="#8D97AD" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="345" cy="94.4" r="2" fill="none" stroke="#8D97AD" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="337" y1="136" x2="343" y2="136" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="343" y1="136" x2="352" y2="131" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="343" y1="136" x2="352" y2="141" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="352" y1="131" x2="350.26" y2="134.03" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="352" y1="131" x2="348.5" y2="130.88" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="352" y1="141" x2="348.5" y2="141.12" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="352" y1="141" x2="350.26" y2="137.97" fill="none" stroke="#5B6478" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88" y="170.04" text-anchor="start" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#8D97AD">MÁLO</text>
+<text x="326" y="170.04" text-anchor="end" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#8D97AD">HODNĚ</text>
+<text x="207" y="170.04" text-anchor="middle" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#5B6478">SCHÉMA</text>
+</svg>

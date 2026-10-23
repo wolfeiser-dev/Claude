@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176">
+<!-- lucidMission, noc (redOnly), statický snímek (live = false), 358 × 176. Souřadnice jsou z týchž volání Canvasu, která dělá Dart. -->
+<rect width="358" height="176" fill="#000000"/>
+<circle cx="302" cy="92" r="0.75" fill="#6E1A12"/>
+<circle cx="301.91" cy="94.2" r="0.75" fill="#6E1A12"/>
+<circle cx="301.62" cy="96.39" r="0.75" fill="#6E1A12"/>
+<circle cx="301.15" cy="98.58" r="0.75" fill="#6E1A12"/>
+<circle cx="300.49" cy="100.76" r="0.75" fill="#6E1A12"/>
+<circle cx="299.64" cy="102.93" r="0.75" fill="#6E1A12"/>
+<circle cx="265.97" cy="131.6" r="0.75" fill="#6E1A12"/>
+<circle cx="262.49" cy="133.12" r="0.75" fill="#6E1A12"/>
+<circle cx="258.88" cy="134.58" r="0.75" fill="#6E1A12"/>
+<circle cx="255.15" cy="135.98" r="0.75" fill="#6E1A12"/>
+<circle cx="251.3" cy="137.3" r="0.75" fill="#6E1A12"/>
+<circle cx="247.34" cy="138.56" r="0.75" fill="#6E1A12"/>
+<circle cx="243.27" cy="139.75" r="0.75" fill="#6E1A12"/>
+<circle cx="239.1" cy="140.86" r="0.75" fill="#6E1A12"/>
+<circle cx="234.84" cy="141.9" r="0.75" fill="#6E1A12"/>
+<circle cx="230.5" cy="142.86" r="0.75" fill="#6E1A12"/>
+<circle cx="226.07" cy="143.74" r="0.75" fill="#6E1A12"/>
+<circle cx="221.57" cy="144.54" r="0.75" fill="#6E1A12"/>
+<circle cx="217.01" cy="145.26" r="0.75" fill="#6E1A12"/>
+<circle cx="212.39" cy="145.9" r="0.75" fill="#6E1A12"/>
+<circle cx="207.71" cy="146.45" r="0.75" fill="#6E1A12"/>
+<circle cx="203" cy="146.92" r="0.75" fill="#6E1A12"/>
+<circle cx="198.24" cy="147.31" r="0.75" fill="#6E1A12"/>
+<circle cx="193.46" cy="147.61" r="0.75" fill="#6E1A12"/>
+<circle cx="188.65" cy="147.83" r="0.75" fill="#6E1A12"/>
+<circle cx="183.83" cy="147.96" r="0.75" fill="#6E1A12"/>
+<circle cx="179" cy="148" r="0.75" fill="#6E1A12"/>
+<circle cx="174.17" cy="147.96" r="0.75" fill="#6E1A12"/>
+<circle cx="169.35" cy="147.83" r="0.75" fill="#6E1A12"/>
+<circle cx="164.54" cy="147.61" r="0.75" fill="#6E1A12"/>
+<circle cx="159.76" cy="147.31" r="0.75" fill="#6E1A12"/>
+<circle cx="155" cy="146.92" r="0.75" fill="#6E1A12"/>
+<circle cx="150.29" cy="146.45" r="0.75" fill="#6E1A12"/>
+<circle cx="145.61" cy="145.9" r="0.75" fill="#6E1A12"/>
+<circle cx="140.99" cy="145.26" r="0.75" fill="#6E1A12"/>
+<circle cx="136.43" cy="144.54" r="0.75" fill="#6E1A12"/>
+<circle cx="131.93" cy="143.74" r="0.75" fill="#6E1A12"/>
+<circle cx="127.5" cy="142.86" r="0.75" fill="#6E1A12"/>
+<circle cx="123.16" cy="141.9" r="0.75" fill="#6E1A12"/>
+<circle cx="118.9" cy="140.86" r="0.75" fill="#6E1A12"/>
+<circle cx="102.85" cy="135.98" r="0.75" fill="#6E1A12"/>
+<circle cx="99.12" cy="134.58" r="0.75" fill="#6E1A12"/>
+<circle cx="95.51" cy="133.12" r="0.75" fill="#6E1A12"/>
+<circle cx="92.03" cy="131.6" r="0.75" fill="#6E1A12"/>
+<circle cx="58.36" cy="102.93" r="0.75" fill="#6E1A12"/>
+<circle cx="57.51" cy="100.76" r="0.75" fill="#6E1A12"/>
+<circle cx="56.85" cy="98.58" r="0.75" fill="#6E1A12"/>
+<circle cx="56.38" cy="96.39" r="0.75" fill="#6E1A12"/>
+<circle cx="56.09" cy="94.2" r="0.75" fill="#6E1A12"/>
+<circle cx="56" cy="92" r="0.75" fill="#6E1A12"/>
+<circle cx="56.09" cy="89.8" r="0.75" fill="#6E1A12"/>
+<circle cx="56.38" cy="87.61" r="0.75" fill="#6E1A12"/>
+<circle cx="56.85" cy="85.42" r="0.75" fill="#6E1A12"/>
+<circle cx="57.51" cy="83.24" r="0.75" fill="#6E1A12"/>
+<circle cx="58.36" cy="81.07" r="0.75" fill="#6E1A12"/>
+<circle cx="92.03" cy="52.4" r="0.75" fill="#6E1A12"/>
+<circle cx="95.51" cy="50.88" r="0.75" fill="#6E1A12"/>
+<circle cx="99.12" cy="49.42" r="0.75" fill="#6E1A12"/>
+<circle cx="102.85" cy="48.02" r="0.75" fill="#6E1A12"/>
+<circle cx="106.7" cy="46.7" r="0.75" fill="#6E1A12"/>
+<circle cx="110.66" cy="45.44" r="0.75" fill="#6E1A12"/>
+<circle cx="114.73" cy="44.25" r="0.75" fill="#6E1A12"/>
+<circle cx="118.9" cy="43.14" r="0.75" fill="#6E1A12"/>
+<circle cx="123.16" cy="42.1" r="0.75" fill="#6E1A12"/>
+<circle cx="127.5" cy="41.14" r="0.75" fill="#6E1A12"/>
+<circle cx="131.93" cy="40.26" r="0.75" fill="#6E1A12"/>
+<circle cx="136.43" cy="39.46" r="0.75" fill="#6E1A12"/>
+<circle cx="140.99" cy="38.74" r="0.75" fill="#6E1A12"/>
+<circle cx="145.61" cy="38.1" r="0.75" fill="#6E1A12"/>
+<circle cx="150.29" cy="37.55" r="0.75" fill="#6E1A12"/>
+<circle cx="155" cy="37.08" r="0.75" fill="#6E1A12"/>
+<circle cx="203" cy="37.08" r="0.75" fill="#6E1A12"/>
+<circle cx="207.71" cy="37.55" r="0.75" fill="#6E1A12"/>
+<circle cx="212.39" cy="38.1" r="0.75" fill="#6E1A12"/>
+<circle cx="217.01" cy="38.74" r="0.75" fill="#6E1A12"/>
+<circle cx="221.57" cy="39.46" r="0.75" fill="#6E1A12"/>
+<circle cx="226.07" cy="40.26" r="0.75" fill="#6E1A12"/>
+<circle cx="230.5" cy="41.14" r="0.75" fill="#6E1A12"/>
+<circle cx="234.84" cy="42.1" r="0.75" fill="#6E1A12"/>
+<circle cx="239.1" cy="43.14" r="0.75" fill="#6E1A12"/>
+<circle cx="243.27" cy="44.25" r="0.75" fill="#6E1A12"/>
+<circle cx="247.34" cy="45.44" r="0.75" fill="#6E1A12"/>
+<circle cx="251.3" cy="46.7" r="0.75" fill="#6E1A12"/>
+<circle cx="255.15" cy="48.02" r="0.75" fill="#6E1A12"/>
+<circle cx="258.88" cy="49.42" r="0.75" fill="#6E1A12"/>
+<circle cx="262.49" cy="50.88" r="0.75" fill="#6E1A12"/>
+<circle cx="265.97" cy="52.4" r="0.75" fill="#6E1A12"/>
+<circle cx="299.64" cy="81.07" r="0.75" fill="#6E1A12"/>
+<circle cx="300.49" cy="83.24" r="0.75" fill="#6E1A12"/>
+<circle cx="301.15" cy="85.42" r="0.75" fill="#6E1A12"/>
+<circle cx="301.62" cy="87.61" r="0.75" fill="#6E1A12"/>
+<circle cx="301.91" cy="89.8" r="0.75" fill="#6E1A12"/>
+<path d="M156.76 86.15L155.3 85.77M152.4 85.01L150.95 84.63M148.05 83.86L146.6 83.48M143.7 82.72L142.25 82.34M139.35 81.58L137.9 81.2M134.99 80.43L133.54 80.05M130.64 79.29L129.19 78.91M126.29 78.14L124.84 77.76M121.94 77L120.49 76.62M117.59 75.86L116.14 75.48M113.23 74.71L111.78 74.33M108.88 73.57L107.43 73.19M104.53 72.42L103.08 72.04M100.18 71.28L98.73 70.9M95.83 70.14L94.37 69.76" fill="none" stroke="#FF3B2F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201.24 86.15L202.7 85.77M205.6 85.01L207.05 84.63M209.95 83.86L211.4 83.48M214.3 82.72L215.75 82.34M218.65 81.58L220.1 81.2M223.01 80.43L224.46 80.05M227.36 79.29L228.81 78.91M231.71 78.14L233.16 77.76M236.06 77L237.51 76.62M240.41 75.86L241.86 75.48M244.77 74.71L246.22 74.33M249.12 73.57L250.57 73.19M253.47 72.42L254.92 72.04M257.82 71.28L259.27 70.9M262.17 70.14L263.63 69.76" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201.24 97.85L202.7 98.23M205.6 98.99L207.05 99.37M209.95 100.14L211.4 100.52M214.3 101.28L215.75 101.66M218.65 102.42L220.1 102.8M223.01 103.57L224.46 103.95M227.36 104.71L228.81 105.09M231.71 105.86L233.16 106.24M236.06 107L237.51 107.38M240.41 108.14L241.86 108.52M244.77 109.29L246.22 109.67M249.12 110.43L250.57 110.81M253.47 111.58L254.92 111.96M257.82 112.72L259.27 113.1M262.17 113.86L263.63 114.24" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M156.76 97.85L155.3 98.23M152.4 98.99L150.95 99.37M148.05 100.14L146.6 100.52M143.7 101.28L142.25 101.66M139.35 102.42L137.9 102.8M134.99 103.57L133.54 103.95M130.64 104.71L129.19 105.09M126.29 105.86L124.84 106.24M121.94 107L120.49 107.38M117.59 108.14L116.14 108.52M113.23 109.29L111.78 109.67M108.88 110.43L107.43 110.81M104.53 111.58L103.08 111.96M100.18 112.72L98.73 113.1M95.83 113.86L94.37 114.24" fill="none" stroke="#3A0C08" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="179" cy="92" r="15" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="194" y1="92" x2="197.5" y2="92" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="191.99" y1="99.5" x2="193.72" y2="100.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="186.5" y1="104.99" x2="188.25" y2="108.02" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="179" y1="107" x2="179" y2="109" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="171.5" y1="104.99" x2="169.75" y2="108.02" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="166.01" y1="99.5" x2="164.28" y2="100.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="164" y1="92" x2="160.5" y2="92" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="166.01" y1="84.5" x2="164.28" y2="83.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="171.5" y1="79.01" x2="169.75" y2="75.98" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="179" y1="77" x2="179" y2="75" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="186.5" y1="79.01" x2="188.25" y2="75.98" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="191.99" y1="84.5" x2="193.72" y2="83.5" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M169 92L170.26 91L171.51 90.13L172.77 89.4L174.02 88.8L175.48 88.28L176.45 88.03L177.91 87.8L178.88 87.75L179.85 87.78L181.31 87.98L182.28 88.21L183.73 88.7L185.02 89.29L186.28 90L187.54 90.85L188.79 91.82L188.79 92.18L187.54 93.15L185.86 94.25L184.19 95.11L182.76 95.65L181.31 96.02L179.85 96.22L178.88 96.25L177.91 96.2L176.45 95.97L175.48 95.72L174.02 95.2L172.77 94.6L171.51 93.87L170.26 93L169 92" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="179" cy="92" r="3.3" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="179" cy="92" r="1.2" fill="#FF3B2F"/>
+<text x="178.72" y="66.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">ROZPOZNEJ</text>
+<text x="178.72" y="124.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">STABILIZUJ</text>
+<line x1="53.73" y1="62.75" x2="66.23" y2="62.75" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="54.98" y1="62.75" x2="54.98" y2="71.5" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="64.98" y1="62.75" x2="64.98" y2="71.5" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="69.35" y1="66.5" x2="75.6" y2="66.5" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="76.23" y1="66.5" x2="73.66" y2="68.05" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="76.23" y1="66.5" x2="73.66" y2="64.95" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="84.98" y1="72.75" x2="84.98" y2="60.88" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84.98 68.38L85.91 67.66L86.79 67.12L87.6 66.76L88.38 66.58L88.9 66.57L89.37 66.65L89.82 66.84L90.23 67.12L90.6 67.5" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="84.98" cy="52.63" r="2" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="88.66" cy="55.3" r="2" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="87.26" cy="59.63" r="2" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="82.7" cy="59.63" r="2" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="81.29" cy="55.3" r="2" fill="none" stroke="#FF3B2F" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="84.98" cy="56.5" r="0.8" fill="#FF3B2F"/>
+<text x="72.19" y="42.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">PROMĚŇ</text>
+<rect x="282.4" y="51.5" width="6.25" height="25" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="282.4" y1="57.75" x2="288.65" y2="57.75" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="282.4" y1="64" x2="288.65" y2="64" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="282.4" y1="70.25" x2="288.65" y2="70.25" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="265.52" y1="65.75" x2="280.52" y2="65.75" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M282.4 65.75L283.6 65.75M285 65.75L286.2 65.75M287.6 65.75L288.65 65.75" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="265.52" y1="69.5" x2="280.52" y2="69.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M282.4 69.5L283.6 69.5M285 69.5L286.2 69.5M287.6 69.5L288.65 69.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M290.52 65.75L292.96 65.29L293.89 64.97L294.25 64.76L294.6 64.42L294.9 63.97L295.14 63.46L295.77 61.75" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M290.52 69.5L294.9 70.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="294.77" y1="65.13" x2="300.02" y2="64.88" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="294.77" y1="67" x2="300.02" y2="66.75" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="294.77" y1="68.88" x2="300.02" y2="68.63" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="294.77" y1="70.5" x2="298.52" y2="70.25" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="285.24" y="42.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">SKRZ ZEĎ</text>
+<rect x="268.02" y="116.25" width="7.5" height="7.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="277.4" y1="120" x2="283.65" y2="120" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="284.27" y1="120" x2="281.7" y2="121.55" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="284.27" y1="120" x2="281.7" y2="118.45" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="289.27" y="107.5" width="7.5" height="7.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="296.77" y="116.25" width="7.5" height="7.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="289.27" y="125" width="7.5" height="7.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="285.24" y="148.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">ROZMNOŽ</text>
+<path d="M78.73 131.25L79.32 126.25L79.71 123.68L80.29 121.4L80.93 119.59L81.42 118.65L81.7 118.24L82.37 117.58L83.18 117.16L83.66 117.02L84.71 116.88L85.78 116.93L86.3 117.02L87.21 117.34L87.59 117.58L88.25 118.24L88.54 118.65L89.02 119.59L89.67 121.4L90.24 123.68L90.64 126.25L91.23 131.25" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="84.98" cy="113" r="3.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87.88 113L87.84 113.47L87.72 113.95L87.51 114.42L87.21 114.85L86.83 115.23L86.4 115.53L85.93 115.74L85.45 115.86L84.98 115.9L84.51 115.86L84.03 115.74L83.56 115.53L83.13 115.23L82.75 114.85L82.45 114.42L82.24 113.95L82.12 113.47L82.08 113L82.12 112.53L82.24 112.05L82.45 111.58L82.75 111.15L83.13 110.77L83.56 110.47L84.03 110.26L84.51 110.14L84.98 110.1L85.45 110.14L85.93 110.26L86.4 110.47L86.83 110.77L87.21 111.15L87.51 111.58L87.72 112.05L87.84 112.53L87.88 113Z" fill="#B3261E" fill-opacity="0.18"/>
+<circle cx="54.98" cy="127.5" r="1.6" fill="#B3261E"/>
+<circle cx="60.6" cy="127.5" r="0.8" fill="#B3261E"/>
+<circle cx="65.35" cy="127.5" r="0.8" fill="#B3261E"/>
+<circle cx="70.1" cy="127.5" r="0.8" fill="#B3261E"/>
+<line x1="75.73" y1="127.5" x2="73.16" y2="129.05" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="75.73" y1="127.5" x2="73.16" y2="125.95" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M65.98 112.5L66.02 112.04L66.14 111.56L66.36 111.1L66.67 110.67L67.06 110.31L67.5 110.04L67.98 109.86L68.45 109.76L69.38 109.83L69.85 109.99L70.31 110.25L70.71 110.59L71.03 111L71.27 111.46L71.42 111.93L71.45 112.87L71.35 113.35L71.15 113.81L70.86 114.24L70.49 114.61L70.07 114.9L69.62 115.1L69.16 115.22" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="69.6" y1="115.5" x2="68.73" y2="118" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="68.73" cy="120.75" r="0.7" fill="#B3261E"/>
+<text x="72.19" y="148.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">ČELIT STRACHU</text>
+<path d="M185.25 36L185.2 36.77L185.06 37.53M184.45 39.07L183.97 39.79L183.41 40.43M182.04 41.46L181.29 41.82L180.5 42.07M178.97 42.25L178.2 42.2L177.44 42.05M175.9 41.43L175.19 40.95L174.54 40.38M173.52 39.01L173.17 38.26L172.92 37.47M172.75 35.94L172.81 35.17L172.96 34.41M173.59 32.87L174.07 32.16L174.64 31.52M176.03 30.5L176.78 30.16L177.57 29.92M179.09 29.75L179.87 29.81L180.63 29.97M182.16 30.61L182.87 31.09L183.51 31.67M184.51 33.06L184.85 33.81L185.09 34.6" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="188.38" y1="36" x2="191.5" y2="36" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="191.24" cy="41.07" r="0.75" fill="#B3261E"/>
+<line x1="185.63" y1="42.63" x2="187.84" y2="44.84" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="184.07" cy="48.24" r="0.75" fill="#B3261E"/>
+<line x1="179" y1="45.38" x2="179" y2="48.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="173.93" cy="48.24" r="0.75" fill="#B3261E"/>
+<line x1="172.37" y1="42.63" x2="170.16" y2="44.84" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="166.76" cy="41.07" r="0.75" fill="#B3261E"/>
+<line x1="169.63" y1="36" x2="166.5" y2="36" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="166.76" cy="30.93" r="0.75" fill="#B3261E"/>
+<line x1="172.37" y1="29.37" x2="170.16" y2="27.16" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="173.93" cy="23.76" r="0.75" fill="#B3261E"/>
+<line x1="179" y1="26.63" x2="179" y2="23.5" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="184.07" cy="23.76" r="0.75" fill="#B3261E"/>
+<line x1="185.63" y1="29.37" x2="187.84" y2="27.16" fill="none" stroke="#B3261E" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="191.24" cy="30.93" r="0.75" fill="#B3261E"/>
+<text x="178.72" y="14.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">ROZPUSŤ</text>
+<text x="8" y="170.54" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">UVOLNIT PŘEDSTAVY</text>
+<text x="349.43" y="170.54" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#6E1A12">BEZ PEVNÉHO POŘADÍ</text>
+</svg>

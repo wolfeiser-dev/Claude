@@ -1,0 +1,33 @@
+{
+  "texts": {
+    "training": {
+      "art": {
+        "lucidityAxes": {
+          "title": "TŘI RŮZNÉ OSY",
+          "lucidity": "LUCIDITA",
+          "lucidityHint": "VÍŠ, ŽE SNÍŠ",
+          "stability": "STABILITA",
+          "stabilityHint": "SEN SE DRŽÍ",
+          "control": "KONTROLA",
+          "controlHint": "MĚNÍŠ DĚJ",
+          "oneDream": "JEDEN SEN",
+          "low": "MÁLO",
+          "high": "HODNĚ",
+          "caption": "SCHÉMA"
+        },
+        "paralysisWave": {
+          "eyes": "OČI SE HÝBOU",
+          "asleep": "TĚLO JEŠTĚ SPÍ",
+          "awake": "MYSL BDÍ",
+          "breath": "POMALU DÝCHEJ",
+          "finger": "POHNI MALÍČKEM",
+          "time": "SEKUNDY AŽ MINUTY",
+          "passes": "MINE"
+        },
+        "postureVariants": {},
+        "butterfly": {},
+        "predictionLoop": {}
+      }
+    }
+  }
+}

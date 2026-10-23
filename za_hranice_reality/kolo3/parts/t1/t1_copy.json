@@ -1,0 +1,79 @@
+{
+  "texts": {
+    "training": {
+      "art": {
+        "recallTraining": {
+          "caption": "SCHÉMA",
+          "evening": "VEČER",
+          "morning": "RÁNO",
+          "week": "TÝDEN",
+          "intent": "ZÁJEM O SNY",
+          "calm": "2 MIN KLID",
+          "rewind": "PŘETÁČEJ ZPĚT",
+          "last": "POSLEDNÍ OBRAZ",
+          "still": "NEHÝBEJ SE",
+          "words": "3 SLOVA",
+          "emotion": "1 EMOCE",
+          "repeat": "OPAKUJE SE"
+        },
+        "deild": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "wake": "BDĚNÍ",
+          "rem": "REM",
+          "light": "LEHKÝ",
+          "deep": "HLUBOKÝ",
+          "awakening": "PROBUZENÍ",
+          "back": "ZPĚT DO SCÉNY",
+          "fiveMin": "5 MIN",
+          "eyes": "OČI ZAVŘENÉ",
+          "still": "BEZ POHYBU"
+        },
+        "fild": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "wake": "BDĚNÍ",
+          "edge": "HYPNAGOGIE",
+          "sleep": "SPÁNEK",
+          "window": "ÚZKÉ OKNO",
+          "alarm": "BUDÍK",
+          "test": "TEST REALITY",
+          "index": "UKAZOVÁK",
+          "middle": "PROSTŘEDNÍK",
+          "rest": "OPŘENÁ RUKA"
+        },
+        "ada": {
+          "caption": "NE KAŽDOU HODINU",
+          "door": "DVEŘE",
+          "clock": "HODINY",
+          "water": "VODA",
+          "tea": "ČAJ",
+          "note": "1 SLOVO",
+          "ask": "SNÍM, NEBO BDÍM?",
+          "perceive": "CO VNÍMÁM?",
+          "lookBack": "ODKUD JDU?"
+        },
+        "yogaNidra": {
+          "caption": "RELAXACE, NE INDUKCE",
+          "rightHand": "PRAVÁ RUKA",
+          "rightHandParts": "PRSTY, DLAŇ, PAŽE",
+          "rightLeg": "PRAVÁ NOHA",
+          "leftHand": "LEVÁ RUKA",
+          "leftLeg": "LEVÁ NOHA",
+          "back": "ZÁDA",
+          "belly": "BŘICHO",
+          "face": "OBLIČEJ",
+          "whole": "CELÉ TĚLO",
+          "exhale": "DLOUHÝ VÝDECH"
+        },
+        "grounding": {
+          "caption": "SCHÉMA",
+          "feet": "CHODIDLA NA ZEMI",
+          "see": "VIDÍM",
+          "touch": "DOTÝKÁM SE",
+          "hear": "SLYŠÍM",
+          "exhale": "DLOUHÝ VÝDECH",
+          "where": "KDE A KDY"
+        }
+      }
+    }
+  }
+}

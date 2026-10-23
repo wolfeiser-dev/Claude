@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176">
+<!-- dreamYogaIntention, noc (redOnly), statický snímek (live = false), 358 × 176. Souřadnice jsou z týchž volání Canvasu, která dělá Dart. -->
+<rect width="358" height="176" fill="#000000"/>
+<path d="M95.89 72.63L97.11 70.45L98.45 68.35L99.92 66.33L101.49 64.39L103.15 62.53L104.91 60.75L107.11 58.72L109.02 57.11L111.8 54.99L113.84 53.55L116.35 51.92L118.93 50.39L121.56 48.95L124.24 47.6L127.41 46.13L130.17 44.97L133.43 43.7L136.73 42.55L140.06 41.5L143.43 40.55L146.82 39.69L150.23 38.93L153.17 38.35L157.11 37.67L160.57 37.18L164.54 36.73L168.02 36.42L171.51 36.19L175.5 36.04L179 36L182.5 36.04L186.49 36.19L189.98 36.42L193.46 36.73L197.43 37.18L200.89 37.67L204.83 38.35L207.77 38.93L211.18 39.69L214.57 40.55L217.94 41.5L221.27 42.55L224.57 43.7L227.83 44.97L230.59 46.13L233.76 47.6L236.44 48.95L239.07 50.39L241.65 51.92L244.16 53.55L246.2 54.99L248.98 57.11L250.89 58.72L253.09 60.75L254.85 62.53L256.51 64.39L258.08 66.33L259.55 68.35L260.89 70.45L262.11 72.63" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="262.11" y1="72.63" x2="257.86" y2="70.01" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="262.11" y1="72.63" x2="262.43" y2="67.64" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="129.35" y1="62" x2="132.95" y2="62" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="131.15" y1="60.2" x2="131.15" y2="63.8" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="158.06" y1="51.6" x2="161.66" y2="51.6" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="159.86" y1="49.8" x2="159.86" y2="53.4" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="189.38" y1="60.96" x2="192.98" y2="60.96" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="191.18" y1="59.16" x2="191.18" y2="62.76" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="213.74" y1="52.64" x2="217.34" y2="52.64" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="215.54" y1="50.84" x2="215.54" y2="54.44" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="114.56" y1="77.6" x2="118.16" y2="77.6" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="116.36" y1="75.8" x2="116.36" y2="79.4" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="145.88" y1="73.44" x2="149.48" y2="73.44" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="147.68" y1="71.64" x2="147.68" y2="75.24" fill="none" stroke="#6E1A12" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="178.75" y="75.04" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#6E1A12">NOC</text>
+<path d="M262.11 103.37L260.89 105.55L260.09 106.81M258.38 109.28L256.82 111.23L255.84 112.36M253.78 114.55L250.88 117.3M248.57 119.22L245.36 121.61M242.88 123.29L239.47 125.38M236.85 126.83L233.28 128.63M230.55 129.89L226.85 131.42M224.05 132.48L220.26 133.77M217.4 134.65L213.54 135.71M210.63 136.43L206.72 137.28M203.77 137.84L199.82 138.48M196.85 138.89L192.88 139.33M189.89 139.59L185.9 139.83M182.9 139.95L178.9 140M175.9 139.96L171.9 139.82M168.91 139.64L164.92 139.31M161.94 138.98L157.97 138.45M155.01 137.97L151.08 137.24M148.15 136.61L144.26 135.66M141.37 134.87L137.54 133.71M134.7 132.74L130.96 131.34M128.18 130.2L124.54 128.55M121.86 127.21L118.35 125.27M115.79 123.72L112.47 121.49M110.06 119.7L106.97 117.16M104.78 115.12L103.03 113.33L102.03 112.21M100.11 109.91L98.34 107.49L97.8 106.64M96.27 104.06L95.89 103.37" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="95.89" y1="103.37" x2="100.14" y2="105.99" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="95.89" y1="103.37" x2="95.57" y2="108.36" fill="none" stroke="#5A120D" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="178.75" y="129.04" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#6E1A12">DEN</text>
+<text x="178.72" y="159.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">BEZ VÝČITEK</text>
+<text x="79.49" y="121.04" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#6E1A12">ZNOVU</text>
+<path d="M96.86 95.57L95.58 96.26L94.63 96.61L93.63 96.85L92.15 97L91.14 96.96L90.14 96.81L89.16 96.54L87.78 95.95L86.52 95.14L85.74 94.46L85.06 93.73L84.24 92.55L83.6 91.23L83.29 90.25L83.09 89.25L83 88.27L83.03 87.26L83.17 86.26L83.42 85.27L84 83.88L84.79 82.61L85.46 81.82L86.19 81.13L87.36 80.29L88.68 79.64L89.63 79.32L91.15 79.04L92.18 79L93.22 79.08L94.71 79.42L96.09 79.99L96.78 80.43L95.33 80.6L93.87 81.08L92.58 81.82L91.43 82.81L90.51 84.02L89.85 85.35L89.56 86.34L89.38 87.81L89.48 89.25L89.88 90.73L90.56 92.06L91.49 93.25L92.65 94.23L93.95 94.95L95.41 95.42L96.86 95.57" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="75.43" y="84.54" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">VEČER</text>
+<text x="75.43" y="98.54" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">ZÁMĚR</text>
+<text x="178.72" y="21.54" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">POZNÁM, ŽE SNÍM</text>
+<circle cx="266" cy="88" r="4.5" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="273" y1="88" x2="276" y2="88" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="270.95" y1="92.95" x2="273.07" y2="95.07" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="266" y1="95" x2="266" y2="98" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="261.05" y1="92.95" x2="258.93" y2="95.07" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="259" y1="88" x2="256" y2="88" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="261.05" y1="83.05" x2="258.93" y2="80.93" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="266" y1="81" x2="266" y2="78" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="270.95" y1="83.05" x2="273.07" y2="80.93" fill="none" stroke="#FF3B2F" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="282" y="77.54" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#B3261E">RÁNO</text>
+<text x="282" y="91.54" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">VYBAV SI</text>
+<text x="282" y="105.54" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="500" letter-spacing="0.57" fill="#FF3B2F">S RADOSTÍ</text>
+<path d="M239 67L241.82 64.18L242.18 64.18L245 67L242.18 69.82L241.82 69.82L239 67Z" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="233" cy="75" r="1.8" fill="none" stroke="#B3261E" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M240 82L242.79 77.35L243.05 77.07L245.78 81.18L245.9 81.51L240 82Z" fill="none" stroke="#FF3B2F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="250.49" y="96.04" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="500" letter-spacing="0.51" fill="#6E1A12">I ÚTRŽEK</text>
+<circle cx="179" cy="36" r="3" fill="#FF3B2F"/>
+</svg>

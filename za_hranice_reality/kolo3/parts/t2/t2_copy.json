@@ -1,0 +1,81 @@
+{
+  "texts": {
+    "training": {
+      "art": {
+        "dreamYogaDay": {
+          "morning": "RÁNO ZÁMĚR",
+          "pause": "ZASTAV SE",
+          "like": "JAKO",
+          "dream": "SEN",
+          "lighter": "LEHČÍ VZTAH",
+          "flow": "MĚNÍ SE",
+          "anxious": "ÚZKOST?",
+          "ground": "UZEMNĚNÍ"
+        },
+        "dreamYogaRelease": {
+          "evening": "VEČERNÍ OHLÉDNUTÍ",
+          "crave": "TOUHA",
+          "averse": "ODPOR",
+          "where": "KDE V TĚLE?",
+          "throat": "HRDLO",
+          "chest": "HRUĎ",
+          "belly": "BŘICHO",
+          "release": "S VÝDECHEM POVOL",
+          "noJudge": "BEZ HODNOCENÍ",
+          "asIf": "JAKO SEN"
+        },
+        "dreamYogaIntention": {
+          "evening": "VEČER",
+          "intent": "ZÁMĚR",
+          "phrase": "POZNÁM, ŽE SNÍM",
+          "night": "NOC",
+          "morning": "RÁNO",
+          "recall": "VYBAV SI",
+          "joy": "S RADOSTÍ",
+          "little": "I ÚTRŽEK",
+          "day": "DEN",
+          "noReproach": "BEZ VÝČITEK",
+          "again": "ZNOVU"
+        },
+        "lucidMission": {
+          "recognize": "ROZPOZNEJ",
+          "stabilize": "STABILIZUJ",
+          "transform": "PROMĚŇ",
+          "beyond": "SKRZ ZEĎ",
+          "multiply": "ROZMNOŽ",
+          "fear": "ČELIT STRACHU",
+          "dissolve": "ROZPUSŤ",
+          "aim": "UVOLNIT PŘEDSTAVY",
+          "order": "BEZ PEVNÉHO POŘADÍ"
+        },
+        "meditation": {
+          "posture": "ZÁDA VOLNĚ ROVNÁ",
+          "nose": "NOS",
+          "belly": "BŘICHO",
+          "phase1": "ŠAMATHA",
+          "count": "VÝDECHY 1–9",
+          "anchor": "DECH",
+          "wander": "ZATOULÁ SE",
+          "notice": "VŠIMNI SI",
+          "return": "NÁVRAT",
+          "rep": "1 OPAKOVÁNÍ",
+          "phase2": "OTEVŘENÉ POZOROVÁNÍ",
+          "thought": "MYŠLENKA",
+          "sound": "ZVUK",
+          "feeling": "POCIT"
+        },
+        "fourPreps": {
+          "tradition": "TRADICE",
+          "source": "WANGYAL",
+          "p1": "DEN JAKO SEN",
+          "p2a": "UVOLNIT LPĚNÍ",
+          "p2b": "A ODPOR",
+          "p3": "VEČERNÍ ZÁMĚR",
+          "p4a": "RANNÍ NÁVRAT",
+          "p4b": "S RADOSTÍ",
+          "overlap": "MILD A DENÍK"
+        }
+      }
+    }
+  }
+}
