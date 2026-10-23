@@ -1,0 +1,97 @@
+{
+  "texts": {
+    "training": {
+      "art": {
+        "dreamSignGrid": {
+          "inner": "VNITŘNÍ PROŽITEK",
+          "action": "DĚJ",
+          "form": "PODOBA",
+          "context": "SOUVISLOSTI",
+          "main": "TVOJE HLAVNÍ"
+        },
+        "fadingTrace": {
+          "axis": "MINUTY",
+          "wake": "PROBUZENÍ",
+          "dream": "SEN",
+          "lost": "ROZPLYNE SE",
+          "kept": "ZAPSANÝ SEN"
+        },
+        "brainMap": {
+          "precuneus": "PRECUNEUS",
+          "pfc": "PŘEDNÍ ČELNÍ KŮRA",
+          "tpj": "TEMPOROPARIETÁLNÍ",
+          "tpjSide": "SPOJENÍ VPRAVO",
+          "frontalPole": "ČELNÍ PÓL"
+        },
+        "remRebound": {
+          "rem": "REM",
+          "missing": "CHYBÍ",
+          "rebound": "DOHÁNÍ",
+          "night1": "KRÁTKÁ NOC",
+          "night2": "DALŠÍ NOC",
+          "caption": "PRINCIP, NE MĚŘENÍ"
+        },
+        "loopRoom": {
+          "wake": "PROBUZENÍ",
+          "again": "A ZNOVU",
+          "check": "TEST REALITY"
+        },
+        "rewriteScript": {
+          "before": "NOČNÍ MŮRA",
+          "after": "NOVÝ KONEC",
+          "rehearse": "PŘEHRÁVAT DENNĚ"
+        },
+        "seedMoon": {
+          "evening": "VEČER",
+          "morning": "RÁNO",
+          "seed": "TÉMA",
+          "sprout": "CO VYKLÍČILO"
+        },
+        "cueWave": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "cue": "ZVUKOVÝ PODNĚT",
+          "rem": "REM",
+          "start": "USNUTÍ",
+          "end": "RÁNO"
+        },
+        "timeline": {
+          "antiquity": "ANTIKA",
+          "aristotle": "ARISTOTELÉS",
+          "y1867": "1867",
+          "saintDenys": "SAINT-DENYS",
+          "y1913": "1913",
+          "vanEeden": "VAN EEDEN",
+          "y1968": "1968",
+          "green": "GREEN",
+          "y1975": "1975",
+          "hearne": "HEARNE",
+          "y1981": "1981",
+          "laberge": "LABERGE",
+          "y2021": "2021",
+          "konkoly": "KONKOLY"
+        },
+        "eyeSignal": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "eyes": "POHYB OČÍ",
+          "left": "L",
+          "right": "R",
+          "stages": "FÁZE SPÁNKU",
+          "rem": "REM"
+        },
+        "chronoDial": {
+          "windows": "REM OKNO",
+          "early": "RANNÍ TYP",
+          "late": "VEČERNÍ TYP"
+        },
+        "twoHypnograms": {
+          "caption": "PRINCIP, NE MĚŘENÍ",
+          "psg": "POLYSOMNOGRAFIE",
+          "device": "ODHAD ZAŘÍZENÍ",
+          "rem": "REM",
+          "late": "POZDĚ",
+          "asLight": "JAKO LEHKÝ"
+        }
+      }
+    }
+  }
+}

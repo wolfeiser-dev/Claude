@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176">
+<!-- twoHypnograms, noc (redOnly), statický snímek (live = false), 358 × 176. Souřadnice jsou z týchž volání Canvasu, která dělá Dart. -->
 <rect width="358" height="176" fill="#000000"/>
 <rect x="92.47" y="40" width="7.35" height="12" fill="#FF3B2F" fill-opacity="0.16"/>
 <rect x="154.93" y="40" width="13.23" height="12" fill="#FF3B2F" fill-opacity="0.16"/>

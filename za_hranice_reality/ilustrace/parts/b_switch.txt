@@ -1,0 +1,19 @@
+// Sdíl B: 6 ilustrací. Řádky patří do `switch (id)` v TrainingArt.build,
+// kamkoli před výchozí větev `_ => _Ladder(skin, l, clock),`:
+      'seedMoon' => _SeedMoon(skin, l, clock),
+      'cueWave' => _CueWave(skin, l, clock),
+      'timeline' => _Timeline(skin, l, clock),
+      'eyeSignal' => _EyeSignal(skin, l, clock),
+      'chronoDial' => _ChronoDial(skin, l, clock),
+      'twoHypnograms' => _TwoHypnograms(skin, l, clock),
+
+// Položky do `static const ids = [...]`:
+    'seedMoon',
+    'cueWave',
+    'timeline',
+    'eyeSignal',
+    'chronoDial',
+    'twoHypnograms',
+
+// Výška: všech 6 vychází z výchozích 176 px a ověřeno je i na šířkách 320, 358, 390 a 430.
+// Žádná nepotřebuje víc, řádek `height: height ?? (id == 'realityTree' ? 210 : 176)` zůstává beze změny.

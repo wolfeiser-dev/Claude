@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="358" height="176" viewBox="0 0 358 176">
+<!-- chronoDial, den, statický snímek (live = false), 358 × 176. Souřadnice jsou z týchž volání Canvasu, která dělá Dart. -->
 <rect width="358" height="176" fill="#04060C"/>
 <circle cx="128" cy="88" r="56" fill="none" stroke="#2E3A57" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
 <line x1="128" y1="32" x2="128" y2="38" fill="none" stroke="#8D97AD" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
