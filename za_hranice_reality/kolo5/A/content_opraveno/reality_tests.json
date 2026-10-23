@@ -1,0 +1,770 @@
+{
+  "tests": [
+    {
+      "id": "nose",
+      "name": "Nos",
+      "notification": "Zacpi si nos a zkus se nadechnout.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Stiskni nos prsty a měj zavřená ústa.",
+        "Zkus se jemně nadechnout nosem. Když to nejde, jsi vzhůru.",
+        "Při nepohodlí hned pusť a nic nevynucuj."
+      ],
+      "inDream": "Ve snu vzduch často normálně proudí i přes zacpaný nos.",
+      "reliability": "high",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "V komunitě nejčastěji doporučovaný test, popisuje ho i LaBergeova laboratoř. Jeho spolehlivost ve snu nikdo neměřil a komunita hlásí i selhání (silné očekávání bdělosti, rýma, přílišné opakování).",
+      "tip": "Čekej, že vzduch projde, a pochybuj doopravdy. Test dělaný z rutiny ve snu snadno selže.",
+      "sources": [
+        "LaBerge Lab (UNLV newsletter)",
+        "LD4all: Reliable RC",
+        "Wikibooks: Breathing"
+      ]
+    },
+    {
+      "id": "lips",
+      "name": "Zavřené rty",
+      "notification": "Zavři rty a zkus se jimi nadechnout.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Pevně zavři rty.",
+        "Zkus se nadechnout skrz zavřená ústa. Když vzduch neprojde, jsi vzhůru."
+      ],
+      "inDream": "Ve snu můžeš cítit, jak vzduch proudí i přes zavřená ústa.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Použili ho jako test reality ve studiích Aspy 2017 a Adventure-Heart (dříve Aspy) 2020. Vysvětlení přes útlum svalů v REM je jen domněnka autorů a spolehlivost testu ve snu se neměřila.",
+      "tip": "Je to nejnenápadnější dechový test. Hodí se tam, kde si nechceš sahat na nos.",
+      "sources": [
+        "Aspy et al. 2017",
+        "Adventure-Heart (Aspy) 2020"
+      ]
+    },
+    {
+      "id": "palm",
+      "name": "Prst skrz dlaň",
+      "notification": "Zkus protlačit prst skrz dlaň.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Přitlač prst jedné ruky do dlaně druhé.",
+        "Zkus ho opravdu protlačit a čekej, že projde."
+      ],
+      "inDream": "Ve snu může prst dlaní projít nebo se dlaň měkce prohnout.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Jedna větev studie ILDIS (2020) ho používala jako test reality, ale výsledky lucidity se tím nezlepšily. Komunita hlásí smíšené zkušenosti: někdo mu věří, někomu selhává pokaždé.",
+      "tip": "Ve snu často selže, když váháš. Tlač s tím, že prst projít může.",
+      "sources": [
+        "Adventure-Heart (Aspy) 2020",
+        "LD4all: Veylorn's ranking",
+        "LD4all: A list of Reality Checks"
+      ]
+    },
+    {
+      "id": "fingers",
+      "name": "Počítání prstů",
+      "notification": "Spočítej prsty na ruce. Sedí to?",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Pomalu spočítej prsty a ukaž na každý zvlášť.",
+        "Spočítej je ještě jednou a sleduj, jestli se počet nemění."
+      ],
+      "inDream": "Ve snu může být prstů víc nebo méně, nebo se jejich počet při počítání mění.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Doporučuje ho LaBergeova laboratoř. V komunitě patří k oblíbeným, ale někdo ve snu napočítá špatné číslo a přijme ho jako normální. Časem test slábne.",
+      "tip": "Počítej pomalu a ukaž na každý prst. Při rychlém počítání si ve snu chyby snadno nevšimneš.",
+      "sources": [
+        "LaBerge Lab (UNLV newsletter)",
+        "LD4all: Veylorn's ranking",
+        "Wikibooks: Hands"
+      ]
+    },
+    {
+      "id": "hands",
+      "name": "Pohled na ruce",
+      "notification": "Dívej se pět vteřin na své ruce.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Drž ruce před sebou a pozoruj je pět vteřin.",
+        "Všímej si tvaru, barvy a ostrosti. Mění se něco, když se díváš?"
+      ],
+      "inDream": "Ruce bývají rozmazané, zdeformované nebo se pod pohledem mění.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "tradition",
+      "evidenceNote": "Čistě komunitní praxe bez studie. Ruce můžou ve snu vypadat úplně normálně, nebo si nezvyklosti nevšimneš, případně si ji vysvětlíš. Wikibooks uvádí, že při častém opakování test časem slábne.",
+      "tip": "Čekej, že ruka udělá něco neobvyklého. Když se díváš jen z rutiny, ve snu si ničeho nevšimneš.",
+      "sources": [
+        "Wikibooks: Hands",
+        "LD4all: How to perform proper reality checks"
+      ]
+    },
+    {
+      "id": "text",
+      "name": "Text dvakrát",
+      "notification": "Přečti nápis, odvrať pohled a čti znovu.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Najdi krátký text a pozorně ho přečti.",
+        "Odvrať pohled a zkus si ho vybavit.",
+        "Přečti ho znovu, klidně i potřetí. Je pořád stejný?"
+      ],
+      "inDream": "Text se při druhém čtení často změní, rozpadne nebo je nečitelný.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "text",
+      "evidence": "promising",
+      "evidenceNote": "Klasický test podle LaBergea a Rheingolda (1990), citovaný ve studii Aspy 2017. Často citovaná čísla (75 % po dvou pohledech, 99 % po třech) jsme v žádném zdroji neověřili. Komunita hlásí, že čtení ve snu často jde a potíž dělá hlavně zapamatování.",
+      "tip": "Nejde o to, jestli umíš číst, ale jestli si text pamatuješ stejně. Odvrať pohled opravdu a zkus ho vybavit.",
+      "sources": [
+        "LaBerge & Rheingold 1990",
+        "Aspy et al. 2017",
+        "Wikibooks: Reading"
+      ]
+    },
+    {
+      "id": "clock",
+      "name": "Hodiny",
+      "notification": "Podívej se na hodiny, odvrať pohled a pak znovu.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Přečti čas a zapamatuj si ho.",
+        "Odvrať pohled a podívej se podruhé.",
+        "Sedí čas? Jsou číslice stabilní a dávají smysl?"
+      ],
+      "inDream": "Čas skočí, číslice se rozpadnou nebo ukazují nesmysl.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "clock",
+      "evidence": "tradition",
+      "evidenceNote": "Komunitní test bez studie. Digitální displeje bývají podle komunity výraznější než ručičkové, ale někomu selhávají. Jeden pohled nestačí, testem je až ten druhý.",
+      "tip": "Podívej se podruhé s pozorností. První letmý pohled je jen příprava.",
+      "sources": [
+        "Wikibooks: Time",
+        "LD4all: Veylorn's ranking",
+        "LD4all: Reliable RC"
+      ]
+    },
+    {
+      "id": "phone",
+      "name": "Displej telefonu",
+      "notification": "Podívej se dvakrát na displej telefonu.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Přečti čas a krátký text na displeji.",
+        "Zamkni telefon, odvrať pohled a podívej se znovu.",
+        "Jsou čas i text stejné a stabilní?"
+      ],
+      "inDream": "Displej ukazuje nesmyslný čas, měnící se text nebo vůbec nejde zapnout.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "phone",
+      "evidence": "tradition",
+      "evidenceNote": "Je to vlastně kombinace testu hodin a textu na displeji. Komunita ho uvádí, žádná studie ho neověřila. Odhad spolehlivosti je odvozený z testů hodin a textu.",
+      "tip": "Hodí se hned po upozornění, protože telefon už držíš v ruce. Druhý pohled ale udělej doopravdy.",
+      "sources": [
+        "LD4all: SMS Text Reality Check",
+        "Wikibooks: Time"
+      ]
+    },
+    {
+      "id": "light",
+      "name": "Vypínač světla",
+      "notification": "Zkus rozsvítit a zhasnout světlo.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Najdi vypínač a přepni ho.",
+        "Sleduj, jestli světlo reaguje a jestli vypadá obvykle."
+      ],
+      "inDream": "Světlo nesvítí nebo svítí divně, sen to ale umí vysvětlit třeba výpadkem proudu.",
+      "reliability": "low",
+      "discreet": true,
+      "needs": "light",
+      "evidence": "promising",
+      "evidenceNote": "Tholey (1989) ho doporučuje po probuzení kvůli falešným probuzením. Wikibooks ho řadí mezi méně spolehlivé, protože sen výpadek ochotně vysvětlí.",
+      "tip": "Největší smysl má po probuzení v noci. Když světlo nefunguje, nespoléhej na jediný test a zkus druhý.",
+      "sources": [
+        "Tholey 1989",
+        "Wikibooks: Light switches"
+      ]
+    },
+    {
+      "id": "mirror",
+      "name": "Zrcadlo",
+      "notification": "Podívej se do zrcadla. Je odraz v pořádku?",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Pozorně se na sebe podívej pět vteřin.",
+        "Sleduj obličej, vlasy a pohyby odrazu. Mění se, když se soustředíš?"
+      ],
+      "inDream": "Odraz je rozmazaný, cizí nebo se mění. Někdy v zrcadle nejsi vůbec.",
+      "reliability": "low",
+      "discreet": true,
+      "needs": "mirror",
+      "evidence": "tradition",
+      "evidenceNote": "Jen komunitní příběhy, bez studie. Normální odraz nic nedokazuje, užitečná je až zřejmá odchylka. Sen ji ale často vysvětlí.",
+      "tip": "Použij zrcadlo jako spouštěč. Pokaždé, když se uvidíš, udělej k tomu jiný, spolehlivější test.",
+      "sources": [
+        "Wikibooks: Mirrors",
+        "LD4all (komunitní vlákna)"
+      ]
+    },
+    {
+      "id": "jump",
+      "name": "Skok",
+      "notification": "Lehce se odraž a sleduj, jak dopadáš.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Jen na rovném a bezpečném místě se lehce odraž.",
+        "Sleduj, jestli dopadáš normálně, nebo se vznášíš."
+      ],
+      "inDream": "Můžeš plachtit nebo dopadat pomalu. Gravitace ale někdy funguje běžně.",
+      "reliability": "low",
+      "discreet": false,
+      "needs": "none",
+      "evidence": "tradition",
+      "evidenceNote": "Komunitní praxe. Wikibooks uvádí, že kdo ve snu často létá, může vznášení považovat za normální. Normální dopad nic nedokazuje.",
+      "tip": "Nikdy neskákej z výšky ani na nebezpečném místě. Stačí lehký odraz na špičkách.",
+      "sources": [
+        "Wikibooks: Jumping",
+        "LD4all: A list of Reality Checks"
+      ]
+    },
+    {
+      "id": "wall",
+      "name": "Prst do zdi",
+      "notification": "Zatlač prstem do zdi. Je pevná jako vždy?",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Přitlač špičku prstu na zeď nebo na dveře.",
+        "Zkus lehce zatlačit a sleduj odpor povrchu."
+      ],
+      "inDream": "Prst může projít zdí nebo zapadnout do povrchu jako do gelu.",
+      "reliability": "low",
+      "discreet": true,
+      "needs": "wall",
+      "evidence": "tradition",
+      "evidenceNote": "Jen komunitní praxe (jeden hlas z vlákna na LD4all). Žádná studie, málo zpráv o spolehlivosti.",
+      "tip": "Tlač jen zlehka. Cílem je pozorovat odpor, ne zdí projít silou.",
+      "sources": [
+        "LD4all: Veylorn's ranking (komunitní příspěvky)",
+        "LD4all: A list of Reality Checks"
+      ]
+    },
+    {
+      "id": "memory",
+      "name": "Jak jsem se sem dostal",
+      "notification": "Jak ses sem dostal? Projdi poslední minuty.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Vzpomeň si, co se dělo před minutou a před pěti minutami.",
+        "Jdi zpátky až k ránu. Navazuje to bez mezer?"
+      ],
+      "inDream": "Ve snu často chybí přechody. Scéna prostě začne a cesta sem se nedá vybavit.",
+      "reliability": "high",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Tholey (1989) ho označuje za jeden z nejúčinnějších testů, ale jde o názor zkušeného badatele, ne o měřený výsledek. Sen umí vyrobit falešnou vzpomínku a hned po probuzení tě může zmást falešné probuzení.",
+      "tip": "Nespokoj se s pocitem, že to víš. Projdi řetěz kroků zpětně, až k ránu.",
+      "sources": [
+        "Tholey 1989",
+        "Wikibooks: Memory"
+      ]
+    },
+    {
+      "id": "oddity",
+      "name": "Co tu nesedí",
+      "notification": "Najdi v okolí jednu věc, která nesedí.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Pojmenuj tři věci, které sedí.",
+        "Hledej jednu, která nesedí: velikost, místo, osoba, světlo.",
+        "Dává to smysl? Sedí to s tím, co víš?"
+      ],
+      "inDream": "Ve snu se najde něco nesmyslného: podivné místo, člověk nebo předmět.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Vychází z Tholeyho kritéria pro rozpoznání snu, tedy z podivností a rozporů s tím, co víš o bdělém světě. Jako samostatný test se neměřil.",
+      "tip": "Neptej se jen na divnost, ale i na rozpor s tím, co víš o dnešním dni.",
+      "sources": [
+        "Tholey 1989"
+      ]
+    },
+    {
+      "id": "dreamsign",
+      "name": "Znak snu",
+      "notification": "Je kolem tebe některý z tvých znaků snů?",
+      "steps": [
+        "Vzpomeň si na svůj nejčastější znak snu z deníku.",
+        "Rozhlédni se. Je tu něco takového?",
+        "Udělej k tomu jeden spolehlivý test, třeba nos nebo paměť."
+      ],
+      "inDream": "Když ve snu potkáš svůj znak, je to příležitost k testu.",
+      "reliability": "medium",
+      "discreet": true,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Purcell (1988) našel víc lucidních snů u skupiny, která kromě testů reality četla vlastní sny a seznamovala se s jejich opakujícími se zvláštnostmi. Známe to jen z citace v Aspy 2017, originál jsme neviděli.",
+      "tip": "Nejlíp funguje s tvými vlastními znaky z deníku, ne s obecnými. Přidej si do appky ty nejčastější.",
+      "sources": [
+        "Aspy et al. 2017 (cituje Purcell 1988)",
+        "LD4all: How to perform proper reality checks"
+      ]
+    },
+    {
+      "id": "turn",
+      "name": "Otočka",
+      "notification": "Otoč se o půl otáčky a zastav se.",
+      "steps": [
+        "Zeptej se doopravdy: Sním teď?",
+        "Na bezpečném místě se otoč zhruba o 180 stupňů.",
+        "Zastav se. Zůstává tělo i okolí v klidu?"
+      ],
+      "inDream": "Tělo se může točit dál nebo se okolí začne otáčet opačně.",
+      "reliability": "low",
+      "discreet": false,
+      "needs": "none",
+      "evidence": "promising",
+      "evidenceNote": "Popisuje ho Tholey (1989) jako fyzický test, ale sám připouští, že mnoho lidí ho před ostatními nechce dělat. Spolehlivost nikdo neměřil.",
+      "tip": "Hodí se doma, ne na ulici. Mimo domov dej přednost mentálním testům, třeba paměti.",
+      "sources": [
+        "Tholey 1989"
+      ]
+    }
+  ],
+  "awarenessPrompts": [
+    {
+      "id": "rc_01",
+      "notification": "Podívej se na dlaň. Sníš, nebo bdíš?",
+      "prompt": "Tři vteřiny se dívej na dlaň. Jsou čáry a prsty ostré? Co se dělo před pěti minutami?"
+    },
+    {
+      "id": "rc_02",
+      "notification": "Co se dělo před pěti minutami? A předtím?",
+      "prompt": "Projdi si v duchu cestu do téhle chvíle, krok po kroku. Navazuje to na sebe?"
+    },
+    {
+      "id": "rc_03",
+      "notification": "Co je tu teď zvláštního?",
+      "prompt": "Najdi tři věci, které dávají smysl, a hledej jednu, která ho nedává. Teprve pak odpověz."
+    },
+    {
+      "id": "rc_04",
+      "notification": "Zavři rty a zkus se jimi nadechnout.",
+      "prompt": "V bdění to nejde. Ve snu někdy ano. Co ti to říká o téhle chvíli?"
+    },
+    {
+      "id": "rc_05",
+      "notification": "Přečti si tuhle větu dvakrát. Je pořád stejná?",
+      "prompt": "Ve snu se text při druhém čtení může změnit. Najdi kolem sebe nějaký nápis a přečti ho dvakrát."
+    },
+    {
+      "id": "rc_06",
+      "notification": "Kolik je hodin? Podívej se dvakrát.",
+      "prompt": "Podívej se na hodiny, odvrať pohled a podívej se znovu. Sedí čas s tím, co se dnes dělo?"
+    },
+    {
+      "id": "rc_07",
+      "notification": "Je kolem tebe některý z tvých znaků snů?",
+      "prompt": "Vzpomeň si na svůj hlavní znak snu. Je tady něco podobného? Kdyby ano, podle čeho teď poznáš, jestli sníš?"
+    },
+    {
+      "id": "rc_08",
+      "notification": "Jak teď cítíš tělo? Tíhu, kroky, dech?",
+      "prompt": "Vnímej váhu těla, dotek oblečení a dech. Je to obvyklé, nebo je něco jinak?"
+    },
+    {
+      "id": "rc_09",
+      "notification": "Podívej se na nejbližší světlo. Vypadá jako vždy?",
+      "prompt": "Ve snu může být světlo zvláštní nebo nereagovat na vypínač. Jak je to tady a teď?"
+    },
+    {
+      "id": "rc_10",
+      "notification": "Spočítej prsty na ruce. Sedí to?",
+      "prompt": "Spočítej je pomalu, jeden po druhém. Kolik jich je a vypadají obvykle?"
+    },
+    {
+      "id": "rc_11",
+      "notification": "Podívej se na lidi kolem. Chovají se obvykle?",
+      "prompt": "Kdo je s tebou a proč? Dává smysl, že jsou tady právě oni?"
+    },
+    {
+      "id": "rc_12",
+      "notification": "Co teď slyšíš? Dává to smysl?",
+      "prompt": "Pojmenuj tři zvuky kolem sebe. Odkud přicházejí a sedí k místu, kde jsi?"
+    },
+    {
+      "id": "rc_13",
+      "notification": "Proč jsi teď právě tady?",
+      "prompt": "Kde jsi, proč tady a co přijde dál? Odpověz si celou větou."
+    },
+    {
+      "id": "rc_14",
+      "notification": "Jak se právě cítíš? Odpovídá to situaci?",
+      "prompt": "Pojmenuj pocit a zkus zjistit, odkud přišel. Ve snu emoce někdy nesedí k tomu, co se děje."
+    },
+    {
+      "id": "aw_01",
+      "notification": "Jak vím, že teď nesním?",
+      "prompt": "Ptej se tak, jako bys odpověď opravdu nevěděl. Hledej jeden důkaz: co přesně ti říká, že jsi vzhůru?"
+    },
+    {
+      "id": "aw_02",
+      "notification": "Tři pomalé nádechy. Kde právě jsi?",
+      "prompt": "Při každém nádechu pojmenuj jednu věc, kterou vidíš, slyšíš nebo cítíš. Pak se zeptej, jestli to celé dává smysl."
+    },
+    {
+      "id": "aw_03",
+      "notification": "Vybav si dnešní ráno. Navazuje na něj celý den?",
+      "prompt": "Projdi dnešek od rána krok za krokem až do téhle chvíle. Jsou tam mezery nebo skoky?"
+    },
+    {
+      "id": "aw_04",
+      "notification": "Kdyby tohle byl sen, co by bylo jinak?",
+      "prompt": "Na chvíli ber vážně, že sníš. Co by se ve snu dalo změnit: světlo, lidé, velikosti, zvuky? Je něco z toho jinak už teď?"
+    },
+    {
+      "id": "aw_05",
+      "notification": "Řekni si: až budu snít, poznám to.",
+      "prompt": "Řekni si klidně: „Teď nesním, ale až budu snít, zastavím se a poznám to.“ Krátce si představ, jak totéž děláš ve snu."
+    },
+    {
+      "id": "aw_06",
+      "notification": "Pět vteřin jen pozoruj jednu věc.",
+      "prompt": "Vyber si předmět a sleduj hrany, stíny a povrch. Je tak ostrý a stabilní, jak má být?"
+    },
+    {
+      "id": "aw_07",
+      "notification": "Změnilo se za poslední minutu něco skokem?",
+      "prompt": "Projdi si poslední minutu. Změnila se scéna, objevil se někdo nebo něco, co tu před chvílí nebylo?"
+    },
+    {
+      "id": "aw_08",
+      "notification": "Zasaď tuhle chvíli do dnešního dne.",
+      "prompt": "Co bylo před ní a co přijde po ní? Sedí tahle chvíle do toho, co si pamatuješ z dneška a co máš v plánu?"
+    },
+    {
+      "id": "aw_09",
+      "notification": "Nejdřív se rozhlédni, potom odpověz: Sním?",
+      "prompt": "Rozhlédni se pomalu a teprve pak odpověz. Odpovídáš podle okolí, nebo podle zvyku?"
+    },
+    {
+      "id": "aw_10",
+      "notification": "Na co jsi právě myslel? Odkud ta myšlenka přišla?",
+      "prompt": "Všimni si poslední myšlenky a zkus ji vystopovat zpátky. Co ji spustilo? Byl jsi v ní ponořený, nebo ses na ni díval zvenku?"
+    },
+    {
+      "id": "aw_11",
+      "notification": "Co je na okrajích tvého zorného pole?",
+      "prompt": "Dívej se rovně a všímej si okrajů. Jsou stejně ostré jako střed? Je tam něco, čeho sis dosud nevšiml?"
+    },
+    {
+      "id": "aw_12",
+      "notification": "Dnes udělej svůj test jinak než posledně.",
+      "prompt": "Vyber si jiný test než obvykle a čekej, že dopadne divně. Rutina je nepřítel: s obvyklým výsledkem v hlavě snadno přehlédneš podivnost."
+    },
+    {
+      "id": "aw_13",
+      "notification": "Co je dnes jiné než včera?",
+      "prompt": "Najdi jednu drobnost, která se od včerejška liší. Něco se přesunulo nebo změnilo, nebo někdo přibyl."
+    },
+    {
+      "id": "aw_14",
+      "notification": "Najdi odlesk nebo stín. Chová se správně?",
+      "prompt": "Sleduj stín nebo odlesk. Odpovídá zdroji světla a tomu, co se kolem hýbe?"
+    },
+    {
+      "id": "aw_15",
+      "notification": "Polož dlaň na něco. Co přesně cítíš?",
+      "prompt": "Přitiskni dlaň na stůl nebo oblečení a vnímej teplotu, povrch a tlak. Je dotek stejně přesný jako pohled?"
+    },
+    {
+      "id": "aw_16",
+      "notification": "Podívej se nahoru. Co tam vidíš?",
+      "prompt": "Zvedni pohled ke stropu nebo k obloze. Je to, co vidíš, stabilní a očekávané?"
+    },
+    {
+      "id": "aw_17",
+      "notification": "Kdy jsi dnes pochyboval doopravdy?",
+      "prompt": "Vzpomeň si na poslední zastavení, kdy jsi opravdu nevěděl. Liší se to od reflexního „jasně, že bdím“? Zkus teď pochybovat stejně vážně."
+    },
+    {
+      "id": "aw_18",
+      "notification": "Co teď cítíš čichem nebo chutí?",
+      "prompt": "Zaměř se na vůni a chuť v ústech. Odpovídá to místu, kde jsi, a tomu, co jsi dnes jedl nebo pil?"
+    },
+    {
+      "id": "aw_19",
+      "notification": "Sním? Odpověz až po jednom testu.",
+      "prompt": "Nejdřív zavři rty a zkus se nadechnout ústy, teprve pak odpověz. Když vzduch projde, sníš."
+    },
+    {
+      "id": "aw_20",
+      "notification": "Tři kroky: otázka, rozhled, test.",
+      "prompt": "Upřímně se zeptej, jestli sníš, rozhlédni se po něčem divném a udělej jeden fyzický test. Celé to zabere 20 vteřin."
+    },
+    {
+      "id": "aw_21",
+      "notification": "Přečti nejbližší nápis. Odvrať oči a znovu.",
+      "prompt": "Ve snu se text při druhém čtení často změní nebo rozpadne. Porovnej obě čtení a zeptej se, jestli sníš."
+    },
+    {
+      "id": "aw_22",
+      "notification": "Podívej se na hodiny. Pak ještě jednou.",
+      "prompt": "Ve snu čas na hodinách při druhém pohledu často skočí nebo nedává smysl. Odvrať se, vrať se a porovnej."
+    },
+    {
+      "id": "aw_23",
+      "notification": "Kolik je hodin? Nejdřív odhadni.",
+      "prompt": "Odhadni čas a teprve pak se podívej. Sedí odhad s tím, co se dnes dělo, nebo je v tom díra?"
+    },
+    {
+      "id": "aw_24",
+      "notification": "Kolik je 17 + 26? Ověř si to dvakrát.",
+      "prompt": "Spočítej příklad a pak ho zkontroluj jinou cestou. Ve snu se počítání často zadrhne nebo výsledek uteče."
+    },
+    {
+      "id": "aw_25",
+      "notification": "Zavři rty a zkus se nadechnout ústy.",
+      "prompt": "Tenhle test používala velká studie ILDIS. Když vzduch projde přes zavřené rty, je to sen."
+    },
+    {
+      "id": "aw_26",
+      "notification": "Zacpi si nos a zkus se nadechnout.",
+      "prompt": "Ve snu se často nadechneš i přes zacpaný nos. Udělej to pomalu a s opravdovou zvědavostí, ne ze zvyku."
+    },
+    {
+      "id": "aw_27",
+      "notification": "Zkus protlačit prst dlaní druhé ruky.",
+      "prompt": "Zatlač ukazovákem do středu dlaně a prohlédni si obě ruce. Ve snu prst může projít nebo ruce vypadají jinak."
+    },
+    {
+      "id": "aw_28",
+      "notification": "Spočítej prsty. Pomalu, jeden po druhém.",
+      "prompt": "Ve snu jich bývá jiný počet nebo se při počítání mění. Počítej nahlas nebo šeptem, ať to nejde samo."
+    },
+    {
+      "id": "aw_29",
+      "notification": "Podívej se na ruce pět vteřin v kuse.",
+      "prompt": "Sleduj tvar, čáry a nehty. Ve snu se ruce při delším pohledu často mění nebo rozmazávají."
+    },
+    {
+      "id": "aw_30",
+      "notification": "Malý poskok na místě. Jak dopadneš?",
+      "prompt": "Poskoč a sleduj, jak tě to stáhne zpátky. Ve snu můžeš zůstat chvíli viset nebo dopadnout zpomaleně."
+    },
+    {
+      "id": "aw_31",
+      "notification": "Zkus vypínač. Reaguje světlo, jak má?",
+      "prompt": "Ve snech vypínače často nefungují nebo světlo reaguje divně. Když žádný není po ruce, udělej test s dechem."
+    },
+    {
+      "id": "aw_32",
+      "notification": "Najdi svůj odraz: okno, displej, lžička.",
+      "prompt": "Prohlédni si odraz pozorně, ne jen letmo. Ve snu bývá rozmazaný, cizí nebo se mění."
+    },
+    {
+      "id": "aw_33",
+      "notification": "Jak vede cesta až sem? Projdi ji krok po kroku.",
+      "prompt": "Vybav si posledních pár minut, které tě sem přivedly. Když v cestě chybí kus, je to typický znak snu."
+    },
+    {
+      "id": "aw_34",
+      "notification": "Co se dělo před deseti minutami?",
+      "prompt": "Vybav si jeden konkrétní detail z té doby. Navazuje plynule na tuhle chvíli, nebo je mezi nimi skok?"
+    },
+    {
+      "id": "aw_35",
+      "notification": "Co bylo tvoje poslední jídlo?",
+      "prompt": "Zkus si vybavit chuť, místo a čas. Když se vzpomínka nechce chytit, rozhlédni se po něčem neobvyklém."
+    },
+    {
+      "id": "aw_36",
+      "notification": "Co bylo dnes ráno úplně první?",
+      "prompt": "Projdi si den od probuzení až sem. Souvislá linie mluví pro bdění, mezery jsou důvod udělat test."
+    },
+    {
+      "id": "aw_37",
+      "notification": "Kde budeš za hodinu? A dává to smysl?",
+      "prompt": "Ve snu plány často nesedí s tím, kde jsi a co máš na sobě. Ověř si to a udělej jeden test."
+    },
+    {
+      "id": "aw_38",
+      "notification": "Vyjmenuj tři zvuky, které teď slyšíš.",
+      "prompt": "Pojmenuj je, urči, odkud jdou, a posuď, jestli sedí k místu, kde jsi. Pak se zeptej: sním?"
+    },
+    {
+      "id": "aw_39",
+      "notification": "Dotkni se něčeho studeného nebo drsného.",
+      "prompt": "Vnímej teplotu a povrch pod prsty. Pak zkus zatlačit prst do dlaně a sleduj, jestli neprojde."
+    },
+    {
+      "id": "aw_40",
+      "notification": "Nadechni se nosem. Co cítíš?",
+      "prompt": "Ve snech bývají vůně vzácné, tak si všimni, jestli nějakou cítíš. Pak se zeptej, jestli jsi opravdu vzhůru."
+    },
+    {
+      "id": "aw_41",
+      "notification": "Jakou chuť máš právě v puse?",
+      "prompt": "Všimni si chuti, nebo toho, že žádnou necítíš. Pak se rozhlédni, jestli je tu něco, co sem nepatří."
+    },
+    {
+      "id": "aw_42",
+      "notification": "Zavři oči. Kde přesně máš ruce?",
+      "prompt": "Odhadni polohu rukou bez dívání a pak se podívej, jestli to sedí. Přitom spočítej prsty."
+    },
+    {
+      "id": "aw_43",
+      "notification": "Cítíš váhu těla? Čím se dotýkáš země?",
+      "prompt": "Všimni si chodidel nebo židle pod sebou. Pak se upřímně zeptej, jestli to není sen."
+    },
+    {
+      "id": "aw_44",
+      "notification": "Odkud sem teď padá světlo?",
+      "prompt": "Najdi zdroj světla a zkontroluj, jestli k němu sedí stíny. Ve snu světlo často nemá jasný původ."
+    },
+    {
+      "id": "aw_45",
+      "notification": "Nehýbej očima. Co vidíš na okrajích?",
+      "prompt": "Všimni si okraje zorného pole: je stálý, nebo se něco hýbe a mění? Pak udělej jeden test."
+    },
+    {
+      "id": "aw_46",
+      "notification": "Najdi kolem sebe jednu věc, která sem nesedí.",
+      "prompt": "Hledej opravdu, jako detektiv: barvu, předmět, člověka, zvuk. Když nějakou najdeš, udělej test reality."
+    },
+    {
+      "id": "aw_47",
+      "notification": "Objevila se dnes některá z tvých Stop snů?",
+      "prompt": "Vzpomeň si na své opakující se motivy. Pokud je jeden z nich právě kolem tebe, zastav se a udělej test."
+    },
+    {
+      "id": "aw_48",
+      "notification": "Kdo je kolem tebe? Sedí to?",
+      "prompt": "Ve snech se objevují lidé, kteří by tu nemohli být, nebo se mění jejich tváře. Prohlédni si okolí a zeptej se: sním?"
+    },
+    {
+      "id": "aw_49",
+      "notification": "Podívej se z okna. Sedí počasí a denní doba?",
+      "prompt": "Ve snu se roční období i denní doba umí změnit skokem. Porovnej to s tím, co si pamatuješ z rána."
+    },
+    {
+      "id": "aw_50",
+      "notification": "Podívej se na předmět, odvrať se, znovu.",
+      "prompt": "Zůstal stejný? Ve snu se věci při druhém pohledu rády mění tvarem, barvou nebo nápisem."
+    },
+    {
+      "id": "aw_51",
+      "notification": "Pomalu se otoč dokola. Drží svět pohromadě?",
+      "prompt": "Sleduj, jestli místnost navazuje tak, jak čekáš. Ve snu se prostor za zády umí přeskládat."
+    },
+    {
+      "id": "aw_52",
+      "notification": "Každé dveře dnes ber jako připomínku.",
+      "prompt": "Až projdeš dveřmi, zastav se na prahu, rozhlédni se a udělej jeden test. Návyk spojený se situací se do snu přenáší snáz."
+    },
+    {
+      "id": "aw_53",
+      "notification": "Cítíš teď něco silně? Zastav se.",
+      "prompt": "Silná emoce (strach, nadšení nebo vztek) patří k častým znakům snů. Pojmenuj ji a zeptej se, jestli nesníš."
+    },
+    {
+      "id": "aw_54",
+      "notification": "Co tě dnes naposledy překvapilo?",
+      "prompt": "Překvapení je chvíle, kdy mysl zaznamenala nesoulad. Vrať se k ní a zeptej se, jestli to nebyl znak snu."
+    },
+    {
+      "id": "aw_55",
+      "notification": "Jakou máš náladu na škále 0 až 10?",
+      "prompt": "Ohodnoť ji a všimni si, odkud se vzala. Když nevíš proč, rozhlédni se po něčem neobvyklém."
+    },
+    {
+      "id": "aw_56",
+      "notification": "Představ si, že tohle je sen. Co by se změnilo?",
+      "prompt": "Vezmi tu možnost na chvíli vážně a hledej důkaz pro i proti. Pak rozhodni až po jednom fyzickém testu."
+    },
+    {
+      "id": "aw_57",
+      "notification": "Nakresli si na dlaň tečku.",
+      "prompt": "Pokaždé, když ji dnes zahlédneš, udělej test reality. Ve snu může tečka chybět nebo vypadat jinak."
+    },
+    {
+      "id": "aw_58",
+      "notification": "Zažij chvíli, jako by byla snem. Pak test.",
+      "prompt": "Na pár nádechů nech všechno, co vnímáš, plynout jako sen, beze snahy něco měnit. Pak se vrať a udělej jeden test, ať víš."
+    }
+  ],
+  "triggers": [
+    {
+      "id": "doors",
+      "label": "Pokaždé, když projdeš dveřmi"
+    },
+    {
+      "id": "phone",
+      "label": "Pokaždé, když odemkneš telefon"
+    },
+    {
+      "id": "handwash",
+      "label": "Když si myješ ruce"
+    },
+    {
+      "id": "drink",
+      "label": "Když si nalíváš pití nebo kávu"
+    },
+    {
+      "id": "mirror",
+      "label": "Když uvidíš zrcadlo nebo svůj odraz"
+    },
+    {
+      "id": "clock",
+      "label": "Když se podíváš na hodiny"
+    },
+    {
+      "id": "waiting",
+      "label": "Když na něco čekáš (fronta, semafor, konvice)"
+    },
+    {
+      "id": "stairs",
+      "label": "Když jdeš po schodech nebo jedeš výtahem"
+    },
+    {
+      "id": "surprise",
+      "label": "Když tě něco překvapí nebo vyleká"
+    },
+    {
+      "id": "dreamsign",
+      "label": "Když uvidíš svůj znak snu"
+    },
+    {
+      "id": "waking",
+      "label": "Hned po probuzení, i uprostřed noci"
+    },
+    {
+      "id": "newplace",
+      "label": "Když vejdeš na nové místo"
+    }
+  ],
+  "principles": [
+    "Ptej se doopravdy a pochybuj. Odpověď z autopilota „jasně, že bdím“ nic nevytrénuje.",
+    "Nejdřív otázka a pomalé rozhlédnutí, teprve pak test.",
+    "Test dělej s tím, že může dopadnout divně. Podle komunity ve snu selhává, když čekáš obvyklý výsledek.",
+    "Střídej dva až tři testy. Jeden dokola časem zevšední a přestane vyvolávat otázku.",
+    "Divný ani normální výsledek neber jako rozsudek. Sen umí podivnost vysvětlit, tak zkus druhý test.",
+    "Testuj hlavně při neobvyklých událostech a při svých znacích snů, nejen podle hodin.",
+    "Po testu zůstaň pár vteřin u pozorování, ať z toho není jen pohyb ruky.",
+    "Bezpečí především: žádné testy při řízení, ve výšce ani pod vodou. Fyzické testy dělej jen zlehka."
+  ]
+}
