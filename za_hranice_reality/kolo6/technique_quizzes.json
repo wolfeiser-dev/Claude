@@ -1,0 +1,547 @@
+{
+  "texts": {
+    "quiz": {
+      "title": "Rychlé ověření",
+      "intro": "Dvě krátké otázky. Jen si ověříš to hlavní.",
+      "start": "Ověřit pochopení",
+      "progress": "{hotovo} z {celkem}",
+      "correct": "Správně.",
+      "incorrect": "Tentokrát ne. Nevadí, podívej se na vysvětlení.",
+      "next": "Další otázka",
+      "retry": "Zkusit znovu",
+      "finish": "Dokončit blok",
+      "done": "Splněno",
+      "noPenalty": "Špatná odpověď ti nic nebere. Žádné body ani série, jen si to ujasníš."
+    }
+  },
+  "quizzes": {
+    "mild": [
+      {
+        "id": "mild_q1",
+        "question": "Kdy si záměr poznat sen dáváš?",
+        "options": [
+          "Ráno po vstání, ať na něj myslíš celý den",
+          "Po probuzení ze snu, jako poslední myšlenku před usnutím",
+          "Odpoledne, kdy máš nejvíc energie"
+        ],
+        "answer": 1,
+        "explain": "Záměr má být tvoje poslední myšlenka před usnutím. Nejlíp funguje po nočním probuzení, když pak do 10 minut usneš."
+      },
+      {
+        "id": "mild_q2",
+        "question": "Co si při záměru poznat sen představuješ?",
+        "options": [
+          "Že jsi zpátky ve snu a všimneš si znaku snu",
+          "Prázdnou plochu bez jediného obrazu",
+          "Že větu odříkáš přesně stokrát"
+        ],
+        "answer": 0,
+        "explain": "Představíš si, že jsi ve snu, poznáš znak snu a uděláš akci, třeba pohled na dlaně. Na počtu opakování nezáleží."
+      }
+    ],
+    "ssild": [
+      {
+        "id": "ssild_q1",
+        "question": "Jak moc se máš při střídání smyslů snažit?",
+        "options": [
+          "Co nejvíc, abys něco uviděl nebo uslyšel",
+          "Vůbec. Smysly jen volně střídáš a nic nevynucuješ",
+          "Hodně, ale jen u zraku"
+        ],
+        "answer": 1,
+        "explain": "Protože nic nevynucuješ, spánek neodeženeš. Snaha něco vidět nebo slyšet je častá chyba."
+      },
+      {
+        "id": "ssild_q2",
+        "question": "Máš při střídání smyslů počítat vteřiny?",
+        "options": [
+          "Ano, přesně 20 vteřin na každý smysl",
+          "Jen u rychlých kol",
+          "Ne, délku jen volně odhaduješ"
+        ],
+        "answer": 2,
+        "explain": "Zhruba 20 vteřin na smysl stačí odhadnout. Po čtyřech až šesti pomalých kolech techniku pusť a spi."
+      }
+    ],
+    "wbtb": [
+      {
+        "id": "wbtb_q1",
+        "question": "Proč se budíš zhruba po pěti hodinách spánku?",
+        "options": [
+          "Pak přicházejí nejdelší REM fáze",
+          "Samotné přerušení spánku vyvolá lucidní sen",
+          "K ránu se už nesní"
+        ],
+        "answer": 0,
+        "explain": "REM přibývá ve druhé polovině noci. Pomáhá rychlý návrat do REM, ne samotné probuzení."
+      },
+      {
+        "id": "wbtb_q2",
+        "question": "Jak často ti appka noční probuzení nabídne?",
+        "options": [
+          "Každou noc, čím častěji, tím líp",
+          "Jen po noci, kdy ses vyspal špatně",
+          "Nejvýš dvakrát za sedm dní, jen po dobré noci"
+        ],
+        "answer": 2,
+        "explain": "Spánek má přednost. Při únavě, ranním řízení nebo nespavosti noční probuzení vynech."
+      }
+    ],
+    "realityCheck": [
+      {
+        "id": "realityCheck_q1",
+        "question": "Co je při testu reality nejdůležitější?",
+        "options": [
+          "Rychle mrknout na dlaň a jít dál",
+          "Opravdu se zeptat „Sním?“ a zhodnotit okolí",
+          "Udělat co nejvíc různých testů za sebou"
+        ],
+        "answer": 1,
+        "explain": "Mechanické mrknutí na dlaň nic netrénuje. Zeptej se doopravdy: co se dělo před pěti minutami a co je tu divné?"
+      },
+      {
+        "id": "realityCheck_q2",
+        "question": "Co hledáš, když se díváš na dlaň a kolem sebe?",
+        "options": [
+          "Nic, stačí rychle odpovědět „nesním“",
+          "Věci, které nesedí, třeba rozmazané čáry",
+          "Nejhezčí věc v místnosti"
+        ],
+        "answer": 1,
+        "explain": "Ve snu dlaň nebo vzpomínka na posledních pět minut nesedí. Automatické „nesním“ je častá chyba."
+      }
+    ],
+    "dreamJournal": [
+      {
+        "id": "dreamJournal_q1",
+        "question": "Proč zapisovat sen do 30 vteřin po probuzení?",
+        "options": [
+          "Sen rychle mizí a den ho přepíše",
+          "Aby šel lépe vyložit podle snáře",
+          "Aby ses stihl v klidu nasnídat"
+        ],
+        "answer": 0,
+        "explain": "Sen se neuloží do dlouhodobé paměti a rychle mizí. Stačí pár záchytných slov."
+      },
+      {
+        "id": "dreamJournal_q2",
+        "question": "Ráno si nic nepamatuješ. Co uděláš?",
+        "options": [
+          "Zápis dnes vynechám",
+          "Vymyslím si něco podobného",
+          "Zapíšu prázdnou noc, je to taky zápis"
+        ],
+        "answer": 2,
+        "explain": "Prázdná noc je taky zápis. Když ji vynecháš, zkreslí to tvoje data."
+      }
+    ],
+    "recallTraining": [
+      {
+        "id": "recallTraining_q1",
+        "question": "Co udělat hned po probuzení, aby sis sen vybavil?",
+        "options": [
+          "Hned vstát a rozsvítit",
+          "Nehýbat se a přetáčet sen pozpátku",
+          "Podívat se do telefonu na zprávy"
+        ],
+        "answer": 1,
+        "explain": "Klid bez pohybu a přehrání obrazů pozpátku dají vzpomínce šanci, aby se uchytila."
+      },
+      {
+        "id": "recallTraining_q2",
+        "question": "Co vybavování pomáhá už večer?",
+        "options": [
+          "Zájem o sny a dvě minuty klidu bez displeje",
+          "Seriál až do usnutí",
+          "Vyčítat si, že si snů pamatuješ málo"
+        ],
+        "answer": 0,
+        "explain": "Lidé, které sny zajímají, si jich pamatují víc. Výčitky nepomáhají."
+      }
+    ],
+    "wild": [
+      {
+        "id": "wild_q1",
+        "question": "Kdy zkoušet vědomé usnutí do snu?",
+        "options": [
+          "Hned večer po ulehnutí",
+          "Odpoledne při krátkém zdřímnutí",
+          "Po budíku zhruba po pěti hodinách spánku"
+        ],
+        "answer": 2,
+        "explain": "Zhruba po pěti hodinách spánku se po usnutí rychle vrací REM. Proto to zkoušej po budíku, ne hned večer."
+      },
+      {
+        "id": "wild_q2",
+        "question": "Co děláš s obrazy a zvuky při usínání?",
+        "options": [
+          "Jen je pozoruješ a nezapojuješ se do nich",
+          "Honíš je a zkoumáš zblízka",
+          "Hned otevřeš oči"
+        ],
+        "answer": 0,
+        "explain": "Když obrazy honíš, můžeš se probudit. Až je obraz plný a stabilní, vstoupíš do něj."
+      }
+    ],
+    "deild": [
+      {
+        "id": "deild_q1",
+        "question": "Co udělat, jakmile se probudíš ze snu?",
+        "options": [
+          "Natáhnout se pro telefon",
+          "Rozsvítit, abys líp viděl",
+          "Nehnout se ani prstem a nechat oči zavřené"
+        ],
+        "answer": 2,
+        "explain": "Pohyb, světlo a přemýšlení tě vytáhnou do bdění. Klid tě může vrátit do snu."
+      },
+      {
+        "id": "deild_q2",
+        "question": "Jak se do snu vracíš?",
+        "options": [
+          "Přemýšlíš, co sen znamenal",
+          "Živě si vybavíš poslední scénu a necháš se vtáhnout",
+          "Počítáš pomalu do sta"
+        ],
+        "answer": 1,
+        "explain": "Nepřemýšlej, prožívej. Když to nevyjde, zapiš sen, jeden pokus stačí."
+      }
+    ],
+    "fild": [
+      {
+        "id": "fild_q1",
+        "question": "Kdy má pohyb prstů smysl?",
+        "options": [
+          "V úzkém okně ospalosti těsně před usnutím",
+          "Kdykoli, i když jsi úplně čilý",
+          "Hlavně večer hned po ulehnutí"
+        ],
+        "answer": 0,
+        "explain": "Mimo okno ospalosti pohyb jen budí. Dělej ho po budíku, až budeš ospalý."
+      },
+      {
+        "id": "fild_q2",
+        "question": "Jak má pohyb prstů vypadat?",
+        "options": [
+          "Silné poklepávání celou rukou",
+          "Nepatrné střídání ukazováku a prostředníku",
+          "Pomalé ťukání, kdy počítáš každý pohyb"
+        ],
+        "answer": 1,
+        "explain": "Drobný pohyb drží pozornost, aniž by tě probudil. Nepočítej, pak udělej test reality."
+      }
+    ],
+    "ada": [
+      {
+        "id": "ada_q1",
+        "question": "Co děláš u spouštěče během dne?",
+        "options": [
+          "Rychle si řekneš „nesním“ a jdeš dál",
+          "Opravdu se zeptáš a ohlédneš se, jak ses sem dostal",
+          "Nastavíš si budík na každou hodinu"
+        ],
+        "answer": 1,
+        "explain": "Ve snu chybí ohlédnutí. Odpovídat „nesním“ jako zaklínadlo je častá chyba."
+      },
+      {
+        "id": "ada_q2",
+        "question": "Kolikrát denně se zastavit?",
+        "options": [
+          "Pětkrát až desetkrát u běžných spouštěčů",
+          "Každých pět minut",
+          "Jen jednou týdně"
+        ],
+        "answer": 0,
+        "explain": "Stačí 3 až 5 spouštěčů z běžného dne, třeba dveře nebo voda. Dělej to v klidu, ne úzkostně."
+      }
+    ],
+    "incubation": [
+      {
+        "id": "incubation_q1",
+        "question": "Co si zvolíš před spaním?",
+        "options": [
+          "Seznam deseti témat",
+          "Složitý příběh s mnoha postavami",
+          "Jednu otázku nebo obraz, nejvýš jednu větu"
+        ],
+        "answer": 2,
+        "explain": "Jednoduché téma funguje líp. Při usínání si ho tiše opakuj nebo vybav."
+      },
+      {
+        "id": "incubation_q2",
+        "question": "Jak chápat sen po inkubaci?",
+        "options": [
+          "Jako doslovnou odpověď nebo radu",
+          "Sen se k tématu spíš přiblíží",
+          "Jako předpověď budoucnosti"
+        ],
+        "answer": 1,
+        "explain": "Sen téma většinou nesplní doslova. Zapiš i to, co se tématu jen dotklo."
+      }
+    ],
+    "stabilization": [
+      {
+        "id": "stabilization_q1",
+        "question": "Sen se začíná rozpadat. Co uděláš?",
+        "options": [
+          "Zapojíš smysly: dlaně, tření rukou, dotek",
+          "Radostně vykřikneš",
+          "Zíráš na jeden bod bez mrknutí"
+        ],
+        "answer": 0,
+        "explain": "Živé vjemy ze snu ho znovu naplní a udrží. Zůstaň přitom v klidu, nadšení probouzí."
+      },
+      {
+        "id": "stabilization_q2",
+        "question": "Po roztočení jsi najednou v posteli. Co dál?",
+        "options": [
+          "Hned vstaneš, sen skončil",
+          "Usneš znovu bez přemýšlení",
+          "Otestuješ scénu, může to být falešné probuzení"
+        ],
+        "answer": 2,
+        "explain": "Po roztočení novou scénu otestuj. Uvěřit falešnému probuzení je častá chyba."
+      }
+    ],
+    "dreamYogaBreath": [
+      {
+        "id": "dreamYogaBreath_q1",
+        "question": "Jak dýcháš při devíti klidných dechech?",
+        "options": [
+          "Silně a se zadržováním dechu",
+          "Pomalu, s výdechem pouštíš napětí",
+          "Co nejrychleji, ať to máš hotové"
+        ],
+        "answer": 1,
+        "explain": "Pomalý výdech zklidňuje tělo. Dýchat násilím nebo zadržovat dech je chyba."
+      },
+      {
+        "id": "dreamYogaBreath_q2",
+        "question": "K čemu devět dechů slouží?",
+        "options": [
+          "Okamžitě vyvolají lucidní sen",
+          "Trénuješ co nejdelší zadržení dechu",
+          "Přechod z denního shonu do klidu"
+        ],
+        "answer": 2,
+        "explain": "Z klidu se snáz usíná s pozorností. Okamžitý účinek na sny nečekej."
+      }
+    ],
+    "dreamYogaDay": [
+      {
+        "id": "dreamYogaDay_q1",
+        "question": "Co si během dne připomínáš?",
+        "options": [
+          "Nic není skutečné",
+          "Tohle, co prožívám, je jako sen",
+          "Musím se co nejdřív probudit"
+        ],
+        "answer": 1,
+        "explain": "Na slově „jako“ záleží. Nejde o to, že nic není skutečné, ale o lehčí vztah k tomu, co se děje."
+      },
+      {
+        "id": "dreamYogaDay_q2",
+        "question": "Při praxi cítíš úzkost nebo pocit neskutečna. Co uděláš?",
+        "options": [
+          "Přidám víc zastavení za den",
+          "Pokračuju, to k tomu patří",
+          "Přestanu a přejdu na uzemnění"
+        ],
+        "answer": 2,
+        "explain": "V tu chvíli praxi vynech a použij uzemnění. Pár zastavení denně stačí."
+      }
+    ],
+    "dreamYogaRelease": [
+      {
+        "id": "dreamYogaRelease_q1",
+        "question": "Čeho si večer všímáš, když procházíš den?",
+        "options": [
+          "Všech chyb, které jsi udělal",
+          "Chvil silné touhy nebo odporu",
+          "Kolik kroků jsi ušel"
+        ],
+        "answer": 1,
+        "explain": "Hledáš, co chceš držet a co odstrkuješ. Nehodnotíš se, jen to necháš povolit."
+      },
+      {
+        "id": "dreamYogaRelease_q2",
+        "question": "Co uděláš s pocitem, který najdeš?",
+        "options": [
+          "S výdechem ho necháš povolit",
+          "Potlačíš ho",
+          "Dlouho ho rozebíráš před spaním"
+        ],
+        "answer": 0,
+        "explain": "Nic neřešíš, jen ho s výdechem pustíš. Usínáš pak s klidnější myslí."
+      }
+    ],
+    "dreamYogaIntention": [
+      {
+        "id": "dreamYogaIntention_q1",
+        "question": "Ráno si nic nepamatuješ. Jak k tomu přistoupíš?",
+        "options": [
+          "Beru to jako selhání",
+          "Bez výčitek, dám si záměr na další noc",
+          "Přestanu praktikovat"
+        ],
+        "answer": 1,
+        "explain": "Ranní radost oceňuje proces, ne výsledek. Proto appka nepočítá série ani počet lucidních snů."
+      },
+      {
+        "id": "dreamYogaIntention_q2",
+        "question": "Kdy si dáváš záměr poznat sen?",
+        "options": [
+          "Ráno při čištění zubů",
+          "V poledne, kdy máš klid",
+          "Večer před spaním, s opravdovým chtěním"
+        ],
+        "answer": 2,
+        "explain": "Plán uložený těsně před spaním funguje jako u záměru poznat sen (MILD). Opakovat ho bez chtění nestačí."
+      }
+    ],
+    "dreamYogaSleep": [
+      {
+        "id": "dreamYogaSleep_q1",
+        "question": "Kde držíš lehkou pozornost při usínání?",
+        "options": [
+          "Na hodinách u postele",
+          "V hrdle, u malého rudého lotosu ze světla",
+          "V palcích u nohou"
+        ],
+        "answer": 1,
+        "explain": "Tradice spojuje hrdlo se sny, věda to nepotvrzuje. Prakticky je obraz opora pozornosti."
+      },
+      {
+        "id": "dreamYogaSleep_q2",
+        "question": "Máš se při tom bránit spánku?",
+        "options": [
+          "Ne, spánek má přednost a obraz je lehký",
+          "Ano, musíš zůstat vzhůru",
+          "Ano, aspoň první hodinu"
+        ],
+        "answer": 0,
+        "explain": "Obraz nedrž násilím a polohu zvol pohodlnou. Je to opora pozornosti, ne povinnost."
+      }
+    ],
+    "lucidMission": [
+      {
+        "id": "lucidMission_q1",
+        "question": "Víš, že sníš. Čím začneš?",
+        "options": [
+          "Velkým cílem, třeba letem do vesmíru",
+          "Hned rozpustíš celou scénu",
+          "Rozpoznáš, stabilizuješ a zkusíš malou změnu"
+        ],
+        "answer": 2,
+        "explain": "Kontrola ve snu závisí na očekávání a sebedůvěře. Malá změna, která vyjde, je dobrý start."
+      },
+      {
+        "id": "lucidMission_q2",
+        "question": "Jaký je cíl cvičení v lucidním snu?",
+        "options": [
+          "Hlavně zábava a efektní zážitky",
+          "Uvolnit pevné představy o tom, co je možné",
+          "Splnit všechna cvičení v pevném pořadí"
+        ],
+        "answer": 1,
+        "explain": "Cílem není zábava. Pevné pořadí neexistuje, začni malým krokem."
+      }
+    ],
+    "meditation": [
+      {
+        "id": "meditation_q1",
+        "question": "Mysl ti odběhne k myšlence. Co uděláš?",
+        "options": [
+          "Všimneš si toho a vrátíš se k dechu",
+          "Vyčítáš si, že meditace nejde",
+          "Skončíš a zkusíš to zítra"
+        ],
+        "answer": 0,
+        "explain": "Každý návrat je jedno opakování. Všimnout si a vrátit se je stejný pohyb jako lucidita."
+      },
+      {
+        "id": "meditation_q2",
+        "question": "O co v meditaci jde?",
+        "options": [
+          "Mít mysl úplně bez myšlenek",
+          "Udržet co nejdelší řadu dní",
+          "Trénovat pozornost a všímat si, co se v mysli děje"
+        ],
+        "answer": 2,
+        "explain": "Necílíš na mysl bez myšlenek. Trénuješ všimnout si, co se v mysli děje."
+      }
+    ],
+    "yogaNidra": [
+      {
+        "id": "yogaNidra_q1",
+        "question": "Co je jóga nidra?",
+        "options": [
+          "Spolehlivá technika na lucidní sen",
+          "Relaxace, při které vedeš pozornost tělem",
+          "Náhrada léčby nespavosti"
+        ],
+        "answer": 1,
+        "explain": "Je to relaxace a příprava, ne technika na lucidní sen. Luciditu u ní nikdo netestoval."
+      },
+      {
+        "id": "yogaNidra_q2",
+        "question": "Během jógy nidry usneš. Vadí to?",
+        "options": [
+          "Ano, musíš začít znovu",
+          "Ano, technika tím ztratí smysl",
+          "Ne, je to v pořádku"
+        ],
+        "answer": 2,
+        "explain": "Usnout je v pořádku. Hodí se večer nebo po náročném dni."
+      }
+    ],
+    "irt": [
+      {
+        "id": "irt_q1",
+        "question": "Kdy si noční můru přepisuješ?",
+        "options": [
+          "Ve dne, v klidu",
+          "Těsně před spaním",
+          "V noci hned po probuzení z můry"
+        ],
+        "answer": 0,
+        "explain": "Přepis dělej ve dne a v bezpečí. Novou verzi si pak pár minut živě představuj."
+      },
+      {
+        "id": "irt_q2",
+        "question": "Podle čeho poznáš, že přepis funguje?",
+        "options": [
+          "Máš víc lucidních snů",
+          "Noční můry ubývají",
+          "Pamatuješ si můru přesněji"
+        ],
+        "answer": 1,
+        "explain": "Úspěch se měří tím, že můr ubývá. Lucidita k tomu potřeba není."
+      }
+    ],
+    "grounding": [
+      {
+        "id": "grounding_q1",
+        "question": "Kdy se uzemníš?",
+        "options": [
+          "Před každým testem reality",
+          "Jen po hezkém snu",
+          "Když test reality vyvolá úzkost nebo pocit neskutečna"
+        ],
+        "answer": 2,
+        "explain": "Uzemnění tě smysly vrátí do přítomnosti. Stačí minuta."
+      },
+      {
+        "id": "grounding_q2",
+        "question": "Jak se uzemníš?",
+        "options": [
+          "Pojmenuješ, co vidíš, cítíš a slyšíš",
+          "Uděláš další test reality",
+          "Zadržíš na chvíli dech"
+        ],
+        "answer": 0,
+        "explain": "Pozornost se přesune od úzkostných myšlenek k tělu a místu. Pomůže i pomalý výdech, delší než nádech."
+      }
+    ]
+  }
+}
